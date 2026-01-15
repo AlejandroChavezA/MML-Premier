@@ -1,0 +1,21 @@
+position,team,played_games,won,draw,lost,points,goals_for,goals_against,goal_difference
+1,Arsenal FC,21,15,4,2,49,40,14,26
+2,Manchester City FC,21,13,4,4,43,45,19,26
+3,Aston Villa FC,21,13,4,4,43,33,24,9
+4,Liverpool FC,21,10,5,6,35,32,28,4
+5,Brentford FC,21,10,3,8,33,35,28,7
+6,Newcastle United FC,21,9,5,7,32,32,27,5
+7,Manchester United FC,21,8,8,5,32,36,32,4
+8,Chelsea FC,21,8,7,6,31,34,24,10
+9,Fulham FC,21,9,4,8,31,30,30,0
+10,Sunderland AFC,21,7,9,5,30,21,22,-1
+11,Brighton & Hove Albion FC,21,7,8,6,29,31,28,3
+12,Everton FC,21,8,5,8,29,23,25,-2
+13,Crystal Palace FC,21,7,7,7,28,22,23,-1
+14,Tottenham Hotspur FC,21,7,6,8,27,30,27,3
+15,AFC Bournemouth,21,6,8,7,26,34,40,-6
+16,Leeds United FC,21,5,7,9,22,29,37,-8
+17,Nottingham Forest FC,21,6,3,12,21,21,34,-13
+18,West Ham United FC,21,3,5,13,14,22,43,-21
+19,Burnley FC,21,3,4,14,13,22,41,-19
+20,Wolverhampton Wanderers FC,21,1,4,16,7,15,41,-26
