@@ -27,7 +27,7 @@ class MatchPredictor:
     
     def train_models(self, features_df: pd.DataFrame, targets_df: pd.Series):
         """Entrenar múltiples modelos de predicción"""
-        print("🚀 Entrenando modelos de predicción...")
+        print(" Entrenando modelos de predicción...")
         
         # Guardar columnas de características
         self.feature_columns = features_df.columns.tolist()
@@ -104,9 +104,9 @@ class MatchPredictor:
                 'confusion_matrix': confusion_matrix(y_test, test_pred).tolist()
             }
             
-            print(f"  ✅ Accuracy entrenamiento: {train_accuracy:.3f}")
-            print(f"  ✅ Accuracy prueba: {test_accuracy:.3f}")
-            print(f"  ✅ Validación cruzada: {cv_scores.mean():.3f} ± {cv_scores.std():.3f}")
+            print(f"   Accuracy entrenamiento: {train_accuracy:.3f}")
+            print(f"  Accuracy prueba: {test_accuracy:.3f}")
+            print(f"  Validación cruzada: {cv_scores.mean():.3f} ± {cv_scores.std():.3f}")
             
             # Guardar modelo en disco
             model_path = f"{self.models_dir}/{model_name}.pkl"
@@ -249,7 +249,8 @@ class MatchPredictor:
         
         try:
             # Cargar partidos de la jornada
-            matches_df = pd.read_csv(f"../data/cleaned/matches_{season}_cleaned.csv")
+            matches_path = f"{self.feature_engineer.data_dir}/matches_{season}_cleaned.csv"
+            matches_df = pd.read_csv(matches_path)
             matches_df['date'] = pd.to_datetime(matches_df['date'])
             
             week_matches = matches_df[matches_df['matchday'] == matchday]

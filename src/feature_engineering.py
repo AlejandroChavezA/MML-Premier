@@ -28,7 +28,7 @@ class FeatureEngineer:
             print("Datos cargados exitosamente")
             return True
         except Exception as e:
-            print(f"❌ Error cargando datos: {e}")
+            print(f" Error cargando datos: {e}")
             return False
     
     def calculate_team_form(self, team: str, date: datetime, last_n_games: int = 5) -> Dict:

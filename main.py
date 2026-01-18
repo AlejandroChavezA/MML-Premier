@@ -34,10 +34,10 @@ def check_environment():
         dir_path = project_root / dir_name
         if not dir_path.exists():
             if dir_name in ["models"]:
-                print(f"📁 Creando directorio: {dir_name}")
+                print(f" Creando directorio: {dir_name}")
                 dir_path.mkdir(exist_ok=True)
             else:
-                print(f"❌ Falta directorio requerido: {dir_name}")
+                print(f" Falta directorio requerido: {dir_name}")
                 return False
     
     # Verificar archivos de datos limpios

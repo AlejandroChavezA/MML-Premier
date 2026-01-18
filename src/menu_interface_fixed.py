@@ -174,9 +174,9 @@ class PredictionMenu:
             date_choice = input("Selecciona (1-3): ").strip()
             
             if date_choice == '1':
-                match_date = pd.Timestamp.now().normalize()
+                match_date = datetime.now()
             elif date_choice == '2':
-                match_date = (pd.Timestamp.now() + pd.Timedelta(days=1)).normalize()
+                match_date = datetime.now() + timedelta(days=1)
             elif date_choice == '3':
                 date_str = input("Ingresa fecha (YYYY-MM-DD): ").strip()
                 try:
@@ -229,7 +229,7 @@ class PredictionMenu:
             print("=" * 50)
             
             # Obtener forma actual
-            form = self.feature_engineer.calculate_team_form(team, pd.Timestamp.now())
+            form = self.feature_engineer.calculate_team_form(team, datetime.now())
             
             print(f"📊 Forma actual (últimos {form['matches_played']} partidos):")
             print(f"  Victorias: {form['wins']}")
@@ -241,8 +241,8 @@ class PredictionMenu:
             print(f"  Goles recibidos por partido: {form['goals_conceded_per_game']:.2f}")
             
             # Rendimiento local/visitante
-            home_perf = self.feature_engineer.get_home_away_performance(team, 'home', pd.Timestamp.now())
-            away_perf = self.feature_engineer.get_home_away_performance(team, 'away', pd.Timestamp.now())
+            home_perf = self.feature_engineer.get_home_away_performance(team, 'home', datetime.now())
+            away_perf = self.feature_engineer.get_home_away_performance(team, 'away', datetime.now())
             
             print(f"\n🏠 Rendimiento local:")
             print(f"  Win rate: {home_perf['win_rate']:.1%}")
