@@ -175,9 +175,9 @@ def train_models():
         from feature_engineering import FeatureEngineer
         from prediction_models import MatchPredictor
         
-        # Inicializar componentes
+        # Inicializar componentes con rutas absolutas
         print(" Inicializando feature engineering...")
-        fe = FeatureEngineer()
+        fe = FeatureEngineer(data_dir="data/cleaned")
         
         if not fe.load_data():
             print("Error cargando datos")
@@ -246,7 +246,7 @@ def main():
         return
     
     # Ejecución normal
-    display_welcome()
+# display_welcome()  # Omitido para limpiar salida
     
     # Verificar entorno
     if not check_environment():

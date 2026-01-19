@@ -101,23 +101,23 @@ if __name__ == "__main__":
     print("🔄 Recolectando datos de la Premier League...")
     
     # Obtener equipos
-    print("\n📋 Obteniendo equipos...")
+    print("\n Obteniendo equipos...")
     teams = collector.get_premier_league_teams()
     
     # Obtener datos de múltiples temporadas
     seasons = [2023, 2024, 2025]
     
     for season in seasons:
-        print(f"\n⚽ Obteniendo partidos de la temporada {season}...")
+        print(f"\n Obteniendo partidos de la temporada {season}...")
         matches = collector.get_premier_league_matches(season)
         
-        print(f"\n🏆 Obteniendo tabla de posiciones de la temporada {season}...")
+        print(f"\n Obteniendo tabla de posiciones de la temporada {season}...")
         standings = collector.get_standings(season)
         
         if matches is not None:
-            print(f"✅ Temporada {season}: {len(matches)} partidos")
+            print(f"OK Temporada {season}: {len(matches)} partidos")
         else:
-            print(f"❌ Temporada {season}: No hay datos disponibles")
+            print(f"ERROR Temporada {season}: No hay datos disponibles")
     
-    print("\n✅ ¡Datos recolectados exitosamente!")
-    print("📁 Archivos guardados en la carpeta 'data/'")
+    print("\nOK ¡Datos recolectados exitosamente!")
+    print(" Archivos guardados en la carpeta 'data/'")

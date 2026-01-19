@@ -13,11 +13,11 @@ class PremierLeagueDataCleaner:
         """Crear directorio para datos limpios"""
         if not os.path.exists(self.cleaned_dir):
             os.makedirs(self.cleaned_dir)
-            print(f"📁 Creado directorio: {self.cleaned_dir}")
+            print(f" Creado directorio: {self.cleaned_dir}")
     
     def analyze_data_quality(self):
         """Analizar la calidad de los datos"""
-        print("🔍 ANÁLISIS DE CALIDAD DE DATOS")
+        print(" ANÁLISIS DE CALIDAD DE DATOS")
         print("="*60)
         
         issues = []
@@ -27,7 +27,7 @@ class PremierLeagueDataCleaner:
             matches = pd.read_csv(f"{self.data_dir}/matches_{year}.csv")
             standings = pd.read_csv(f"{self.data_dir}/standings_{year}.csv")
             
-            print(f"\n📊 TEMPORADA {year}:")
+            print(f"\n TEMPORADA {year}:")
             
             # 1. Verificar valores nulos
             null_matches = matches.isnull().sum().sum()
@@ -60,13 +60,13 @@ class PremierLeagueDataCleaner:
                 issues.append(f"Temporada {year}: {len(invalid_goals)} partidos con datos inválidos")
                 print(f"  ⚠️  Datos inválidos: {len(invalid_goals)} partidos")
             else:
-                print(f"  ✅ Todos los datos válidos")
+                print(f"  OK Todos los datos válidos")
         
         return issues
     
     def clean_matches_data(self, year):
         """Limpiar datos de partidos para una temporada específica"""
-        print(f"\n🧹 Limpiando datos de partidos {year}...")
+        print(f"\n Limpiando datos de partidos {year}...")
         
         matches = pd.read_csv(f"{self.data_dir}/matches_{year}.csv")
         original_count = len(matches)
@@ -128,14 +128,14 @@ class PremierLeagueDataCleaner:
         output_path = f"{self.cleaned_dir}/matches_{year}_cleaned.csv"
         matches.to_csv(output_path, index=False)
         
-        print(f"  ✅ Guardado: {output_path}")
+        print(f"  OK Guardado: {output_path}")
         print(f"  Registros: {original_count} → {len(matches)}")
         
         return matches
     
     def clean_standings_data(self, year):
         """Limpiar datos de tabla de posiciones"""
-        print(f"\n🏆 Limpiando tabla de posiciones {year}...")
+        print(f"\n Limpiando tabla de posiciones {year}...")
         
         standings = pd.read_csv(f"{self.data_dir}/standings_{year}.csv")
         original_count = len(standings)
@@ -152,7 +152,7 @@ class PremierLeagueDataCleaner:
             print(f"  ⚠️  {len(points_mismatch)} equipos con inconsistencia en puntos")
             # Corregir puntos automáticamente
             standings['points'] = calculated_points
-            print(f"  ✅ Puntos corregidos automáticamente")
+            print(f"  OK Puntos corregidos automáticamente")
         
         # 3. Validar diferencia de gol
         calculated_gd = standings['goals_for'] - standings['goals_against']
@@ -161,7 +161,7 @@ class PremierLeagueDataCleaner:
         if len(gd_mismatch) > 0:
             print(f"  ⚠️  {len(gd_mismatch)} equipos con inconsistencia en diferencia de gol")
             standings['goal_difference'] = calculated_gd
-            print(f"  ✅ Diferencia de gol corregida")
+            print(f"  OK Diferencia de gol corregida")
         
         # 4. Añadir columnas útiles
         standings['win_rate'] = (standings['won'] / standings['played_games']).round(3)
@@ -176,14 +176,14 @@ class PremierLeagueDataCleaner:
         output_path = f"{self.cleaned_dir}/standings_{year}_cleaned.csv"
         standings.to_csv(output_path, index=False)
         
-        print(f"  ✅ Guardado: {output_path}")
+        print(f"  OK Guardado: {output_path}")
         print(f"  Equipos: {len(standings)}")
         
         return standings
     
     def clean_teams_data(self):
         """Limpiar datos de equipos"""
-        print(f"\n📋 Limpiando datos de equipos...")
+        print(f"\n Limpiando datos de equipos...")
         
         teams = pd.read_csv(f"{self.data_dir}/teams.csv")
         original_count = len(teams)
@@ -203,14 +203,14 @@ class PremierLeagueDataCleaner:
         output_path = f"{self.cleaned_dir}/teams_cleaned.csv"
         teams_clean.to_csv(output_path, index=False)
         
-        print(f"  ✅ Guardado: {output_path}")
+        print(f"  OK Guardado: {output_path}")
         print(f"  Equipos: {len(teams_clean)}")
         
         return teams_clean
     
     def generate_cleaning_report(self):
         """Generar reporte de limpieza"""
-        print(f"\n📄 GENERANDO REPORTE DE LIMPIEZA...")
+        print(f"\n GENERANDO REPORTE DE LIMPIEZA...")
         
         report = []
         report.append("REPORTE DE LIMPIEZA DE DATOS - PREMIER LEAGUE")
@@ -243,12 +243,12 @@ class PremierLeagueDataCleaner:
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(report))
         
-        print(f"✅ Reporte guardado: {report_path}")
+        print(f"OK Reporte guardado: {report_path}")
         return report_path
     
     def run_full_cleaning(self):
         """Ejecutar proceso completo de limpieza"""
-        print("🚀 INICIANDO PROCESO COMPLETO DE LIMPIEZA")
+        print(" INICIANDO PROCESO COMPLETO DE LIMPIEZA")
         print("=" * 60)
         
         # 1. Analizar calidad de datos
@@ -264,8 +264,8 @@ class PremierLeagueDataCleaner:
         # 3. Generar reporte
         self.generate_cleaning_report()
         
-        print(f"\n🎉 ¡LIMPIEZA COMPLETADA!")
-        print(f"📁 Datos limpios guardados en: {self.cleaned_dir}")
+        print(f"\nCOMPLETADO ¡LIMPIEZA COMPLETADA!")
+        print(f" Datos limpios guardados en: {self.cleaned_dir}")
         
         return True
 

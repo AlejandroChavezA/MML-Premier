@@ -17,7 +17,7 @@ class PredictionMenu:
         
     def initialize(self):
         """Inicializar todos los componentes"""
-        print("🚀 Inicializando sistema de predicción...")
+        print(" Inicializando sistema de predicción...")
         
         try:
             # Importar clases
@@ -42,7 +42,7 @@ class PredictionMenu:
             
             # Cargar modelos entrenados o entrenar nuevos
             if not self.predictor.load_models():
-                print("📊 No se encontraron modelos entrenados. Entrenando nuevos modelos...")
+                print(" No se encontraron modelos entrenados. Entrenando nuevos modelos...")
                 features_df, targets_df = self.feature_engineer.create_training_dataset()
                 self.predictor.train_models(features_df, targets_df)
             
@@ -52,12 +52,12 @@ class PredictionMenu:
             # Obtener mejor modelo
             self.current_model = self.predictor.get_best_model()
             
-            print(f"✅ Sistema inicializado correctamente")
-            print(f"🤖 Modelo actual: {self.current_model}")
+            print(f"OK Sistema inicializado correctamente")
+            print(f" Modelo actual: {self.current_model}")
             return True
             
         except Exception as e:
-            print(f"❌ Error inicializando sistema: {e}")
+            print(f"ERROR Error inicializando sistema: {e}")
             import traceback
             traceback.print_exc()
             return False
@@ -67,15 +67,15 @@ class PredictionMenu:
         while True:
             os.system('clear' if os.name == 'posix' else 'cls')
             
-            print("⚽ PREDICTOR PREMIER LEAGUE ⚽")
+            print("PREDICTOR PREMIER LEAGUE")
             print("=" * 50)
-            print("1. 📅 Predicción de jornada completa")
-            print("2. 🎯 Predicción partido por partido")
-            print("3. 📊 Estadísticas de equipos")
-            print("4. 🏆 Ver tabla de posiciones actual")
-            print("5. 🤖 Cambiar modelo de predicción")
-            print("6. 📈 Rendimiento de modelos")
-            print("7. ❌ Salir")
+            print("1.  Predicción de jornada completa")
+            print("2.  Predicción partido por partido")
+            print("3.  Estadísticas de equipos")
+            print("4.  Ver tabla de posiciones actual")
+            print("5.  Cambiar modelo de predicción")
+            print("6.  Rendimiento de modelos")
+            print("7. Salir")
             print("=" * 50)
             
             choice = input("Selecciona una opción (1-7): ").strip()
@@ -96,14 +96,14 @@ class PredictionMenu:
                 print("👋 ¡Gracias por usar el Predictor Premier League!")
                 break
             else:
-                print("❌ Opción no válida. Intenta nuevamente.")
+                print("ERROR Opción no válida. Intenta nuevamente.")
                 input("Presiona Enter para continuar...")
     
     def weekly_predictions_mode(self):
         """Modo de predicciones semanales"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("📅 PREDICCIÓN DE JORNADA COMPLETA")
+        print(" PREDICCIÓN DE JORNADA COMPLETA")
         print("=" * 50)
         
         try:
@@ -117,17 +117,17 @@ class PredictionMenu:
             matchday = input("Ingresa el número de jornada: ").strip()
             
             if not matchday.isdigit() or int(matchday) not in available_matchdays:
-                print("❌ Jornada no válida")
+                print("ERROR Jornada no válida")
                 input("Presiona Enter para continuar...")
                 return
             
             matchday = int(matchday)
             
-            print(f"\n🔮 Prediciendo jornada {matchday}...")
+            print(f"\n Prediciendo jornada {matchday}...")
             predictions = self.predictor.predict_week_matches(matchday, 2025, self.current_model)
             
             if 'error' in predictions[0]:
-                print(f"❌ Error: {predictions[0]['error']}")
+                print(f"ERROR Error: {predictions[0]['error']}")
                 input("Presiona Enter para continuar...")
                 return
             
@@ -135,7 +135,7 @@ class PredictionMenu:
             self._display_week_predictions(predictions, matchday)
             
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"ERROR Error: {e}")
         
         input("Presiona Enter para continuar...")
     
@@ -143,30 +143,30 @@ class PredictionMenu:
         """Modo de predicción individual"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("🎯 PREDICCIÓN PARTIDO POR PARTIDO")
+        print(" PREDICCIÓN PARTIDO POR PARTIDO")
         print("=" * 50)
         
         try:
             # Seleccionar equipos
             teams = self.teams_df['name_clean'].tolist()
             
-            print("\n🏠 Equipo local:")
+            print("\n[LOCAL] Equipo local:")
             home_team = self._select_team(teams)
             if home_team is None:
                 return
             
-            print("\n✈️ Equipo visitante:")
+            print("\n[VISITANTE] Equipo visitante:")
             away_team = self._select_team(teams)
             if away_team is None:
                 return
             
             if home_team == away_team:
-                print("❌ Un equipo no puede jugar contra sí mismo")
+                print("ERROR Un equipo no puede jugar contra sí mismo")
                 input("Presiona Enter para continuar...")
                 return
             
             # Seleccionar fecha
-            print("\n📅 Fecha del partido:")
+            print("\n Fecha del partido:")
             print("1. Hoy")
             print("2. Mañana")
             print("3. Fecha personalizada")
@@ -182,24 +182,24 @@ class PredictionMenu:
                 try:
                     match_date = datetime.strptime(date_str, '%Y-%m-%d')
                 except:
-                    print("❌ Formato de fecha inválido")
+                    print("ERROR Formato de fecha inválido")
                     input("Presiona Enter para continuar...")
                     return
             else:
-                print("❌ Opción no válida")
+                print("ERROR Opción no válida")
                 input("Presiona Enter para continuar...")
                 return
             
-            print(f"\n🔮 Prediciendo partido: {home_team} vs {away_team}")
-            print(f"📅 Fecha: {match_date.strftime('%Y-%m-%d')}")
-            print(f"🤖 Modelo: {self.current_model}")
+            print(f"\n Prediciendo partido: {home_team} vs {away_team}")
+            print(f" Fecha: {match_date.strftime('%Y-%m-%d')}")
+            print(f" Modelo: {self.current_model}")
             
             prediction = self.predictor.predict_match(
                 home_team, away_team, match_date, self.current_model
             )
             
             if 'error' in prediction:
-                print(f"❌ Error: {prediction['error']}")
+                print(f"ERROR Error: {prediction['error']}")
                 input("Presiona Enter para continuar...")
                 return
             
@@ -207,7 +207,7 @@ class PredictionMenu:
             self._display_match_prediction(prediction)
             
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"ERROR Error: {e}")
         
         input("Presiona Enter para continuar...")
     
@@ -215,7 +215,7 @@ class PredictionMenu:
         """Modo de estadísticas de equipos"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("📊 ESTADÍSTICAS DE EQUIPOS")
+        print(" ESTADÍSTICAS DE EQUIPOS")
         print("=" * 50)
         
         try:
@@ -225,13 +225,13 @@ class PredictionMenu:
             if team is None:
                 return
             
-            print(f"\n📈 Estadísticas de: {team}")
+            print(f"\n Estadísticas de: {team}")
             print("=" * 50)
             
             # Obtener forma actual
             form = self.feature_engineer.calculate_team_form(team, pd.Timestamp.now())
             
-            print(f"📊 Forma actual (últimos {form['matches_played']} partidos):")
+            print(f" Forma actual (últimos {form['matches_played']} partidos):")
             print(f"  Victorias: {form['wins']}")
             print(f"  Empates: {form['draws']}")
             print(f"  Derrotas: {form['losses']}")
@@ -244,26 +244,26 @@ class PredictionMenu:
             home_perf = self.feature_engineer.get_home_away_performance(team, 'home', pd.Timestamp.now())
             away_perf = self.feature_engineer.get_home_away_performance(team, 'away', pd.Timestamp.now())
             
-            print(f"\n🏠 Rendimiento local:")
+            print(f"\n[LOCAL] Rendimiento local:")
             print(f"  Win rate: {home_perf['win_rate']:.1%}")
             print(f"  Puntos por partido: {home_perf['points_per_game']:.2f}")
             print(f"  Goles por partido: {home_perf['goals_per_game']:.2f}")
             
-            print(f"\n✈️ Rendimiento visitante:")
+            print(f"\n[VISITANTE] Rendimiento visitante:")
             print(f"  Win rate: {away_perf['win_rate']:.1%}")
             print(f"  Puntos por partido: {away_perf['points_per_game']:.2f}")
             print(f"  Goles por partido: {away_perf['goals_per_game']:.2f}")
             
             # Posición en tabla
             standings = self.feature_engineer.get_current_standings_position(team)
-            print(f"\n🏆 Posición en tabla:")
+            print(f"\n Posición en tabla:")
             print(f"  Posición: {standings['position']}°")
             print(f"  Puntos: {standings['points']}")
             print(f"  Puntos por partido: {standings['points_per_game']:.2f}")
             print(f"  Diferencia de gol: {standings['goal_difference']}")
             
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"ERROR Error: {e}")
         
         input("Presiona Enter para continuar...")
     
@@ -271,7 +271,7 @@ class PredictionMenu:
         """Mostrar tabla de posiciones actual"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("🏆 TABLA DE POSICIONES ACTUAL")
+        print(" TABLA DE POSICIONES ACTUAL")
         print("=" * 70)
         
         try:
@@ -288,7 +288,7 @@ class PredictionMenu:
                       f"{row['points']:<4} {row['goal_difference']:<5}")
             
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"ERROR Error: {e}")
         
         input("Presiona Enter para continuar...")
     
@@ -296,7 +296,7 @@ class PredictionMenu:
         """Cambiar modelo de predicción"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("🤖 CAMBIAR MODELO DE PREDICCIÓN")
+        print(" CAMBIAR MODELO DE PREDICCIÓN")
         print("=" * 50)
         
         available_models = list(self.predictor.models.keys())
@@ -314,9 +314,9 @@ class PredictionMenu:
         
         if choice.isdigit() and 1 <= int(choice) <= len(available_models):
             self.current_model = available_models[int(choice) - 1]
-            print(f"✅ Modelo cambiado a: {self.current_model}")
+            print(f"OK Modelo cambiado a: {self.current_model}")
         else:
-            print("❌ Opción no válida")
+            print("ERROR Opción no válida")
         
         input("Presiona Enter para continuar...")
     
@@ -324,13 +324,13 @@ class PredictionMenu:
         """Mostrar rendimiento de modelos"""
         os.system('clear' if os.name == 'posix' else 'cls')
         
-        print("📈 RENDIMIENTO DE MODELOS")
+        print(" RENDIMIENTO DE MODELOS")
         print("=" * 60)
         
         performance = self.predictor.get_model_performance()
         
         if not performance:
-            print("❌ No hay datos de rendimiento disponibles")
+            print("ERROR No hay datos de rendimiento disponibles")
             input("Presiona Enter para continuar...")
             return
         
@@ -347,7 +347,7 @@ class PredictionMenu:
         best_model = self.predictor.get_best_model()
         best_metrics = performance[best_model]
         
-        print(f"\n🏆 Mejor modelo: {best_model}")
+        print(f"\n Mejor modelo: {best_model}")
         print(f"   Accuracy prueba: {best_metrics['test_accuracy']:.3f}")
         print(f"   Validación cruzada: {best_metrics['cv_mean']:.3f} ± {best_metrics['cv_std']:.3f}")
         
@@ -378,7 +378,7 @@ class PredictionMenu:
             choice = input(f"\nSelecciona equipo (1-{end_idx + 2}): ").strip()
             
             if not choice.isdigit():
-                print("❌ Ingresa un número válido")
+                print("ERROR Ingresa un número válido")
                 continue
             
             choice_num = int(choice)
@@ -390,11 +390,11 @@ class PredictionMenu:
             elif 1 <= choice_num <= end_idx:
                 return teams[choice_num - 1]
             else:
-                print("❌ Opción no válida")
+                print("ERROR Opción no válida")
     
     def _display_week_predictions(self, predictions: List[Dict], matchday: int):
         """Mostrar predicciones de jornada"""
-        print(f"\n📅 PREDICCIONES JORNADA {matchday}")
+        print(f"\n PREDICCIONES JORNADA {matchday}")
         print("=" * 80)
         
         correct_count = sum(1 for p in predictions if p.get('correct', False))
@@ -402,7 +402,7 @@ class PredictionMenu:
         
         if total_with_result > 0:
             accuracy = correct_count / total_with_result
-            print(f"🎯 Accuracy: {correct_count}/{total_with_result} ({accuracy:.1%})")
+            print(f" Accuracy: {correct_count}/{total_with_result} ({accuracy:.1%})")
             print()
         
         print(f"{'Local':<25} {'Visitante':<25} {'Predicción':<12} {'Confianza':<10} {'Real':<8}")
@@ -421,42 +421,42 @@ class PredictionMenu:
             # Colorear según si es correcto
             if actual != 'N/A':
                 if result == actual:
-                    result += "✅"
+                    result += "OK"
                 else:
-                    result += "❌"
+                    result += "ERROR"
             
             print(f"{home:<25} {away:<25} {result:<12} {confidence:<10} {actual:<8}")
     
     def _display_match_prediction(self, prediction: Dict):
         """Mostrar predicción individual"""
-        print(f"\n🎯 PREDICCIÓN DEL PARTIDO")
+        print(f"\n PREDICCIÓN DEL PARTIDO")
         print("=" * 50)
-        print(f"🏠 {prediction['home_team']}")
+        print(f"[LOCAL] {prediction['home_team']}")
         print(f"vs")
-        print(f"✈️ {prediction['away_team']}")
-        print(f"📅 {prediction['match_date'].strftime('%Y-%m-%d')}")
-        print(f"🤖 Modelo: {prediction['model_used']}")
+        print(f"[VISITANTE] {prediction['away_team']}")
+        print(f" {prediction['match_date'].strftime('%Y-%m-%d')}")
+        print(f" Modelo: {prediction['model_used']}")
         print()
         
         # Resultado predicho
         result = prediction['predicted_result']
         confidence = prediction['confidence']
         
-        result_emoji = {'LOCAL': '🏠', 'VISITANTE': '✈️', 'EMPATE': '🤝'}
-        print(f"🔮 Resultado predicho: {result_emoji.get(result, '❓')} {result}")
-        print(f"📊 Confianza: {confidence:.1%}")
+        result_emoji = {'LOCAL': '[LOCAL]', 'VISITANTE': '[VISITANTE]', 'EMPATE': '[EMPATE]'}
+        print(f" Resultado predicho: {result_emoji.get(result, '❓')} {result}")
+        print(f" Confianza: {confidence:.1%}")
         print()
         
         # Probabilidades
-        print("📈 Probabilidades:")
+        print(" Probabilidades:")
         for outcome, prob in prediction['probabilities'].items():
-            emoji = {'LOCAL': '🏠', 'VISITANTE': '✈️', 'EMPATE': '🤝'}
+            emoji = {'LOCAL': '[LOCAL]', 'VISITANTE': '[VISITANTE]', 'EMPATE': '[EMPATE]'}
             print(f"  {emoji.get(outcome, '❓')} {outcome}: {prob:.1%}")
         print()
         
         # Importancia de características (si está disponible)
         if prediction.get('feature_importance'):
-            print("🔍 Factores más importantes:")
+            print(" Factores más importantes:")
             for feature, importance in prediction['feature_importance'][:5]:
                 print(f"  • {feature}: {importance:.3f}")
 
@@ -465,8 +465,8 @@ def main():
     menu = PredictionMenu()
     
     if not menu.initialize():
-        print("❌ No se pudo inicializar el sistema")
-        print("\n💡 Intenta entrenar los modelos primero:")
+        print("ERROR No se pudo inicializar el sistema")
+        print("\n Intenta entrenar los modelos primero:")
         print("   python main.py --train")
         return
     
