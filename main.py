@@ -18,6 +18,28 @@ project_root = Path(__file__).parent
 src_dir = project_root / "src"
 sys.path.insert(0, str(src_dir))
 
+def update_data_if_needed():
+    """Actualizar datos automáticamente desde la API"""
+    import subprocess
+    
+    print(" Actualizando datos desde API...")
+    update_script = project_root / "simple_data_update.py"
+    
+    if update_script.exists():
+        result = subprocess.run([sys.executable, str(update_script)], 
+                              capture_output=True, text=True, cwd=project_root)
+        
+        if result.returncode == 0:
+            print(" Datos actualizados exitosamente")
+            return True
+        else:
+            print(f" Advertencia: No se pudieron actualizar datos automáticamente")
+            print(f" Error: {result.stderr[:200]}")
+            return True  # Continuar con datos existentes
+    else:
+        print(" Script de actualización no encontrado - usando datos existentes")
+        return True
+
 def check_environment():
     """Verificar que el entorno esté configurado correctamente"""
     print(" Verificando entorno...")
@@ -91,79 +113,74 @@ Características:
 def display_help():
     """Mostrar ayuda del sistema"""
     print("""
- AYUDA - SISTEMA DE PREDICCIÓN
-===============================
+ PREDICTOR PREMIER LEAGUE - AYUDA
+ ===================================
+ 
+Uso:
+  python main.py [opciones]
+ 
+Opciones:
+  --help, -h     Mostrar esta ayuda
+  --train         Entrenar modelos con datos actuales
+  --jornada       Iniciar predictor por jornada detallado
+ 
+Ejemplos:
+  python main.py           Iniciar menú interactivo
+  python main.py --train   Entrenar modelos
+  python main.py --jornada Predictor por jornada detallado
+""")
 
-INICIO RÁPIDO:
-   python main.py              - Iniciar menú interactivo
-   python main.py --train      - Entrenar modelos desde cero
-   python main.py --help       - Mostrar esta ayuda
-
-OPCIONES DEL MENÚ:
-
-1.  Predicción de jornada completa
-   - Selecciona una jornada (1-38)
-   - Predice todos los partidos de esa jornada
-   - Muestra confianza y resultados reales si están disponibles
-
-2.  Predicción partido por partido
-   - Selecciona equipos local y visitante
-   - Elige fecha del partido
-   - Obtén predicción detallada con probabilidades
-
-3.  Estadísticas de equipos
-   - Forma actual (últimos 5 partidos)
-   - Rendimiento local/visitante
-   - Posición en tabla de posiciones
-
-4.  Tabla de posiciones actual
-   - Clasificación completa de la Premier League
-   - Puntos, partidos jugados, diferencia de gol
-
-5.  Cambiar modelo de predicción
-   - Random Forest (mejor precisión general)
-   - Gradient Boosting (buen balance)
-   - Logistic Regression (más interpretable)
-
-6.  Rendimiento de modelos
-   - Accuracy de entrenamiento y prueba
-   - Validación cruzada
-   - Comparación entre modelos
-
- CÓMO FUNCIONA LA PREDICCIÓN:
-
-El sistema utiliza múltiples factores:
-
-• Forma reciente de equipos (últimos 5 partidos)
-• Rendimiento específico local/visitante
-• Estadísticas head-to-head históricas
-• Posición actual en la tabla
-• Diferencia de gol y puntos por partido
-• Goles marcados y recibidos por partido
-
- PRECISIÓN DEL SISTEMA:
-
-Los modelos tienen un accuracy típico de 55-65%,
-lo cual es excelente para predicciones de fútbol
-considerando la naturaleza impredecible del deporte.
-
- CONSEJOS:
-
-• Usa el modelo Random Forest para mejor precisión
-• Considera la confianza de cada predicción
-• Revisa las estadísticas de forma reciente
-• El factor local/visitante es muy importante
-• Los head-to-head pueden indicar tendencias
-
- REPORTES DE ERRORES:
-
-Si encuentras algún error, por favor reporta:
-• Mensaje de error completo
-• Qué estabas intentando hacer
-• Datos del sistema (Python, OS)
-
-=====================================================
-    """)
+def run_jornada_detailed():
+    """Ejecutar predictor de jornada detallado"""
+    try:
+        # Show next jornada directly without menu
+        jornada_script = project_root / "jornada_detailed.py"
+        
+        # Find next unfinished jornada
+        matches_file = project_root / "data" / "cleaned" / "matches_2025_cleaned.csv"
+        if matches_file.exists():
+            import csv
+            jornadas = set()
+            finished_jornadas = set()
+            
+            with open(matches_file, 'r') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    jornada = int(row['matchday'])
+                    jornadas.add(jornada)
+                    if row['status'] == 'FINISHED':
+                        finished_jornadas.add(jornada)
+            
+            available_jornadas = sorted(jornadas)
+            next_jornada = None
+            
+            for jornada in available_jornadas:
+                if jornada not in finished_jornadas:
+                    next_jornada = jornada
+                    break
+            
+            if next_jornada:
+                print(f"🏀 JORNADA {next_jornada} - PREDICCIONES")
+                print("=" * 60)
+                
+                # Run jornada directly
+                import subprocess
+                result = subprocess.run([sys.executable, str(jornada_script), str(next_jornada)], 
+                                    cwd=project_root, text=True)
+                return result.returncode == 0
+            else:
+                print("No hay jornadas pendientes para mostrar")
+                return False
+        else:
+            print("Error: No se encontraron datos de partidos")
+            return False
+            
+    except KeyboardInterrupt:
+        print("\n Predictor interrumpido")
+        return True
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
 
 def train_models():
     """Entrenar modelos desde cero"""
@@ -245,8 +262,15 @@ def main():
         train_models()
         return
     
+    if "--jornada" in args:
+        run_jornada_detailed()
+        return
+    
     # Ejecución normal
 # display_welcome()  # Omitido para limpiar salida
+    
+    # Actualizar datos automáticamente
+    update_data_if_needed()
     
     # Verificar entorno
     if not check_environment():
