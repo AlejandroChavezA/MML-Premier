@@ -11,14 +11,24 @@ import os
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 
+# Importar módulo de competitividad
+try:
+    from .competitiveness import LeagueCompetitiveness
+except ImportError:
+    from competitiveness import LeagueCompetitiveness
+
+
 class MatchPredictor:
-    def __init__(self, models_dir: str = "models"):
+    def __init__(self, models_dir: str = "models", data_dir: str = "data/cleaned"):
         self.models_dir = models_dir
         self.feature_engineer = None
         self.models = {}
         self.scalers = {}
         self.feature_columns = None
         self.model_performance = {}
+        
+        # Inicializar competitividad
+        self.competitiveness = LeagueCompetitiveness(data_dir)
         
         # Crear directorio de modelos
         if not os.path.exists(models_dir):
@@ -190,6 +200,10 @@ class MatchPredictor:
             return {'error': 'Feature engineer no inicializado'}
         
         try:
+            # Normalizar fecha (quitar timezone si existe)
+            if hasattr(match_date, 'tzinfo') and match_date.tzinfo is not None:
+                match_date = match_date.replace(tzinfo=None)
+            
             # Crear características
             features = self.feature_engineer.create_match_features(
                 home_team, away_team, match_date
@@ -242,7 +256,9 @@ class MatchPredictor:
                     'LOCAL': probabilities[2]
                 },
                 'model_used': model_name,
-                'feature_importance': feature_importance
+                'feature_importance': feature_importance,
+                'competitiveness': self.competitiveness.get_competitiveness(),
+                'competitiveness_level': self.competitiveness.get_level()
             }
             
         except Exception as e:
@@ -286,9 +302,14 @@ class MatchPredictor:
                             actual_result = 'EMPATE'
                         
                         prediction['actual_result'] = actual_result
-                        prediction['home_score'] = match['home_score']
-                        prediction['away_score'] = match['away_score']
+                        prediction['home_score'] = int(match['home_score'])
+                        prediction['away_score'] = int(match['away_score'])
                         prediction['correct'] = prediction['predicted_result'] == actual_result
+                        
+                        # Calcular Over/Under real
+                        total_goals = match['home_score'] + match['away_score']
+                        prediction['total_goals'] = int(total_goals)
+                        prediction['real_over_25'] = total_goals >= 3
                 
                 predictions.append(prediction)
             

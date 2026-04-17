@@ -21,9 +21,9 @@ class FeatureEngineer:
             self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
             self.standings_2025 = pd.read_csv(f"{self.data_dir}/standings_2025_cleaned.csv")
             
-            # Convertir fechas
+            # Convertir fechas (sin timezone para evitar comparaciones problemáticas)
             for df in [self.matches_2023, self.matches_2024, self.matches_2025]:
-                df['date'] = pd.to_datetime(df['date'])
+                df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
                 
             print("Datos cargados exitosamente")
             return True
@@ -470,6 +470,10 @@ class FeatureEngineer:
     
     def create_match_features(self, home_team: str, away_team: str, match_date: datetime) -> Dict:
         """Crear todas las características para un partido"""
+        # Normalizar fecha (quitar timezone si existe para comparar con datos)
+        if hasattr(match_date, 'tzinfo') and match_date.tzinfo is not None:
+            match_date = match_date.replace(tzinfo=None)
+        
         # Forma de equipos (versión mejorada)
         home_form = self.calculate_team_form_detailed(home_team, match_date)
         away_form = self.calculate_team_form_detailed(away_team, match_date)

@@ -19,8 +19,26 @@ src_dir = project_root / "src"
 sys.path.insert(0, str(src_dir))
 
 def update_data_if_needed():
-    """Actualizar datos automáticamente desde la API"""
+    """Actualizar datos automáticamente desde la API (cada 6 horas)"""
     import subprocess
+    import json
+    from datetime import datetime, timedelta
+    
+    cache_file = project_root / ".update_cache.json"
+    update_interval = timedelta(hours=6)
+    
+    # Verificar si necesita actualización
+    if cache_file.exists():
+        try:
+            with open(cache_file) as f:
+                cache_data = json.load(f)
+            last_update = datetime.fromisoformat(cache_data['last_update'])
+            if datetime.now() - last_update < update_interval:
+                print(f" Datos actualizados hace {datetime.now() - last_update}")
+                print(f" Siguiente actualización en {update_interval - (datetime.now() - last_update)}")
+                return True
+        except:
+            pass
     
     print(" Actualizando datos desde API...")
     update_script = project_root / "simple_data_update.py"
@@ -30,12 +48,15 @@ def update_data_if_needed():
                               capture_output=True, text=True, cwd=project_root)
         
         if result.returncode == 0:
+            # Guardar timestamp de actualización
+            with open(cache_file, 'w') as f:
+                json.dump({'last_update': datetime.now().isoformat()}, f)
             print(" Datos actualizados exitosamente")
             return True
         else:
             print(f" Advertencia: No se pudieron actualizar datos automáticamente")
             print(f" Error: {result.stderr[:200]}")
-            return True  # Continuar con datos existentes
+            return True  # Continuar con datos existentes,l
     else:
         print(" Script de actualización no encontrado - usando datos existentes")
         return True
@@ -114,67 +135,44 @@ def display_help():
     """Mostrar ayuda del sistema"""
     print("""
  PREDICTOR PREMIER LEAGUE - AYUDA
- ===================================
+  ===================================
  
-Uso:
-  python main.py [opciones]
+ Uso:
+   python main.py [opciones]
  
-Opciones:
-  --help, -h     Mostrar esta ayuda
-  --train         Entrenar modelos con datos actuales
-  --jornada       Iniciar predictor por jornada detallado
+ Opciones:
+   --help, -h     Mostrar esta ayuda
+   --train        Entrenar modelos con datos actuales
+   --jornada      Iniciar predictor por jornada detallado
  
-Ejemplos:
-  python main.py           Iniciar menú interactivo
-  python main.py --train   Entrenar modelos
-  python main.py --jornada Predictor por jornada detallado
-""")
+ Ejemplos:
+   python main.py           Iniciar menú interactivo
+   python main.py --train   Entrenar modelos
+   python main.py --jornada Predictor por jornada detallado
+
+ Menú interactivo:
+   1. Predicción de jornada completa
+   2. Predicción por jornada (detalles) ← incluye envío al dashboard
+   3. Predicción partido por partido
+   4. Estadísticas de equipos
+   5. Ver tabla de posiciones actual
+   6. Cambiar modelo de predicción
+   7. Rendimiento de modelos
+   8. Salir
+ """)
 
 def run_jornada_detailed():
-    """Ejecutar predictor de jornada detallado"""
+    """Ejecutar predictor de jornada detallado (usa menu interactivo)"""
+    from menu_interface import PredictionMenu
+    
     try:
-        # Show next jornada directly without menu
-        jornada_script = project_root / "jornada_detailed.py"
-        
-        # Find next unfinished jornada
-        matches_file = project_root / "data" / "cleaned" / "matches_2025_cleaned.csv"
-        if matches_file.exists():
-            import csv
-            jornadas = set()
-            finished_jornadas = set()
-            
-            with open(matches_file, 'r') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    jornada = int(row['matchday'])
-                    jornadas.add(jornada)
-                    if row['status'] == 'FINISHED':
-                        finished_jornadas.add(jornada)
-            
-            available_jornadas = sorted(jornadas)
-            next_jornada = None
-            
-            for jornada in available_jornadas:
-                if jornada not in finished_jornadas:
-                    next_jornada = jornada
-                    break
-            
-            if next_jornada:
-                print(f"🏀 JORNADA {next_jornada} - PREDICCIONES")
-                print("=" * 60)
-                
-                # Run jornada directly
-                import subprocess
-                result = subprocess.run([sys.executable, str(jornada_script), str(next_jornada)], 
-                                    cwd=project_root, text=True)
-                return result.returncode == 0
-            else:
-                print("No hay jornadas pendientes para mostrar")
-                return False
-        else:
-            print("Error: No se encontraron datos de partidos")
+        menu = PredictionMenu()
+        if not menu.initialize():
+            print("Error inicializando sistema")
             return False
-            
+        
+        menu.jornada_detailed_mode()
+        return True
     except KeyboardInterrupt:
         print("\n Predictor interrumpido")
         return True

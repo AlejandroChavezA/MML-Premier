@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-03-12T14:45:00.804963",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 291,
+    "scheduled_matches": 89,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-03-12T14:45:00.805832"
+  },
+  {
+    "timestamp": "2026-03-12T14:46:04.227194",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 291,
+    "scheduled_matches": 89,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-03-12T14:46:04.229127"
+  }
+]

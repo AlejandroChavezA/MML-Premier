@@ -1,0 +1,312 @@
+[
+  {
+    "sport": "soccer",
+    "homeTeam": "WHU",
+    "homeTeamFullName": "West Ham",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t21.png",
+    "awayTeam": "WOL",
+    "awayTeamFullName": "Wolves",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t39.png",
+    "predictedWinner": "WHU",
+    "confidence": 52,
+    "riskLevel": "high",
+    "gameDate": "2026-04-10T19:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 52.8%, Draw 33.3%, Away 13.9%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 52.8% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 13.9%",
+        "Factor de riesgo: 52.8% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 5,
+        "loserFactors": 4,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 52% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "ARS",
+    "homeTeamFullName": "Arsenal",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+    "awayTeam": "BOU",
+    "awayTeamFullName": "Bournemouth",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+    "predictedWinner": "ARS",
+    "confidence": 60,
+    "riskLevel": "medium",
+    "gameDate": "2026-04-11T11:30:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 60.9%, Draw 19.2%, Away 19.9%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 60.9% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 19.9%",
+        "Factor de riesgo: 60.9% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 6,
+        "loserFactors": 3,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 60% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "BRE",
+    "homeTeamFullName": "Brentford",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t94.png",
+    "awayTeam": "EVE",
+    "awayTeamFullName": "Everton",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+    "predictedWinner": "BRE",
+    "confidence": 46,
+    "riskLevel": "high",
+    "gameDate": "2026-04-11T14:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 46.4%, Draw 24.7%, Away 28.9%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 46.4% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 28.9%",
+        "Factor de riesgo: 46.4% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 4,
+        "loserFactors": 5,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 46% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "BUR",
+    "homeTeamFullName": "Burnley",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t90.png",
+    "awayTeam": "BHA",
+    "awayTeamFullName": "Brighton",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+    "predictedWinner": "BHA",
+    "confidence": 50,
+    "riskLevel": "high",
+    "gameDate": "2026-04-11T14:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 14.6%, Draw 34.4%, Away 51.0%",
+    "arguments": {
+      "forWinner": [
+        "Performance away: 51.0% probabilidad",
+        "Defensa local vulnerable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 14.6%",
+        "Factor de riesgo: 51.0% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 5,
+        "loserFactors": 4,
+        "matchupType": "premier_league",
+        "betRecommendation": "AWAY with 50% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "LIV",
+    "homeTeamFullName": "Liverpool",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+    "awayTeam": "FUL",
+    "awayTeamFullName": "Fulham",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
+    "predictedWinner": "LIV",
+    "confidence": 68,
+    "riskLevel": "medium",
+    "gameDate": "2026-04-11T16:30:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 68.8%, Draw 16.5%, Away 14.6%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 68.8% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 14.6%",
+        "Factor de riesgo: 68.8% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 6,
+        "loserFactors": 3,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 68% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "SUN",
+    "homeTeamFullName": "Sunderland",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t71.png",
+    "awayTeam": "TOT",
+    "awayTeamFullName": "Tottenham",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
+    "predictedWinner": "SUN",
+    "confidence": 45,
+    "riskLevel": "high",
+    "gameDate": "2026-04-12T13:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 46.0%, Draw 27.3%, Away 26.7%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 46.0% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 26.7%",
+        "Factor de riesgo: 46.0% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 4,
+        "loserFactors": 5,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 45% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "CRY",
+    "homeTeamFullName": "Crystal Palace",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t31.png",
+    "awayTeam": "NEW",
+    "awayTeamFullName": "Newcastle",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+    "predictedWinner": null,
+    "confidence": 41,
+    "riskLevel": "high",
+    "gameDate": "2026-04-12T13:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 26.2%, Draw 41.9%, Away 31.9%",
+    "arguments": {
+      "forWinner": [
+        "Historial de empates en este matchup",
+        "Diferencial de goles equilibrado"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 31.9%",
+        "Factor de riesgo: 41.9% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 4,
+        "loserFactors": 5,
+        "matchupType": "premier_league",
+        "betRecommendation": "AWAY with 41% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "NFO",
+    "homeTeamFullName": "Nottingham",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+    "awayTeam": "AVL",
+    "awayTeamFullName": "Aston Villa",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
+    "predictedWinner": "AVL",
+    "confidence": 50,
+    "riskLevel": "high",
+    "gameDate": "2026-04-12T13:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 22.3%, Draw 27.6%, Away 50.1%",
+    "arguments": {
+      "forWinner": [
+        "Performance away: 50.1% probabilidad",
+        "Defensa local vulnerable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 22.3%",
+        "Factor de riesgo: 50.1% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 5,
+        "loserFactors": 4,
+        "matchupType": "premier_league",
+        "betRecommendation": "AWAY with 50% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "CHE",
+    "homeTeamFullName": "Chelsea",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+    "awayTeam": "MCI",
+    "awayTeamFullName": "Man City",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+    "predictedWinner": "MCI",
+    "confidence": 43,
+    "riskLevel": "high",
+    "gameDate": "2026-04-12T15:30:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 30.1%, Draw 26.2%, Away 43.6%",
+    "arguments": {
+      "forWinner": [
+        "Performance away: 43.6% probabilidad",
+        "Defensa local vulnerable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 30.1%",
+        "Factor de riesgo: 43.6% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 4,
+        "loserFactors": 5,
+        "matchupType": "premier_league",
+        "betRecommendation": "AWAY with 43% confidence"
+      }
+    }
+  },
+  {
+    "sport": "soccer",
+    "homeTeam": "MUN",
+    "homeTeamFullName": "Man United",
+    "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+    "awayTeam": "LEE",
+    "awayTeamFullName": "Leeds",
+    "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+    "predictedWinner": "MUN",
+    "confidence": 47,
+    "riskLevel": "high",
+    "gameDate": "2026-04-13T19:00:00Z",
+    "status": "active",
+    "notes": "Premier League Prediction\nModelo: random_forest\nProbabilidades: Local 48.0%, Draw 35.8%, Away 16.2%",
+    "arguments": {
+      "forWinner": [
+        "Ventaja local: 48.0% probabilidad",
+        "Forma reciente favorable"
+      ],
+      "forLoser": [
+        "Probabilidad reducida: 16.2%",
+        "Factor de riesgo: 48.0% confianza del modelo"
+      ],
+      "summary": {
+        "winnerFactors": 4,
+        "loserFactors": 5,
+        "matchupType": "premier_league",
+        "betRecommendation": "HOME with 47% confidence"
+      }
+    }
+  }
+]

@@ -1,0 +1,209 @@
+# Pipeline de Predicción — Premier League (MML-Premier)
+  
+## Contexto del Proyecto
+Sistema automatizado de predicción de partidos de la Premier League.
+Stack: Python (sklearn) + Next.js dashboard (safesports-panel).
+  
+## Arquitectura
+```
+[Modelo sklearn] → [safesports-panel]
+```
+
+---
+
+## Roadmap / Plan de Implementación
+
+### Fase 1 — Modelo sklearn ✅ COMPLETADO
+- [x] Entrenar modelos con datos históricos
+- [x] Predicciones por jornada
+- [x] Menú interactivo
+
+### Fase 2 — Integración safesports-panel ✅ COMPLETADO
+- [x] Endpoint `/api/predictions/import`
+- [x] Endpoint `/api/auth/api-key/generate`
+- [x] Modelo User con apiKey
+- [x] Envío desde menú
+
+### Fase 3 — Scraping Google
+- [ ] Implementar scraper con Playwright
+- [ ] Obtener predicciones de Google para comparar
+- [ ] Selector para widget de predicciones
+
+### Fase 4 — Claude API (análisis de lesiones)
+- [ ] Integrar Claude API
+- [ ] Analizar lesiones de equipos
+- [ ] Incluir análisis en predicciones
+
+### Fase 5 — Orquestador + Scheduler
+- [ ] `main_pipeline.py` que orqueste todo
+- [ ] Automatización con schedule o GitHub Actions
+- [ ] Logs estructurados
+
+### Fase 6 — Dashboard Mejorado
+- [ ] Mostrar delta modelo vs Google (>10% highlight)
+- [ ] Análisis de lesiones en UI
+- [ ] Revalidación automática
+
+---
+
+## Integración con safesports-panel
+
+El pipeline exporta predicciones directamente al panel de administración.
+
+### Configuración
+
+**1. En safesports-panel (.env.local):**
+```bash
+IMPORT_API_SECRET=tu-secret-aqui
+```
+
+**2. En MML-Premier (.env.local):**
+```bash
+SAFESPORTS_PANEL_URL=http://localhost:3000
+SAFESPORTS_PANEL_EMAIL=admin@sudo.com
+SAFESPORTS_PANEL_PASSWORD=tu-password
+```
+
+Opcionalmente puedes usar API key directa:
+```bash
+SAFESPORTS_USER_API_KEY=sk_...
+IMPORT_API_SECRET=sk_...
+```
+
+### Uso desde el Menú
+
+```bash
+cd /Users/sas/Documents/Github/MML-Premier
+python main.py
+```
+
+1. Selecciona opción **2. Predicción por jornada (detalles)**
+2. Selecciona la jornada
+3. Ve las predicciones detalladas
+4. Cuando pregunte "¿Enviar predicciones al dashboard?", escribe **s**
+
+### Endpoints del Panel
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/auth/api-key/generate` | Genera API key con email/password |
+| POST | `/api/predictions/import` | Importa predicciones |
+
+### Formato de Predicciones
+
+```json
+{
+  "sport": "soccer",
+  "homeTeam": "ARS",
+  "homeTeamFullName": "Arsenal FC",
+  "homeTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+  "awayTeam": "CHE",
+  "awayTeamFullName": "Chelsea FC",
+  "awayTeamLogo": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+  "predictedWinner": "ARS",
+  "confidence": 75,
+  "riskLevel": "low",
+  "gameDate": "2025-03-30T15:00:00Z",
+  "status": "active",
+  "notes": "Premier League...",
+  "arguments": {
+    "forWinner": ["Confianza del modelo: 75%"],
+    "forLoser": ["Factor de riesgo: 25%"],
+    "summary": {
+      "winnerFactors": 8,
+      "loserFactors": 2,
+      "matchupType": "premier_league",
+      "betRecommendation": "ARS with 75% confidence"
+    }
+  }
+}
+```
+
+---
+
+## Comandos Frecuentes
+
+```bash
+# Menú interactivo (recomendado)
+python main.py
+
+# Entrenar modelos
+python main.py --train
+
+# Predicción jornada
+python main.py --jornada
+
+# Ver ayuda
+python main.py --help
+```
+
+### Menú Principal
+1. Predicción de jornada completa
+2. Predicción por jornada (detalles) ← incluye envío al dashboard
+3. Predicción partido por partido
+4. Estadísticas de equipos
+5. Ver tabla de posiciones actual
+6. Cambiar modelo de predicción
+7. Rendimiento de modelos
+8. Salir
+
+---
+
+## Estructura del Proyecto
+
+```
+MML-Premier/
+├── src/
+│   ├── menu_interface.py      # Menú interactivo + envío al dashboard
+│   ├── prediction_models.py    # Modelos sklearn
+│   ├── feature_engineering.py  # Features para el modelo
+│   └── ...
+├── models/                     # Modelos entrenados (.pkl)
+├── data/cleaned/               # Datos limpiados
+└── .env.local                  # Variables de entorno
+```
+
+---
+
+## Implementar en otro MML
+
+Para replicar esta integración en otro proyecto MML:
+
+### En safesports-panel (ya existe):
+- Modelo User tiene campos `apiKey` y `apiKeyExpiresAt`
+- Endpoint `/api/auth/api-key/generate` acepta email/password
+- Endpoint `/api/predictions/import` acepta API keys
+
+### En el nuevo MML:
+
+1. **Agregar a menu_interface.py:**
+   - TEAM_CODES y TEAM_LOGOS
+   - Variables de entorno (panel_url, panel_email, panel_password)
+   - Función `get_api_key()`
+   - Función `send_to_dashboard()`
+   - Función `transform_to_panel_format()`
+   - Llamar `send_to_dashboard()` después de predicciones
+
+2. **Copiar formato de predicciones:**
+   - sport, homeTeam, awayTeam (códigos)
+   - homeTeamFullName, awayTeamFullName
+   - homeTeamLogo, awayTeamLogo (URLs)
+   - predictedWinner, confidence (0-100), riskLevel
+   - gameDate, status, notes, arguments
+
+---
+
+## Variables de Entorno Requeridas
+
+| Variable | Descripción | Ejemplo |
+|----------|-------------|---------|
+| SAFESPORTS_PANEL_URL | URL del panel | http://localhost:3000 |
+| SAFESPORTS_PANEL_EMAIL | Email del admin | admin@sudo.com |
+| SAFESPORTS_PANEL_PASSWORD | Password del admin | admin123! |
+
+---
+
+## Reglas del Proyecto
+- Usar `.env.local` para credenciales (no commitear)
+- El scraping de Google puede fallar: manejar errores
+- Responder en español

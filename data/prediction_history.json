@@ -1,0 +1,1102 @@
+[
+  {
+    "timestamp": "2026-04-04T21:50:05.968418",
+    "home_team": "Liverpool FC",
+    "away_team": "AFC Bournemouth",
+    "match_date": "2025-08-15",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9891068460733833,
+        "under_prob": 0.010893153926616717,
+        "prediction": "OVER",
+        "confidence": 0.9891068460733833,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.9398739213663522,
+        "under_prob": 0.06012607863364783,
+        "prediction": "OVER",
+        "confidence": 0.9398739213663522,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.8286168468984333,
+        "under_prob": 0.1713831531015667,
+        "prediction": "OVER",
+        "confidence": 0.8286168468984333,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 6,
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.969964",
+    "home_team": "Aston Villa FC",
+    "away_team": "Newcastle United FC",
+    "match_date": "2025-08-16",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "EMPATE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.7957524943906967,
+        "under_prob": 0.20424750560930327,
+        "prediction": "OVER",
+        "confidence": 0.7957524943906967,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.47132110826603446,
+        "under_prob": 0.5286788917339655,
+        "prediction": "UNDER",
+        "confidence": 0.5286788917339655,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.21365400974070625,
+        "under_prob": 0.7863459902592937,
+        "prediction": "UNDER",
+        "confidence": 0.7863459902592937,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "U",
+    "actual_goals": 0,
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.970728",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Fulham FC",
+    "match_date": "2025-08-16",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "EMPATE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.8932910109998687,
+        "under_prob": 0.10670898900013126,
+        "prediction": "OVER",
+        "confidence": 0.8932910109998687,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.6545136547103649,
+        "under_prob": 0.34548634528963507,
+        "prediction": "OVER",
+        "confidence": 0.6545136547103649,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.38736359354478456,
+        "under_prob": 0.6126364064552154,
+        "prediction": "UNDER",
+        "confidence": 0.6126364064552154,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.970943",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Burnley FC",
+    "match_date": "2025-08-16",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9574695161786977,
+        "under_prob": 0.04253048382130231,
+        "prediction": "OVER",
+        "confidence": 0.9574695161786977,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.8231780592348956,
+        "under_prob": 0.17682194076510438,
+        "prediction": "OVER",
+        "confidence": 0.8231780592348956,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.6111631256185486,
+        "under_prob": 0.3888368743814514,
+        "prediction": "OVER",
+        "confidence": 0.6111631256185486,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 3,
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.971338",
+    "home_team": "Wolverhampton Wanderers FC",
+    "away_team": "Manchester City FC",
+    "match_date": "2025-08-16",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9653203693643597,
+        "under_prob": 0.03467963063564028,
+        "prediction": "OVER",
+        "confidence": 0.9653203693643597,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.84874122668751,
+        "under_prob": 0.15125877331249005,
+        "prediction": "OVER",
+        "confidence": 0.84874122668751,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.6527948417611652,
+        "under_prob": 0.3472051582388348,
+        "prediction": "OVER",
+        "confidence": 0.6527948417611652,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 4,
+    "home_score": 0,
+    "away_score": 4
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.971612",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Brentford FC",
+    "match_date": "2025-08-17",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9598542317488158,
+        "under_prob": 0.04014576825118421,
+        "prediction": "OVER",
+        "confidence": 0.9598542317488158,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.8307760223882369,
+        "under_prob": 0.1692239776117631,
+        "prediction": "OVER",
+        "confidence": 0.8307760223882369,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.6232674248756964,
+        "under_prob": 0.3767325751243036,
+        "prediction": "OVER",
+        "confidence": 0.6232674248756964,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 4,
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.971906",
+    "home_team": "Chelsea FC",
+    "away_team": "Crystal Palace FC",
+    "match_date": "2025-08-17",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.7239843805572153,
+        "under_prob": 0.27601561944278474,
+        "prediction": "OVER",
+        "confidence": 0.7239843805572153,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.3686700746222229,
+        "under_prob": 0.6313299253777771,
+        "prediction": "UNDER",
+        "confidence": 0.6313299253777771,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.13997240842323544,
+        "under_prob": 0.8600275915767646,
+        "prediction": "UNDER",
+        "confidence": 0.8600275915767646,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "U",
+    "actual_goals": 0,
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:05.972229",
+    "home_team": "Manchester United FC",
+    "away_team": "Arsenal FC",
+    "match_date": "2025-08-17",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.8045614234380504,
+        "under_prob": 0.19543857656194963,
+        "prediction": "OVER",
+        "confidence": 0.8045614234380504,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.4855061618091756,
+        "under_prob": 0.5144938381908244,
+        "prediction": "UNDER",
+        "confidence": 0.5144938381908244,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.22507584717064621,
+        "under_prob": 0.7749241528293538,
+        "prediction": "UNDER",
+        "confidence": 0.7749241528293538,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "U",
+    "actual_goals": 1,
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.412452",
+    "home_team": "West Ham United FC",
+    "away_team": "Chelsea FC",
+    "match_date": "2025-08-22",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9886479972984006,
+        "under_prob": 0.011352002701599417,
+        "prediction": "OVER",
+        "confidence": 0.9886479972984006,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.937809629979522,
+        "under_prob": 0.062190370020478,
+        "prediction": "OVER",
+        "confidence": 0.937809629979522,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.8239733466563558,
+        "under_prob": 0.1760266533436442,
+        "prediction": "OVER",
+        "confidence": 0.8239733466563558,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 6,
+    "home_score": 1,
+    "away_score": 5
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.413669",
+    "home_team": "Manchester City FC",
+    "away_team": "Tottenham Hotspur FC",
+    "match_date": "2025-08-23",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9130116679051723,
+        "under_prob": 0.0869883320948277,
+        "prediction": "OVER",
+        "confidence": 0.9130116679051723,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7005877890750636,
+        "under_prob": 0.2994122109249364,
+        "prediction": "OVER",
+        "confidence": 0.7005877890750636,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.4412202209738715,
+        "under_prob": 0.5587797790261285,
+        "prediction": "UNDER",
+        "confidence": 0.5587797790261285,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.414120",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Wolverhampton Wanderers FC",
+    "match_date": "2025-08-23",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.7883842536697029,
+        "under_prob": 0.21161574633029712,
+        "prediction": "OVER",
+        "confidence": 0.7883842536697029,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.45974856191228675,
+        "under_prob": 0.5402514380877133,
+        "prediction": "UNDER",
+        "confidence": 0.5402514380877133,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.20456571335359985,
+        "under_prob": 0.7954342866464001,
+        "prediction": "UNDER",
+        "confidence": 0.7954342866464001,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "U",
+    "actual_goals": 1,
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.414594",
+    "home_team": "Brentford FC",
+    "away_team": "Aston Villa FC",
+    "match_date": "2025-08-23",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.8419172698722602,
+        "under_prob": 0.15808273012773977,
+        "prediction": "OVER",
+        "confidence": 0.8419172698722602,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.5503120524515506,
+        "under_prob": 0.44968794754844943,
+        "prediction": "OVER",
+        "confidence": 0.5503120524515506,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.28135919859374026,
+        "under_prob": 0.7186408014062597,
+        "prediction": "UNDER",
+        "confidence": 0.7186408014062597,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 1,
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.415293",
+    "home_team": "Crystal Palace FC",
+    "away_team": "Nottingham Forest FC",
+    "match_date": "2025-08-24",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "EMPATE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9051135834740134,
+        "under_prob": 0.09488641652598662,
+        "prediction": "OVER",
+        "confidence": 0.9051135834740134,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.6816489828115516,
+        "under_prob": 0.3183510171884484,
+        "prediction": "OVER",
+        "confidence": 0.6816489828115516,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.41851106709335495,
+        "under_prob": 0.581488932906645,
+        "prediction": "UNDER",
+        "confidence": 0.581488932906645,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.415847",
+    "home_team": "Everton FC",
+    "away_team": "Brighton & Hove Albion FC",
+    "match_date": "2025-08-24",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.916734148447166,
+        "under_prob": 0.08326585155283395,
+        "prediction": "OVER",
+        "confidence": 0.916734148447166,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7097588257728914,
+        "under_prob": 0.2902411742271086,
+        "prediction": "OVER",
+        "confidence": 0.7097588257728914,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.45251781161633775,
+        "under_prob": 0.5474821883836622,
+        "prediction": "UNDER",
+        "confidence": 0.5474821883836622,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.416425",
+    "home_team": "Fulham FC",
+    "away_team": "Manchester United FC",
+    "match_date": "2025-08-24",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "EMPATE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.8970771804567752,
+        "under_prob": 0.1029228195432248,
+        "prediction": "OVER",
+        "confidence": 0.8970771804567752,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.663053754183716,
+        "under_prob": 0.33694624581628396,
+        "prediction": "OVER",
+        "confidence": 0.663053754183716,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.3969953412504146,
+        "under_prob": 0.6030046587495854,
+        "prediction": "UNDER",
+        "confidence": 0.6030046587495854,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:14.417187",
+    "home_team": "Newcastle United FC",
+    "away_team": "Liverpool FC",
+    "match_date": "2025-08-25",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9895568816711895,
+        "under_prob": 0.010443118328810508,
+        "prediction": "OVER",
+        "confidence": 0.9895568816711895,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.9419173386326911,
+        "under_prob": 0.058082661367308885,
+        "prediction": "OVER",
+        "confidence": 0.9419173386326911,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.8332560178729819,
+        "under_prob": 0.16674398212701813,
+        "prediction": "OVER",
+        "confidence": 0.8332560178729819,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 5,
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.016916",
+    "home_team": "Wolverhampton Wanderers FC",
+    "away_team": "Arsenal FC",
+    "match_date": "2026-02-18",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9734334762524155,
+        "under_prob": 0.026566523747584503,
+        "prediction": "OVER",
+        "confidence": 0.9734334762524155,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.8770473821402278,
+        "under_prob": 0.12295261785977218,
+        "prediction": "OVER",
+        "confidence": 0.8770473821402278,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.7021980261147116,
+        "under_prob": 0.2978019738852884,
+        "prediction": "OVER",
+        "confidence": 0.7021980261147116,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 4,
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.019406",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Manchester United FC",
+    "match_date": "2026-03-20",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9636340641880238,
+        "under_prob": 0.036365935811976224,
+        "prediction": "OVER",
+        "confidence": 0.9636340641880238,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.8431128881941937,
+        "under_prob": 0.15688711180580628,
+        "prediction": "OVER",
+        "confidence": 0.8431128881941937,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.6434019012690038,
+        "under_prob": 0.35659809873099624,
+        "prediction": "OVER",
+        "confidence": 0.6434019012690038,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 4,
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.020197",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Liverpool FC",
+    "match_date": "2026-03-21",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9472250992044742,
+        "under_prob": 0.052774900795525825,
+        "prediction": "OVER",
+        "confidence": 0.9472250992044742,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7919761409926993,
+        "under_prob": 0.2080238590073007,
+        "prediction": "OVER",
+        "confidence": 0.7919761409926993,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.5636266920830313,
+        "under_prob": 0.4363733079169687,
+        "prediction": "OVER",
+        "confidence": 0.5636266920830313,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 3,
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.020973",
+    "home_team": "Fulham FC",
+    "away_team": "Burnley FC",
+    "match_date": "2026-03-21",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9684207039861408,
+        "under_prob": 0.031579296013859226,
+        "prediction": "OVER",
+        "confidence": 0.9684207039861408,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.8593062289312906,
+        "under_prob": 0.1406937710687094,
+        "prediction": "OVER",
+        "confidence": 0.8593062289312906,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.6707971396015229,
+        "under_prob": 0.3292028603984771,
+        "prediction": "OVER",
+        "confidence": 0.6707971396015229,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 4,
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.021934",
+    "home_team": "Everton FC",
+    "away_team": "Chelsea FC",
+    "match_date": "2026-03-21",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9309388727125097,
+        "under_prob": 0.06906112728749025,
+        "prediction": "OVER",
+        "confidence": 0.9309388727125097,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7463548287385866,
+        "under_prob": 0.2536451712614134,
+        "prediction": "OVER",
+        "confidence": 0.7463548287385866,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.49968010282559905,
+        "under_prob": 0.500319897174401,
+        "prediction": "UNDER",
+        "confidence": 0.500319897174401,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 3,
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.022811",
+    "home_team": "Leeds United FC",
+    "away_team": "Brentford FC",
+    "match_date": "2026-03-21",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.7872309713489442,
+        "under_prob": 0.21276902865105585,
+        "prediction": "OVER",
+        "confidence": 0.7872309713489442,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.4579606708190601,
+        "under_prob": 0.5420393291809399,
+        "prediction": "UNDER",
+        "confidence": 0.5420393291809399,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.2031798610874691,
+        "under_prob": 0.7968201389125309,
+        "prediction": "UNDER",
+        "confidence": 0.7968201389125309,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "U",
+    "actual_goals": 0,
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.023696",
+    "home_team": "Newcastle United FC",
+    "away_team": "Sunderland AFC",
+    "match_date": "2026-03-22",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": false,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.896279050248684,
+        "under_prob": 0.10372094975131596,
+        "prediction": "OVER",
+        "confidence": 0.896279050248684,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.6612420715952922,
+        "under_prob": 0.33875792840470775,
+        "prediction": "OVER",
+        "confidence": 0.6612420715952922,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.3949391623615959,
+        "under_prob": 0.6050608376384041,
+        "prediction": "UNDER",
+        "confidence": 0.6050608376384041,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 3,
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.024609",
+    "home_team": "Aston Villa FC",
+    "away_team": "West Ham United FC",
+    "match_date": "2026-03-22",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "LOCAL",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9221305555303397,
+        "under_prob": 0.07786944446966027,
+        "prediction": "OVER",
+        "confidence": 0.9221305555303397,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7233515392658886,
+        "under_prob": 0.2766484607341114,
+        "prediction": "OVER",
+        "confidence": 0.7233515392658886,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.4696377907206669,
+        "under_prob": 0.5303622092793331,
+        "prediction": "UNDER",
+        "confidence": 0.5303622092793331,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 2,
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "timestamp": "2026-04-04T21:50:21.025543",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Nottingham Forest FC",
+    "match_date": "2026-03-22",
+    "matchday": null,
+    "model": "random_forest",
+    "predicted_1x2": "VISITANTE",
+    "1x2_correct": true,
+    "over_under": {
+      "over_0.5": {
+        "over_prob": 1.0,
+        "under_prob": 0.0,
+        "prediction": "OVER",
+        "confidence": 1.0,
+        "threshold": 0.5
+      },
+      "over_1.5": {
+        "over_prob": 0.9440358707632963,
+        "under_prob": 0.055964129236703686,
+        "prediction": "OVER",
+        "confidence": 0.9440358707632963,
+        "threshold": 1.5
+      },
+      "over_2.5": {
+        "over_prob": 0.7826888045659577,
+        "under_prob": 0.21731119543404231,
+        "prediction": "OVER",
+        "confidence": 0.7826888045659577,
+        "threshold": 2.5
+      },
+      "over_3.5": {
+        "over_prob": 0.5501034313496543,
+        "under_prob": 0.44989656865034566,
+        "prediction": "OVER",
+        "confidence": 0.5501034313496543,
+        "threshold": 3.5
+      }
+    },
+    "predicted_ou_25": "O",
+    "actual_goals": 3,
+    "home_score": 0,
+    "away_score": 3
+  }
+]

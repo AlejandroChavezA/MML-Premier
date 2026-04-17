@@ -1,21 +1,21 @@
-position,team,played_games,won,draw,lost,points,goals_for,goals_against,goal_difference
-1,Arsenal FC,22,15,5,2,50,40,14,26
-2,Manchester City FC,22,13,4,5,43,45,21,24
-3,Aston Villa FC,22,13,4,5,43,33,25,8
-4,Liverpool FC,22,10,6,6,36,33,29,4
-5,Manchester United FC,22,9,8,5,35,38,32,6
-6,Chelsea FC,22,9,7,6,34,36,24,12
-7,Brentford FC,22,10,3,9,33,35,30,5
-8,Newcastle United FC,22,9,6,7,33,32,27,5
-9,Sunderland AFC,22,8,9,5,33,23,23,0
-10,Everton FC,22,9,5,8,32,24,25,-1
-11,Fulham FC,22,9,4,9,31,30,31,-1
-12,Brighton & Hove Albion FC,22,7,9,6,30,32,29,3
-13,Crystal Palace FC,22,7,7,8,28,23,25,-2
-14,Tottenham Hotspur FC,22,7,6,9,27,31,29,2
-15,AFC Bournemouth,22,6,9,7,27,35,41,-6
-16,Leeds United FC,22,6,7,9,25,30,37,-7
-17,Nottingham Forest FC,22,6,4,12,22,21,34,-13
-18,West Ham United FC,22,4,5,13,17,24,44,-20
-19,Burnley FC,22,3,5,14,14,23,42,-19
-20,Wolverhampton Wanderers FC,22,1,5,16,8,15,41,-26
+position,team,played_games,won,draw,lost,points,goals_for,goals_against,goal_difference,form
+1,Arsenal FC,30,20,7,3,67,59,22,37,"W,W,W,D,D"
+2,Manchester City FC,29,18,6,5,60,59,27,32,"D,W,W,W,W"
+3,Manchester United FC,29,14,9,6,51,51,40,11,"L,W,W,D,W"
+4,Aston Villa FC,29,15,6,8,51,39,34,5,"L,L,D,W,D"
+5,Chelsea FC,29,13,9,7,48,53,34,19,"W,L,D,D,W"
+6,Liverpool FC,29,14,6,9,48,48,39,9,"L,W,W,W,L"
+7,Brentford FC,29,13,5,11,44,44,40,4,"D,W,L,D,W"
+8,Everton FC,29,12,7,10,43,34,33,1,"W,W,L,L,W"
+9,AFC Bournemouth,29,9,13,7,40,44,46,-2,"D,D,D,W,D"
+10,Fulham FC,29,12,4,13,40,40,43,-3,"L,W,W,L,L"
+11,Sunderland AFC,29,10,10,9,40,30,34,-4,"W,D,L,L,L"
+12,Newcastle United FC,29,11,6,12,39,42,43,-1,"W,L,L,W,L"
+13,Crystal Palace FC,29,10,8,11,38,33,35,-2,"W,L,W,L,W"
+14,Brighton & Hove Albion FC,29,9,10,10,37,38,36,2,"L,W,W,L,L"
+15,Leeds United FC,29,7,10,12,31,37,48,-11,"L,L,D,D,W"
+16,Tottenham Hotspur FC,29,7,8,14,29,39,46,-7,"L,L,L,L,L"
+17,Nottingham Forest FC,29,7,7,15,28,28,43,-15,"D,L,L,D,L"
+18,West Ham United FC,29,7,7,15,28,35,54,-19,"W,L,D,D,W"
+19,Burnley FC,29,4,7,18,19,32,58,-26,"L,L,D,W,L"
+20,Wolverhampton Wanderers FC,30,3,7,20,16,22,52,-30,"W,W,L,D,D"

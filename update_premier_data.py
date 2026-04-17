@@ -51,14 +51,11 @@ class PremierLeagueDataUpdater:
             raw_dir = self.data_dir / "raw"
             raw_dir.mkdir(exist_ok=True)
             matches_df.to_csv(raw_dir / f"matches_{season}_raw.csv", index=False)
-            print(f"✅ Partidos guardados: {len(matches_df)}")
+            print(f"✅ Partidos guardados (raw): {len(matches_df)}")
             
-            # Guardar datos limpios (copiar desde cleaned)
-            if (self.data_dir / "cleaned" / f"matches_{season}_cleaned.csv").exists():
-                print("🧹 Copiando a cleaned...")
-                existing_cleaned = pd.read_csv(self.data_dir / "cleaned" / f"matches_{season}_cleaned.csv")
-                existing_cleaned.to_csv(self.data_dir / "cleaned" / f"matches_{season}_cleaned.csv", index=False)
-                print(f"✅ Datos copiados a cleaned/")
+            # Guardar datos en archivo principal para procesamiento
+            matches_df.to_csv(self.data_dir / f"matches_{season}.csv", index=False)
+            print(f"✅ Partidos guardados (main): {len(matches_df)}")
             
             # 2. Actualizar tabla de posiciones
             print("🏆 Actualizando tabla de posiciones...")
@@ -79,7 +76,7 @@ class PremierLeagueDataUpdater:
                     'points': standing['points'],
                     'goals_for': standing['goalsFor'],
                     'goals_against': standing['goalsAgainst'],
-                    'goal_difference': standing['goal_difference'],
+                    'goal_difference': standing.get('goalDifference', 0),
                     'form': standing.get('form', '')
                 }
                 standings_list.append(team_info)
@@ -88,13 +85,11 @@ class PremierLeagueDataUpdater:
             
             # Guardar datos crudos
             standings_df.to_csv(raw_dir / f"standings_{season}_raw.csv", index=False)
-            print(f"✅ Tabla guardada: {len(standings_df)} equipos")
+            print(f"✅ Tabla guardada (raw): {len(standings_df)} equipos")
             
-            # Copiar a cleaned si es necesario
-            if (self.data_dir / "cleaned" / f"standings_{season}_cleaned.csv").exists():
-                existing_cleaned = pd.read_csv(self.data_dir / "cleaned" / f"standings_{season}_cleaned.csv")
-                existing_cleaned.to_csv(self.data_dir / "cleaned" / f"standings_{season}_cleaned.csv", index=False)
-                print(f"✅ Tabla copiada a cleaned/")
+            # Guardar tabla en archivo principal
+            standings_df.to_csv(self.data_dir / f"standings_{season}.csv", index=False)
+            print(f"✅ Tabla guardada (main): {len(standings_df)} equipos")
             
             # 3. Verificar si hay datos nuevos
             finished_matches = len(matches_df[matches_df['status'] == 'FINISHED'])
@@ -121,6 +116,7 @@ class PremierLeagueDataUpdater:
             
             # Guardar registro
             update_log_file = self.data_dir / "update_log.json"
+            logs = [update_log]
             
             if update_log_file.exists():
                 # Cargar logs anteriores
