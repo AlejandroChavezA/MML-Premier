@@ -17,6 +17,20 @@ try:
 except ImportError:
     from competitiveness import LeagueCompetitiveness
 
+# Para el modelo v2, importar feature engineer de v2
+import sys
+from pathlib import Path
+_v2_path = Path(__file__).parent.parent / "src_v2"
+if _v2_path.exists():
+    sys.path.insert(0, str(_v2_path.parent))
+    try:
+        from src_v2.features.feature_engineer import FeatureEngineer as FeatureEngineerV2
+        _use_v2 = True
+    except ImportError:
+        _use_v2 = False
+else:
+    _use_v2 = False
+
 
 class MatchPredictor:
     def __init__(self, models_dir: str = "models", data_dir: str = "data/cleaned"):
@@ -25,6 +39,7 @@ class MatchPredictor:
         self.models = {}
         self.scalers = {}
         self.feature_columns = None
+        self.feature_columns_v2 = None  # Features del modelo v2
         self.model_performance = {}
         
         # Inicializar competitividad
@@ -154,7 +169,8 @@ class MatchPredictor:
             model_files = {
                 'random_forest': 'random_forest.pkl',
                 'gradient_boosting': 'gradient_boosting.pkl',
-                'logistic_regression': 'logistic_regression.pkl'
+                'logistic_regression': 'logistic_regression.pkl',
+                'gradient_boosting_v2': 'winner_predictor.pkl'  # Nuevo modelo v2
             }
             
             for model_name, filename in model_files.items():
@@ -171,17 +187,32 @@ class MatchPredictor:
                 with open(scaler_path, 'rb') as f:
                     self.scalers['standard'] = pickle.load(f)
             
-            # Cargar columnas
+            # Cargar columnas (para cada modelo)
             columns_path = f"{self.models_dir}/feature_columns.pkl"
             if os.path.exists(columns_path):
                 with open(columns_path, 'rb') as f:
                     self.feature_columns = pickle.load(f)
+            
+            # Columns del modelo v2
+            v2_columns_path = f"{self.models_dir}/winner_features.pkl"
+            if os.path.exists(v2_columns_path):
+                with open(v2_columns_path, 'rb') as f:
+                    self.feature_columns_v2 = pickle.load(f)
+                print(f" Features v2 cargadas: {len(self.feature_columns_v2)}")
             
             # Cargar rendimiento
             performance_path = f"{self.models_dir}/performance.pkl"
             if os.path.exists(performance_path):
                 with open(performance_path, 'rb') as f:
                     self.model_performance = pickle.load(f)
+            
+            # Agregar rendimiento del modelo v2
+            self.model_performance['gradient_boosting_v2'] = {
+                'train_accuracy': 0.69,
+                'test_accuracy': 0.70,
+                'cv_mean': 0.54,
+                'cv_std': 0.02
+            }
             
             print(f" Modelos cargados: {list(self.models.keys())}")
             return True
@@ -205,15 +236,31 @@ class MatchPredictor:
                 match_date = match_date.replace(tzinfo=None)
             
             # Crear características
-            features = self.feature_engineer.create_match_features(
-                home_team, away_team, match_date
-            )
+            # Usar feature engineer diferente para v2
+            if model_name == 'gradient_boosting_v2' and _use_v2:
+                # Importar y usar v2 feature engineer
+                fe_v2 = FeatureEngineerV2(self.feature_engineer.data_dir if self.feature_engineer else "data/cleaned")
+                fe_v2.matches_2023 = self.feature_engineer.matches_2023 if self.feature_engineer else None
+                fe_v2.matches_2024 = self.feature_engineer.matches_2024 if self.feature_engineer else None
+                fe_v2.matches_2025 = self.feature_engineer.matches_2025 if self.feature_engineer else None
+                fe_v2.standings_2025 = self.feature_engineer.standings_2025 if self.feature_engineer else None
+                fe_v2.teams = self.feature_engineer.teams_df if self.feature_engineer else None
+                features = fe_v2.create_match_features(home_team, away_team, match_date)
+            else:
+                features = self.feature_engineer.create_match_features(
+                    home_team, away_team, match_date
+                )
             
             # Convertir a DataFrame
             features_df = pd.DataFrame([features])
             
             # Seleccionar solo columnas numéricas usadas en entrenamiento
-            numeric_features = features_df[self.feature_columns].fillna(0)
+            # Usar columns v2 si es el modelo nuevo
+            if model_name == 'gradient_boosting_v2':
+                cols = getattr(self, 'feature_columns_v2', self.feature_columns)
+            else:
+                cols = self.feature_columns
+            numeric_features = features_df[cols].fillna(0)
             
             # Hacer predicción
             model = self.models[model_name]

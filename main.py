@@ -140,10 +140,11 @@ def display_help():
  Uso:
    python main.py [opciones]
  
- Opciones:
-   --help, -h     Mostrar esta ayuda
-   --train        Entrenar modelos con datos actuales
-   --jornada      Iniciar predictor por jornada detallado
+  Opciones:
+    --help, -h     Mostrar esta ayuda
+    --train        Entrenar modelos con datos actuales
+    --jornada      Iniciar predictor por jornada detallado
+    --v2           Usar sistema v2 reorganizado (más limpio)
  
  Ejemplos:
    python main.py           Iniciar menú interactivo
@@ -160,6 +161,110 @@ def display_help():
    7. Rendimiento de modelos
    8. Salir
  """)
+
+def run_v2():
+    """Usar el sistema v2 reorganizado"""
+    import sys
+    from pathlib import Path
+    from datetime import datetime
+    
+    project_root = Path(__file__).parent
+    sys.path.insert(0, str(project_root))
+    
+    try:
+        from src_v2.features.feature_engineer import get_feature_engineer
+        from src_v2.models.winner_predictor import get_winner_predictor
+        from src_v2.models.goals_predictor import get_goals_predictor
+    except ImportError as e:
+        print(f"Error: No se encontró src_v2. {e}")
+        return False
+    
+    print("\n⚽ SISTEMA v2 (REORGANIZADO)")
+    print("=" * 50)
+    
+    # Load
+    print("\n[1] Cargando datos...")
+    fe = get_feature_engineer("data/cleaned")
+    fe.load_data()
+    
+    print("[2] Cargando modelos...")
+    winner = get_winner_predictor("models")
+    if not winner.load():
+        print("❌ Modelos no encontrados. Ejecuta: python src_v2/train.py")
+        return False
+    
+    goals = get_goals_predictor("models")
+    goals.load()
+    
+    # Mostrar rendimiento
+    perf = winner.get_performance()
+    if perf:
+        print(f"\n  Rendimiento: Train={perf['train']:.0%} Test={perf['test']:.0%} CV={perf['cv_mean']:.0%}")
+    else:
+        print("\n  Rendimiento: (modelo cargado sin métricas guardadas)")
+    
+    # Predicción interactiva
+    print("\n[3] Predicción interactiva")
+    print("  Formato: HOME vs AWAY (ej: Arsenal FC vs Liverpool FC)")
+    print("  Escribe 's' para salir, 'j' para jornada, 't' para test")
+    
+    while True:
+        try:
+            choice = input("\nEquipo local: ").strip()
+            if choice.lower() == 's':
+                break
+            if choice.lower() == 'j':
+                j = input("Jornada: ")
+                if j.isdigit():
+                    from datetime import datetime
+                    matches = fe.matches_2025[fe.matches_2025['matchday'] == int(j)]
+                    for _, m in matches[matches['status'] == 'TIMED'].iterrows():
+                        pred = winner.predict(m['home_team'], m['away_team'], m['date'], fe)
+                        if 'error' not in pred:
+                            c = pred['confidence']
+                            mkr = "🔥" if c > 0.5 else "  "
+                            print(f"  {mkr} {pred['predicted']:10} ({c:.0%}) | {m['home_team']} vs {m['away_team']}")
+                continue
+            if choice.lower() == 't':
+                import json
+                h = project_root / "data" / "prediction_history.json"
+                if h.exists():
+                    with open(h) as f:
+                        history = json.load(f)
+                    recent = sorted(history, key=lambda x: x['match_date'])[-10:]
+                    correct = sum(1 for p in recent if p.get('1x2_correct'))
+                    print(f"  Últimas 10: {correct}/10 ({correct*10}%)")
+                continue
+            
+            home_team = choice
+            away_team = input("Equipo visitante: ").strip()
+            if not away_team:
+                continue
+            
+            pred = winner.predict(home_team, away_team, datetime.now(), fe)
+            if 'error' in pred:
+                print(f"  {pred['error']}")
+                continue
+            
+            print(f"  → {pred['predicted']} ({pred['confidence']:.0%})")
+            for k, v in pred['probabilities'].items():
+                print(f"    {k}: {v:.0%}")
+            
+            # Goals
+            g = goals.predict(home_team, away_team, datetime.now(), fe)
+            if 'error' not in g:
+                print(f"  Goles: {g['expected_goals']:.1f}")
+                ou = g['markets']['over_2.5']
+                print(f"  O/U 2.5: {ou['prediction']} ({ou['over_prob']:.0%})")
+            
+        except KeyboardInterrupt:
+            break
+        except Exception as e:
+            print(f"Error: {e}")
+    
+    print("\n✅ Listo")
+    return True
+
 
 def run_jornada_detailed():
     """Ejecutar predictor de jornada detallado (usa menu interactivo)"""
@@ -262,6 +367,10 @@ def main():
     
     if "--jornada" in args:
         run_jornada_detailed()
+        return
+    
+    if "--v2" in args:
+        run_v2()
         return
     
     # Ejecución normal
