@@ -217,11 +217,11 @@ class PredictionMenu:
             confidence_pct = int(confidence * 100)
             
             if confidence_pct >= 75:
-                risk_level = 'LOW'
+                risk_level = 'low'
             elif confidence_pct >= 55:
-                risk_level = 'MEDIUM'
+                risk_level = 'medium'
             else:
-                risk_level = 'HIGH'
+                risk_level = 'high'
             
             match_date = pred.get('match_date', pred.get('date', ''))
             if hasattr(match_date, 'strftime'):
@@ -243,7 +243,7 @@ class PredictionMenu:
                 'confidence': confidence_pct,
                 'riskLevel': risk_level,
                 'gameDate': game_date,
-                'status': 'ACTIVE',
+                'status': 'active',
                 'notes': f"Premier League - Jornada {self.current_matchday}\n"
                          f"Modelo: {pred['model_used']}\n"
                          f"Probabilidades: Local {pred['probabilities'].get('LOCAL', 0):.1%}, "
@@ -282,11 +282,11 @@ class PredictionMenu:
             confidence_pct = int(confidence * 100)
             
             if confidence_pct >= 75:
-                risk_level = 'LOW'
+                risk_level = 'low'
             elif confidence_pct >= 55:
-                risk_level = 'MEDIUM'
+                risk_level = 'medium'
             else:
-                risk_level = 'HIGH'
+                risk_level = 'high'
             
             match_date = entry.get('match_date', '')
             if isinstance(match_date, str):
@@ -299,10 +299,10 @@ class PredictionMenu:
             
             actual_winner = None
             is_correct = None
-            status = 'ACTIVE'
+            status = 'active'
             
             if home_score is not None and away_score is not None:
-                status = 'COMPLETED'
+                status = 'completed'
                 if home_score > away_score:
                     actual_winner = home_code
                 elif away_score > home_score:
@@ -1500,9 +1500,10 @@ class PredictionMenu:
         try:
             response = requests.post(url, json={"predictions": predictions}, headers=headers, timeout=60)
             
-            if response.status_code == 201:
+            if response.status_code in [200, 201]:
                 result = response.json()
                 print(f"✓ Importado: {result.get('imported', 0)} predicciones")
+                print(f"  Skipped (ya existían): {result.get('skipped', 0)}")
                 if result.get('errors'):
                     print(f"  Errores: {len(result['errors'])}")
             else:
