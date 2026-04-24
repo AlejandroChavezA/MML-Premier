@@ -331,7 +331,7 @@ id,date,matchday,home_team,away_team,home_score,away_score,status,total_goals,go
 538117,2026-04-21T19:00:00Z,34,Brighton & Hove Albion FC,Chelsea FC,3,0,FINISHED,3,3,LOCAL
 538115,2026-04-22T19:00:00Z,34,AFC Bournemouth,Leeds United FC,2,2,FINISHED,4,0,EMPATE
 538119,2026-04-22T19:00:00Z,34,Burnley FC,Manchester City FC,0,1,FINISHED,1,-1,VISITANTE
-538116,2026-04-24T19:00:00Z,34,Sunderland AFC,Nottingham Forest FC,,,TIMED,0.0,0.0,SIN JUGAR
+538116,2026-04-24T19:00:00Z,34,Sunderland AFC,Nottingham Forest FC,0,5,FINISHED,5,-5,VISITANTE
 538120,2026-04-25T11:30:00Z,34,Fulham FC,Aston Villa FC,,,TIMED,0.0,0.0,SIN JUGAR
 538121,2026-04-25T14:00:00Z,34,Liverpool FC,Crystal Palace FC,,,TIMED,0.0,0.0,SIN JUGAR
 538123,2026-04-25T14:00:00Z,34,West Ham United FC,Everton FC,,,TIMED,0.0,0.0,SIN JUGAR

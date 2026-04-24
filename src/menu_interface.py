@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 import pandas as pd
@@ -216,11 +217,11 @@ class PredictionMenu:
             confidence_pct = int(confidence * 100)
             
             if confidence_pct >= 75:
-                risk_level = 'low'
+                risk_level = 'LOW'
             elif confidence_pct >= 55:
-                risk_level = 'medium'
+                risk_level = 'MEDIUM'
             else:
-                risk_level = 'high'
+                risk_level = 'HIGH'
             
             match_date = pred.get('match_date', pred.get('date', ''))
             if hasattr(match_date, 'strftime'):
@@ -242,12 +243,90 @@ class PredictionMenu:
                 'confidence': confidence_pct,
                 'riskLevel': risk_level,
                 'gameDate': game_date,
-                'status': 'active',
+                'status': 'ACTIVE',
                 'notes': f"Premier League - Jornada {self.current_matchday}\n"
                          f"Modelo: {pred['model_used']}\n"
                          f"Probabilidades: Local {pred['probabilities'].get('LOCAL', 0):.1%}, "
                          f"Empate {pred['probabilities'].get('EMPATE', 0):.1%}, "
                          f"Away {pred['probabilities'].get('VISITANTE', 0):.1%}",
+                'arguments': {
+                    'forWinner': [f"Confianza del modelo: {confidence_pct}%"],
+                    'forLoser': [f"Factor de riesgo: {(100-confidence_pct)}%"],
+                    'summary': {
+                        'winnerFactors': int(confidence * 10),
+                        'loserFactors': int((1 - confidence) * 10),
+                        'matchupType': 'premier_league',
+                        'betRecommendation': f"{predicted_winner} with {confidence_pct}% confidence"
+                    }
+                }
+            }
+            panel_predictions.append(panel_pred)
+        
+        return panel_predictions
+    
+    def export_history_to_panel_format(self) -> List[Dict]:
+        """Exporta el historial completo de predicciones al formato del panel (con resultados)"""
+        history = self._load_history()
+        panel_predictions = []
+        
+        for entry in history:
+            home_team_full = entry.get('home_team', '')
+            away_team_full = entry.get('away_team', '')
+            home_code = self.get_team_code(home_team_full)
+            away_code = self.get_team_code(away_team_full)
+            
+            result_map = {'LOCAL': home_code, 'VISITANTE': away_code, 'EMPATE': 'DRAW'}
+            predicted_winner = result_map.get(entry.get('predicted_1x2', ''), 'DRAW')
+            
+            confidence = entry.get('confidence', 0.5)
+            confidence_pct = int(confidence * 100)
+            
+            if confidence_pct >= 75:
+                risk_level = 'LOW'
+            elif confidence_pct >= 55:
+                risk_level = 'MEDIUM'
+            else:
+                risk_level = 'HIGH'
+            
+            match_date = entry.get('match_date', '')
+            if isinstance(match_date, str):
+                game_date = match_date
+            else:
+                game_date = str(match_date)
+            
+            home_score = entry.get('home_score')
+            away_score = entry.get('away_score')
+            
+            actual_winner = None
+            is_correct = None
+            status = 'ACTIVE'
+            
+            if home_score is not None and away_score is not None:
+                status = 'COMPLETED'
+                if home_score > away_score:
+                    actual_winner = home_code
+                elif away_score > home_score:
+                    actual_winner = away_code
+                else:
+                    actual_winner = 'DRAW'
+                is_correct = entry.get('1x2_correct', False)
+            
+            panel_pred = {
+                'sport': 'soccer',
+                'homeTeam': home_code,
+                'homeTeamFullName': self.get_team_full_name(home_code),
+                'homeTeamLogo': TEAM_LOGOS.get(home_code, ''),
+                'awayTeam': away_code,
+                'awayTeamFullName': self.get_team_full_name(away_code),
+                'awayTeamLogo': TEAM_LOGOS.get(away_code, ''),
+                'predictedWinner': predicted_winner,
+                'actualWinner': actual_winner,
+                'isCorrect': is_correct,
+                'confidence': confidence_pct,
+                'riskLevel': risk_level,
+                'gameDate': game_date,
+                'status': status,
+                'notes': f"Premier League Prediction\nModelo: {entry.get('model', 'random_forest')}",
                 'arguments': {
                     'forWinner': [f"Confianza del modelo: {confidence_pct}%"],
                     'forLoser': [f"Factor de riesgo: {(100-confidence_pct)}%"],
@@ -344,10 +423,11 @@ class PredictionMenu:
             print("6.  Cambiar modelo de predicción")
             print("7.  Rendimiento de modelos")
             print("8.  Limpiar caché O/U")
+            print("10. Exportar historial al panel")
             print("9. Salir")
             print("=" * 50)
             
-            choice = input("Selecciona una opción (1-9): ").strip()
+            choice = input("Selecciona una opción (1-10): ").strip()
             
             if choice == '1':
                 self.weekly_predictions_mode()
@@ -366,6 +446,8 @@ class PredictionMenu:
             elif choice == '8':
                 self._clear_ou_cache()
                 input("Presiona Enter para continuar...")
+            elif choice == '10':
+                self.export_history_panel_mode()
             elif choice == '9':
                 print(" Saliendo del sistema...")
                 break
@@ -1332,6 +1414,102 @@ class PredictionMenu:
                                 results[model][key]['under_correct'] += 1
         
         return results
+    
+    def export_history_panel_mode(self):
+        """Exporta el historial completo al formato del panel"""
+        os.system('clear' if os.name == 'posix' else 'cls')
+        
+        print(" EXPORTAR HISTORIAL AL PANEL")
+        print("=" * 60)
+        
+        history = self._load_history()
+        
+        if not history:
+            print("No hay historial disponible")
+            input("Presiona Enter para continuar...")
+            return
+        
+        panel_predictions = self.export_history_to_panel_format()
+        
+        completed = [p for p in panel_predictions if p['status'] == 'COMPLETED']
+        pending = [p for p in panel_predictions if p['status'] == 'ACTIVE']
+        
+        print(f"\nTotal predicciones: {len(panel_predictions)}")
+        print(f"  - Completadas: {len(completed)}")
+        print(f"  - Activas: {len(pending)}")
+        
+        print("\n" + "=" * 60)
+        print("OPCIONES DE EXPORT")
+        print("=" * 60)
+        print("1. Exportar TODO el historial (completadas + activas)")
+        print("2. Exportar solo COMPLETADAS (con resultados)")
+        print("3. Exportar solo ACTIVAS (predicciones pendientes)")
+        print("4. Cancelar")
+        
+        choice = input("\nSelecciona opción (1-4): ").strip()
+        
+        if choice == '1':
+            to_export = panel_predictions
+        elif choice == '2':
+            to_export = completed
+        elif choice == '3':
+            to_export = pending
+        else:
+            print("Cancelado")
+            input("Presiona Enter para continuar...")
+            return
+        
+        export_file = self.project_root / "predictions_for_panel.json"
+        
+        with open(export_file, 'w') as f:
+            json.dump(to_export, f, indent=2)
+        
+        print(f"\n✓ Exportado a: {export_file}")
+        print(f"  Total: {len(to_export)} predicciones")
+        
+        send_choice = input("\n¿Enviar مباشرة al panel? (s/n): ").strip().lower()
+        
+        if send_choice == 's':
+            self._send_predictions_to_panel(to_export)
+        
+        input("\nPresiona Enter para continuar...")
+    
+    def _send_predictions_to_panel(self, predictions: List[Dict]):
+        """Envía predicciones al panel via API"""
+        import requests
+        
+        if not predictions:
+            print("No hay predicciones para enviar")
+            return
+        
+        panel_url = os.getenv("SAFESPORTS_PANEL_URL", "https://safesports-panel.vercel.app")
+        import_secret = os.getenv("IMPORT_API_SECRET", "")
+        
+        if not import_secret:
+            print("ERROR: No está configurado IMPORT_API_SECRET en .env")
+            return
+        
+        url = f"{panel_url}/api/predictions/import"
+        headers = {
+            "Authorization": f"Bearer {import_secret}",
+            "Content-Type": "application/json"
+        }
+        
+        print(f"\nEnviando {len(predictions)} predicciones al panel...")
+        
+        try:
+            response = requests.post(url, json={"predictions": predictions}, headers=headers, timeout=60)
+            
+            if response.status_code == 201:
+                result = response.json()
+                print(f"✓ Importado: {result.get('imported', 0)} predicciones")
+                if result.get('errors'):
+                    print(f"  Errores: {len(result['errors'])}")
+            else:
+                print(f"ERROR: {response.status_code}")
+                print(response.text[:500])
+        except Exception as e:
+            print(f"ERROR: {e}")
 
 def main():
     """Función principal del menú"""
