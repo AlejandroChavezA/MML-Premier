@@ -1351,6 +1351,7 @@ class PredictionMenu:
                 'model': prediction.get('model_used', self.current_model),
                 'predicted_1x2': prediction.get('predicted_result'),
                 '1x2_correct': prediction.get('correct'),
+                'confidence': prediction.get('confidence', 0.5),
                 'over_under': over_under.get('markets', {}),
                 'predicted_ou_25': over_under.get('prediction'),
                 'actual_goals': prediction.get('total_goals'),
@@ -1431,8 +1432,8 @@ class PredictionMenu:
         
         panel_predictions = self.export_history_to_panel_format()
         
-        completed = [p for p in panel_predictions if p['status'] == 'COMPLETED']
-        pending = [p for p in panel_predictions if p['status'] == 'ACTIVE']
+        completed = [p for p in panel_predictions if p['status'] == 'completed']
+        pending = [p for p in panel_predictions if p['status'] == 'active']
         
         print(f"\nTotal predicciones: {len(panel_predictions)}")
         print(f"  - Completadas: {len(completed)}")
@@ -1498,7 +1499,7 @@ class PredictionMenu:
         print(f"\nEnviando {len(predictions)} predicciones al panel...")
         
         try:
-            response = requests.post(url, json={"predictions": predictions}, headers=headers, timeout=60)
+            response = requests.post(url, json={"predictions": predictions}, headers=headers, timeout=180)
             
             if response.status_code in [200, 201]:
                 result = response.json()

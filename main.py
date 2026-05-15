@@ -41,22 +41,36 @@ def update_data_if_needed():
             pass
     
     print(" Actualizando datos desde API...")
-    update_script = project_root / "simple_data_update.py"
+    update_script = project_root / "update_premier_data.py"
     
     if update_script.exists():
         result = subprocess.run([sys.executable, str(update_script)], 
                               capture_output=True, text=True, cwd=project_root)
         
         if result.returncode == 0:
+            # Limpiar datos después de actualizar
+            print(" Limpiando datos actualizados...")
+            cleaning_result = subprocess.run(
+                [sys.executable, "-c", """
+import sys
+sys.path.insert(0, 'src')
+from data_cleaning import PremierLeagueDataCleaner
+cleaner = PremierLeagueDataCleaner(data_dir='data')
+cleaner.run_full_cleaning()
+"""], capture_output=True, text=True, cwd=project_root)
+            
+            if cleaning_result.returncode != 0:
+                print(f" Advertencia: Error en limpieza de datos: {cleaning_result.stderr[:200]}")
+            
             # Guardar timestamp de actualización
             with open(cache_file, 'w') as f:
                 json.dump({'last_update': datetime.now().isoformat()}, f)
-            print(" Datos actualizados exitosamente")
+            print(" Datos actualizados y limpios exitosamente")
             return True
         else:
             print(f" Advertencia: No se pudieron actualizar datos automáticamente")
             print(f" Error: {result.stderr[:200]}")
-            return True  # Continuar con datos existentes,l
+            return True
     else:
         print(" Script de actualización no encontrado - usando datos existentes")
         return True

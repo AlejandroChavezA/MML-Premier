@@ -18,5 +18,15 @@
     "teams_count": 20,
     "success": true,
     "last_updated": "2026-03-12T14:46:04.229127"
+  },
+  {
+    "timestamp": "2026-05-15T12:34:41.804990",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 360,
+    "scheduled_matches": 20,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-05-15T12:34:41.807043"
   }
 ]
