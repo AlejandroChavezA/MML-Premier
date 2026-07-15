@@ -5,6 +5,7 @@ import pandas as pd
 import json
 from datetime import datetime
 import os
+import time
 from pathlib import Path
 
 class PremierLeagueDataUpdater:
@@ -15,6 +16,30 @@ class PremierLeagueDataUpdater:
         }
         self.data_dir = Path("data")
         
+    def _get_json(self, url, max_retries=5):
+        """Obtener JSON de la API con reintentos ante límites de tasa (429) o errores 5xx."""
+        last_err = None
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(url, headers=self.headers, timeout=30)
+                if response.status_code in (429, 500, 502, 503, 504):
+                    wait = int(response.headers.get('Retry-After', 2 ** (attempt + 1)))
+                    print(f"   ⏳ Esperando {wait}s (reintento {attempt + 1}/{max_retries}) "
+                          f"por código {response.status_code}...")
+                    time.sleep(wait)
+                    continue
+                response.raise_for_status()
+                return response.json()
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries - 1:
+                    wait = 2 ** (attempt + 1)
+                    print(f"   ⏳ Reintento {attempt + 1}/{max_retries} tras error: {e}")
+                    time.sleep(wait)
+                    continue
+                raise
+        raise last_err
+
     def update_premier_league_data(self, season=2025):
         """Actualizar todos los datos de Premier League desde la API"""
         print("🔄 ACTUALIZANDO DATOS PREMIER LEAGUE")
@@ -27,21 +52,23 @@ class PremierLeagueDataUpdater:
             # 1. Actualizar partidos
             print("⚽ Actualizando partidos...")
             url = f"{self.api_url}/competitions/PL/matches?season={season}"
-            response = requests.get(url, headers=self.headers)
-            response.raise_for_status()
-            matches_data = response.json()
+            matches_data = self._get_json(url)
+
+            if 'matches' not in matches_data or not matches_data['matches']:
+                raise ValueError("La API no devolvió partidos (respuesta inesperada)")
             
             matches_list = []
             for match in matches_data['matches']:
+                status = str(match['status']).upper()
                 match_info = {
                     'id': match['id'],
                     'date': match['utcDate'],
                     'matchday': match['matchday'],
                     'home_team': match['homeTeam']['name'],
                     'away_team': match['awayTeam']['name'],
-                    'home_score': match['score']['fullTime']['home'] if match['status'] == 'FINISHED' else None,
-                    'away_score': match['score']['fullTime']['away'] if match['status'] == 'FINISHED' else None,
-                    'status': match['status']
+                    'home_score': match['score']['fullTime']['home'] if status == 'FINISHED' else None,
+                    'away_score': match['score']['fullTime']['away'] if status == 'FINISHED' else None,
+                    'status': status
                 }
                 matches_list.append(match_info)
             
@@ -60,9 +87,10 @@ class PremierLeagueDataUpdater:
             # 2. Actualizar tabla de posiciones
             print("🏆 Actualizando tabla de posiciones...")
             url = f"{self.api_url}/competitions/PL/standings?season={season}"
-            response = requests.get(url, headers=self.headers)
-            response.raise_for_status()
-            standings_data = response.json()
+            standings_data = self._get_json(url)
+
+            if 'standings' not in standings_data or not standings_data['standings']:
+                raise ValueError("La API no devolvió la tabla de posiciones")
             
             standings_list = []
             for standing in standings_data['standings'][0]['table']:
@@ -177,3 +205,7 @@ def main():
     
     else:
         print("\n❌ Hubo un error en la actualización")
+
+
+if __name__ == "__main__":
+    main()

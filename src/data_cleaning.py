@@ -38,8 +38,9 @@ class PremierLeagueDataCleaner:
             # 2. Verificar consistencia de datos
             if year == 2025:
                 null_scores = matches[(matches['home_score'].isnull()) | (matches['away_score'].isnull())]
-                finished_games = matches[matches['status'] == 'FINISHED']
-                timed_games = matches[matches['status'] == 'TIMED']
+                status_norm = matches['status'].astype(str).str.strip().str.upper()
+                finished_games = matches[status_norm == 'FINISHED']
+                timed_games = matches[status_norm == 'TIMED']
                 
                 print(f"  Partidos finalizados: {len(finished_games)}")
                 print(f"  Partidos programados: {len(timed_games)}")
@@ -70,6 +71,9 @@ class PremierLeagueDataCleaner:
         
         matches = pd.read_csv(f"{self.data_dir}/matches_{year}.csv")
         original_count = len(matches)
+
+        # 0. Normalizar status a mayúsculas (evita bugs por minúsculas)
+        matches['status'] = matches['status'].astype(str).str.strip().str.upper()
         
         # 1. Convertir tipos de datos
         matches['date'] = pd.to_datetime(matches['date'])
@@ -89,9 +93,10 @@ class PremierLeagueDataCleaner:
         
         # 3. Para 2025: manejar partidos futuros
         if year == 2025:
-            # Separar partidos jugados vs programados
+            # FINISHED = jugado; CUALQUIER OTRO status = programado/pendiente
+            # (antes solo se consideraba TIMED, lo que borraba IN_PLAY/POSTPONED)
             finished = matches[matches['status'] == 'FINISHED'].copy()
-            scheduled = matches[matches['status'] == 'TIMED'].copy()
+            scheduled = matches[matches['status'] != 'FINISHED'].copy()
             
             # Para partidos programados, establecer scores como NaN
             scheduled.loc[:, 'home_score'] = np.nan
@@ -100,6 +105,11 @@ class PremierLeagueDataCleaner:
             # Volver a unir
             matches = pd.concat([finished, scheduled], ignore_index=True)
             print(f"  Procesados {len(finished)} partidos finalizados y {len(scheduled)} programados")
+
+        # 3b. Validación: no debe haber menos filas que el origen válido
+        if len(matches) < original_count - len(invalid_matches):
+            print(f"  ⚠️  Advertencia: se perdieron filas inesperadamente "
+                  f"({original_count} → {len(matches)})")
         
         # 4. Validar rangos lógicos
         matches = matches[

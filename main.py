@@ -18,17 +18,36 @@ project_root = Path(__file__).parent
 src_dir = project_root / "src"
 sys.path.insert(0, str(src_dir))
 
-def update_data_if_needed():
-    """Actualizar datos automáticamente desde la API (cada 6 horas)"""
+def update_data_if_needed(force: bool = False):
+    """Actualizar datos automáticamente desde la API.
+
+    Por defecto respeta el caché de 6 horas, pero se puede forzar
+    la actualización al iniciar el programa.
+    """
     import subprocess
     import json
+    import pandas as pd
     from datetime import datetime, timedelta
     
     cache_file = project_root / ".update_cache.json"
     update_interval = timedelta(hours=6)
     
+    # Snapshot de los datos actuales para validar que la actualización
+    # realmente incorporó datos nuevos (no se quede atorada).
+    def _snapshot():
+        try:
+            df = pd.read_csv(project_root / "data" / "cleaned" / "matches_2025_cleaned.csv")
+            df['status'] = df['status'].astype(str).str.upper()
+            finished = df[df['status'] == 'FINISHED']
+            return {
+                'finished': int(len(finished)),
+                'max_matchday': int(finished['matchday'].max()) if len(finished) else 0,
+            }
+        except Exception:
+            return {'finished': 0, 'max_matchday': 0}
+    
     # Verificar si necesita actualización
-    if cache_file.exists():
+    if not force and cache_file.exists():
         try:
             with open(cache_file) as f:
                 cache_data = json.load(f)
@@ -44,33 +63,50 @@ def update_data_if_needed():
     update_script = project_root / "update_premier_data.py"
     
     if update_script.exists():
+        before = _snapshot()
         result = subprocess.run([sys.executable, str(update_script)], 
                               capture_output=True, text=True, cwd=project_root)
         
-        if result.returncode == 0:
-            # Limpiar datos después de actualizar
-            print(" Limpiando datos actualizados...")
-            cleaning_result = subprocess.run(
-                [sys.executable, "-c", """
+        if result.returncode != 0:
+            print(f" ERROR: La actualización de datos falló.")
+            print(f" Salida: {result.stdout[-500:]}")
+            print(f" Error:  {result.stderr[-500:]}")
+            print(f" Se usarán los datos existentes (posiblemente desactualizados).")
+            return False
+        
+        # Limpiar datos después de actualizar
+        print(" Limpiando datos actualizados...")
+        cleaning_result = subprocess.run(
+            [sys.executable, "-c", """
 import sys
 sys.path.insert(0, 'src')
 from data_cleaning import PremierLeagueDataCleaner
 cleaner = PremierLeagueDataCleaner(data_dir='data')
 cleaner.run_full_cleaning()
 """], capture_output=True, text=True, cwd=project_root)
-            
-            if cleaning_result.returncode != 0:
-                print(f" Advertencia: Error en limpieza de datos: {cleaning_result.stderr[:200]}")
-            
-            # Guardar timestamp de actualización
-            with open(cache_file, 'w') as f:
-                json.dump({'last_update': datetime.now().isoformat()}, f)
-            print(" Datos actualizados y limpios exitosamente")
-            return True
-        else:
-            print(f" Advertencia: No se pudieron actualizar datos automáticamente")
-            print(f" Error: {result.stderr[:200]}")
-            return True
+        
+        if cleaning_result.returncode != 0:
+            print(f" ERROR: La limpieza de datos falló: {cleaning_result.stderr[:300]}")
+            return False
+        
+        after = _snapshot()
+        if after['finished'] < before['finished']:
+            print(f" ERROR: La actualización REDUJO los partidos finalizados "
+                  f"({before['finished']} -> {after['finished']}). "
+                  f"Revisa la API o el caché.")
+            return False
+        if after['max_matchday'] < before['max_matchday']:
+            print(f" ADVERTENCIA: La jornada finalizada máxima bajó "
+                  f"({before['max_matchday']} -> {after['max_matchday']}).")
+        
+        # Guardar timestamp de actualización junto con stats para futuras validaciones
+        with open(cache_file, 'w') as f:
+            json.dump({'last_update': datetime.now().isoformat(),
+                       'finished': after['finished'],
+                       'max_matchday': after['max_matchday']}, f)
+        print(f" Datos actualizados y limpios exitosamente "
+              f"({after['finished']} finalizados, jornada {after['max_matchday']})")
+        return True
     else:
         print(" Script de actualización no encontrado - usando datos existentes")
         return True
@@ -391,7 +427,7 @@ def main():
 # display_welcome()  # Omitido para limpiar salida
     
     # Actualizar datos automáticamente
-    update_data_if_needed()
+    update_data_if_needed(force=True)
     
     # Verificar entorno
     if not check_environment():

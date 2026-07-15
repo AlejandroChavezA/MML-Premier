@@ -100,7 +100,10 @@ class FeatureEngineer:
     def get_team_form_detailed(self, team: str, date: datetime, n_games: int = 5) -> Dict:
         """Forma detallada con rachas"""
         form = self.get_team_form(team, date, n_games)
-        form.update(self._default_form())  # Fill defaults
+        # Completar solo las claves faltantes sin pisar los valores reales
+        defaults = self._default_form()
+        defaults.update(form)
+        form = defaults
         
         historical = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
         
@@ -377,7 +380,9 @@ class FeatureEngineer:
         return {
             'wins': 0, 'draws': 0, 'losses': 0,
             'goals_for': 0, 'goals_against': 0, 'points': 0,
-            'win_rate': 0.0, 'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
+            'goal_difference': 0, 'goal_difference_per_game': 0.0,
+            'win_rate': 0.0, 'points_per_game': 0.0,
+            'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
             'unbeaten_streak': 0, 'clean_sheets': 0,
         }
     
@@ -386,8 +391,9 @@ class FeatureEngineer:
         return {
             'matches_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
             'goals_for': 0, 'goals_against': 0, 'points': 0,
+            'goal_difference': 0, 'goal_difference_per_game': 0.0,
             'win_rate': 0.0, 'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
-            'points_per_game': 0.0,
+            'points_per_game': 0.0, 'clean_sheets_rate': 0.0, 'scoring_rate': 0.0,
         }
     
     def _default_standings(self) -> Dict:

@@ -339,6 +339,8 @@ class MatchPredictor:
                 )
                 
                 if 'error' not in prediction:
+                    prediction['matchday'] = matchday
+                    prediction['season'] = season
                     # Añadir información real del partido si está disponible
                     if match['status'] == 'FINISHED':
                         if match['home_score'] > match['away_score']:

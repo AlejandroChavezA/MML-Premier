@@ -209,7 +209,11 @@ class FeatureEngineer:
             return {'rest_days': 7, 'matches_last_2_weeks': 0, 'fatigue_level': 0.0}  # Default
         
         # Último partido jugado
-        last_match = team_matches[team_matches['date'] < match_date].iloc[0]
+        prior_matches = team_matches[team_matches['date'] < match_date]
+        if len(prior_matches) == 0:
+            return {'rest_days': 7, 'matches_last_2_weeks': 0, 'fatigue_level': 0.0}
+
+        last_match = prior_matches.iloc[0]
         days_since_last = (match_date - last_match['date']).days
         
         # Partidos en últimas 2 semanas
@@ -654,7 +658,9 @@ class FeatureEngineer:
         return {
             'matches_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
             'goals_scored': 0, 'goals_conceded': 0, 'points': 0,
-            'win_rate': 0.0, 'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
+            'goal_difference': 0, 'goal_difference_per_game': 0.0,
+            'win_rate': 0.0, 'points_per_game': 0.0,
+            'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
             'clean_sheets': 0, 'failed_to_score': 0
         }
     
@@ -670,8 +676,9 @@ class FeatureEngineer:
         return {
             'matches_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
             'goals_scored': 0, 'goals_conceded': 0, 'points': 0,
+            'goal_difference': 0, 'goal_difference_per_game': 0.0,
             'win_rate': 0.0, 'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
-            'points_per_game': 0.0
+            'points_per_game': 0.0, 'clean_sheets_rate': 0.0, 'scoring_rate': 0.0
         }
     
     def _get_default_standings(self) -> Dict:

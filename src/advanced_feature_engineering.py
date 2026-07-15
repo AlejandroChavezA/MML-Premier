@@ -231,10 +231,14 @@ class AdvancedFeatureEngineer:
         ].sort_values('date', ascending=False)
         
         if len(team_matches) == 0:
-            return {'rest_days': 7, 'matches_last_2_weeks': 0}  # Default
+            return {'rest_days': 7, 'matches_last_2_weeks': 0, 'fatigue_level': 0.0}  # Default
         
         # Último partido jugado
-        last_match = team_matches[team_matches['date'] < match_date].iloc[0]
+        prior_matches = team_matches[team_matches['date'] < match_date]
+        if len(prior_matches) == 0:
+            return {'rest_days': 7, 'matches_last_2_weeks': 0, 'fatigue_level': 0.0}
+
+        last_match = prior_matches.iloc[0]
         days_since_last = (match_date - last_match['date']).days
         
         # Partidos en últimas 2 semanas

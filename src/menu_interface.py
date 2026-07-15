@@ -1341,14 +1341,34 @@ class PredictionMenu:
             self.history_file.parent.mkdir(parents=True, exist_ok=True)
             
             history = self._load_history()
+            matchday = prediction.get('matchday', getattr(self, 'current_matchday', None))
+            match_date = str(prediction.get('match_date', ''))[:10] if prediction.get('match_date') else None
+            model_used = prediction.get('model_used', self.current_model)
+            dedupe_key = (
+                prediction.get('home_team'),
+                prediction.get('away_team'),
+                match_date,
+                matchday,
+                model_used,
+            )
+            history = [
+                entry for entry in history
+                if (
+                    entry.get('home_team'),
+                    entry.get('away_team'),
+                    entry.get('match_date'),
+                    entry.get('matchday'),
+                    entry.get('model'),
+                ) != dedupe_key
+            ]
             
             entry = {
                 'timestamp': datetime.now().isoformat(),
                 'home_team': prediction['home_team'],
                 'away_team': prediction['away_team'],
-                'match_date': str(prediction.get('match_date', ''))[:10] if prediction.get('match_date') else None,
-                'matchday': prediction.get('matchday'),
-                'model': prediction.get('model_used', self.current_model),
+                'match_date': match_date,
+                'matchday': matchday,
+                'model': model_used,
                 'predicted_1x2': prediction.get('predicted_result'),
                 '1x2_correct': prediction.get('correct'),
                 'confidence': prediction.get('confidence', 0.5),

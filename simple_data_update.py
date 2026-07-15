@@ -45,10 +45,10 @@ def download_premier_league_data():
                 'matchday': match['matchday'],
                 'home_team': match['homeTeam']['name'],
                 'away_team': match['awayTeam']['name'],
-                'status': match['status']
+                'status': match['status'].upper()
             }
-            
-            if match['status'] == 'FINISHED':
+
+            if match['status'].upper() == 'FINISHED':
                 match_info['home_score'] = match['score']['fullTime']['home']
                 match_info['away_score'] = match['score']['fullTime']['away']
                 finished_count += 1
