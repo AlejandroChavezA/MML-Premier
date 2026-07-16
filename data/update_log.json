@@ -48,5 +48,115 @@
     "teams_count": 20,
     "success": true,
     "last_updated": "2026-07-14T21:02:06.142373"
+  },
+  {
+    "timestamp": "2026-07-14T21:20:41.080650",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 380,
+    "scheduled_matches": 0,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-14T21:20:41.082113"
+  },
+  {
+    "timestamp": "2026-07-14T22:09:09.013101",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-14T22:09:09.014970"
+  },
+  {
+    "timestamp": "2026-07-15T20:38:35.215546",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 380,
+    "scheduled_matches": 0,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T20:38:35.217453"
+  },
+  {
+    "timestamp": "2026-07-15T20:54:54.870200",
+    "season": 2025,
+    "matches_count": 380,
+    "finished_matches": 380,
+    "scheduled_matches": 0,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T20:54:54.871114"
+  },
+  {
+    "timestamp": "2026-07-15T20:59:31.722994",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T20:59:31.724328"
+  },
+  {
+    "timestamp": "2026-07-15T22:24:49.340264",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:24:49.341302"
+  },
+  {
+    "timestamp": "2026-07-15T22:30:26.288317",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:30:26.290313"
+  },
+  {
+    "timestamp": "2026-07-15T22:33:09.240236",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:33:09.241618"
+  },
+  {
+    "timestamp": "2026-07-15T22:36:11.320069",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:36:11.320974"
+  },
+  {
+    "timestamp": "2026-07-15T22:46:44.834900",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:46:44.836730"
+  },
+  {
+    "timestamp": "2026-07-15T22:51:01.902726",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 0,
+    "scheduled_matches": 380,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-07-15T22:51:01.903885"
   }
 ]

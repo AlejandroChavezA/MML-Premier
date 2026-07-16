@@ -5,8 +5,12 @@ import pandas as pd
 import json
 from datetime import datetime
 import os
+import sys
 import time
 from pathlib import Path
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
+from season_utils import get_current_season
 
 class PremierLeagueDataUpdater:
     def __init__(self):
@@ -184,9 +188,17 @@ def main():
     print("Este script descarga los datos más recientes de Premier League")
     print("=" * 60)
     
-    # Siempre usar 2025 (la temporada actual)
-    season = 2025
-    
+    # Usar la temporada actual de forma dinámica (no hardcodeada)
+    # Permitir forzar una temporada: python update_premier_data.py --season 2026
+    season = get_current_season()
+    if "--season" in sys.argv:
+        try:
+            idx = sys.argv.index("--season") + 1
+            season = int(sys.argv[idx])
+        except (IndexError, ValueError):
+            print("❌ Uso: --season 2026")
+            return
+
     print(f"\n🚀 Iniciando actualización de la temporada {season}...")
     
     updater = PremierLeagueDataUpdater()

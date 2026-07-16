@@ -240,11 +240,8 @@ class MatchPredictor:
             if model_name == 'gradient_boosting_v2' and _use_v2:
                 # Importar y usar v2 feature engineer
                 fe_v2 = FeatureEngineerV2(self.feature_engineer.data_dir if self.feature_engineer else "data/cleaned")
-                fe_v2.matches_2023 = self.feature_engineer.matches_2023 if self.feature_engineer else None
-                fe_v2.matches_2024 = self.feature_engineer.matches_2024 if self.feature_engineer else None
-                fe_v2.matches_2025 = self.feature_engineer.matches_2025 if self.feature_engineer else None
-                fe_v2.standings_2025 = self.feature_engineer.standings_2025 if self.feature_engineer else None
-                fe_v2.teams = self.feature_engineer.teams_df if self.feature_engineer else None
+                if not fe_v2.load_data():
+                    return {'error': 'No se pudieron cargar datos para el modelo v2'}
                 features = fe_v2.create_match_features(home_team, away_team, match_date)
             else:
                 features = self.feature_engineer.create_match_features(

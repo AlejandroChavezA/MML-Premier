@@ -1,45 +1,161 @@
 import pandas as pd
 import numpy as np
+import re
+import glob
+import os
 from datetime import datetime, timedelta
 from typing import Dict, List, Tuple, Optional
+import json
+
+from season_utils import get_current_season
+
+# Cache de seeds de equipos recien ascendidos (Championship escalado + baseline generico)
+_PROMOTED_BASELINE = None
+_ZERO_HISTORY_TEAMS = None
+
+
+def _load_promoted_baseline():
+    global _PROMOTED_BASELINE
+    if _PROMOTED_BASELINE is not None:
+        return _PROMOTED_BASELINE
+    path = os.path.join(os.path.dirname(__file__), "..", "data", "promoted_baseline.json")
+    try:
+        with open(path) as f:
+            _PROMOTED_BASELINE = json.load(f)
+    except Exception:
+        _PROMOTED_BASELINE = {}
+    return _PROMOTED_BASELINE
+
+
+def _seed_for_team(team: str) -> Dict:
+    """Seed para un equipo sin historia PL: Championship escalado si existe, si no baseline generico."""
+    base = _load_promoted_baseline()
+    # Championship escalado segun temporada de ascenso
+    elc_season = _ZERO_HISTORY_TEAMS.get(team) if _ZERO_HISTORY_TEAMS else None
+    if elc_season:
+        try:
+            from build_promoted_baseline import team_seed
+            seed = team_seed(team, elc_season)
+            if seed:
+                return seed
+        except Exception:
+            pass
+    # Fallback: baseline generico de ascendidos
+    gb = base.get("generic_baseline")
+    if gb:
+        return {
+            "position": round(gb["avg_position"]),
+            "points_per_game": gb["points_per_game"],
+            "win_rate": gb["win_rate"],
+            "goals_for_per_game": gb["goals_for_per_game"],
+            "goals_against_per_game": gb["goals_against_per_game"],
+            "source": "baseline generico ascendidos",
+        }
+    return {}
 
 class FeatureEngineer:
     def __init__(self, data_dir: str = "../data/cleaned"):
         self.data_dir = data_dir
-        self.matches_2023 = None
-        self.matches_2024 = None
-        self.matches_2025 = None
+        self.matches_by_season: Dict[int, pd.DataFrame] = {}
+        self.standings_by_season: Dict[int, pd.DataFrame] = {}
         self.teams_df = None
-        self.standings_2025 = None
+        self.current_season = None
         
     def load_data(self):
-        """Cargar todos los datos necesarios"""
+        """Cargar todos los datos necesarios (todas las temporadas disponibles)."""
         try:
-            self.matches_2023 = pd.read_csv(f"{self.data_dir}/matches_2023_cleaned.csv")
-            self.matches_2024 = pd.read_csv(f"{self.data_dir}/matches_2024_cleaned.csv")
-            self.matches_2025 = pd.read_csv(f"{self.data_dir}/matches_2025_cleaned.csv")
-            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
-            self.standings_2025 = pd.read_csv(f"{self.data_dir}/standings_2025_cleaned.csv")
-            
-            # Convertir fechas (sin timezone para evitar comparaciones problemáticas)
-            for df in [self.matches_2023, self.matches_2024, self.matches_2025]:
+            self.matches_by_season = {}
+            self.standings_by_season = {}
+
+            for f in glob.glob(f"{self.data_dir}/matches_*_cleaned.csv"):
+                m = re.search(r"matches_(\d{4})_cleaned\.csv", os.path.basename(f))
+                if not m:
+                    continue
+                year = int(m.group(1))
+                df = pd.read_csv(f)
                 df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
-                
-            print("Datos cargados exitosamente")
+                df['status'] = df['status'].astype(str).str.strip().str.upper()
+                self.matches_by_season[year] = df
+
+            for f in glob.glob(f"{self.data_dir}/standings_*_cleaned.csv"):
+                m = re.search(r"standings_(\d{4})_cleaned\.csv", os.path.basename(f))
+                if not m:
+                    continue
+                year = int(m.group(1))
+                self.standings_by_season[year] = pd.read_csv(f)
+
+            if not self.matches_by_season:
+                raise FileNotFoundError("No se encontraron archivos matches_*_cleaned.csv")
+
+            # current_season = temporada activa (via season_utils: julio en adelante -> año)
+            # Hoy (jul 2026) -> 2026, la temporada que se predice/muestra como "actual".
+            self.current_season = get_current_season()
+
+            # Standings de referencia = ultima temporada con standings reales (no la proxima
+            # vacia, ej. 2026 con played_games=0). Se usa para posiciones/tablas.
+            self._standings_ref_season = self.current_season
+            ref = self.standings_by_season.get(self.current_season)
+            if ref is not None and ref['points_per_game'].isna().all():
+                cand = [y for y in self.standings_by_season
+                        if not self.standings_by_season[y]['points_per_game'].isna().all()]
+                if cand:
+                    self._standings_ref_season = max(cand)
+
+            # Detectar equipos sin historia PL: los que NO aparecen en ninguna
+            # temporada salvo la maxima cargada (la proxima/upcoming, ej. 2026).
+            max_year = max(self.matches_by_season.keys())
+            teams_with_history = set()
+            for y, df in self.matches_by_season.items():
+                if y == max_year:
+                    continue
+                teams_with_history |= set(df['home_team']) | set(df['away_team'])
+            all_teams = set()
+            for df in self.matches_by_season.values():
+                all_teams |= set(df['home_team']) | set(df['away_team'])
+            zero_history = sorted(all_teams - teams_with_history)
+            # Mapear cada equipo cero-historia a la temporada ELC de su ascenso
+            global _ZERO_HISTORY_TEAMS
+            _ZERO_HISTORY_TEAMS = {}
+            # Elc season de ascenso = temporada del archivo donde aparece por 1a vez - 1
+            sorted_years = sorted(self.matches_by_season.keys())
+            for t in zero_history:
+                first_year = None
+                for y in sorted_years:
+                    df = self.matches_by_season[y]
+                    if (df['home_team'] == t).any() or (df['away_team'] == t).any():
+                        first_year = y
+                        break
+                if first_year is not None:
+                    _ZERO_HISTORY_TEAMS[t] = first_year - 1
+
+            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
+
+            print(f"Datos cargados: temporadas {sorted(self.matches_by_season)} | "
+                  f"actual: {self.current_season}")
             return True
         except Exception as e:
             print(f" Error cargando datos: {e}")
             return False
+
+    def _historical_matches(self):
+        """Partidos de temporadas anteriores a la actual (para forma histórica)."""
+        return pd.concat([
+            v for k, v in self.matches_by_season.items() if k != self.current_season
+        ]) if len(self.matches_by_season) > 1 else pd.DataFrame()
+
+    def _all_matches(self):
+        """Todos los partidos de todas las temporadas cargadas."""
+        return pd.concat(list(self.matches_by_season.values()))
     
     def calculate_team_form_detailed(self, team: str, date: datetime, last_n_games: int = 5) -> Dict:
         """Forma detallada con unbeaten streak"""
         # Combinar datos históricos
-        historical_matches = pd.concat([self.matches_2023, self.matches_2024])
+        historical_matches = self._historical_matches()
         
         # Filtrar partidos del equipo antes de la fecha
         team_matches = []
         
-        for df in [historical_matches, self.matches_2025]:
+        for df in [historical_matches, self.matches_by_season[self.current_season]]:
             team_mask = ((df['home_team'] == team) | (df['away_team'] == team))
             date_mask = df['date'] < date
             finished_mask = df['status'] == 'FINISHED'
@@ -48,7 +164,7 @@ class FeatureEngineer:
             team_matches.append(matches)
         
         if not team_matches:
-            return self._get_default_form()
+            return self._get_default_form(team)
             
         all_matches = pd.concat(team_matches).sort_values('date', ascending=False)
         
@@ -56,7 +172,7 @@ class FeatureEngineer:
         recent_matches = all_matches.head(last_n_games)
         
         if len(recent_matches) == 0:
-            return self._get_default_form()
+            return self._get_default_form(team)
         
         # Calcular estadísticas detalladas
         stats = {
@@ -116,7 +232,7 @@ class FeatureEngineer:
     def get_home_away_performance_advanced(self, team: str, venue: str, date: datetime) -> Dict:
         """Rendimiento específico local/visitante avanzado"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos del equipo en el venue específico antes de la fecha
         if venue == 'home':
@@ -197,7 +313,7 @@ class FeatureEngineer:
     def calculate_rest_days(self, team: str, match_date: datetime) -> Dict:
         """Calcular días de descanso para el equipo"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos del equipo
         team_matches = all_matches[
@@ -248,13 +364,13 @@ class FeatureEngineer:
     def calculate_team_form(self, team: str, date: datetime, last_n_games: int = 5) -> Dict:
         """Calcular forma de un equipo hasta una fecha específica"""
         # Combinar datos históricos (2023, 2024) y partidos de 2025 antes de la fecha
-        historical_matches = pd.concat([self.matches_2023, self.matches_2024])
+        historical_matches = self._historical_matches()
         
         # Filtrar partidos del equipo antes de la fecha
         team_matches = []
         
         # Partidos históricos
-        for df in [historical_matches, self.matches_2025]:
+        for df in [historical_matches, self.matches_by_season[self.current_season]]:
             team_mask = ((df['home_team'] == team) | (df['away_team'] == team))
             date_mask = df['date'] < date
             finished_mask = df['status'] == 'FINISHED'
@@ -263,7 +379,7 @@ class FeatureEngineer:
             team_matches.append(matches)
         
         if not team_matches:
-            return self._get_default_form()
+            return self._get_default_form(team)
             
         all_matches = pd.concat(team_matches).sort_values('date', ascending=False)
         
@@ -271,7 +387,7 @@ class FeatureEngineer:
         recent_matches = all_matches.head(last_n_games)
         
         if len(recent_matches) == 0:
-            return self._get_default_form()
+            return self._get_default_form(team)
         
         # Calcular estadísticas
         form_stats = {
@@ -320,12 +436,16 @@ class FeatureEngineer:
             form_stats['goals_per_game'] = form_stats['goals_scored'] / form_stats['matches_played']
             form_stats['goals_conceded_per_game'] = form_stats['goals_conceded'] / form_stats['matches_played']
         
+        # Rellenar claves que create_match_features espera y esta rama no calcula
+        for k, v in self._get_default_form(team).items():
+            form_stats.setdefault(k, v)
+        
         return form_stats
     
     def get_head_to_head_stats(self, home_team: str, away_team: str, date: datetime, last_n_games: int = 5) -> Dict:
         """Estadísticas head-to-head entre dos equipos"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos entre los equipos antes de la fecha
         h2h_mask = (
@@ -386,7 +506,7 @@ class FeatureEngineer:
     def get_home_away_performance(self, team: str, venue: str, date: datetime, last_n_games: int = 10) -> Dict:
         """Rendimiento específico local/visitante"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos del equipo en el venue específico antes de la fecha
         if venue == 'home':
@@ -450,14 +570,15 @@ class FeatureEngineer:
         return venue_stats
     
     def get_current_standings_position(self, team: str) -> Dict:
-        """Posición actual en la tabla"""
-        if self.standings_2025 is None:
-            return self._get_default_standings()
+        """Posición actual en la tabla (usa _standings_ref_season: la ultima con datos)."""
+        ref_season = getattr(self, '_standings_ref_season', self.current_season)
+        if ref_season not in self.standings_by_season or self.standings_by_season[ref_season] is None:
+            return self._get_default_standings(team)
         
-        team_row = self.standings_2025[self.standings_2025['team'] == team]
+        team_row = self.standings_by_season[ref_season][self.standings_by_season[ref_season]['team'] == team]
         
         if len(team_row) == 0:
-            return self._get_default_standings()
+            return self._get_default_standings(team)
         
         team_stats = team_row.iloc[0]
         
@@ -605,11 +726,9 @@ class FeatureEngineer:
         """Crear dataset de entrenamiento con todas las características"""
         print("Creando dataset de entrenamiento...")
         
-        # Usar partidos finalizados de 2023, 2024 y parte de 2025
+        # Usar partidos finalizados de todas las temporadas disponibles
         training_matches = pd.concat([
-            self.matches_2023[self.matches_2023['status'] == 'FINISHED'],
-            self.matches_2024[self.matches_2024['status'] == 'FINISHED'],
-            self.matches_2025[self.matches_2025['status'] == 'FINISHED']
+            df[df['status'] == 'FINISHED'] for df in self.matches_by_season.values()
         ])
         
         features_list = []
@@ -653,15 +772,24 @@ class FeatureEngineer:
         
         return features_df, targets_df
     
-    def _get_default_form(self) -> Dict:
-        """Valores por defecto para forma de equipo"""
+    def _get_default_form(self, team: str = None) -> Dict:
+        """Valores por defecto para forma de equipo.
+
+        Para equipos sin historia PL usa el seed (Championship escalado o baseline
+        de ascendidos) en lugar de ceros, para no sesgar la prediccion.
+        """
+        seed = _seed_for_team(team) if team else {}
+        wr = seed.get('win_rate', 0.0) if seed else 0.0
+        gf = seed.get('goals_for_per_game', 0.0) if seed else 0.0
+        ga = seed.get('goals_against_per_game', 0.0) if seed else 0.0
+        ppg = seed.get('points_per_game', 0.0) if seed else 0.0
         return {
             'matches_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
             'goals_scored': 0, 'goals_conceded': 0, 'points': 0,
             'goal_difference': 0, 'goal_difference_per_game': 0.0,
-            'win_rate': 0.0, 'points_per_game': 0.0,
-            'goals_per_game': 0.0, 'goals_conceded_per_game': 0.0,
-            'clean_sheets': 0, 'failed_to_score': 0
+            'win_rate': wr, 'points_per_game': ppg,
+            'goals_per_game': gf, 'goals_conceded_per_game': ga,
+            'clean_sheets': 0, 'failed_to_score': 0, 'unbeaten_streak': 0
         }
     
     def _get_default_h2h(self) -> Dict:
@@ -681,8 +809,25 @@ class FeatureEngineer:
             'points_per_game': 0.0, 'clean_sheets_rate': 0.0, 'scoring_rate': 0.0
         }
     
-    def _get_default_standings(self) -> Dict:
-        """Valores por defecto para posiciones de tabla"""
+    def _get_default_standings(self, team: str = None) -> Dict:
+        """Valores por defecto para posiciones de tabla.
+
+        Para equipos sin historia PL usa el seed (Championship escalado o baseline
+        de ascendidos) en lugar de ceros.
+        """
+        seed = _seed_for_team(team) if team else {}
+        if seed:
+            ppg = seed.get('points_per_game', 0.0)
+            pos = seed.get('position', 20)
+            played = 0  # aun no han jugado en la temporada actual
+            return {
+                'position': pos, 'points': 0, 'played_games': played,
+                'win_rate': seed.get('win_rate', 0.0),
+                'goals_for_per_game': seed.get('goals_for_per_game', 0.0),
+                'goals_against_per_game': seed.get('goals_against_per_game', 0.0),
+                'goal_difference': 0,
+                'points_per_game': ppg
+            }
         return {
             'position': 20, 'points': 0, 'played_games': 0,
             'win_rate': 0.0, 'goals_for_per_game': 0.0,

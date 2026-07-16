@@ -28,15 +28,17 @@ def update_data_if_needed(force: bool = False):
     import json
     import pandas as pd
     from datetime import datetime, timedelta
+    from season_utils import get_current_season
     
     cache_file = project_root / ".update_cache.json"
     update_interval = timedelta(hours=6)
+    current_season = get_current_season()
     
     # Snapshot de los datos actuales para validar que la actualización
     # realmente incorporó datos nuevos (no se quede atorada).
     def _snapshot():
         try:
-            df = pd.read_csv(project_root / "data" / "cleaned" / "matches_2025_cleaned.csv")
+            df = pd.read_csv(project_root / "data" / "cleaned" / f"matches_{current_season}_cleaned.csv")
             df['status'] = df['status'].astype(str).str.upper()
             finished = df[df['status'] == 'FINISHED']
             return {
@@ -133,13 +135,16 @@ def check_environment():
                 print(f" Falta directorio requerido: {dir_name}")
                 return False
     
-    # Verificar archivos de datos limpios
+    # Verificar archivos de datos limpios (temporada actual dinámica)
+    from season_utils import get_latest_finished_season
+    available = [y for y in (2023, 2024, 2025, 2026) if (project_root / f"data/cleaned/matches_{y}_cleaned.csv").exists()]
+    current = get_latest_finished_season(available)
     required_files = [
         "data/cleaned/teams_cleaned.csv",
         "data/cleaned/matches_2023_cleaned.csv",
         "data/cleaned/matches_2024_cleaned.csv", 
-        "data/cleaned/matches_2025_cleaned.csv",
-        "data/cleaned/standings_2025_cleaned.csv"
+        f"data/cleaned/matches_{current}_cleaned.csv",
+        f"data/cleaned/standings_{current}_cleaned.csv"
     ]
     
     missing_files = []
@@ -267,7 +272,9 @@ def run_v2():
                 j = input("Jornada: ")
                 if j.isdigit():
                     from datetime import datetime
-                    matches = fe.matches_2025[fe.matches_2025['matchday'] == int(j)]
+                    matches = fe.matches_by_season[fe.current_season][
+                        fe.matches_by_season[fe.current_season]['matchday'] == int(j)
+                    ]
                     for _, m in matches[matches['status'] == 'TIMED'].iterrows():
                         pred = winner.predict(m['home_team'], m['away_team'], m['date'], fe)
                         if 'error' not in pred:

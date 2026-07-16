@@ -30,9 +30,7 @@ class GoalsPredictor:
         self.feature_engineer = feature_engineer
         
         all_matches = pd.concat([
-            feature_engineer.matches_2023,
-            feature_engineer.matches_2024,
-            feature_engineer.matches_2025
+            df for df in feature_engineer.matches_by_season.values()
         ]).copy()
         
         all_matches = all_matches[all_matches['status'] == 'FINISHED']

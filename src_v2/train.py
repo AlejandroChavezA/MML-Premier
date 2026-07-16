@@ -15,6 +15,8 @@ from pathlib import Path
 # Add parent to path
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
+from season_utils import get_current_season
 
 from src_v2.features.feature_engineer import get_feature_engineer
 from src_v2.features.competitiveness import get_competitiveness
@@ -78,9 +80,7 @@ def main():
     
     # Create goals targets from original match data
     all_matches = pd.concat([
-        fe.matches_2023[fe.matches_2023['status'] == 'FINISHED'],
-        fe.matches_2024[fe.matches_2024['status'] == 'FINISHED'],
-        fe.matches_2025[fe.matches_2025['status'] == 'FINISHED'],
+        df[df['status'] == 'FINISHED'] for df in fe.matches_by_season.values()
     ])
     targets_goals = all_matches['home_score'] + all_matches['away_score']
     

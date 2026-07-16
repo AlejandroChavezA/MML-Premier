@@ -11,6 +11,9 @@ Fórmula:
 
 import pandas as pd
 import numpy as np
+import glob
+import os
+import re
 from pathlib import Path
 from typing import Dict, Optional
 
@@ -25,12 +28,13 @@ class LeagueCompetitiveness:
     def _calculate(self):
         """Calcula la competitividad de la liga"""
         
-        # Cargar standings de todas las temporadas
+        # Cargar standings de todas las temporadas disponibles
         all_standings = []
-        for year in [2023, 2024, 2025]:
-            file_path = Path(self.data_dir) / f"standings_{year}_cleaned.csv"
-            if file_path.exists():
-                df = pd.read_csv(file_path)
+        for f in glob.glob(f"{self.data_dir}/standings_*_cleaned.csv"):
+            m = re.search(r"standings_(\d{4})_cleaned\.csv", os.path.basename(f))
+            if m:
+                year = int(m.group(1))
+                df = pd.read_csv(f)
                 df['season'] = year
                 all_standings.append(df)
         

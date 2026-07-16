@@ -3,8 +3,12 @@
 import json
 import csv
 import subprocess
-from datetime import datetime
+import sys
 import os
+from datetime import datetime
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
+from season_utils import get_current_season
 
 def download_premier_league_data():
     """Download Premier League data using curl and process with Python"""
@@ -13,7 +17,7 @@ def download_premier_league_data():
     
     # API details
     api_token = "fd9ecc768e3644dfa9b30e9536031700"
-    season = 2025
+    season = get_current_season()
     
     try:
         # Download matches using curl
@@ -84,7 +88,7 @@ def download_premier_league_data():
         os.makedirs('data', exist_ok=True)
         
         # Save raw data
-        with open('data/matches_2025_updated.csv', 'w', newline='') as csvfile:
+        with open(f'data/matches_{season}_updated.csv', 'w', newline='') as csvfile:
             fieldnames = ['id', 'date', 'matchday', 'home_team', 'away_team', 
                          'home_score', 'away_score', 'status', 'total_goals', 
                          'goal_difference', 'result']
@@ -94,7 +98,7 @@ def download_premier_league_data():
         
         # Also save to cleaned directory to update existing data
         os.makedirs('data/cleaned', exist_ok=True)
-        with open('data/cleaned/matches_2025_cleaned.csv', 'w', newline='') as csvfile:
+        with open(f'data/cleaned/matches_{season}_cleaned.csv', 'w', newline='') as csvfile:
             fieldnames = ['id', 'date', 'matchday', 'home_team', 'away_team', 
                          'home_score', 'away_score', 'status', 'total_goals', 
                          'goal_difference', 'result']
@@ -116,8 +120,8 @@ def download_premier_league_data():
                 print(f"   {match['date'][:10]}: {match['home_team']} {match['home_score']}-{match['away_score']} {match['away_team']}")
         
         print(f"\n✅ DATA UPDATED SUCCESSFULLY!")
-        print(f"📁 Saved to: data/matches_2025_updated.csv")
-        print(f"📁 Updated: data/cleaned/matches_2025_cleaned.csv")
+        print(f"📁 Saved to: data/matches_{season}_updated.csv")
+        print(f"📁 Updated: data/cleaned/matches_{season}_cleaned.csv")
         print(f"\n🚀 Next steps:")
         print(f"   python3 main.py --train  # Retrain models with new data")
         print(f"   python3 main.py           # Start prediction menu")

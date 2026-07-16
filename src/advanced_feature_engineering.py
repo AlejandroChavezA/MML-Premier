@@ -1,42 +1,73 @@
 import pandas as pd
 import numpy as np
+import re
+import glob
+import os
 from datetime import datetime, timedelta
 from typing import Dict, List, Tuple, Optional
+
+from season_utils import get_current_season
 
 class AdvancedFeatureEngineer:
     def __init__(self, data_dir: str = "data/cleaned"):
         self.data_dir = data_dir
-        self.matches_2023 = None
-        self.matches_2024 = None
-        self.matches_2025 = None
+        self.matches_by_season: Dict[int, pd.DataFrame] = {}
+        self.standings_by_season: Dict[int, pd.DataFrame] = {}
         self.teams_df = None
-        self.standings_2025 = None
+        self.current_season = None
         
     def load_data(self):
-        """Cargar todos los datos necesarios"""
+        """Cargar todos los datos necesarios (todas las temporadas disponibles)."""
         try:
-            self.matches_2023 = pd.read_csv(f"{self.data_dir}/matches_2023_cleaned.csv")
-            self.matches_2024 = pd.read_csv(f"{self.data_dir}/matches_2024_cleaned.csv")
-            self.matches_2025 = pd.read_csv(f"{self.data_dir}/matches_2025_cleaned.csv")
-            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
-            self.standings_2025 = pd.read_csv(f"{self.data_dir}/standings_2025_cleaned.csv")
-            
-            # Convertir fechas y remover timezone
-            for df in [self.matches_2023, self.matches_2024, self.matches_2025]:
+            self.matches_by_season = {}
+            self.standings_by_season = {}
+
+            for f in glob.glob(f"{self.data_dir}/matches_*_cleaned.csv"):
+                m = re.search(r"matches_(\d{4})_cleaned\.csv", os.path.basename(f))
+                if not m:
+                    continue
+                year = int(m.group(1))
+                df = pd.read_csv(f)
                 df['date'] = pd.to_datetime(df['date']).dt.tz_localize(None)
-                
-            print("Datos cargados exitosamente")
+                df['status'] = df['status'].astype(str).str.strip().str.upper()
+                self.matches_by_season[year] = df
+
+            for f in glob.glob(f"{self.data_dir}/standings_*_cleaned.csv"):
+                m = re.search(r"standings_(\d{4})_cleaned\.csv", os.path.basename(f))
+                if not m:
+                    continue
+                year = int(m.group(1))
+                self.standings_by_season[year] = pd.read_csv(f)
+
+            if not self.matches_by_season:
+                raise FileNotFoundError("No se encontraron archivos matches_*_cleaned.csv")
+
+            self.current_season = max(self.matches_by_season.keys())
+            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
+
+            print(f"Datos cargados: temporadas {sorted(self.matches_by_season)} | "
+                  f"actual: {self.current_season}")
             return True
         except Exception as e:
             print(f"Error cargando datos: {e}")
             return False
-    
+
+    def _historical_matches(self):
+        return pd.concat([
+            v for k, v in self.matches_by_season.items() if k != self.current_season
+        ]) if len(self.matches_by_season) > 1 else pd.DataFrame()
+
+    def _all_matches(self):
+        return pd.concat(list(self.matches_by_season.values()))
+
     def get_team_standings_stats(self, team: str) -> Dict:
         """Obtener estadísticas actuales de la tabla"""
-        if self.standings_2025 is None:
+        if self.standings_by_season.get(self.current_season) is None:
             return self._get_default_standings()
         
-        team_row = self.standings_2025[self.standings_2025['team'] == team]
+        team_row = self.standings_by_season[self.current_season][
+            self.standings_by_season[self.current_season]['team'] == team
+        ]
         
         if len(team_row) == 0:
             return self._get_default_standings()
@@ -55,12 +86,12 @@ class AdvancedFeatureEngineer:
     def get_recent_form_detailed(self, team: str, date: datetime, last_n_games: int = 5) -> Dict:
         """Forma reciente detallada (últimos N partidos)"""
         # Combinar datos históricos
-        historical_matches = pd.concat([self.matches_2023, self.matches_2024])
+        historical_matches = self._historical_matches()
         
         # Filtrar partidos del equipo antes de la fecha
         team_matches = []
         
-        for df in [historical_matches, self.matches_2025]:
+        for df in [historical_matches, self.matches_by_season[self.current_season]]:
             team_mask = ((df['home_team'] == team) | (df['away_team'] == team))
             date_mask = df['date'] < date
             finished_mask = df['status'] == 'FINISHED'
@@ -143,7 +174,7 @@ class AdvancedFeatureEngineer:
     def get_home_away_performance_advanced(self, team: str, venue: str, date: datetime) -> Dict:
         """Rendimiento específico local/visitante avanzado"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos del equipo en el venue específico antes de la fecha
         if venue == 'home':
@@ -222,7 +253,7 @@ class AdvancedFeatureEngineer:
     def calculate_rest_days(self, team: str, match_date: datetime) -> Dict:
         """Calcular días de descanso para el equipo"""
         # Combinar datos históricos
-        all_matches = pd.concat([self.matches_2023, self.matches_2024, self.matches_2025])
+        all_matches = self._all_matches()
         
         # Filtrar partidos del equipo
         team_matches = all_matches[
@@ -339,11 +370,9 @@ class AdvancedFeatureEngineer:
         """Crear dataset de entrenamiento con características avanzadas"""
         print("Creando dataset AVANZADO de entrenamiento...")
         
-        # Usar partidos finalizados de 2023, 2024 y parte de 2025
+        # Usar partidos finalizados de todas las temporadas disponibles
         training_matches = pd.concat([
-            self.matches_2023[self.matches_2023['status'] == 'FINISHED'],
-            self.matches_2024[self.matches_2024['status'] == 'FINISHED'],
-            self.matches_2025[self.matches_2025['status'] == 'FINISHED']
+            df[df['status'] == 'FINISHED'] for df in self.matches_by_season.values()
         ])
         
         features_list = []

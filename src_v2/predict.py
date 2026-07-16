@@ -17,6 +17,8 @@ from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
+from season_utils import get_current_season
 
 from src_v2.features.feature_engineer import get_feature_engineer
 from src_v2.models.winner_predictor import get_winner_predictor
@@ -130,8 +132,8 @@ def predict_jornada(matchday: int):
     print(f"\n📅 JORNADA {matchday}")
     print("=" * 50)
     
-    # Load matches
-    matches = pd.read_csv("data/cleaned/matches_2025_cleaned.csv")
+    # Load matches (temporada actual)
+    matches = pd.read_csv(f"data/cleaned/matches_{get_current_season()}_cleaned.csv")
     matches['date'] = pd.to_datetime(matches['date'], utc=True).dt.tz_localize(None)
     
     week_matches = matches[matches['matchday'] == matchday]

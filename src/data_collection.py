@@ -11,6 +11,8 @@ class PremierLeagueDataCollector:
             'X-Auth-Token': 'fd9ecc768e3644dfa9b30e9536031700'
         }
         self.data_dir = "../data"
+        from season_utils import get_current_season
+        self.current_season = get_current_season()
         
     def create_data_directory(self):
         if not os.path.exists(self.data_dir):
@@ -104,8 +106,8 @@ if __name__ == "__main__":
     print("\n Obteniendo equipos...")
     teams = collector.get_premier_league_teams()
     
-    # Obtener datos de múltiples temporadas
-    seasons = [2023, 2024, 2025]
+    # Obtener datos de múltiples temporadas (ventana móvil respecto a la actual)
+    seasons = [collector.current_season - 2, collector.current_season - 1, collector.current_season]
     
     for season in seasons:
         print(f"\n Obteniendo partidos de la temporada {season}...")

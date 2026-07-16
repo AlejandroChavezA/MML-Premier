@@ -12,6 +12,9 @@ Usa:
 
 import pandas as pd
 import numpy as np
+import glob
+import os
+import re
 from pathlib import Path
 from typing import Dict
 
@@ -30,10 +33,11 @@ class LeagueCompetitiveness:
         """Calcular competitividad desde standings"""
         all_standings = []
         
-        for year in [2023, 2024, 2025]:
-            path = self.data_dir / f"standings_{year}_cleaned.csv"
-            if path.exists():
-                df = pd.read_csv(path)
+        for f in glob.glob(str(self.data_dir / "standings_*_cleaned.csv")):
+            m = re.search(r"standings_(\d{4})_cleaned\.csv", os.path.basename(f))
+            if m:
+                year = int(m.group(1))
+                df = pd.read_csv(f)
                 df['season'] = year
                 all_standings.append(df)
         

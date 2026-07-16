@@ -107,8 +107,10 @@ class PredictionMenu:
         print("=" * 50)
         
         try:
-            # Obtener jornadas disponibles
-            matches_2025_path = self.project_root / "data" / "cleaned" / "matches_2025_cleaned.csv"
+            # Obtener jornadas disponibles (temporada actual)
+            from season_utils import get_current_season
+            season = get_current_season()
+            matches_2025_path = self.project_root / "data" / "cleaned" / f"matches_{season}_cleaned.csv"
             matches_2025 = pd.read_csv(matches_2025_path)
             available_matchdays = sorted(matches_2025['matchday'].unique())
             
@@ -124,7 +126,7 @@ class PredictionMenu:
             matchday = int(matchday)
             
             print(f"\n🔮 Prediciendo jornada {matchday}...")
-            predictions = self.predictor.predict_week_matches(matchday, 2025, self.current_model)
+            predictions = self.predictor.predict_week_matches(matchday, season, self.current_model)
             
             if 'error' in predictions[0]:
                 print(f"❌ Error: {predictions[0]['error']}")
@@ -275,7 +277,9 @@ class PredictionMenu:
         print("=" * 70)
         
         try:
-            standings_path = self.project_root / "data" / "cleaned" / "standings_2025_cleaned.csv"
+            from season_utils import get_current_season
+            season = get_current_season()
+            standings_path = self.project_root / "data" / "cleaned" / f"standings_{season}_cleaned.csv"
             standings = pd.read_csv(standings_path)
             
             print(f"{'Pos':<4} {'Equipo':<25} {'PJ':<3} {'PG':<3} {'PE':<3} {'PP':<3} {'PTS':<4} {'DG':<5}")

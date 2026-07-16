@@ -1,0 +1,731 @@
+{
+  "competition": "ELC",
+  "seasons": {
+    "2023": {
+      "Leicester City FC": {
+        "position": 1,
+        "points": 97,
+        "played_games": 46,
+        "won": 31,
+        "draw": 4,
+        "lost": 11,
+        "goals_for": 89,
+        "goals_against": 41
+      },
+      "Ipswich Town FC": {
+        "position": 2,
+        "points": 96,
+        "played_games": 46,
+        "won": 28,
+        "draw": 12,
+        "lost": 6,
+        "goals_for": 92,
+        "goals_against": 57
+      },
+      "Leeds United FC": {
+        "position": 3,
+        "points": 90,
+        "played_games": 46,
+        "won": 27,
+        "draw": 9,
+        "lost": 10,
+        "goals_for": 81,
+        "goals_against": 43
+      },
+      "Southampton FC": {
+        "position": 4,
+        "points": 87,
+        "played_games": 46,
+        "won": 26,
+        "draw": 9,
+        "lost": 11,
+        "goals_for": 87,
+        "goals_against": 63
+      },
+      "West Bromwich Albion FC": {
+        "position": 5,
+        "points": 75,
+        "played_games": 46,
+        "won": 21,
+        "draw": 12,
+        "lost": 13,
+        "goals_for": 70,
+        "goals_against": 47
+      },
+      "Norwich City FC": {
+        "position": 6,
+        "points": 73,
+        "played_games": 46,
+        "won": 21,
+        "draw": 10,
+        "lost": 15,
+        "goals_for": 79,
+        "goals_against": 64
+      },
+      "Hull City AFC": {
+        "position": 7,
+        "points": 70,
+        "played_games": 46,
+        "won": 19,
+        "draw": 13,
+        "lost": 14,
+        "goals_for": 68,
+        "goals_against": 60
+      },
+      "Middlesbrough FC": {
+        "position": 8,
+        "points": 69,
+        "played_games": 46,
+        "won": 20,
+        "draw": 9,
+        "lost": 17,
+        "goals_for": 71,
+        "goals_against": 62
+      },
+      "Coventry City FC": {
+        "position": 9,
+        "points": 64,
+        "played_games": 46,
+        "won": 17,
+        "draw": 13,
+        "lost": 16,
+        "goals_for": 70,
+        "goals_against": 59
+      },
+      "Preston North End FC": {
+        "position": 10,
+        "points": 63,
+        "played_games": 46,
+        "won": 18,
+        "draw": 9,
+        "lost": 19,
+        "goals_for": 56,
+        "goals_against": 67
+      },
+      "Bristol City FC": {
+        "position": 11,
+        "points": 62,
+        "played_games": 46,
+        "won": 17,
+        "draw": 11,
+        "lost": 18,
+        "goals_for": 53,
+        "goals_against": 51
+      },
+      "Cardiff City FC": {
+        "position": 12,
+        "points": 62,
+        "played_games": 46,
+        "won": 19,
+        "draw": 5,
+        "lost": 22,
+        "goals_for": 53,
+        "goals_against": 70
+      },
+      "Millwall FC": {
+        "position": 13,
+        "points": 59,
+        "played_games": 46,
+        "won": 16,
+        "draw": 11,
+        "lost": 19,
+        "goals_for": 45,
+        "goals_against": 55
+      },
+      "Swansea City AFC": {
+        "position": 14,
+        "points": 57,
+        "played_games": 46,
+        "won": 15,
+        "draw": 12,
+        "lost": 19,
+        "goals_for": 59,
+        "goals_against": 65
+      },
+      "Watford FC": {
+        "position": 15,
+        "points": 56,
+        "played_games": 46,
+        "won": 13,
+        "draw": 17,
+        "lost": 16,
+        "goals_for": 61,
+        "goals_against": 61
+      },
+      "Sunderland AFC": {
+        "position": 16,
+        "points": 56,
+        "played_games": 46,
+        "won": 16,
+        "draw": 8,
+        "lost": 22,
+        "goals_for": 52,
+        "goals_against": 54
+      },
+      "Stoke City FC": {
+        "position": 17,
+        "points": 56,
+        "played_games": 46,
+        "won": 15,
+        "draw": 11,
+        "lost": 20,
+        "goals_for": 49,
+        "goals_against": 60
+      },
+      "Queens Park Rangers FC": {
+        "position": 18,
+        "points": 56,
+        "played_games": 46,
+        "won": 15,
+        "draw": 11,
+        "lost": 20,
+        "goals_for": 47,
+        "goals_against": 58
+      },
+      "Blackburn Rovers FC": {
+        "position": 19,
+        "points": 53,
+        "played_games": 46,
+        "won": 14,
+        "draw": 11,
+        "lost": 21,
+        "goals_for": 60,
+        "goals_against": 74
+      },
+      "Sheffield Wednesday FC": {
+        "position": 20,
+        "points": 53,
+        "played_games": 46,
+        "won": 15,
+        "draw": 8,
+        "lost": 23,
+        "goals_for": 44,
+        "goals_against": 68
+      },
+      "Plymouth Argyle FC": {
+        "position": 21,
+        "points": 51,
+        "played_games": 46,
+        "won": 13,
+        "draw": 12,
+        "lost": 21,
+        "goals_for": 59,
+        "goals_against": 70
+      },
+      "Birmingham City FC": {
+        "position": 22,
+        "points": 50,
+        "played_games": 46,
+        "won": 13,
+        "draw": 11,
+        "lost": 22,
+        "goals_for": 50,
+        "goals_against": 65
+      },
+      "Huddersfield Town AFC": {
+        "position": 23,
+        "points": 45,
+        "played_games": 46,
+        "won": 9,
+        "draw": 18,
+        "lost": 19,
+        "goals_for": 48,
+        "goals_against": 77
+      },
+      "Rotherham United FC": {
+        "position": 24,
+        "points": 27,
+        "played_games": 46,
+        "won": 5,
+        "draw": 12,
+        "lost": 29,
+        "goals_for": 37,
+        "goals_against": 89
+      }
+    },
+    "2024": {
+      "Leeds United FC": {
+        "position": 1,
+        "points": 100,
+        "played_games": 46,
+        "won": 29,
+        "draw": 13,
+        "lost": 4,
+        "goals_for": 95,
+        "goals_against": 30
+      },
+      "Burnley FC": {
+        "position": 2,
+        "points": 100,
+        "played_games": 46,
+        "won": 28,
+        "draw": 16,
+        "lost": 2,
+        "goals_for": 69,
+        "goals_against": 16
+      },
+      "Sheffield United FC": {
+        "position": 3,
+        "points": 92,
+        "played_games": 46,
+        "won": 28,
+        "draw": 8,
+        "lost": 10,
+        "goals_for": 63,
+        "goals_against": 36
+      },
+      "Sunderland AFC": {
+        "position": 4,
+        "points": 76,
+        "played_games": 46,
+        "won": 21,
+        "draw": 13,
+        "lost": 12,
+        "goals_for": 58,
+        "goals_against": 44
+      },
+      "Coventry City FC": {
+        "position": 5,
+        "points": 69,
+        "played_games": 46,
+        "won": 20,
+        "draw": 9,
+        "lost": 17,
+        "goals_for": 64,
+        "goals_against": 58
+      },
+      "Bristol City FC": {
+        "position": 6,
+        "points": 68,
+        "played_games": 46,
+        "won": 17,
+        "draw": 17,
+        "lost": 12,
+        "goals_for": 59,
+        "goals_against": 55
+      },
+      "Blackburn Rovers FC": {
+        "position": 7,
+        "points": 66,
+        "played_games": 46,
+        "won": 19,
+        "draw": 9,
+        "lost": 18,
+        "goals_for": 53,
+        "goals_against": 48
+      },
+      "Millwall FC": {
+        "position": 8,
+        "points": 66,
+        "played_games": 46,
+        "won": 18,
+        "draw": 12,
+        "lost": 16,
+        "goals_for": 47,
+        "goals_against": 49
+      },
+      "West Bromwich Albion FC": {
+        "position": 9,
+        "points": 64,
+        "played_games": 46,
+        "won": 15,
+        "draw": 19,
+        "lost": 12,
+        "goals_for": 57,
+        "goals_against": 47
+      },
+      "Middlesbrough FC": {
+        "position": 10,
+        "points": 64,
+        "played_games": 46,
+        "won": 18,
+        "draw": 10,
+        "lost": 18,
+        "goals_for": 64,
+        "goals_against": 56
+      },
+      "Swansea City AFC": {
+        "position": 11,
+        "points": 61,
+        "played_games": 46,
+        "won": 17,
+        "draw": 10,
+        "lost": 19,
+        "goals_for": 51,
+        "goals_against": 56
+      },
+      "Sheffield Wednesday FC": {
+        "position": 12,
+        "points": 58,
+        "played_games": 46,
+        "won": 15,
+        "draw": 13,
+        "lost": 18,
+        "goals_for": 60,
+        "goals_against": 69
+      },
+      "Norwich City FC": {
+        "position": 13,
+        "points": 57,
+        "played_games": 46,
+        "won": 14,
+        "draw": 15,
+        "lost": 17,
+        "goals_for": 71,
+        "goals_against": 68
+      },
+      "Watford FC": {
+        "position": 14,
+        "points": 57,
+        "played_games": 46,
+        "won": 16,
+        "draw": 9,
+        "lost": 21,
+        "goals_for": 53,
+        "goals_against": 61
+      },
+      "Queens Park Rangers FC": {
+        "position": 15,
+        "points": 56,
+        "played_games": 46,
+        "won": 14,
+        "draw": 14,
+        "lost": 18,
+        "goals_for": 53,
+        "goals_against": 63
+      },
+      "Portsmouth FC": {
+        "position": 16,
+        "points": 54,
+        "played_games": 46,
+        "won": 14,
+        "draw": 12,
+        "lost": 20,
+        "goals_for": 58,
+        "goals_against": 71
+      },
+      "Oxford United FC": {
+        "position": 17,
+        "points": 53,
+        "played_games": 46,
+        "won": 13,
+        "draw": 14,
+        "lost": 19,
+        "goals_for": 49,
+        "goals_against": 65
+      },
+      "Stoke City FC": {
+        "position": 18,
+        "points": 51,
+        "played_games": 46,
+        "won": 12,
+        "draw": 15,
+        "lost": 19,
+        "goals_for": 45,
+        "goals_against": 62
+      },
+      "Derby County FC": {
+        "position": 19,
+        "points": 50,
+        "played_games": 46,
+        "won": 13,
+        "draw": 11,
+        "lost": 22,
+        "goals_for": 48,
+        "goals_against": 56
+      },
+      "Preston North End FC": {
+        "position": 20,
+        "points": 50,
+        "played_games": 46,
+        "won": 10,
+        "draw": 20,
+        "lost": 16,
+        "goals_for": 48,
+        "goals_against": 59
+      },
+      "Hull City AFC": {
+        "position": 21,
+        "points": 49,
+        "played_games": 46,
+        "won": 12,
+        "draw": 13,
+        "lost": 21,
+        "goals_for": 44,
+        "goals_against": 54
+      },
+      "Luton Town FC": {
+        "position": 22,
+        "points": 49,
+        "played_games": 46,
+        "won": 13,
+        "draw": 10,
+        "lost": 23,
+        "goals_for": 45,
+        "goals_against": 69
+      },
+      "Plymouth Argyle FC": {
+        "position": 23,
+        "points": 46,
+        "played_games": 46,
+        "won": 11,
+        "draw": 13,
+        "lost": 22,
+        "goals_for": 51,
+        "goals_against": 88
+      },
+      "Cardiff City FC": {
+        "position": 24,
+        "points": 44,
+        "played_games": 46,
+        "won": 9,
+        "draw": 17,
+        "lost": 20,
+        "goals_for": 48,
+        "goals_against": 73
+      }
+    },
+    "2025": {
+      "Coventry City FC": {
+        "position": 1,
+        "points": 95,
+        "played_games": 46,
+        "won": 28,
+        "draw": 11,
+        "lost": 7,
+        "goals_for": 97,
+        "goals_against": 45
+      },
+      "Ipswich Town FC": {
+        "position": 2,
+        "points": 84,
+        "played_games": 46,
+        "won": 23,
+        "draw": 15,
+        "lost": 8,
+        "goals_for": 80,
+        "goals_against": 47
+      },
+      "Millwall FC": {
+        "position": 3,
+        "points": 83,
+        "played_games": 46,
+        "won": 24,
+        "draw": 11,
+        "lost": 11,
+        "goals_for": 64,
+        "goals_against": 49
+      },
+      "Southampton FC": {
+        "position": 4,
+        "points": 80,
+        "played_games": 46,
+        "won": 22,
+        "draw": 14,
+        "lost": 10,
+        "goals_for": 82,
+        "goals_against": 56
+      },
+      "Middlesbrough FC": {
+        "position": 5,
+        "points": 80,
+        "played_games": 46,
+        "won": 22,
+        "draw": 14,
+        "lost": 10,
+        "goals_for": 72,
+        "goals_against": 47
+      },
+      "Hull City AFC": {
+        "position": 6,
+        "points": 73,
+        "played_games": 46,
+        "won": 21,
+        "draw": 10,
+        "lost": 15,
+        "goals_for": 70,
+        "goals_against": 66
+      },
+      "Wrexham AFC": {
+        "position": 7,
+        "points": 71,
+        "played_games": 46,
+        "won": 19,
+        "draw": 14,
+        "lost": 13,
+        "goals_for": 69,
+        "goals_against": 65
+      },
+      "Derby County FC": {
+        "position": 8,
+        "points": 69,
+        "played_games": 46,
+        "won": 20,
+        "draw": 9,
+        "lost": 17,
+        "goals_for": 67,
+        "goals_against": 59
+      },
+      "Norwich City FC": {
+        "position": 9,
+        "points": 65,
+        "played_games": 46,
+        "won": 19,
+        "draw": 8,
+        "lost": 19,
+        "goals_for": 63,
+        "goals_against": 56
+      },
+      "Birmingham City FC": {
+        "position": 10,
+        "points": 64,
+        "played_games": 46,
+        "won": 17,
+        "draw": 13,
+        "lost": 16,
+        "goals_for": 57,
+        "goals_against": 56
+      },
+      "Swansea City AFC": {
+        "position": 11,
+        "points": 64,
+        "played_games": 46,
+        "won": 18,
+        "draw": 10,
+        "lost": 18,
+        "goals_for": 57,
+        "goals_against": 59
+      },
+      "Bristol City FC": {
+        "position": 12,
+        "points": 62,
+        "played_games": 46,
+        "won": 17,
+        "draw": 11,
+        "lost": 18,
+        "goals_for": 59,
+        "goals_against": 59
+      },
+      "Sheffield United FC": {
+        "position": 13,
+        "points": 60,
+        "played_games": 46,
+        "won": 18,
+        "draw": 6,
+        "lost": 22,
+        "goals_for": 66,
+        "goals_against": 66
+      },
+      "Preston North End FC": {
+        "position": 14,
+        "points": 60,
+        "played_games": 46,
+        "won": 15,
+        "draw": 15,
+        "lost": 16,
+        "goals_for": 55,
+        "goals_against": 62
+      },
+      "Queens Park Rangers FC": {
+        "position": 15,
+        "points": 58,
+        "played_games": 46,
+        "won": 16,
+        "draw": 10,
+        "lost": 20,
+        "goals_for": 61,
+        "goals_against": 73
+      },
+      "Watford FC": {
+        "position": 16,
+        "points": 57,
+        "played_games": 46,
+        "won": 14,
+        "draw": 15,
+        "lost": 17,
+        "goals_for": 53,
+        "goals_against": 65
+      },
+      "Stoke City FC": {
+        "position": 17,
+        "points": 55,
+        "played_games": 46,
+        "won": 15,
+        "draw": 10,
+        "lost": 21,
+        "goals_for": 51,
+        "goals_against": 56
+      },
+      "Portsmouth FC": {
+        "position": 18,
+        "points": 55,
+        "played_games": 46,
+        "won": 14,
+        "draw": 13,
+        "lost": 19,
+        "goals_for": 49,
+        "goals_against": 64
+      },
+      "West Bromwich Albion FC": {
+        "position": 19,
+        "points": 53,
+        "played_games": 46,
+        "won": 13,
+        "draw": 14,
+        "lost": 19,
+        "goals_for": 48,
+        "goals_against": 58
+      },
+      "Charlton Athletic FC": {
+        "position": 20,
+        "points": 53,
+        "played_games": 46,
+        "won": 13,
+        "draw": 14,
+        "lost": 19,
+        "goals_for": 44,
+        "goals_against": 58
+      },
+      "Leicester City FC": {
+        "position": 21,
+        "points": 52,
+        "played_games": 46,
+        "won": 12,
+        "draw": 16,
+        "lost": 18,
+        "goals_for": 58,
+        "goals_against": 68
+      },
+      "Blackburn Rovers FC": {
+        "position": 22,
+        "points": 52,
+        "played_games": 46,
+        "won": 13,
+        "draw": 13,
+        "lost": 20,
+        "goals_for": 42,
+        "goals_against": 56
+      },
+      "Oxford United FC": {
+        "position": 23,
+        "points": 47,
+        "played_games": 46,
+        "won": 11,
+        "draw": 14,
+        "lost": 21,
+        "goals_for": 45,
+        "goals_against": 59
+      },
+      "Sheffield Wednesday FC": {
+        "position": 24,
+        "points": 18,
+        "played_games": 46,
+        "won": 2,
+        "draw": 12,
+        "lost": 32,
+        "goals_for": 29,
+        "goals_against": 89
+      }
+    }
+  }
+}

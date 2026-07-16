@@ -14,9 +14,18 @@ Salida:
 
 import pandas as pd
 import numpy as np
+import re
+import glob
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys_path = str(PROJECT_ROOT / "src")
+if sys_path not in __import__("sys").path:
+    __import__("sys").path.insert(0, sys_path)
+from season_utils import get_current_season
 
 
 class DataCleaner:
@@ -48,8 +57,8 @@ class DataCleaner:
         # 2. Eliminar invalid rows
         df = df.dropna(subset=['home_team', 'away_team', 'matchday'])
         
-        # 3. Para 2025: handled scheduled matches
-        if year == 2025:
+        # 3. Para la temporada actual: manejar partidos programados
+        if year == get_current_season():
             scheduled = df[df['status'] == 'TIMED'].copy()
             scheduled['home_score'] = np.nan
             scheduled['away_score'] = np.nan
@@ -138,7 +147,12 @@ class DataCleaner:
     def run_cleaning(self, years: Optional[List[int]] = None):
         """Ejecutar limpieza completa"""
         if years is None:
-            years = [2023, 2024, 2025]
+            years = []
+            for f in glob.glob(f"{self.data_dir}/matches_*_cleaned.csv"):
+                m = re.search(r"matches_(\d{4})_cleaned\.csv", os.path.basename(f))
+                if m:
+                    years.append(int(m.group(1)))
+            years = sorted(set(years)) or [get_current_season()]
         
         print("🧹 LIMPIEZA DE DATOS")
         print("=" * 40)

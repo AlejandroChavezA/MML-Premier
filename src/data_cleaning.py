@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import os
+import re
+import glob
+
+from season_utils import get_current_season
 
 class PremierLeagueDataCleaner:
     def __init__(self, data_dir="../data"):
@@ -15,6 +19,15 @@ class PremierLeagueDataCleaner:
             os.makedirs(self.cleaned_dir)
             print(f" Creado directorio: {self.cleaned_dir}")
     
+    def available_seasons(self):
+        """Temporadas disponibles según los archivos raw matches_YYYY.csv."""
+        years = []
+        for f in glob.glob(f"{self.data_dir}/matches_*.csv"):
+            m = re.search(r"matches_(\d{4})\.csv$", os.path.basename(f))
+            if m:
+                years.append(int(m.group(1)))
+        return sorted(set(years))
+    
     def analyze_data_quality(self):
         """Analizar la calidad de los datos"""
         print(" ANÁLISIS DE CALIDAD DE DATOS")
@@ -23,7 +36,7 @@ class PremierLeagueDataCleaner:
         issues = []
         
         # Analizar cada temporada
-        for year in [2023, 2024, 2025]:
+        for year in self.available_seasons():
             matches = pd.read_csv(f"{self.data_dir}/matches_{year}.csv")
             standings = pd.read_csv(f"{self.data_dir}/standings_{year}.csv")
             
@@ -36,7 +49,7 @@ class PremierLeagueDataCleaner:
             print(f"  Valores nulos - Partidos: {null_matches}, Tabla: {null_standings}")
             
             # 2. Verificar consistencia de datos
-            if year == 2025:
+            if year == get_current_season():
                 null_scores = matches[(matches['home_score'].isnull()) | (matches['away_score'].isnull())]
                 status_norm = matches['status'].astype(str).str.strip().str.upper()
                 finished_games = matches[status_norm == 'FINISHED']
@@ -92,7 +105,7 @@ class PremierLeagueDataCleaner:
             print(f"  Eliminados {len(invalid_matches)} partidos inválidos")
         
         # 3. Para 2025: manejar partidos futuros
-        if year == 2025:
+        if year == get_current_season():
             # FINISHED = jugado; CUALQUIER OTRO status = programado/pendiente
             # (antes solo se consideraba TIMED, lo que borraba IN_PLAY/POSTPONED)
             finished = matches[matches['status'] == 'FINISHED'].copy()
@@ -229,7 +242,7 @@ class PremierLeagueDataCleaner:
         report.append("")
         
         # Estadísticas generales
-        for year in [2023, 2024, 2025]:
+        for year in self.available_seasons():
             matches_original = pd.read_csv(f"{self.data_dir}/matches_{year}.csv")
             matches_clean = pd.read_csv(f"{self.cleaned_dir}/matches_{year}_cleaned.csv")
             
@@ -240,7 +253,7 @@ class PremierLeagueDataCleaner:
             report.append(f"  Partidos: {len(matches_original)} → {len(matches_clean)}")
             report.append(f"  Tabla posiciones: {len(standings_original)} → {len(standings_clean)}")
             
-            if year == 2025:
+            if year == get_current_season():
                 finished = matches_clean[matches_clean['status'] == 'FINISHED']
                 scheduled = matches_clean[matches_clean['status'] == 'TIMED']
                 report.append(f"  Partidos finalizados: {len(finished)}")
@@ -265,7 +278,7 @@ class PremierLeagueDataCleaner:
         issues = self.analyze_data_quality()
         
         # 2. Limpiar cada dataset
-        for year in [2023, 2024, 2025]:
+        for year in self.available_seasons():
             self.clean_matches_data(year)
             self.clean_standings_data(year)
         
