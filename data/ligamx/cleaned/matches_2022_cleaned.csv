@@ -1,0 +1,309 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+3691,2022-07-01 00:00:00,2022,apertura,1,Mazatlán FC,Puebla FC,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,fbref,Daniel Quintero,Estadio de Mazatlán,Mazatlán,9181.0,0.6,2.7,,,4-2-3-1,,1,True,3
+3692,2022-07-02 00:00:00,2022,apertura,1,América,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Azteca,D.F.,27577.0,0.8,0.9,,,4-2-3-1,,1,True,3
+3693,2022-07-02 00:00:00,2022,apertura,1,Chivas,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio AKRON,Zapopan,17424.0,1.5,0.4,,,3-1-4-2,,1,True,3
+3694,2022-07-02 00:00:00,2022,apertura,1,Necaxa,Toluca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Luis Santander,Estadio Victoria de Aguascalientes,Aguascalientes,10669.0,1.5,1.0,,,4-3-3,,1,True,3
+3695,2022-07-02 00:00:00,2022,apertura,1,Tigres UANL,Cruz Azul,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Oscar Mejia,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41273.0,2.0,1.3,,,4-4-2,,1,True,3
+3696,2022-07-03 00:00:00,2022,apertura,1,Atlético San Luis,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Alfonso Lastras Ramírez,San Luis Potosí,10218.0,1.1,2.6,,,4-2-3-1,,1,True,3
+3697,2022-07-03 00:00:00,2022,apertura,1,Santos Laguna,Monterrey,4.0,3.0,FINISHED,7.0,1.0,LOCAL,fbref,Jorge Pérez,Estadio Nuevo Corona,Torreón,13218.0,3.9,2.3,,,3-5-2,,1,True,3
+3698,2022-07-03 00:00:00,2022,apertura,1,UNAM Pumas,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Olímpico de Universitario,D.F.,15092.0,1.4,1.2,,,4-4-1-1,,1,True,3
+3699,2022-07-04 00:00:00,2022,apertura,1,Pachuca,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,César Arturo Ramos,Estadio Hidalgo,Pachuca de Soto,6167.0,1.2,0.8,,,4-3-1-2,,1,True,3
+3700,2022-07-08 00:00:00,2022,apertura,2,Club Tijuana,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Óscar Macias,Estadio Caliente,Tijuana,19733.0,0.3,0.9,,,4-2-3-1,,2,True,3
+3701,2022-07-08 00:00:00,2022,apertura,2,Mazatlán FC,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio de Mazatlán,Mazatlán,12112.0,0.7,1.4,,,4-2-3-1,,2,True,3
+3702,2022-07-08 00:00:00,2022,apertura,2,Puebla FC,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Cuauhtémoc,Puebla,14303.0,1.1,0.7,,,4-2-3-1,,2,True,3
+3703,2022-07-09 00:00:00,2022,apertura,2,Chivas,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Oscar Mejia,Estadio AKRON,Zapopan,18363.0,1.1,0.5,,,3-5-2,,2,True,3
+3704,2022-07-09 00:00:00,2022,apertura,2,Cruz Azul,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Victor Caceres,Estadio Azteca,D.F.,17148.0,1.3,2.2,,,4-1-4-1,,2,True,3
+3705,2022-07-09 00:00:00,2022,apertura,2,León,UNAM Pumas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Jesus Lopez,Estadio León,León de los Aldamas,6924.0,0.8,2.2,,,4-4-2,,2,True,3
+3706,2022-07-09 00:00:00,2022,apertura,2,Monterrey,América,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Marco Ortíz,Estadio BBVA,Guadalupe,41342.0,1.2,1.4,,,4-2-3-1,,2,True,3
+3707,2022-07-10 00:00:00,2022,apertura,2,Querétaro,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio La Corregidora,Santiago de Querétaro,,1.0,1.9,,,4-4-2,,2,True,3
+3708,2022-07-10 00:00:00,2022,apertura,2,Toluca,Atlas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio Nemesio Díez,Toluca de Lerdo,22249.0,1.5,4.7,,,4-3-2-1,,2,True,3
+3709,2022-07-13 00:00:00,2022,apertura,3,América,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio Azteca,D.F.,36090.0,1.6,0.6,,,4-2-3-1,,3,True,3
+3710,2022-07-15 00:00:00,2022,apertura,3,FC Juárez,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Eduardo Galván,Estadio Olímpico Benito Juárez,Ciudad Juárez,13453.0,2.1,0.4,,,4-4-2,,3,True,3
+3711,2022-07-15 00:00:00,2022,apertura,3,Puebla FC,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Erick Miranda,Estadio Cuauhtémoc,Puebla,15850.0,1.1,0.8,,,4-2-3-1,,3,True,3
+3712,2022-07-16 00:00:00,2022,apertura,3,Atlas,Cruz Azul,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Óscar Macias,Estadio Jalisco,Guadalajara,13185.0,1.6,1.2,,,3-4-3,,3,True,3
+3713,2022-07-16 00:00:00,2022,apertura,3,Santos Laguna,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Nuevo Corona,Torreón,15611.0,0.7,1.9,,,4-1-3-2,,3,True,3
+3714,2022-07-17 00:00:00,2022,apertura,3,Atlético San Luis,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14842.0,0.8,1.7,,,4-4-2,,3,True,3
+3715,2022-07-17 00:00:00,2022,apertura,3,Tigres UANL,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Universitario de Nuevo León,San Nicolás de los Garza,40583.0,1.4,0.3,,,4-4-2,,3,True,3
+3716,2022-07-17 00:00:00,2022,apertura,3,UNAM Pumas,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Olímpico de Universitario,D.F.,15795.0,1.2,0.7,,,4-2-3-1,,3,True,3
+3717,2022-07-18 00:00:00,2022,apertura,3,Pachuca,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Camacho,Estadio Hidalgo,Pachuca de Soto,7482.0,1.4,0.8,,,4-2-3-1,,3,True,3
+3718,2022-07-20 00:00:00,2022,apertura,4,Chivas,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Jorge Pérez,Estadio AKRON,Zapopan,23305.0,1.5,0.8,,,3-1-4-2,,4,True,3
+3719,2022-07-21 00:00:00,2022,apertura,4,Querétaro,Monterrey,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Luis Santander,Estadio La Corregidora,Santiago de Querétaro,,0.6,1.7,,,5-3-2,,4,True,3
+3720,2022-07-22 00:00:00,2022,apertura,4,Mazatlán FC,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio de Mazatlán,Mazatlán,8756.0,2.5,1.8,,,4-2-3-1,,4,True,3
+3721,2022-07-22 00:00:00,2022,apertura,4,Necaxa,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Victoria de Aguascalientes,Aguascalientes,11510.0,0.4,0.9,,,4-3-3,,4,True,3
+3722,2022-07-23 00:00:00,2022,apertura,4,Club Tijuana,América,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio Caliente,Tijuana,29333.0,1.5,0.1,,,4-2-3-1,,4,True,3
+3723,2022-07-23 00:00:00,2022,apertura,4,Cruz Azul,Puebla FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Azteca,D.F.,14799.0,2.3,0.5,,,4-1-4-1,,4,True,3
+3724,2022-07-23 00:00:00,2022,apertura,4,Tigres UANL,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Marco Ortíz,Estadio Universitario de Nuevo León,San Nicolás de los Garza,42615.0,1.9,0.4,,,4-3-3,,4,True,3
+3725,2022-07-23 00:00:00,2022,apertura,4,Toluca,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Diego Montaño,Estadio Nemesio Díez,Toluca de Lerdo,18503.0,3.3,0.7,,,4-1-4-1,,4,True,3
+3726,2022-07-24 00:00:00,2022,apertura,4,Pachuca,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Brian Gonzalez,Estadio Hidalgo,Pachuca de Soto,8305.0,1.2,0.9,,,4-2-3-1,,4,True,3
+3727,2022-07-26 00:00:00,2022,apertura,5,Atlas,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Diego Montaño,Estadio Jalisco,Guadalajara,12481.0,0.8,1.2,,,4-4-2,,5,True,3
+3728,2022-07-26 00:00:00,2022,apertura,5,Atlético San Luis,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Alfonso Lastras Ramírez,San Luis Potosí,17628.0,1.3,0.5,,,4-4-2,,5,True,3
+3729,2022-07-26 00:00:00,2022,apertura,5,FC Juárez,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Olímpico Benito Juárez,Ciudad Juárez,13336.0,0.8,0.7,,,4-4-2,,5,True,3
+3730,2022-07-26 00:00:00,2022,apertura,5,León,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Guillermo Pacheco,Estadio León,León de los Aldamas,21012.0,1.6,1.5,,,4-4-2,,5,True,3
+3731,2022-07-26 00:00:00,2022,apertura,5,Monterrey,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Óscar Macias,Estadio BBVA,Guadalupe,35893.0,3.2,0.1,,,4-4-2,,5,True,3
+3732,2022-07-27 00:00:00,2022,apertura,5,Necaxa,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Pérez,Estadio Victoria de Aguascalientes,Aguascalientes,11828.0,0.7,1.1,,,4-3-3,,5,True,3
+3733,2022-07-27 00:00:00,2022,apertura,5,Querétaro,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio La Corregidora,Santiago de Querétaro,,1.7,2.6,,,4-2-3-1,,5,True,3
+3734,2022-07-27 00:00:00,2022,apertura,5,UNAM Pumas,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Santander,Estadio Olímpico de Universitario,D.F.,35423.0,1.2,0.5,,,4-3-3,,5,True,3
+3735,2022-07-29 00:00:00,2022,apertura,6,FC Juárez,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Olímpico Benito Juárez,Ciudad Juárez,12854.0,0.6,0.4,,,4-4-2,,6,True,3
+3736,2022-07-30 00:00:00,2022,apertura,6,Chivas,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio AKRON,Zapopan,20551.0,1.2,0.6,,,5-3-2,,6,True,3
+3737,2022-07-30 00:00:00,2022,apertura,6,Club Tijuana,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Caliente,Tijuana,20333.0,1.0,0.5,,,4-2-3-1,,6,True,3
+3738,2022-07-30 00:00:00,2022,apertura,6,Cruz Azul,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Erick Miranda,Estadio Azteca,D.F.,14556.0,0.8,0.8,,,4-2-3-1,,6,True,3
+3739,2022-07-30 00:00:00,2022,apertura,6,Puebla FC,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Cuauhtémoc,Puebla,12860.0,1.8,0.7,,,4-4-2,,6,True,3
+3740,2022-07-30 00:00:00,2022,apertura,6,Tigres UANL,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41432.0,0.9,1.3,,,4-3-3,,6,True,3
+3741,2022-07-31 00:00:00,2022,apertura,6,León,América,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Óscar Macias,Estadio León,León de los Aldamas,20964.0,1.4,1.0,,,4-4-2,,6,True,3
+3742,2022-07-31 00:00:00,2022,apertura,6,Santos Laguna,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Nuevo Corona,Torreón,13671.0,0.6,0.7,,,4-1-3-2,,6,True,3
+3743,2022-07-31 00:00:00,2022,apertura,6,UNAM Pumas,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Olímpico de Universitario,D.F.,26590.0,0.6,0.4,,,4-1-4-1,,6,True,3
+3744,2022-08-02 00:00:00,2022,apertura,16,Toluca,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Victor Caceres,Estadio Nemesio Díez,Toluca de Lerdo,17402.0,1.3,1.0,,,4-5-1,,16,True,3
+3745,2022-08-03 00:00:00,2022,apertura,16,FC Juárez,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Óscar Macias,Estadio Olímpico Benito Juárez,Ciudad Juárez,12340.0,0.9,1.0,,,4-3-3,,16,True,3
+3746,2022-08-04 00:00:00,2022,apertura,7,Atlas,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Guerrero,Estadio Jalisco,Guadalajara,14804.0,2.4,1.0,,,4-2-2-2,,7,True,3
+3747,2022-08-05 00:00:00,2022,apertura,7,Mazatlán FC,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Camacho,Estadio de Mazatlán,Mazatlán,14250.0,0.9,1.9,,,4-2-3-1,,7,True,3
+3748,2022-08-06 00:00:00,2022,apertura,7,Monterrey,León,5.0,1.0,FINISHED,6.0,4.0,LOCAL,fbref,Marco Ortíz,Estadio BBVA,Guadalupe,37154.0,4.0,1.2,,,3-5-2,,7,True,3
+3749,2022-08-06 00:00:00,2022,apertura,7,Santos Laguna,Cruz Azul,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Óscar Macias,Estadio Nuevo Corona,Torreón,15530.0,1.5,1.4,,,4-1-3-2,,7,True,3
+3750,2022-08-07 00:00:00,2022,apertura,7,América,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Santander,Estadio Azteca,D.F.,21957.0,1.1,2.1,,,4-4-2,,7,True,3
+3751,2022-08-07 00:00:00,2022,apertura,7,Atlético San Luis,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Eduardo Galván,Estadio Alfonso Lastras Ramírez,San Luis Potosí,9464.0,0.5,0.7,,,4-2-3-1,,7,True,3
+3752,2022-08-07 00:00:00,2022,apertura,7,Pachuca,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Hidalgo,Pachuca de Soto,9516.0,1.5,0.3,,,4-3-3,,7,True,3
+3753,2022-08-07 00:00:00,2022,apertura,7,Toluca,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,César Arturo Ramos,Estadio Nemesio Díez,Toluca de Lerdo,17435.0,3.1,0.9,,,4-2-3-1,,7,True,3
+3754,2022-08-11 00:00:00,2022,apertura,8,Querétaro,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Erick Miranda,Estadio La Corregidora,Santiago de Querétaro,,1.8,1.7,,,4-4-2,,8,True,3
+3755,2022-08-12 00:00:00,2022,apertura,8,Club Tijuana,Puebla FC,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Luis Santander,Estadio Caliente,Tijuana,12860.0,1.4,0.9,,,4-2-3-1,,8,True,3
+3756,2022-08-12 00:00:00,2022,apertura,8,Necaxa,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Victoria de Aguascalientes,Aguascalientes,10704.0,0.6,0.8,,,4-3-3,,8,True,3
+3757,2022-08-13 00:00:00,2022,apertura,8,Chivas,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio AKRON,Zapopan,34233.0,1.3,0.3,,,5-3-2,,8,True,3
+3758,2022-08-13 00:00:00,2022,apertura,8,León,Mazatlán FC,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Eduardo Galván,Estadio León,León de los Aldamas,23512.0,0.9,1.2,,,4-4-2,,8,True,3
+3759,2022-08-13 00:00:00,2022,apertura,8,UNAM Pumas,América,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Adonai Escobedo,Estadio Olímpico de Universitario,D.F.,45893.0,0.5,2.6,,,4-4-2,,8,True,3
+3760,2022-08-14 00:00:00,2022,apertura,8,Cruz Azul,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Azteca,D.F.,21945.0,1.2,2.3,,,4-4-2,,8,True,3
+3761,2022-08-14 00:00:00,2022,apertura,8,Tigres UANL,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Diego Montaño,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41385.0,1.6,1.6,,,3-4-3,,8,True,3
+3762,2022-08-16 00:00:00,2022,apertura,9,Atlas,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio Jalisco,Guadalajara,11548.0,0.4,1.0,,,4-2-2-2,,9,True,3
+3763,2022-08-16 00:00:00,2022,apertura,9,Mazatlán FC,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Santander,Estadio de Mazatlán,Mazatlán,10690.0,0.3,1.3,,,4-4-1-1,,9,True,3
+3764,2022-08-16 00:00:00,2022,apertura,9,Puebla FC,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Cuauhtémoc,Puebla,15070.0,2.0,1.3,,,3-4-3,,9,True,3
+3765,2022-08-17 00:00:00,2022,apertura,9,Cruz Azul,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Diego Montaño,Estadio Azteca,D.F.,12492.0,0.7,1.0,,,4-2-3-1,,9,True,3
+3766,2022-08-17 00:00:00,2022,apertura,9,Pachuca,América,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,César Arturo Ramos,Estadio Hidalgo,Pachuca de Soto,10938.0,0.4,1.1,,,4-3-3,,9,True,3
+3767,2022-08-17 00:00:00,2022,apertura,9,Toluca,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Nemesio Díez,Toluca de Lerdo,26509.0,0.6,1.3,,,4-2-3-1,,9,True,3
+3768,2022-08-18 00:00:00,2022,apertura,9,Atlético San Luis,UNAM Pumas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Óscar Macias,Estadio Alfonso Lastras Ramírez,San Luis Potosí,18148.0,2.0,2.2,,,4-3-3,,9,True,3
+3769,2022-08-18 00:00:00,2022,apertura,9,Santos Laguna,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Nuevo Corona,Torreón,10164.0,1.4,0.3,,,4-1-3-2,,9,True,3
+3770,2022-08-19 00:00:00,2022,apertura,10,Necaxa,Chivas,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,fbref,Oscar Mejia,Estadio Victoria de Aguascalientes,Aguascalientes,14349.0,1.2,2.5,,,4-4-2,,10,True,3
+3771,2022-08-20 00:00:00,2022,apertura,10,América,Cruz Azul,7.0,0.0,FINISHED,7.0,7.0,LOCAL,fbref,Luis Santander,Estadio Azteca,D.F.,45693.0,2.4,0.4,,,4-2-3-1,,10,True,3
+3772,2022-08-20 00:00:00,2022,apertura,10,Atlas,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Jalisco,Guadalajara,11430.0,1.3,1.4,,,4-4-2,,10,True,3
+3773,2022-08-20 00:00:00,2022,apertura,10,FC Juárez,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,11427.0,1.1,1.0,,,4-4-2,,10,True,3
+3774,2022-08-20 00:00:00,2022,apertura,10,Monterrey,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio BBVA,Guadalupe,52810.0,0.7,0.6,,,4-2-3-1,,10,True,3
+3775,2022-08-20 00:00:00,2022,apertura,10,Querétaro,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Guillermo Pacheco,Estadio La Corregidora,Santiago de Querétaro,,0.4,0.7,,,4-4-2,,10,True,3
+3776,2022-08-21 00:00:00,2022,apertura,10,Atlético San Luis,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Diego Montaño,Estadio Alfonso Lastras Ramírez,San Luis Potosí,10808.0,0.9,1.2,,,4-3-3,,10,True,3
+3777,2022-08-21 00:00:00,2022,apertura,10,Pachuca,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Hidalgo,Pachuca de Soto,5801.0,1.7,0.3,,,4-4-2,,10,True,3
+3778,2022-08-21 00:00:00,2022,apertura,10,UNAM Pumas,Santos Laguna,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,fbref,Marco Ortíz,Estadio Olímpico de Universitario,D.F.,12530.0,1.3,3.0,,,4-3-3,,10,True,3
+3779,2022-08-23 00:00:00,2022,apertura,16,Chivas,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Santander,Estadio AKRON,Zapopan,34279.0,1.3,1.1,,,4-2-3-1,,16,True,3
+3780,2022-08-23 00:00:00,2022,apertura,16,Querétaro,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Victor Caceres,Estadio La Corregidora,Santiago de Querétaro,,1.0,1.0,,,4-4-2,,16,True,3
+3781,2022-08-24 00:00:00,2022,apertura,16,UNAM Pumas,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Olímpico de Universitario,D.F.,13463.0,0.3,0.8,,,5-3-2,,16,True,3
+3782,2022-08-25 00:00:00,2022,apertura,16,Club Tijuana,Santos Laguna,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Adonai Escobedo,Estadio Caliente,Tijuana,24333.0,1.3,0.9,,,4-2-3-1,,16,True,3
+3783,2022-08-25 00:00:00,2022,apertura,16,Pachuca,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Guerrero,Estadio Hidalgo,Pachuca de Soto,5668.0,2.1,0.2,,,4-4-2,,16,True,3
+3784,2022-08-26 00:00:00,2022,apertura,11,Mazatlán FC,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Erick Miranda,Estadio de Mazatlán,Mazatlán,18365.0,0.2,1.9,,,4-2-3-1,,11,True,3
+3785,2022-08-26 00:00:00,2022,apertura,11,Puebla FC,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Cuauhtémoc,Puebla,15123.0,2.1,0.5,,,3-4-3,,11,True,3
+3786,2022-08-27 00:00:00,2022,apertura,11,Chivas,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Diego Montaño,Estadio AKRON,Zapopan,35828.0,1.3,0.8,,,4-2-3-1,,11,True,3
+3787,2022-08-27 00:00:00,2022,apertura,11,Cruz Azul,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Azteca,D.F.,10255.0,0.8,1.5,,,4-4-2,,11,True,3
+3788,2022-08-27 00:00:00,2022,apertura,11,Tigres UANL,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Universitario de Nuevo León,San Nicolás de los Garza,40103.0,1.3,0.6,,,4-2-3-1,,11,True,3
+3789,2022-08-28 00:00:00,2022,apertura,11,Club Tijuana,Monterrey,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Brian Gonzalez,Estadio Caliente,Tijuana,24433.0,0.8,1.7,,,4-2-3-1,,11,True,3
+3790,2022-08-28 00:00:00,2022,apertura,11,León,Atlas,4.0,2.0,FINISHED,6.0,2.0,LOCAL,fbref,Óscar Macias,Estadio León,León de los Aldamas,19481.0,2.1,1.9,,,4-2-2-2,,11,True,3
+3791,2022-08-28 00:00:00,2022,apertura,11,Santos Laguna,Atlético San Luis,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Fernando Guerrero,Estadio Nuevo Corona,Torreón,12053.0,2.9,0.2,,,4-1-3-2,,11,True,3
+3792,2022-08-28 00:00:00,2022,apertura,11,Toluca,Pachuca,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Nemesio Díez,Toluca de Lerdo,18796.0,0.7,1.7,,,4-3-3,,11,True,3
+3793,2022-09-01 00:00:00,2022,apertura,12,Atlético San Luis,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,9723.0,0.3,0.9,,,4-4-2,,12,True,3
+3794,2022-09-01 00:00:00,2022,apertura,12,Querétaro,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio La Corregidora,Santiago de Querétaro,,1.2,1.1,,,4-4-2,,12,True,3
+3795,2022-09-02 00:00:00,2022,apertura,12,FC Juárez,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Brian Gonzalez,Estadio Olímpico Benito Juárez,Ciudad Juárez,13602.0,1.7,1.6,,,4-3-3,,12,True,3
+3796,2022-09-02 00:00:00,2022,apertura,12,Necaxa,León,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Marco Ortíz,Estadio Victoria de Aguascalientes,Aguascalientes,13799.0,1.0,3.0,,,4-4-2,,12,True,3
+3797,2022-09-03 00:00:00,2022,apertura,12,América,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Diego Montaño,Estadio Azteca,D.F.,45384.0,1.6,1.0,,,4-2-3-1,,12,True,3
+3798,2022-09-03 00:00:00,2022,apertura,12,Atlas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Santander,Estadio Jalisco,Guadalajara,19040.0,0.4,0.8,,,5-3-2,,12,True,3
+3799,2022-09-03 00:00:00,2022,apertura,12,Monterrey,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Victor Caceres,Estadio BBVA,Guadalupe,33135.0,1.7,0.3,,,4-2-3-1,,12,True,3
+3800,2022-09-03 00:00:00,2022,apertura,12,Pachuca,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio Hidalgo,Pachuca de Soto,6592.0,1.4,0.4,,,4-4-2,,12,True,3
+3801,2022-09-04 00:00:00,2022,apertura,12,Toluca,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,0.7,0.8,,,4-3-3,,12,True,3
+3802,2022-09-06 00:00:00,2022,apertura,13,América,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Victor Caceres,Estadio Azteca,D.F.,20410.0,2.4,0.6,,,4-2-3-1,,13,True,3
+3803,2022-09-06 00:00:00,2022,apertura,13,León,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jorge Camacho,Estadio León,León de los Aldamas,16690.0,1.2,0.3,,,4-4-2,,13,True,3
+3804,2022-09-06 00:00:00,2022,apertura,13,Monterrey,Cruz Azul,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio BBVA,Guadalupe,28371.0,1.7,0.3,,,4-2-3-1,,13,True,3
+3805,2022-09-06 00:00:00,2022,apertura,13,Santos Laguna,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Nuevo Corona,Torreón,7979.0,1.0,1.7,,,4-4-2,,13,True,3
+3806,2022-09-07 00:00:00,2022,apertura,13,Club Tijuana,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Caliente,Tijuana,28333.0,1.5,0.6,,,4-4-2,,13,True,3
+3807,2022-09-07 00:00:00,2022,apertura,13,Mazatlán FC,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio de Mazatlán,Mazatlán,9198.0,1.3,1.6,,,4-2-3-1,,13,True,3
+3808,2022-09-07 00:00:00,2022,apertura,13,Puebla FC,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Cuauhtémoc,Puebla,11078.0,0.7,1.1,,,3-5-2,,13,True,3
+3809,2022-09-07 00:00:00,2022,apertura,13,Tigres UANL,Toluca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Marco Ortíz,Estadio Universitario de Nuevo León,San Nicolás de los Garza,37638.0,2.6,1.2,,,5-3-2,,13,True,3
+3810,2022-09-07 00:00:00,2022,apertura,13,UNAM Pumas,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,César Arturo Ramos,Estadio Olímpico de Universitario,D.F.,7990.0,2.2,0.5,,,4-4-2,,13,True,3
+3811,2022-09-09 00:00:00,2022,apertura,14,FC Juárez,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Diego Montaño,Estadio Olímpico Benito Juárez,Ciudad Juárez,10947.0,0.5,0.9,,,4-3-3,,14,True,3
+3812,2022-09-10 00:00:00,2022,apertura,14,Chivas,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio AKRON,Zapopan,24633.0,0.8,0.4,,,4-4-2,,14,True,3
+3813,2022-09-10 00:00:00,2022,apertura,14,Necaxa,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Victoria de Aguascalientes,Aguascalientes,20193.0,1.1,1.0,,,4-4-2,,14,True,3
+3814,2022-09-10 00:00:00,2022,apertura,14,Querétaro,Santos Laguna,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Luis Santander,Estadio La Corregidora,Santiago de Querétaro,,2.3,0.4,,,4-4-2,,14,True,3
+3815,2022-09-10 00:00:00,2022,apertura,14,Tigres UANL,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,1.1,1.0,,,5-3-2,,14,True,3
+3816,2022-09-10 00:00:00,2022,apertura,14,Toluca,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,1.2,1.5,,,4-2-3-1,,14,True,3
+3817,2022-09-11 00:00:00,2022,apertura,14,Atlas,Atlético San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Oscar Mejia,Estadio Jalisco,Guadalajara,10308.0,1.0,0.6,,,4-1-2-1-2◆,,14,True,3
+3818,2022-09-11 00:00:00,2022,apertura,14,Cruz Azul,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,César Arturo Ramos,Estadio Azteca,D.F.,1153.0,2.3,0.2,,,4-2-3-1,,14,True,3
+3819,2022-09-11 00:00:00,2022,apertura,14,Pachuca,Club Tijuana,6.0,1.0,FINISHED,7.0,5.0,LOCAL,fbref,Óscar Macias,Estadio Hidalgo,Pachuca de Soto,9511.0,2.1,1.6,,,4-4-2,,14,True,3
+3820,2022-09-13 00:00:00,2022,apertura,9,Chivas,Tigres UANL,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Fernando Guerrero,Estadio AKRON,Zapopan,30064.0,1.6,1.8,,,4-2-3-1,,9,True,3
+3821,2022-09-14 00:00:00,2022,apertura,5,América,Santos Laguna,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Azteca,D.F.,2781.0,2.0,0.7,,,4-2-3-1,,5,True,3
+3822,2022-09-14 00:00:00,2022,apertura,8,FC Juárez,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Olímpico Benito Juárez,Ciudad Juárez,9733.0,1.2,0.9,,,4-3-3,,8,True,3
+3823,2022-09-15 00:00:00,2022,apertura,16,Cruz Azul,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Marco Ortíz,Estadio Azteca,D.F.,10255.0,1.2,0.4,,,3-4-3,,16,True,3
+3824,2022-09-16 00:00:00,2022,apertura,15,Mazatlán FC,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio de Mazatlán,Mazatlán,11779.0,2.2,0.9,,,4-1-2-1-2◆,,15,True,3
+3825,2022-09-16 00:00:00,2022,apertura,15,Puebla FC,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Cuauhtémoc,Puebla,20194.0,0.8,0.6,,,5-4-1,,15,True,3
+3826,2022-09-17 00:00:00,2022,apertura,15,América,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio Azteca,D.F.,65461.0,2.1,1.3,,,4-2-3-1,,15,True,3
+3827,2022-09-17 00:00:00,2022,apertura,15,Monterrey,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Marco Ortíz,Estadio BBVA,Guadalupe,36124.0,0.9,0.9,,,4-4-2,,15,True,3
+3828,2022-09-18 00:00:00,2022,apertura,15,Atlético San Luis,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Santander,Estadio Alfonso Lastras Ramírez,San Luis Potosí,9094.0,0.9,1.5,,,4-4-2,,15,True,3
+3829,2022-09-18 00:00:00,2022,apertura,15,Club Tijuana,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Caliente,Tijuana,24333.0,1.9,0.9,,,4-2-3-1,,15,True,3
+3830,2022-09-18 00:00:00,2022,apertura,15,León,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Oscar Mejia,Estadio León,León de los Aldamas,20164.0,0.8,1.2,,,4-3-3,,15,True,3
+3831,2022-09-18 00:00:00,2022,apertura,15,Santos Laguna,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Óscar Macias,Estadio Nuevo Corona,Torreón,18721.0,2.4,0.8,,,4-4-2,,15,True,3
+3832,2022-09-18 00:00:00,2022,apertura,15,UNAM Pumas,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Olímpico de Universitario,D.F.,13463.0,2.0,1.6,,,4-1-4-1,,15,True,3
+3833,2022-09-23 00:00:00,2022,apertura,16,Necaxa,Mazatlán FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Victoria de Aguascalientes,Aguascalientes,11467.0,1.5,0.8,,,4-4-2,,16,True,3
+3834,2022-09-23 00:00:00,2022,apertura,7,Puebla FC,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio Cuauhtémoc,Puebla,27214.0,0.7,1.3,,,5-4-1,,7,True,3
+3835,2022-09-30 00:00:00,2022,apertura,17,FC Juárez,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,16024.0,1.2,1.8,,,4-3-3,,17,True,3
+3836,2022-09-30 00:00:00,2022,apertura,17,Puebla FC,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio Cuauhtémoc,Puebla,43362.0,0.8,0.7,,,5-4-1,,17,True,3
+3837,2022-10-01 00:00:00,2022,apertura,17,Atlas,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Jalisco,Guadalajara,23649.0,0.8,0.6,,,5-3-2,,17,True,3
+3838,2022-10-01 00:00:00,2022,apertura,17,Atlético San Luis,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Oscar Mejia,Estadio Alfonso Lastras Ramírez,San Luis Potosí,20860.0,0.3,0.8,,,4-3-3,,17,True,3
+3839,2022-10-01 00:00:00,2022,apertura,17,Cruz Azul,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Azteca,D.F.,35378.0,0.9,0.6,,,3-4-3,,17,True,3
+3840,2022-10-01 00:00:00,2022,apertura,17,Monterrey,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio BBVA,Guadalupe,36382.0,0.5,1.0,,,4-4-2,,17,True,3
+3841,2022-10-02 00:00:00,2022,apertura,17,León,Club Tijuana,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Luis Santander,Estadio León,León de los Aldamas,24024.0,1.8,0.7,,,4-4-2,,17,True,3
+3842,2022-10-02 00:00:00,2022,apertura,17,Santos Laguna,Mazatlán FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Adonai Escobedo,Estadio Nuevo Corona,Torreón,14461.0,2.0,1.4,,,4-4-2,,17,True,3
+3843,2022-10-02 00:00:00,2022,apertura,17,Toluca,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Edgar Morales,Estadio Nemesio Díez,Toluca de Lerdo,17402.0,2.4,1.8,,,4-4-2,,17,True,3
+3844,2023-01-06 00:00:00,2022,clausura,1,Necaxa,Atlético San Luis,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Victoria de Aguascalientes,Aguascalientes,12415.0,0.5,1.7,,,4-2-3-1,,1,True,3
+3845,2023-01-07 00:00:00,2022,clausura,1,América,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Victor Caceres,Estadio Azteca,D.F.,25856.0,1.7,0.4,,,4-4-1-1,,1,True,3
+3846,2023-01-07 00:00:00,2022,clausura,1,Monterrey,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio BBVA,Guadalupe,44498.0,2.2,0.4,,,4-4-2,,1,True,3
+3847,2023-01-08 00:00:00,2022,clausura,1,Club Tijuana,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Caliente,Tijuana,27333.0,1.7,0.7,,,4-2-3-1,,1,True,3
+3848,2023-01-08 00:00:00,2022,clausura,1,Santos Laguna,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Oscar Mejia,Estadio Nuevo Corona,Torreón,17017.0,1.5,1.6,,,4-2-3-1,,1,True,3
+3849,2023-01-08 00:00:00,2022,clausura,1,UNAM Pumas,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Óscar Macias,Estadio Olímpico de Universitario,D.F.,15886.0,2.4,1.1,,,4-2-3-1,,1,True,3
+3850,2023-01-09 00:00:00,2022,clausura,1,Pachuca,Puebla FC,5.0,1.0,FINISHED,6.0,4.0,LOCAL,fbref,Diego Montaño,Estadio Hidalgo,Pachuca de Soto,20777.0,2.7,1.0,,,4-2-3-1,,1,True,3
+3851,2023-01-12 00:00:00,2022,clausura,2,Atlas,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Jalisco,Guadalajara,12794.0,3.8,0.5,,,4-4-2,,2,True,3
+3852,2023-01-13 00:00:00,2022,clausura,2,Atlético San Luis,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,22117.0,0.5,0.5,,,4-4-2,,2,True,3
+3853,2023-01-13 00:00:00,2022,clausura,2,Puebla FC,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Camacho,Estadio Cuauhtémoc,Puebla,10613.0,0.9,0.5,,,4-1-4-1,,2,True,3
+3854,2023-01-14 00:00:00,2022,clausura,2,Cruz Azul,Monterrey,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio Azteca,D.F.,16873.0,0.9,1.3,,,4-3-3,,2,True,3
+3855,2023-01-14 00:00:00,2022,clausura,2,FC Juárez,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Victor Caceres,Estadio Olímpico Benito Juárez,Ciudad Juárez,11921.0,1.3,1.5,,,4-2-3-1,,2,True,3
+3856,2023-01-14 00:00:00,2022,clausura,2,Santos Laguna,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Santander,Estadio Nuevo Corona,Torreón,16144.0,3.3,1.7,,,4-2-3-1,,2,True,3
+3857,2023-01-14 00:00:00,2022,clausura,2,Toluca,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,1.3,2.2,,,4-2-3-1,,2,True,3
+3858,2023-01-15 00:00:00,2022,clausura,2,Tigres UANL,Pachuca,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Marco Ortíz,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,2.7,2.3,,,4-3-3,,2,True,3
+3859,2023-01-16 00:00:00,2022,clausura,2,León,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Brian Gonzalez,Estadio León,León de los Aldamas,24722.0,0.9,1.0,,,5-4-1,,2,True,3
+3860,2023-01-20 00:00:00,2022,clausura,3,Club Tijuana,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Caliente,Tijuana,23333.0,0.6,0.5,,,4-2-3-1,,3,True,3
+3861,2023-01-20 00:00:00,2022,clausura,3,Mazatlán FC,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio de Mazatlán,Mazatlán,9854.0,1.5,1.9,,,4-2-2-2,,3,True,3
+3862,2023-01-21 00:00:00,2022,clausura,3,América,Puebla FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Azteca,D.F.,26382.0,1.8,0.7,,,4-2-3-1,,3,True,3
+3863,2023-01-21 00:00:00,2022,clausura,3,Chivas,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio AKRON,Zapopan,31398.0,1.1,1.5,,,4-3-3,,3,True,3
+3864,2023-01-21 00:00:00,2022,clausura,3,Monterrey,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Guerrero,,,40162.0,2.4,1.3,,,4-4-2,,3,True,2
+3865,2023-01-21 00:00:00,2022,clausura,3,Necaxa,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jorge Camacho,Estadio Victoria de Aguascalientes,Aguascalientes,18114.0,0.6,1.2,,,3-4-3,,3,True,3
+3866,2023-01-22 00:00:00,2022,clausura,3,Pachuca,FC Juárez,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Ismael Lopez,Estadio Hidalgo,Pachuca de Soto,14474.0,1.5,0.7,,,4-2-3-1,,3,True,3
+3867,2023-01-22 00:00:00,2022,clausura,3,Querétaro,Atlas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Óscar Macias,Estadio La Corregidora,Santiago de Querétaro,,2.3,2.4,,,4-4-2,,3,True,3
+3868,2023-01-22 00:00:00,2022,clausura,3,UNAM Pumas,León,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Edgar Morales,Estadio Olímpico de Universitario,D.F.,17621.0,1.8,1.5,,,4-2-3-1,,3,True,3
+3869,2023-01-22 17:06:00,2022,clausura,3,Monterrey,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,F. Guerrero,Estadio BBVA,Guadalupe,,,,,,,,3,True,1
+3870,2023-01-26 00:00:00,2022,clausura,4,Atlas,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Jalisco,Guadalajara,14073.0,1.0,0.5,,,4-3-3,,4,True,3
+3871,2023-01-27 00:00:00,2022,clausura,4,Club Tijuana,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio Caliente,Tijuana,24333.0,1.3,0.1,,,4-2-3-1,,4,True,3
+3872,2023-01-27 00:00:00,2022,clausura,4,Puebla FC,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Jesus Lopez,Estadio Cuauhtémoc,Puebla,14276.0,1.1,1.1,,,5-4-1,,4,True,3
+3873,2023-01-28 00:00:00,2022,clausura,4,América,Mazatlán FC,6.0,0.0,FINISHED,6.0,6.0,LOCAL,fbref,Luis Santander,Estadio Azteca,D.F.,22588.0,3.1,0.5,,,4-2-3-1,,4,True,3
+3874,2023-01-28 00:00:00,2022,clausura,4,FC Juárez,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio Olímpico Benito Juárez,Ciudad Juárez,17009.0,1.6,1.9,,,4-4-2,,4,True,3
+3875,2023-01-28 00:00:00,2022,clausura,4,Tigres UANL,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,1.5,0.1,,,5-3-2,,4,True,3
+3876,2023-01-29 00:00:00,2022,clausura,4,Pachuca,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Hidalgo,Pachuca de Soto,18103.0,2.6,1.4,,,4-2-3-1,,4,True,3
+3877,2023-01-29 00:00:00,2022,clausura,4,Toluca,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Nemesio Díez,Toluca de Lerdo,20887.0,2.4,1.0,,,4-4-2,,4,True,3
+3878,2023-02-01 00:00:00,2022,clausura,1,Atlas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Santander,Estadio Jalisco,Guadalajara,14786.0,0.5,0.9,,,4-3-3,,1,True,3
+3879,2023-02-02 00:00:00,2022,clausura,5,Atlético San Luis,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Adonai Escobedo,Estadio Alfonso Lastras Ramírez,San Luis Potosí,12409.0,1.8,0.8,,,4-3-3,,5,True,3
+3880,2023-02-03 00:00:00,2022,clausura,5,Mazatlán FC,FC Juárez,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio de Mazatlán,Mazatlán,17023.0,1.5,0.8,,,4-4-2,,5,True,3
+3881,2023-02-03 00:00:00,2022,clausura,5,Necaxa,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Victoria de Aguascalientes,Aguascalientes,12225.0,0.8,0.8,,,4-4-2,,5,True,3
+3882,2023-02-04 00:00:00,2022,clausura,5,Cruz Azul,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Luis Santander,Estadio Azteca,D.F.,20164.0,1.2,1.2,,,5-4-1,,5,True,3
+3883,2023-02-04 00:00:00,2022,clausura,5,León,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Guillermo Pacheco,Estadio León,León de los Aldamas,22643.0,1.1,0.7,,,4-4-2,,5,True,3
+3884,2023-02-04 00:00:00,2022,clausura,5,Santos Laguna,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Nuevo Corona,Torreón,25746.0,0.9,2.6,,,4-1-3-2,,5,True,3
+3885,2023-02-05 00:00:00,2022,clausura,5,Chivas,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Edgar Morales,Estadio AKRON,Zapopan,26686.0,1.2,0.7,,,4-3-3,,5,True,3
+3886,2023-02-05 00:00:00,2022,clausura,5,Monterrey,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Victor Caceres,Estadio BBVA,Guadalupe,48788.0,1.7,0.9,,,4-4-2,,5,True,3
+3887,2023-02-05 00:00:00,2022,clausura,5,UNAM Pumas,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Olímpico de Universitario,D.F.,15515.0,2.4,1.1,,,4-4-2,,5,True,3
+3888,2023-02-09 00:00:00,2022,clausura,6,Atlas,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Oscar Mejia,Estadio Jalisco,Guadalajara,12465.0,0.7,1.5,,,3-4-1-2,,6,True,3
+3889,2023-02-09 00:00:00,2022,clausura,6,Querétaro,León,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Jesus Lopez,Estadio La Corregidora,Santiago de Querétaro,,0.7,1.9,,,4-4-2,,6,True,3
+3890,2023-02-10 00:00:00,2022,clausura,6,Club Tijuana,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Santander,Estadio Caliente,Tijuana,21333.0,1.1,0.7,,,4-2-3-1,,6,True,3
+3891,2023-02-10 00:00:00,2022,clausura,6,Puebla FC,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Edgar Morales,Estadio Cuauhtémoc,Puebla,10290.0,2.3,1.3,,,4-1-4-1,,6,True,3
+3892,2023-02-11 00:00:00,2022,clausura,6,América,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Azteca,D.F.,40125.0,3.2,0.7,,,4-2-3-1,,6,True,3
+3893,2023-02-11 00:00:00,2022,clausura,6,FC Juárez,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Guillermo Pacheco,Estadio Olímpico Benito Juárez,Ciudad Juárez,13356.0,1.7,1.3,,,4-4-2,,6,True,3
+3894,2023-02-11 00:00:00,2022,clausura,6,Pachuca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Hidalgo,Pachuca de Soto,13681.0,1.1,1.3,,,4-2-3-1,,6,True,3
+3895,2023-02-11 00:00:00,2022,clausura,6,Tigres UANL,UNAM Pumas,4.0,2.0,FINISHED,6.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,2.8,1.0,,,4-4-2,,6,True,3
+3896,2023-02-12 00:00:00,2022,clausura,6,Toluca,Cruz Azul,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Marco Ortíz,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,1.4,2.0,,,4-4-1-1,,6,True,3
+3897,2023-02-14 00:00:00,2022,clausura,7,Atlético San Luis,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Fernando Hernández,Estadio Alfonso Lastras Ramírez,San Luis Potosí,22240.0,0.7,1.9,,,4-4-2,,7,True,3
+3898,2023-02-14 00:00:00,2022,clausura,7,León,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Óscar Macias,Estadio León,León de los Aldamas,24518.0,3.2,0.2,,,3-5-2,,7,True,3
+3899,2023-02-14 00:00:00,2022,clausura,7,Tigres UANL,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Universitario de Nuevo León,San Nicolás de los Garza,39246.0,1.3,0.4,,,4-4-2,,7,True,3
+3900,2023-02-15 00:00:00,2022,clausura,7,Chivas,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Diego Montaño,Estadio AKRON,Zapopan,19078.0,2.2,1.0,,,4-1-4-1,,7,True,3
+3901,2023-02-15 00:00:00,2022,clausura,7,Monterrey,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Brian Gonzalez,Estadio BBVA,Guadalupe,41660.0,1.6,0.8,,,4-4-2,,7,True,3
+3902,2023-02-15 00:00:00,2022,clausura,7,Necaxa,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Guerrero,Estadio Victoria de Aguascalientes,Aguascalientes,13581.0,0.7,1.5,,,4-4-2,,7,True,3
+3903,2023-02-16 00:00:00,2022,clausura,7,Mazatlán FC,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Erick Miranda,Estadio de Mazatlán,Mazatlán,8819.0,1.4,1.3,,,4-5-1,,7,True,3
+3904,2023-02-17 00:00:00,2022,clausura,8,FC Juárez,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio Olímpico Benito Juárez,Ciudad Juárez,10229.0,0.2,0.3,,,4-4-2,,8,True,3
+3905,2023-02-17 00:00:00,2022,clausura,8,Puebla FC,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Eduardo Galván,Estadio Cuauhtémoc,Puebla,21927.0,1.9,1.7,,,4-1-4-1,,8,True,3
+3906,2023-02-18 00:00:00,2022,clausura,8,Atlas,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio Jalisco,Guadalajara,17315.0,0.7,1.3,,,3-4-1-2,,8,True,3
+3907,2023-02-18 00:00:00,2022,clausura,8,Atlético San Luis,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Alfonso Lastras Ramírez,San Luis Potosí,15518.0,0.9,1.9,,,4-3-3,,8,True,3
+3908,2023-02-18 00:00:00,2022,clausura,8,Monterrey,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Guillermo Pacheco,,,44132.0,2.7,0.9,,,4-3-3,,8,True,2
+3909,2023-02-18 00:00:00,2022,clausura,8,UNAM Pumas,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio Olímpico de Universitario,D.F.,42823.0,2.7,0.8,,,4-4-2,,8,True,3
+3910,2023-02-19 00:00:00,2022,clausura,8,América,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Guerrero,Estadio Azteca,D.F.,31012.0,1.7,1.1,,,4-2-3-1,,8,True,3
+3911,2023-02-19 00:00:00,2022,clausura,8,Pachuca,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Santander,Estadio Hidalgo,Pachuca de Soto,10281.0,1.7,2.0,,,4-4-2,,8,True,3
+3912,2023-02-19 00:00:00,2022,clausura,8,Querétaro,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio La Corregidora,Santiago de Querétaro,,1.1,0.9,,,4-3-3,,8,True,3
+3913,2023-02-19 17:06:00,2022,clausura,8,Monterrey,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,G. Pacheco,Estadio BBVA,Guadalupe,,,,,,,,8,True,1
+3914,2023-02-22 00:00:00,2022,clausura,7,Cruz Azul,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Azteca,D.F.,39254.0,1.0,0.4,,,3-4-3,,7,True,3
+3915,2023-02-23 00:00:00,2022,clausura,7,Santos Laguna,Toluca,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE,fbref,Fernando Guerrero,Estadio Nuevo Corona,Torreón,16470.0,1.3,2.1,,,4-3-1-2,,7,True,3
+3916,2023-02-24 00:00:00,2022,clausura,9,Mazatlán FC,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Eduardo Galván,Estadio de Mazatlán,Mazatlán,9970.0,0.9,2.0,,,4-4-2,,9,True,3
+3917,2023-02-24 00:00:00,2022,clausura,9,Necaxa,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Victoria de Aguascalientes,Aguascalientes,12035.0,1.0,1.1,,,4-1-2-1-2◆,,9,True,3
+3918,2023-02-25 00:00:00,2022,clausura,9,Atlas,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Luis Santander,Estadio Jalisco,Guadalajara,29814.0,0.4,1.3,,,4-4-2,,9,True,3
+3919,2023-02-25 00:00:00,2022,clausura,9,Cruz Azul,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Óscar Macias,Estadio Azteca,D.F.,25497.0,1.7,0.5,,,3-4-3,,9,True,3
+3920,2023-02-25 00:00:00,2022,clausura,9,Tigres UANL,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Daniel Quintero,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,1.8,0.9,,,4-2-3-1,,9,True,3
+3921,2023-02-26 00:00:00,2022,clausura,9,Club Tijuana,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio Caliente,Tijuana,22333.0,1.6,1.2,,,4-1-4-1,,9,True,3
+3922,2023-02-26 00:00:00,2022,clausura,9,Santos Laguna,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Brian Gonzalez,Estadio Nuevo Corona,Torreón,14662.0,3.1,1.7,,,4-1-3-2,,9,True,3
+3923,2023-02-26 00:00:00,2022,clausura,9,Toluca,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Camacho,Estadio Nemesio Díez,Toluca de Lerdo,19610.0,1.2,1.3,,,4-4-2,,9,True,3
+3924,2023-02-27 00:00:00,2022,clausura,9,León,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio León,León de los Aldamas,20134.0,0.6,1.4,,,4-2-3-1,,9,True,3
+3925,2023-03-03 00:00:00,2022,clausura,10,Club Tijuana,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Caliente,Tijuana,24533.0,0.8,1.6,,,5-4-1,,10,True,3
+3926,2023-03-03 00:00:00,2022,clausura,10,Mazatlán FC,Cruz Azul,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Jesus Lopez,Estadio de Mazatlán,Mazatlán,12041.0,0.8,0.5,,,4-4-2,,10,True,3
+3927,2023-03-03 00:00:00,2022,clausura,10,Necaxa,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Victoria de Aguascalientes,Aguascalientes,14822.0,0.9,0.6,,,4-4-2,,10,True,3
+3928,2023-03-04 00:00:00,2022,clausura,10,América,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Adonai Escobedo,Estadio Azteca,D.F.,46273.0,1.2,1.2,,,4-4-2,,10,True,3
+3929,2023-03-04 00:00:00,2022,clausura,10,Chivas,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Victor Caceres,Estadio AKRON,Zapopan,35004.0,1.1,0.8,,,4-1-4-1,,10,True,3
+3930,2023-03-04 00:00:00,2022,clausura,10,León,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Guerrero,Estadio León,León de los Aldamas,20777.0,2.1,0.8,,,3-4-3,,10,True,3
+3931,2023-03-04 00:00:00,2022,clausura,10,Monterrey,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Santander,Estadio BBVA,Guadalupe,41871.0,1.2,0.7,,,4-2-3-1,,10,True,3
+3932,2023-03-05 00:00:00,2022,clausura,10,Querétaro,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Óscar Macias,Estadio La Corregidora,Santiago de Querétaro,,0.3,1.3,,,4-4-2,,10,True,3
+3933,2023-03-05 00:00:00,2022,clausura,10,UNAM Pumas,Puebla FC,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,fbref,César Arturo Ramos,Estadio Olímpico de Universitario,D.F.,11851.0,2.1,2.6,,,4-4-2,,10,True,3
+3934,2023-03-10 00:00:00,2022,clausura,11,Atlético San Luis,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,César Arturo Ramos,Estadio Alfonso Lastras Ramírez,San Luis Potosí,12798.0,1.2,0.9,,,4-2-3-1,,11,True,3
+3935,2023-03-10 00:00:00,2022,clausura,11,Puebla FC,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio Cuauhtémoc,Puebla,30132.0,1.1,1.7,,,5-4-1,,11,True,3
+3936,2023-03-11 00:00:00,2022,clausura,11,Atlas,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio Jalisco,Guadalajara,11555.0,1.1,1.0,,,4-4-2,,11,True,3
+3937,2023-03-11 00:00:00,2022,clausura,11,Cruz Azul,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Azteca,D.F.,23499.0,1.2,0.4,,,4-3-3,,11,True,3
+3938,2023-03-11 00:00:00,2022,clausura,11,Tigres UANL,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Victor Caceres,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,0.7,1.4,,,4-2-3-1,,11,True,3
+3939,2023-03-12 00:00:00,2022,clausura,11,FC Juárez,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Erick Miranda,Estadio Olímpico Benito Juárez,Ciudad Juárez,11272.0,1.1,1.4,,,4-3-3,,11,True,3
+3940,2023-03-12 00:00:00,2022,clausura,11,Pachuca,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Hidalgo,Pachuca de Soto,13393.0,0.7,0.7,,,4-4-1-1,,11,True,3
+3941,2023-03-12 00:00:00,2022,clausura,11,Santos Laguna,Club Tijuana,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Nuevo Corona,Torreón,13797.0,1.9,1.3,,,4-4-2,,11,True,3
+3942,2023-03-12 00:00:00,2022,clausura,11,Toluca,Mazatlán FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Luis Santander,Estadio Nemesio Díez,Toluca de Lerdo,23633.0,3.0,0.2,,,4-4-2,,11,True,3
+3943,2023-03-17 00:00:00,2022,clausura,12,Club Tijuana,Toluca,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Edgar Morales,Estadio Caliente,Tijuana,24833.0,1.7,0.6,,,5-3-2,,12,True,3
+3944,2023-03-17 00:00:00,2022,clausura,12,Mazatlán FC,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,Estadio de Mazatlán,Mazatlán,12205.0,0.3,1.0,,,5-4-1,,12,True,3
+3945,2023-03-17 00:00:00,2022,clausura,12,Puebla FC,Atlas,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,fbref,Óscar Macias,Estadio Cuauhtémoc,Puebla,15711.0,1.0,0.9,,,5-3-2,,12,True,3
+3946,2023-03-18 00:00:00,2022,clausura,12,Chivas,América,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,fbref,Marco Ortíz,Estadio AKRON,Zapopan,38834.0,1.6,1.4,,,4-3-3,,12,True,3
+3947,2023-03-18 00:00:00,2022,clausura,12,Cruz Azul,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Guillermo Pacheco,Estadio Azteca,D.F.,20941.0,2.0,0.9,,,5-4-1,,12,True,3
+3948,2023-03-18 00:00:00,2022,clausura,12,Tigres UANL,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio Universitario de Nuevo León,San Nicolás de los Garza,41615.0,1.3,1.1,,,4-4-2,,12,True,3
+3949,2023-03-19 00:00:00,2022,clausura,12,León,Santos Laguna,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Adonai Escobedo,Estadio León,León de los Aldamas,20113.0,1.9,1.2,,,4-3-3,,12,True,3
+3950,2023-03-19 00:00:00,2022,clausura,12,Querétaro,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio La Corregidora,Santiago de Querétaro,18518.0,1.9,1.2,,,4-4-2,,12,True,3
+3951,2023-03-19 00:00:00,2022,clausura,12,UNAM Pumas,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Victor Caceres,Estadio Olímpico de Universitario,D.F.,12478.0,0.6,2.7,,,4-2-3-1,,12,True,3
+3952,2023-03-24 00:00:00,2022,clausura,1,Mazatlán FC,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio de Mazatlán,Mazatlán,10005.0,1.2,1.5,,,5-3-2,,1,True,3
+3953,2023-03-29 00:00:00,2022,clausura,4,Querétaro,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio La Corregidora,Santiago de Querétaro,21518.0,1.3,1.7,,,4-4-2,,4,True,3
+3954,2023-03-31 00:00:00,2022,clausura,13,FC Juárez,Puebla FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Diego Montaño,Estadio Olímpico Benito Juárez,Ciudad Juárez,12138.0,0.9,1.3,,,4-4-2,,13,True,3
+3955,2023-03-31 00:00:00,2022,clausura,13,Necaxa,Santos Laguna,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Edgar Morales,Estadio Victoria de Aguascalientes,Aguascalientes,13175.0,0.7,1.0,,,4-3-3,,13,True,3
+3956,2023-04-01 00:00:00,2022,clausura,13,América,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Azteca,D.F.,37384.0,1.2,2.0,,,4-4-2,,13,True,3
+3957,2023-04-01 00:00:00,2022,clausura,13,Atlas,Chivas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Jalisco,Guadalajara,27955.0,2.2,1.6,,,5-3-2,,13,True,3
+3958,2023-04-01 00:00:00,2022,clausura,13,Monterrey,Club Tijuana,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Óscar Macias,Estadio BBVA,Guadalupe,40103.0,3.4,0.2,,,4-4-2,,13,True,3
+3959,2023-04-01 00:00:00,2022,clausura,13,Pachuca,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Luis Santander,Estadio Hidalgo,Pachuca de Soto,18024.0,1.1,1.1,,,4-2-3-1,,13,True,3
+3960,2023-04-02 00:00:00,2022,clausura,13,Atlético San Luis,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Erick Miranda,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14766.0,1.8,1.8,,,4-1-4-1,,13,True,3
+3961,2023-04-02 00:00:00,2022,clausura,13,Querétaro,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio La Corregidora,Santiago de Querétaro,17890.0,1.2,1.3,,,4-4-2,,13,True,3
+3962,2023-04-02 00:00:00,2022,clausura,13,Toluca,Tigres UANL,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Marco Ortíz,Estadio Nemesio Díez,Toluca de Lerdo,27073.0,0.9,2.0,,,4-4-2,,13,True,3
+3963,2023-04-07 00:00:00,2022,clausura,14,Club Tijuana,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Santander,Estadio Caliente,Tijuana,20233.0,1.9,1.4,,,4-4-2,,14,True,3
+3964,2023-04-07 00:00:00,2022,clausura,14,Puebla FC,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Ismael Lopez,Estadio Cuauhtémoc,Puebla,21500.0,1.1,1.9,,,3-4-3,,14,True,3
+3965,2023-04-08 00:00:00,2022,clausura,14,América,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Victor Caceres,Estadio Azteca,D.F.,49974.0,1.9,1.5,,,4-4-2,,14,True,3
+3966,2023-04-08 00:00:00,2022,clausura,14,Chivas,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Brian Gonzalez,Estadio AKRON,Zapopan,35000.0,1.6,0.9,,,4-2-3-1,,14,True,3
+3967,2023-04-08 00:00:00,2022,clausura,14,León,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,Estadio León,León de los Aldamas,24711.0,1.4,1.0,,,4-4-2,,14,True,3
+3968,2023-04-08 00:00:00,2022,clausura,14,Tigres UANL,Mazatlán FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Universitario de Nuevo León,San Nicolás de los Garza,28879.0,2.9,1.2,,,4-2-3-1,,14,True,3
+3969,2023-04-09 00:00:00,2022,clausura,14,FC Juárez,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Olímpico Benito Juárez,Ciudad Juárez,12264.0,1.4,1.1,,,4-2-3-1,,14,True,3
+3970,2023-04-09 00:00:00,2022,clausura,14,Santos Laguna,Pachuca,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Óscar Macias,Estadio Nuevo Corona,Torreón,17253.0,2.1,1.2,,,3-4-1-2,,14,True,3
+3971,2023-04-09 00:00:00,2022,clausura,14,UNAM Pumas,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Oscar Mejia,Estadio Olímpico de Universitario,D.F.,11550.0,1.7,1.5,,,5-3-2,,14,True,3
+3972,2023-04-13 00:00:00,2022,clausura,15,Atlético San Luis,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Luis Santander,Estadio Alfonso Lastras Ramírez,San Luis Potosí,10832.0,0.9,1.4,,,4-2-3-1,,15,True,3
+3973,2023-04-14 00:00:00,2022,clausura,15,Mazatlán FC,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio de Mazatlán,Mazatlán,10139.0,0.7,3.2,,,3-4-3,,15,True,3
+3974,2023-04-14 00:00:00,2022,clausura,15,Necaxa,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Victoria de Aguascalientes,Aguascalientes,11161.0,0.8,1.7,,,4-4-2,,15,True,3
+3975,2023-04-15 00:00:00,2022,clausura,15,Atlas,Pachuca,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Edgar Morales,Estadio Jalisco,Guadalajara,16307.0,2.5,2.1,,,4-4-2,,15,True,3
+3976,2023-04-15 00:00:00,2022,clausura,15,Cruz Azul,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Fernando Guerrero,Estadio Azteca,D.F.,66364.0,0.9,1.5,,,5-4-1,,15,True,3
+3977,2023-04-15 00:00:00,2022,clausura,15,León,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Victor Caceres,Estadio León,León de los Aldamas,24737.0,1.5,1.7,,,4-4-2,,15,True,3
+3978,2023-04-16 00:00:00,2022,clausura,15,Monterrey,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,Estadio BBVA,Guadalupe,45166.0,1.2,2.0,,,4-1-4-1,,15,True,3
+3979,2023-04-16 00:00:00,2022,clausura,15,Querétaro,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Óscar Macias,Estadio La Corregidora,Santiago de Querétaro,17988.0,1.1,0.5,,,4-4-2,,15,True,3
+3980,2023-04-16 00:00:00,2022,clausura,15,UNAM Pumas,Toluca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Diego Montaño,Estadio Olímpico de Universitario,D.F.,20899.0,1.7,1.4,,,4-2-3-1,,15,True,3
+3981,2023-04-20 00:00:00,2022,clausura,16,Tigres UANL,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Erick Miranda,Estadio Universitario de Nuevo León,San Nicolás de los Garza,32737.0,3.0,0.4,,,4-4-2,,16,True,3
+3982,2023-04-21 00:00:00,2022,clausura,16,Club Tijuana,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Edgar Morales,Estadio Caliente,Tijuana,25333.0,1.1,1.0,,,3-4-1-2,,16,True,3
+3983,2023-04-21 00:00:00,2022,clausura,16,Mazatlán FC,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Luis Santander,Estadio de Mazatlán,Mazatlán,11440.0,1.3,2.9,,,3-4-3,,16,True,3
+3984,2023-04-21 00:00:00,2022,clausura,16,Necaxa,Atlas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Victor Caceres,Estadio Victoria de Aguascalientes,Aguascalientes,15327.0,0.9,2.0,,,4-4-1-1,,16,True,3
+3985,2023-04-22 00:00:00,2022,clausura,16,América,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Azteca,D.F.,60332.0,1.4,1.0,,,4-3-3,,16,True,3
+3986,2023-04-22 00:00:00,2022,clausura,16,Chivas,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio AKRON,Zapopan,33456.0,1.0,0.7,,,4-1-4-1,,16,True,3
+3987,2023-04-22 00:00:00,2022,clausura,16,Pachuca,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Hidalgo,Pachuca de Soto,12929.0,2.5,0.7,,,4-2-3-1,,16,True,3
+3988,2023-04-23 00:00:00,2022,clausura,16,Santos Laguna,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Jorge Camacho,Estadio Nuevo Corona,Torreón,17195.0,0.9,0.4,,,4-4-2,,16,True,3
+3989,2023-04-23 00:00:00,2022,clausura,16,Toluca,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Nemesio Díez,Toluca de Lerdo,27011.0,3.0,1.3,,,4-4-2,,16,True,3
+3990,2023-04-28 00:00:00,2022,clausura,17,FC Juárez,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,19314.0,1.7,1.5,,,4-2-3-1,,17,True,3
+3991,2023-04-29 00:00:00,2022,clausura,17,Atlético San Luis,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,Estadio Alfonso Lastras Ramírez,San Luis Potosí,19003.0,2.2,0.9,,,4-2-3-1,,17,True,3
+3992,2023-04-29 00:00:00,2022,clausura,17,Chivas,Mazatlán FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Oscar Mejia,Estadio AKRON,Zapopan,34823.0,0.9,0.8,,,4-1-4-1,,17,True,3
+3993,2023-04-29 00:00:00,2022,clausura,17,Cruz Azul,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Luis Santander,Estadio Azteca,D.F.,21298.0,1.4,2.0,,,5-4-1,,17,True,3
+3994,2023-04-29 00:00:00,2022,clausura,17,Monterrey,UNAM Pumas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Óscar Macias,Estadio BBVA,Guadalupe,45915.0,3.1,1.0,,,4-1-4-1,,17,True,3
+3995,2023-04-29 00:00:00,2022,clausura,17,Puebla FC,Club Tijuana,5.0,2.0,FINISHED,7.0,3.0,LOCAL,fbref,Diego Montaño,Estadio Cuauhtémoc,Puebla,15001.0,2.0,0.8,,,3-4-3,,17,True,3
+3996,2023-04-30 00:00:00,2022,clausura,17,León,Tigres UANL,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Fernando Guerrero,Estadio León,León de los Aldamas,24163.0,0.8,0.5,,,5-3-2,,17,True,3
+3997,2023-04-30 00:00:00,2022,clausura,17,Querétaro,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Victor Caceres,Estadio La Corregidora,Santiago de Querétaro,17590.0,0.4,2.1,,,4-4-2,,17,True,3
+3998,2023-04-30 00:00:00,2022,clausura,17,Toluca,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,César Arturo Ramos,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,3.4,0.7,,,4-2-3-1,,17,True,3

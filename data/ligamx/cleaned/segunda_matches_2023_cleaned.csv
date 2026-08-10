@@ -1,0 +1,211 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+3088,2023-07-21,2023,apertura,1,Venados FC,Coyotes de Tlaxcala,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3089,2023-07-22,2023,apertura,1,Tapatío,Cancún FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3090,2023-07-22,2023,apertura,1,Correcaminos UAT,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3091,2023-07-23,2023,apertura,1,Tepatitlán,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3092,2023-07-23,2023,apertura,1,Mineros de Zacatecas,Atlético Morelia,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3093,2023-07-24,2023,apertura,1,Atlante,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3094,2023-07-26,2023,apertura,1,Atlético La Paz,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3095,2023-07-28,2023,apertura,2,Correcaminos UAT,Mineros de Zacatecas,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+3096,2023-07-29,2023,apertura,2,Coyotes de Tlaxcala,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3097,2023-07-29,2023,apertura,2,Cancún FC,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3098,2023-07-30,2023,apertura,2,Leones Negros,Cimarrones de Sonora,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+3099,2023-07-30,2023,apertura,2,Dorados de Sinaloa,Atlético La Paz,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+3100,2023-07-31,2023,apertura,2,Alebrijes de Oaxaca,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3101,2023-08-03,2023,apertura,3,Leones Negros,Alebrijes de Oaxaca,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+3102,2023-08-05,2023,apertura,3,Mineros de Zacatecas,Coyotes de Tlaxcala,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+3103,2023-08-05,2023,apertura,3,Cancún FC,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3104,2023-08-05,2023,apertura,3,Cimarrones de Sonora,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3105,2023-08-06,2023,apertura,3,Atlante,Tepatitlán,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3106,2023-08-06,2023,apertura,3,Atlético Morelia,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3107,2023-08-06,2023,apertura,3,Atlético La Paz,Tapatío,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3108,2023-08-10,2023,apertura,4,Tapatío,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3109,2023-08-11,2023,apertura,4,Alebrijes de Oaxaca,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3110,2023-08-11,2023,apertura,4,Venados FC,Atlético La Paz,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+3111,2023-08-12,2023,apertura,4,Dorados de Sinaloa,Cancún FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3112,2023-08-12,2023,apertura,4,Tepatitlán,Leones Negros,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3113,2023-08-13,2023,apertura,4,Atlético Morelia,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3114,2023-08-13,2023,apertura,4,Cimarrones de Sonora,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3115,2023-08-15,2023,apertura,5,Alebrijes de Oaxaca,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3116,2023-08-15,2023,apertura,5,Dorados de Sinaloa,Mineros de Zacatecas,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3117,2023-08-16,2023,apertura,5,Atlante,Atlético La Paz,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3118,2023-08-16,2023,apertura,5,Correcaminos UAT,Tapatío,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3119,2023-08-17,2023,apertura,5,Leones Negros,Venados FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+3120,2023-08-18,2023,apertura,5,Coyotes de Tlaxcala,Cimarrones de Sonora,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3121,2023-08-19,2023,apertura,2,Club Celaya,Tepatitlán,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3122,2023-08-19,2023,apertura,5,Cancún FC,Atlético Morelia,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3123,2023-08-22,2023,apertura,6,Club Celaya,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3124,2023-08-22,2023,apertura,6,Atlético La Paz,Leones Negros,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3125,2023-08-22,2023,apertura,6,Venados FC,Correcaminos UAT,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+3126,2023-08-23,2023,apertura,6,Mineros de Zacatecas,Tepatitlán,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+3127,2023-08-23,2023,apertura,6,Cimarrones de Sonora,Alebrijes de Oaxaca,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+3128,2023-08-24,2023,apertura,6,Tapatío,Coyotes de Tlaxcala,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3129,2023-08-24,2023,apertura,6,Atlético Morelia,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3130,2023-08-29,2023,apertura,7,Venados FC,Tapatío,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3131,2023-08-29,2023,apertura,7,Correcaminos UAT,Alebrijes de Oaxaca,7.0,0.0,FINISHED,7.0,7.0,LOCAL
+3132,2023-08-30,2023,apertura,7,Tepatitlán,Cancún FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3133,2023-08-30,2023,apertura,7,Coyotes de Tlaxcala,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3134,2023-08-30,2023,apertura,7,Atlético La Paz,Cimarrones de Sonora,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3135,2023-08-31,2023,apertura,7,Atlante,Dorados de Sinaloa,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3136,2023-09-01,2023,apertura,7,Leones Negros,Atlético Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3137,2023-09-05,2023,apertura,8,Alebrijes de Oaxaca,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3138,2023-09-05,2023,apertura,8,Club Celaya,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3139,2023-09-05,2023,apertura,8,Correcaminos UAT,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3140,2023-09-06,2023,apertura,8,Cancún FC,Coyotes de Tlaxcala,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3141,2023-09-07,2023,apertura,8,Tapatío,Mineros de Zacatecas,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3142,2023-09-09,2023,apertura,8,Dorados de Sinaloa,Tepatitlán,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3143,2023-09-10,2023,apertura,8,Atlético Morelia,Atlético La Paz,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3144,2023-09-13,2023,apertura,9,Tepatitlán,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3145,2023-09-13,2023,apertura,9,Mineros de Zacatecas,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3146,2023-09-13,2023,apertura,9,Atlético La Paz,Cancún FC,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE
+3147,2023-09-14,2023,apertura,9,Leones Negros,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3148,2023-09-16,2023,apertura,9,Venados FC,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3149,2023-09-16,2023,apertura,9,Coyotes de Tlaxcala,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3150,2023-09-17,2023,apertura,9,Atlético Morelia,Tapatío,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3151,2023-09-19,2023,apertura,10,Club Celaya,Mineros de Zacatecas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+3152,2023-09-19,2023,apertura,10,Cancún FC,Cimarrones de Sonora,5.0,2.0,FINISHED,7.0,3.0,LOCAL
+3153,2023-09-19,2023,apertura,10,Alebrijes de Oaxaca,Atlético La Paz,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3154,2023-09-20,2023,apertura,10,Coyotes de Tlaxcala,Atlético Morelia,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+3155,2023-09-20,2023,apertura,10,Correcaminos UAT,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3156,2023-09-21,2023,apertura,10,Atlante,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3157,2023-09-24,2023,apertura,10,Tapatío,Tepatitlán,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3158,2023-09-26,2023,apertura,11,Atlético La Paz,Coyotes de Tlaxcala,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3159,2023-09-26,2023,apertura,11,Cimarrones de Sonora,Atlético Morelia,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+3160,2023-09-27,2023,apertura,11,Alebrijes de Oaxaca,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3161,2023-09-27,2023,apertura,11,Venados FC,Tepatitlán,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+3162,2023-09-27,2023,apertura,11,Club Celaya,Cancún FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3163,2023-09-30,2023,apertura,11,Atlante,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3164,2023-10-01,2023,apertura,11,Leones Negros,Mineros de Zacatecas,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+3165,2023-10-03,2023,apertura,12,Dorados de Sinaloa,Coyotes de Tlaxcala,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3166,2023-10-04,2023,apertura,12,Mineros de Zacatecas,Venados FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3167,2023-10-04,2023,apertura,12,Atlético Morelia,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3168,2023-10-05,2023,apertura,12,Tapatío,Cimarrones de Sonora,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3169,2023-10-05,2023,apertura,12,Cancún FC,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3170,2023-10-05,2023,apertura,12,Tepatitlán,Atlético La Paz,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3171,2023-10-06,2023,apertura,12,Correcaminos UAT,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3172,2023-10-11,2023,apertura,13,Tapatío,Leones Negros,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+3173,2023-10-13,2023,apertura,13,Coyotes de Tlaxcala,Tepatitlán,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3174,2023-10-13,2023,apertura,13,Cimarrones de Sonora,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3175,2023-10-14,2023,apertura,13,Alebrijes de Oaxaca,Cancún FC,2.0,5.0,FINISHED,7.0,-3.0,VISITANTE
+3176,2023-10-15,2023,apertura,13,Atlético Morelia,Atlante,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3177,2023-10-15,2023,apertura,13,Venados FC,Dorados de Sinaloa,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+3178,2023-10-15,2023,apertura,13,Atlético La Paz,Mineros de Zacatecas,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE
+3179,2023-10-19,2023,apertura,14,Venados FC,Atlético Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3180,2023-10-24,2023,apertura,14,Mineros de Zacatecas,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3181,2023-10-25,2023,apertura,14,Tepatitlán,Alebrijes de Oaxaca,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3182,2023-10-25,2023,apertura,14,Dorados de Sinaloa,Club Celaya,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE
+3183,2023-10-26,2023,apertura,14,Atlante,Cancún FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3184,2023-10-26,2023,apertura,14,Correcaminos UAT,Atlético La Paz,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3185,2023-10-28,2023,apertura,15,Cimarrones de Sonora,Venados FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+3186,2023-10-29,2023,apertura,14,Leones Negros,Coyotes de Tlaxcala,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3187,2023-10-31,2023,apertura,15,Alebrijes de Oaxaca,Atlante,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+3188,2023-11-01,2023,apertura,15,Coyotes de Tlaxcala,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3189,2023-11-01,2023,apertura,15,Cancún FC,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3190,2023-11-02,2023,apertura,15,Club Celaya,Leones Negros,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3191,2023-11-02,2023,apertura,15,Tapatío,Dorados de Sinaloa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3192,2023-11-02,2023,apertura,15,Atlético Morelia,Tepatitlán,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3193,2024-01-09,2023,clausura,1,Cimarrones de Sonora,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3194,2024-01-09,2023,clausura,1,Atlético La Paz,Atlético Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3195,2024-01-10,2023,clausura,1,Coyotes de Tlaxcala,Cancún FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3196,2024-01-10,2023,clausura,1,Tapatío,Venados FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3197,2024-01-11,2023,clausura,1,Tepatitlán,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3198,2024-01-11,2023,clausura,1,Mineros de Zacatecas,Correcaminos UAT,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3199,2024-01-14,2023,clausura,1,Atlante,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3200,2024-01-16,2023,clausura,2,Cancún FC,Alebrijes de Oaxaca,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3201,2024-01-17,2023,clausura,2,Club Celaya,Atlético La Paz,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+3202,2024-01-17,2023,clausura,2,Dorados de Sinaloa,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3203,2024-01-18,2023,clausura,2,Tepatitlán,Venados FC,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE
+3204,2024-01-18,2023,clausura,2,Mineros de Zacatecas,Tapatío,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+3205,2024-01-21,2023,clausura,2,Leones Negros,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3206,2024-01-23,2023,clausura,3,Alebrijes de Oaxaca,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3207,2024-01-23,2023,clausura,3,Atlético La Paz,Tepatitlán,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3208,2024-01-24,2023,clausura,3,Coyotes de Tlaxcala,Dorados de Sinaloa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3209,2024-01-24,2023,clausura,3,Venados FC,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3210,2024-01-25,2023,clausura,3,Cancún FC,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3211,2024-01-25,2023,clausura,3,Club Celaya,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3212,2024-01-28,2023,clausura,3,Atlético Morelia,Mineros de Zacatecas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3213,2024-01-30,2023,clausura,4,Cimarrones de Sonora,Coyotes de Tlaxcala,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3214,2024-01-31,2023,clausura,4,Atlante,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3215,2024-01-31,2023,clausura,4,Dorados de Sinaloa,Venados FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+3216,2024-01-31,2023,clausura,4,Correcaminos UAT,Cancún FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3217,2024-02-01,2023,clausura,4,Tapatío,Atlético La Paz,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3218,2024-02-01,2023,clausura,4,Mineros de Zacatecas,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3219,2024-02-04,2023,clausura,4,Tepatitlán,Atlético Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3220,2024-02-04,2023,clausura,5,Venados FC,Mineros de Zacatecas,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3221,2024-02-06,2023,clausura,5,Club Celaya,Dorados de Sinaloa,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3222,2024-02-06,2023,clausura,5,Alebrijes de Oaxaca,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3223,2024-02-07,2023,clausura,5,Atlético La Paz,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3224,2024-02-07,2023,clausura,5,Cimarrones de Sonora,Tapatío,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3225,2024-02-08,2023,clausura,5,Atlético Morelia,Coyotes de Tlaxcala,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3226,2024-02-09,2023,clausura,5,Leones Negros,Cancún FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3227,2024-02-13,2023,clausura,6,Cancún FC,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3228,2024-02-13,2023,clausura,6,Dorados de Sinaloa,Correcaminos UAT,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3229,2024-02-14,2023,clausura,6,Alebrijes de Oaxaca,Leones Negros,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+3230,2024-02-15,2023,clausura,6,Tepatitlán,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3231,2024-02-16,2023,clausura,6,Coyotes de Tlaxcala,Atlético La Paz,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+3232,2024-02-17,2023,clausura,6,Tapatío,Atlético Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3233,2024-02-18,2023,clausura,6,Atlante,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3234,2024-02-20,2023,clausura,7,Mineros de Zacatecas,Cancún FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3235,2024-02-20,2023,clausura,7,Correcaminos UAT,Atlético Morelia,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3236,2024-02-21,2023,clausura,7,Coyotes de Tlaxcala,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3237,2024-02-21,2023,clausura,7,Cimarrones de Sonora,Tepatitlán,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3238,2024-02-22,2023,clausura,7,Leones Negros,Tapatío,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3239,2024-02-22,2023,clausura,7,Atlético La Paz,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3240,2024-02-25,2023,clausura,7,Club Celaya,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3241,2024-02-27,2023,clausura,8,Venados FC,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3242,2024-02-27,2023,clausura,8,Leones Negros,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3243,2024-02-28,2023,clausura,8,Alebrijes de Oaxaca,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3244,2024-02-29,2023,clausura,8,Tepatitlán,Club Celaya,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3245,2024-02-29,2023,clausura,8,Atlético Morelia,Cimarrones de Sonora,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3246,2024-03-01,2023,clausura,2,Correcaminos UAT,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3247,2024-03-02,2023,clausura,8,Cancún FC,Atlético La Paz,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3248,2024-03-05,2023,clausura,9,Atlante,Coyotes de Tlaxcala,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3249,2024-03-05,2023,clausura,9,Club Celaya,Venados FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3250,2024-03-06,2023,clausura,9,Correcaminos UAT,Tepatitlán,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3251,2024-03-06,2023,clausura,9,Dorados de Sinaloa,Atlético Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3252,2024-03-07,2023,clausura,9,Mineros de Zacatecas,Atlético La Paz,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+3253,2024-03-07,2023,clausura,9,Tapatío,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3254,2024-03-10,2023,clausura,9,Cimarrones de Sonora,Cancún FC,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+3255,2024-03-12,2023,clausura,10,Coyotes de Tlaxcala,Tapatío,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+3256,2024-03-12,2023,clausura,10,Venados FC,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3257,2024-03-13,2023,clausura,10,Tepatitlán,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3258,2024-03-13,2023,clausura,10,Cimarrones de Sonora,Mineros de Zacatecas,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3259,2024-03-14,2023,clausura,10,Atlético Morelia,Cancún FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3260,2024-03-14,2023,clausura,10,Leones Negros,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3261,2024-03-17,2023,clausura,10,Atlético La Paz,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3262,2024-03-19,2023,clausura,11,Cancún FC,Tepatitlán,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3263,2024-03-19,2023,clausura,11,Atlante,Mineros de Zacatecas,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3264,2024-03-19,2023,clausura,11,Alebrijes de Oaxaca,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3265,2024-03-20,2023,clausura,11,Tapatío,Correcaminos UAT,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3266,2024-03-20,2023,clausura,11,Venados FC,Cimarrones de Sonora,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3267,2024-03-20,2023,clausura,11,Dorados de Sinaloa,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3268,2024-03-21,2023,clausura,11,Club Celaya,Atlético Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3269,2024-03-22,2023,clausura,12,Atlético La Paz,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3270,2024-03-23,2023,clausura,12,Tepatitlán,Tapatío,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+3271,2024-03-23,2023,clausura,12,Mineros de Zacatecas,Dorados de Sinaloa,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+3272,2024-03-23,2023,clausura,12,Correcaminos UAT,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3273,2024-03-23,2023,clausura,12,Coyotes de Tlaxcala,Leones Negros,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+3274,2024-03-24,2023,clausura,12,Atlante,Atlético Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3275,2024-03-24,2023,clausura,12,Cimarrones de Sonora,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3276,2024-03-26,2023,clausura,13,Cancún FC,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3277,2024-03-26,2023,clausura,13,Alebrijes de Oaxaca,Tepatitlán,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+3278,2024-03-27,2023,clausura,13,Leones Negros,Atlético La Paz,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+3279,2024-03-27,2023,clausura,13,Correcaminos UAT,Cimarrones de Sonora,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3280,2024-03-28,2023,clausura,13,Atlético Morelia,Venados FC,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+3281,2024-03-28,2023,clausura,13,Dorados de Sinaloa,Atlante,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+3282,2024-03-29,2023,clausura,13,Club Celaya,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3283,2024-04-02,2023,clausura,14,Tapatío,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+3284,2024-04-02,2023,clausura,14,Cimarrones de Sonora,Atlético La Paz,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+3285,2024-04-02,2023,clausura,14,Dorados de Sinaloa,Alebrijes de Oaxaca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+3286,2024-04-03,2023,clausura,14,Mineros de Zacatecas,Club Celaya,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3287,2024-04-03,2023,clausura,14,Venados FC,Cancún FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+3288,2024-04-04,2023,clausura,14,Atlético Morelia,Leones Negros,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3289,2024-04-04,2023,clausura,14,Tepatitlán,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+3290,2024-04-05,2023,clausura,8,Dorados de Sinaloa,Tapatío,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+3291,2024-04-09,2023,clausura,15,Cancún FC,Dorados de Sinaloa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+3292,2024-04-09,2023,clausura,15,Atlético La Paz,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+3293,2024-04-10,2023,clausura,15,Coyotes de Tlaxcala,Mineros de Zacatecas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+3294,2024-04-10,2023,clausura,15,Leones Negros,Tepatitlán,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+3295,2024-04-11,2023,clausura,15,Atlante,Correcaminos UAT,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+3296,2024-04-11,2023,clausura,15,Club Celaya,Tapatío,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+3297,2024-04-13,2023,clausura,15,Alebrijes de Oaxaca,Atlético Morelia,3.0,3.0,FINISHED,6.0,0.0,EMPATE

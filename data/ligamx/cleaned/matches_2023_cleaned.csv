@@ -1,0 +1,312 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+3999,2023-06-30 00:00:00,2023,apertura,1,América,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Ismael Lopez,Estadio Azteca,D.F.,13391.0,0.9,0.7,,,4-2-3-1,,1,True,3
+4000,2023-06-30 00:00:00,2023,apertura,1,Club Tijuana,UNAM Pumas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Daniel Quintero,Estadio Caliente,Tijuana,26158.0,1.2,2.7,,,4-2-3-1,,1,True,3
+4001,2023-06-30 00:00:00,2023,apertura,1,Mazatlán FC,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jesus Lopez,Estadio El Encanto,Mazatlán,8479.0,1.3,4.2,,,4-4-2,,1,True,3
+4002,2023-07-01 00:00:00,2023,apertura,1,Atlas,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Víctor Cáceres,Estadio Jalisco,Guadalajara,20169.0,3.1,0.6,,,4-3-3,,1,True,3
+4003,2023-07-01 00:00:00,2023,apertura,1,Atlético San Luis,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Camacho,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14494.0,3.3,1.8,,,4-2-3-1,,1,True,3
+4004,2023-07-01 00:00:00,2023,apertura,1,Tigres UANL,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Óscar Macias,Estadio Universitario,San Nicolás de los Garza,41615.0,2.4,0.6,,,4-2-3-1,,1,True,3
+4005,2023-07-02 00:00:00,2023,apertura,1,Santos Laguna,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Abraham Quirarte,Estadio Corona,Torreón,12433.0,0.8,0.5,,,4-2-3-1,,1,True,3
+4006,2023-07-02 00:00:00,2023,apertura,1,Toluca,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Iván López,Estadio Nemesio Díez,Toluca de Lerdo,23011.0,1.2,1.1,,,4-4-2,,1,True,3
+4007,2023-07-03 00:00:00,2023,apertura,1,León,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Oscar Mejia,Estadio León,León de los Aldamas,24120.0,2.0,1.3,,,3-4-3,,1,True,3
+4008,2023-07-07 00:00:00,2023,apertura,2,Necaxa,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Victoria,Aguascalientes,13028.0,1.2,1.3,,,5-4-1,,2,True,3
+4009,2023-07-07 00:00:00,2023,apertura,2,Puebla FC,Santos Laguna,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Brian Gonzalez,Estadio Cuauhtémoc,Puebla,11526.0,1.5,3.2,,,4-4-2,,2,True,3
+4010,2023-07-08 00:00:00,2023,apertura,2,Chivas,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Víctor Cáceres,Estadio AKRON,Zapopan,34711.0,1.3,1.2,,,5-4-1,,2,True,3
+4011,2023-07-08 00:00:00,2023,apertura,2,Cruz Azul,Toluca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Ismael Lopez,Estadio Azteca,D.F.,15939.0,0.5,2.1,,,3-4-3,,2,True,3
+4012,2023-07-08 00:00:00,2023,apertura,2,FC Juárez,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jesus Lopez,Estadio Olímpico Benito Juárez,Ciudad Juárez,9663.0,1.1,1.9,,,4-4-1-1,,2,True,3
+4013,2023-07-09 00:00:00,2023,apertura,2,Monterrey,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Edgar Morales,Estadio BBVA,Guadalupe,38156.0,0.8,0.8,,,4-4-2,,2,True,3
+4014,2023-07-09 00:00:00,2023,apertura,2,UNAM Pumas,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Óscar Macias,Estadio Olímpico Universitario,D.F.,20844.0,1.1,0.8,,,4-4-2,,2,True,3
+4015,2023-07-10 00:00:00,2023,apertura,2,León,Pachuca,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Jorge Camacho,Estadio León,León de los Aldamas,15015.0,2.3,1.4,,,3-4-3,,2,True,3
+4016,2023-07-13 00:00:00,2023,apertura,3,Chivas,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jesus Lopez,Estadio AKRON,Zapopan,34418.0,1.4,0.6,,,4-1-4-1,,3,True,3
+4017,2023-07-13 00:00:00,2023,apertura,3,Santos Laguna,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Corona,Torreón,13199.0,0.5,0.3,,,4-2-3-1,,3,True,3
+4018,2023-07-14 00:00:00,2023,apertura,3,Club Tijuana,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Edgar Morales,Estadio Caliente,Tijuana,28333.0,0.7,0.8,,,4-2-3-1,,3,True,3
+4019,2023-07-14 00:00:00,2023,apertura,3,Mazatlán FC,Monterrey,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Brian Gonzalez,Estadio El Encanto,Mazatlán,11462.0,0.3,2.6,,,4-2-3-1,,3,True,3
+4020,2023-07-15 00:00:00,2023,apertura,3,América,Puebla FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Víctor Cáceres,Estadio Azteca,D.F.,32294.0,3.6,0.9,,,4-2-3-1,,3,True,3
+4021,2023-07-15 00:00:00,2023,apertura,3,Atlético San Luis,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Daniel Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,12310.0,1.7,0.6,,,4-2-3-1,,3,True,3
+4022,2023-07-15 00:00:00,2023,apertura,3,Tigres UANL,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Universitario,San Nicolás de los Garza,41615.0,1.2,1.2,,,3-4-3,,3,True,3
+4023,2023-07-16 00:00:00,2023,apertura,3,Pachuca,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Hidalgo,Pachuca de Soto,9396.0,1.1,0.7,,,3-5-2,,3,True,3
+4024,2023-07-16 00:00:00,2023,apertura,3,Toluca,FC Juárez,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,fbref,Charles Terrazas,Estadio Nemesio Díez,Toluca de Lerdo,22931.0,2.0,1.9,,,3-4-3,,3,True,3
+4025,2023-08-18 00:00:00,2023,apertura,4,FC Juárez,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Olímpico Benito Juárez,Ciudad Juárez,14976.0,1.5,1.1,,,4-2-3-1,,4,True,3
+4026,2023-08-18 00:00:00,2023,apertura,4,León,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Maximiliano Quintero,Estadio León,León de los Aldamas,23703.0,1.4,1.9,,,3-4-3,,4,True,3
+4027,2023-08-18 00:00:00,2023,apertura,4,Puebla FC,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Ismael Lopez,Estadio Cuauhtémoc,Puebla,8700.0,1.1,1.8,,,4-5-1,,4,True,3
+4028,2023-08-18 00:00:00,2023,apertura,4,UNAM Pumas,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Enrique Santander,Estadio Olímpico Universitario,D.F.,16970.0,3.8,0.9,,,4-1-4-1,,4,True,3
+4029,2023-08-20 00:00:00,2023,apertura,4,América,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Azteca,D.F.,17046.0,1.8,0.9,,,4-2-3-1,,4,True,3
+4030,2023-08-20 00:00:00,2023,apertura,4,Cruz Azul,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Antonio Ortíz,Estadio Azteca,D.F.,11053.0,2.3,2.5,,,3-4-3,,4,True,3
+4031,2023-08-20 00:00:00,2023,apertura,4,Necaxa,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Victoria,Aguascalientes,13585.0,1.0,1.4,,,5-4-1,,4,True,3
+4032,2023-08-20 00:00:00,2023,apertura,4,Querétaro,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Vicente Arce,Estadio Corregidora,Santiago de Querétaro,6486.0,0.6,1.3,,,4-4-2,,4,True,3
+4033,2023-08-22 00:00:00,2023,apertura,5,Chivas,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio AKRON,Zapopan,27547.0,2.1,0.1,,,4-2-3-1,,5,True,3
+4034,2023-08-22 00:00:00,2023,apertura,5,FC Juárez,UNAM Pumas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Iván López,Estadio Olímpico Benito Juárez,Ciudad Juárez,10430.0,1.9,1.7,,,4-2-3-1,,5,True,3
+4035,2023-08-22 00:00:00,2023,apertura,5,Mazatlán FC,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Enrique Santander,Estadio El Encanto,Mazatlán,7429.0,1.2,0.5,,,4-2-3-1,,5,True,3
+4036,2023-08-23 00:00:00,2023,apertura,5,América,Necaxa,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Marco Ortíz,Estadio Azteca,D.F.,19085.0,2.4,0.6,,,4-2-3-1,,5,True,3
+4037,2023-08-23 00:00:00,2023,apertura,5,Atlético San Luis,León,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Edgar Morales,Estadio Alfonso Lastras Ramírez,San Luis Potosí,12277.0,0.6,1.3,,,4-2-3-1,,5,True,3
+4038,2023-08-23 00:00:00,2023,apertura,5,Pachuca,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jesus Lopez,Estadio Hidalgo,Pachuca de Soto,8242.0,0.8,1.4,,,4-4-2,,5,True,3
+4039,2023-08-25 00:00:00,2023,apertura,6,Club Tijuana,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,Estadio Caliente,Tijuana,18333.0,0.8,0.4,,,4-4-2,,6,True,3
+4040,2023-08-25 00:00:00,2023,apertura,6,Puebla FC,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Diego Montaño,Estadio Cuauhtémoc,Puebla,7806.0,1.3,0.5,,,4-4-2,,6,True,3
+4041,2023-08-26 00:00:00,2023,apertura,6,América,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Óscar Macias,Estadio Azteca,D.F.,30701.0,1.6,0.7,,,4-2-3-1,,6,True,3
+4042,2023-08-26 00:00:00,2023,apertura,6,Atlas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Guillermo Pacheco,Estadio Jalisco,Guadalajara,15657.0,0.9,0.8,,,4-3-3,,6,True,3
+4043,2023-08-26 00:00:00,2023,apertura,6,Santos Laguna,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio Corona,Torreón,16176.0,1.7,0.9,,,4-2-3-1,,6,True,3
+4044,2023-08-27 00:00:00,2023,apertura,6,Monterrey,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio BBVA,Guadalupe,42313.0,1.4,1.3,,,4-2-3-1,,6,True,3
+4045,2023-08-27 00:00:00,2023,apertura,6,Necaxa,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,7289.0,0.4,1.6,,,4-1-4-1,,6,True,2
+4046,2023-08-27 00:00:00,2023,apertura,6,UNAM Pumas,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio Olímpico Universitario,D.F.,17580.0,1.8,0.4,,,4-4-2,,6,True,3
+4047,2023-08-28 00:00:00,2023,apertura,6,Pachuca,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Jorge Camacho,Estadio Hidalgo,Pachuca de Soto,8595.0,0.9,1.7,,,4-4-1-1,,6,True,3
+4048,2023-08-28 16:00:00,2023,apertura,6,Necaxa,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Victoria,Aguascalientes,,,,,,,,6,True,1
+4049,2023-08-30 00:00:00,2023,apertura,5,Querétaro,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Corregidora,Santiago de Querétaro,9140.0,1.2,0.8,,,4-2-3-1,,5,True,3
+4050,2023-08-30 00:00:00,2023,apertura,5,Tigres UANL,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Universitario,San Nicolás de los Garza,39134.0,2.3,1.7,,,4-2-3-1,,5,True,3
+4051,2023-08-30 00:00:00,2023,apertura,5,Toluca,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Diego Montaño,Estadio Nemesio Díez,Toluca de Lerdo,22432.0,0.5,1.2,,,4-2-3-1,,5,True,3
+4052,2023-09-01 00:00:00,2023,apertura,7,FC Juárez,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Adonai Escobedo,Estadio Olímpico Benito Juárez,Ciudad Juárez,11066.0,1.4,1.5,,,4-4-2,,7,True,3
+4053,2023-09-01 00:00:00,2023,apertura,7,Puebla FC,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,César Arturo Ramos,Estadio Cuauhtémoc,Puebla,7700.0,1.1,1.5,,,4-4-2,,7,True,3
+4054,2023-09-02 00:00:00,2023,apertura,7,Cruz Azul,América,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Daniel Quintero,Estadio Azteca,D.F.,36500.0,1.2,0.6,,,3-4-3,,7,True,3
+4055,2023-09-02 00:00:00,2023,apertura,7,León,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Víctor Cáceres,Estadio León,León de los Aldamas,17426.0,1.1,0.5,,,3-4-3,,7,True,3
+4056,2023-09-02 00:00:00,2023,apertura,7,Santos Laguna,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Guerrero,Estadio Corona,Torreón,14908.0,1.8,0.9,,,4-1-3-2,,7,True,3
+4057,2023-09-02 00:00:00,2023,apertura,7,Tigres UANL,Querétaro,5.0,0.0,FINISHED,5.0,5.0,LOCAL,fbref,Ismael Lopez,Estadio Universitario,San Nicolás de los Garza,40273.0,3.5,0.5,,,4-2-3-1,,7,True,3
+4058,2023-09-03 00:00:00,2023,apertura,7,Atlético San Luis,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Luis Enrique Santander,Estadio Alfonso Lastras Ramírez,San Luis Potosí,18313.0,1.3,0.6,,,4-2-3-1,,7,True,3
+4059,2023-09-03 00:00:00,2023,apertura,7,Chivas,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Óscar Macias,Estadio AKRON,Zapopan,37738.0,0.6,1.3,,,4-2-3-1,,7,True,3
+4060,2023-09-03 00:00:00,2023,apertura,7,Toluca,Pachuca,5.0,0.0,FINISHED,5.0,5.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio Nemesio Díez,Toluca de Lerdo,23711.0,4.2,0.4,,,4-2-3-1,,7,True,3
+4061,2023-09-15 00:00:00,2023,apertura,8,Club Tijuana,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Erick Miranda,Estadio Caliente,Tijuana,18633.0,1.1,0.4,,,4-2-3-1,,8,True,3
+4062,2023-09-15 00:00:00,2023,apertura,8,Mazatlán FC,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Antonio Ortíz,Estadio El Encanto,Mazatlán,11002.0,2.2,1.6,,,4-2-3-1,,8,True,3
+4063,2023-09-16 00:00:00,2023,apertura,8,América,Chivas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Fernando Guerrero,Estadio Azteca,D.F.,62514.0,1.3,0.4,,,4-2-3-1,,8,True,3
+4064,2023-09-16 00:00:00,2023,apertura,8,Monterrey,León,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Luis Enrique Santander,Estadio BBVA,Guadalupe,41807.0,1.2,0.8,,,4-4-2,,8,True,3
+4065,2023-09-16 00:00:00,2023,apertura,8,Necaxa,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Brian Gonzalez,Estadio Victoria,Aguascalientes,7195.0,1.4,0.4,,,4-4-2,,8,True,3
+4066,2023-09-17 00:00:00,2023,apertura,8,Atlas,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Adonai Escobedo,Estadio Jalisco,Guadalajara,15413.0,1.7,0.6,,,4-3-3,,8,True,3
+4067,2023-09-17 00:00:00,2023,apertura,8,Querétaro,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Víctor Cáceres,Estadio Corregidora,Santiago de Querétaro,8380.0,1.7,1.8,,,4-4-2,,8,True,3
+4068,2023-09-17 00:00:00,2023,apertura,8,UNAM Pumas,Atlético San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Olímpico Universitario,D.F.,14186.0,2.1,0.5,,,4-4-2,,8,True,3
+4069,2023-09-18 00:00:00,2023,apertura,8,Pachuca,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio Hidalgo,Pachuca de Soto,4673.0,1.4,1.7,,,4-1-4-1,,8,True,3
+4070,2023-09-20 00:00:00,2023,apertura,2,Querétaro,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Diego Montaño,Estadio Corregidora,Santiago de Querétaro,31296.0,0.8,1.0,,,4-4-2,,2,True,3
+4071,2023-09-22 00:00:00,2023,apertura,9,Atlético San Luis,Mazatlán FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14381.0,1.4,2.2,,,4-4-2,,9,True,3
+4072,2023-09-22 00:00:00,2023,apertura,9,FC Juárez,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Víctor Cáceres,Estadio Olímpico Benito Juárez,Ciudad Juárez,13802.0,1.9,1.4,,,4-4-2,,9,True,3
+4073,2023-09-22 00:00:00,2023,apertura,9,Puebla FC,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Cuauhtémoc,Puebla,20696.0,0.7,2.0,,,4-4-2,,9,True,3
+4074,2023-09-23 00:00:00,2023,apertura,9,Chivas,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio AKRON,Zapopan,31370.0,0.7,0.9,,,4-3-3,,9,True,3
+4075,2023-09-23 00:00:00,2023,apertura,9,León,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Guerrero,Estadio León,León de los Aldamas,16428.0,1.1,0.1,,,4-3-3,,9,True,3
+4076,2023-09-23 00:00:00,2023,apertura,9,Tigres UANL,Monterrey,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio Universitario,San Nicolás de los Garza,41615.0,1.6,1.0,,,3-4-3,,9,True,3
+4077,2023-09-24 00:00:00,2023,apertura,9,Cruz Azul,Querétaro,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Abraham Quirarte,,,23790.0,2.4,1.9,,,3-4-3,,9,True,2
+4078,2023-09-24 00:00:00,2023,apertura,9,Santos Laguna,Necaxa,2.0,5.0,FINISHED,7.0,-3.0,VISITANTE,fbref,Oscar Mejia,Estadio Corona,Torreón,10038.0,3.2,1.4,,,4-2-3-1,,9,True,3
+4079,2023-09-24 00:00:00,2023,apertura,9,Toluca,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Nemesio Díez,Toluca de Lerdo,27273.0,1.5,2.0,,,4-4-2,,9,True,3
+4080,2023-09-25 16:00:00,2023,apertura,9,Cruz Azul,Querétaro,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,A. Quirarte,Estadio Azteca,D.F.,,,,,,,,9,True,1
+4081,2023-09-26 00:00:00,2023,apertura,11,Chivas,Mazatlán FC,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Edgar Morales,Estadio AKRON,Zapopan,23581.0,0.5,1.5,,,4-2-3-1,,11,True,3
+4082,2023-09-28 00:00:00,2023,apertura,10,Atlas,Puebla FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Ismael Lopez,Estadio Jalisco,Guadalajara,16390.0,1.0,1.5,,,4-3-3,,10,True,3
+4083,2023-09-29 00:00:00,2023,apertura,10,Atlético San Luis,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Adonai Escobedo,Estadio Alfonso Lastras Ramírez,San Luis Potosí,21180.0,1.9,1.2,,,4-4-2,,10,True,3
+4084,2023-09-29 00:00:00,2023,apertura,10,Club Tijuana,FC Juárez,5.0,1.0,FINISHED,6.0,4.0,LOCAL,fbref,Fernando Hernández,Estadio Caliente,Tijuana,17333.0,2.2,0.8,,,4-2-3-1,,10,True,3
+4085,2023-09-29 00:00:00,2023,apertura,10,Querétaro,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Guillermo Pacheco,Estadio Corregidora,Santiago de Querétaro,11179.0,1.3,1.1,,,4-4-2,,10,True,3
+4086,2023-09-30 00:00:00,2023,apertura,10,América,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Víctor Cáceres,Estadio Azteca,D.F.,62707.0,1.9,0.6,,,4-4-2,,10,True,3
+4087,2023-09-30 00:00:00,2023,apertura,10,Mazatlán FC,Tigres UANL,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Jesus Lopez,Estadio El Encanto,Mazatlán,13503.0,1.8,2.0,,,4-2-3-1,,10,True,3
+4088,2023-09-30 00:00:00,2023,apertura,10,Pachuca,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Charles Terrazas,Estadio Hidalgo,Pachuca de Soto,8193.0,1.9,1.0,,,4-3-3,,10,True,3
+4089,2023-10-01 00:00:00,2023,apertura,10,Toluca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Daniel Quintero,,,27273.0,1.7,0.7,,,4-2-3-1,,10,True,2
+4090,2023-10-02 17:20:00,2023,apertura,10,Toluca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,D. Quintero,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,10,True,1
+4091,2023-10-03 00:00:00,2023,apertura,11,América,Pachuca,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio Azteca,D.F.,30479.0,2.9,0.7,,,4-2-3-1,,11,True,3
+4092,2023-10-03 00:00:00,2023,apertura,11,Puebla FC,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Erick Miranda,Estadio Cuauhtémoc,Puebla,10263.0,0.6,2.2,,,4-4-2,,11,True,3
+4093,2023-10-04 00:00:00,2023,apertura,11,Necaxa,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Fernando Guerrero,Estadio Victoria,Aguascalientes,10923.0,1.3,2.2,,,4-4-2,,11,True,3
+4094,2023-10-04 00:00:00,2023,apertura,11,Santos Laguna,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Corona,Torreón,7038.0,2.1,2.0,,,4-2-3-1,,11,True,3
+4095,2023-10-04 00:00:00,2023,apertura,11,Tigres UANL,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Universitario,San Nicolás de los Garza,37117.0,0.8,1.1,,,4-2-3-1,,11,True,3
+4096,2023-10-04 00:00:00,2023,apertura,11,UNAM Pumas,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Luis Enrique Santander,Estadio Olímpico Universitario,D.F.,8074.0,1.9,0.2,,,4-2-3-1,,11,True,3
+4097,2023-10-06 00:00:00,2023,apertura,12,Mazatlán FC,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Oscar Mejia,Estadio El Encanto,Mazatlán,18000.0,0.5,2.3,,,4-2-3-1,,12,True,3
+4098,2023-10-07 00:00:00,2023,apertura,12,Chivas,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Adonai Escobedo,Estadio AKRON,Zapopan,38972.0,2.0,0.6,,,4-3-3,,12,True,3
+4099,2023-10-07 00:00:00,2023,apertura,12,Cruz Azul,UNAM Pumas,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,César Arturo Ramos,Estadio Azteca,D.F.,28878.0,2.0,1.5,,,5-4-1,,12,True,3
+4100,2023-10-07 00:00:00,2023,apertura,12,Monterrey,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio BBVA,Guadalupe,34921.0,2.0,1.5,,,4-1-4-1,,12,True,3
+4101,2023-10-07 00:00:00,2023,apertura,12,Pachuca,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio Hidalgo,Pachuca de Soto,7483.0,1.1,2.1,,,4-4-2,,12,True,3
+4102,2023-10-08 00:00:00,2023,apertura,12,Club Tijuana,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Enrique Santander,Estadio Caliente,Tijuana,18333.0,1.9,2.1,,,3-4-3,,12,True,3
+4103,2023-10-08 00:00:00,2023,apertura,12,Necaxa,Puebla FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Guillermo Pacheco,Estadio Victoria,Aguascalientes,7463.0,1.7,1.1,,,4-4-2,,12,True,3
+4104,2023-10-08 00:00:00,2023,apertura,12,Santos Laguna,León,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio Corona,Torreón,7429.0,0.3,2.1,,,4-2-3-1,,12,True,3
+4105,2023-10-08 00:00:00,2023,apertura,12,Toluca,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio Nemesio Díez,Toluca de Lerdo,21941.0,3.6,1.1,,,4-2-3-1,,12,True,3
+4106,2023-10-20 00:00:00,2023,apertura,13,Atlas,Mazatlán FC,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio Jalisco,Guadalajara,13006.0,2.5,1.7,,,4-3-3,,13,True,3
+4107,2023-10-20 00:00:00,2023,apertura,13,FC Juárez,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,Estadio Olímpico Benito Juárez,Ciudad Juárez,12078.0,1.7,1.4,,,4-2-3-1,,13,True,3
+4108,2023-10-20 00:00:00,2023,apertura,13,Puebla FC,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Víctor Cáceres,Estadio Cuauhtémoc,Puebla,29026.0,1.5,1.1,,,4-4-2,,13,True,3
+4109,2023-10-21 00:00:00,2023,apertura,13,América,Santos Laguna,4.0,3.0,FINISHED,7.0,1.0,LOCAL,fbref,César Arturo Ramos,Estadio Azteca,D.F.,39968.0,3.1,0.9,,,4-2-3-1,,13,True,3
+4110,2023-10-21 00:00:00,2023,apertura,13,León,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio León,León de los Aldamas,20050.0,1.2,1.3,,,4-1-2-1-2◆,,13,True,3
+4111,2023-10-21 00:00:00,2023,apertura,13,Querétaro,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Óscar Macias,Estadio Corregidora,Santiago de Querétaro,7908.0,1.6,0.6,,,4-4-2,,13,True,3
+4112,2023-10-21 00:00:00,2023,apertura,13,Tigres UANL,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Edgar Morales,Estadio Universitario,San Nicolás de los Garza,41615.0,0.9,0.6,,,4-2-3-1,,13,True,3
+4113,2023-10-22 00:00:00,2023,apertura,13,Atlético San Luis,Necaxa,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Fernando Hernández,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14939.0,1.0,0.5,,,4-2-3-1,,13,True,3
+4114,2023-10-22 00:00:00,2023,apertura,13,UNAM Pumas,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Ismael Lopez,Estadio Olímpico Universitario,D.F.,26885.0,1.0,0.3,,,4-2-3-1,,13,True,3
+4115,2023-10-24 00:00:00,2023,apertura,11,León,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Diego Montaño,Estadio León,León de los Aldamas,24899.0,1.2,1.1,,,4-3-3,,11,True,3
+4116,2023-10-25 00:00:00,2023,apertura,11,FC Juárez,Atlético San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio Olímpico Benito Juárez,Ciudad Juárez,7091.0,0.7,0.7,,,4-2-3-1,,11,True,3
+4117,2023-10-25 00:00:00,2023,apertura,4,Monterrey,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Víctor Cáceres,Estadio BBVA,Guadalupe,31921.0,1.9,0.4,,,4-3-3,,4,True,3
+4118,2023-10-27 00:00:00,2023,apertura,14,Mazatlán FC,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Enrique Santander,Estadio El Encanto,Mazatlán,9707.0,1.8,1.9,,,4-4-2,,14,True,3
+4119,2023-10-27 00:00:00,2023,apertura,14,Necaxa,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Abraham Quirarte,Estadio Victoria,Aguascalientes,12201.0,0.9,0.5,,,4-4-2,,14,True,3
+4120,2023-10-28 00:00:00,2023,apertura,14,Chivas,Tigres UANL,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,fbref,Fernando Hernández,Estadio Jalisco,Guadalajara,36801.0,0.8,1.3,,,4-3-3,,14,True,3
+4121,2023-10-28 00:00:00,2023,apertura,14,Cruz Azul,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Brian Gonzalez,Estadio Azteca,D.F.,11001.0,1.4,0.5,,,3-4-3,,14,True,3
+4122,2023-10-28 00:00:00,2023,apertura,14,Monterrey,América,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Adonai Escobedo,Estadio BBVA,Guadalupe,47177.0,0.7,1.0,,,4-3-3,,14,True,3
+4123,2023-10-28 00:00:00,2023,apertura,14,Pachuca,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Camacho,Estadio Hidalgo,Pachuca de Soto,7876.0,2.5,1.2,,,4-1-3-2,,14,True,3
+4124,2023-10-29 00:00:00,2023,apertura,14,Club Tijuana,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Caliente,Tijuana,20333.0,0.3,0.7,,,4-1-4-1,,14,True,3
+4125,2023-10-29 00:00:00,2023,apertura,14,Santos Laguna,FC Juárez,5.0,1.0,FINISHED,6.0,4.0,LOCAL,fbref,Diego Montaño,Estadio Corona,Torreón,9037.0,1.9,0.9,,,4-4-2,,14,True,3
+4126,2023-10-29 00:00:00,2023,apertura,14,Toluca,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,César Arturo Ramos,Estadio Nemesio Díez,Toluca de Lerdo,23924.0,1.5,0.9,,,4-2-3-1,,14,True,3
+4127,2023-10-31 00:00:00,2023,apertura,15,León,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio León,León de los Aldamas,22898.0,1.3,0.9,,,5-4-1,,15,True,3
+4128,2023-10-31 00:00:00,2023,apertura,15,Monterrey,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Oscar Mejia,Estadio BBVA,Guadalupe,25292.0,1.0,0.2,,,4-2-3-1,,15,True,3
+4129,2023-10-31 00:00:00,2023,apertura,15,Querétaro,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,Estadio Corregidora,Santiago de Querétaro,23204.0,2.0,3.3,,,4-4-2,,15,True,3
+4130,2023-10-31 00:00:00,2023,apertura,15,Toluca,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Óscar Macias,Estadio Nemesio Díez,Toluca de Lerdo,23808.0,1.2,1.4,,,4-2-3-1,,15,True,3
+4131,2023-11-01 00:00:00,2023,apertura,15,Atlas,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Luis Enrique Santander,Estadio Jalisco,Guadalajara,9089.0,2.0,1.4,,,4-5-1,,15,True,3
+4132,2023-11-01 00:00:00,2023,apertura,15,Atlético San Luis,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Edgar Morales,Estadio Alfonso Lastras Ramírez,San Luis Potosí,22584.0,0.8,1.1,,,4-2-3-1,,15,True,3
+4133,2023-11-01 00:00:00,2023,apertura,15,Club Tijuana,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio Caliente,Tijuana,24533.0,1.0,0.8,,,4-1-4-1,,15,True,3
+4134,2023-11-01 00:00:00,2023,apertura,15,Cruz Azul,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,Estadio Azteca,D.F.,9358.0,1.2,0.2,,,3-4-3,,15,True,3
+4135,2023-11-01 00:00:00,2023,apertura,15,Mazatlán FC,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Hernández,Estadio El Encanto,Mazatlán,12269.0,1.9,1.4,,,4-4-2,,15,True,3
+4136,2023-11-03 00:00:00,2023,apertura,16,Puebla FC,León,5.0,4.0,FINISHED,9.0,1.0,LOCAL,fbref,Edgar Morales,Estadio Cuauhtémoc,Puebla,12254.0,1.4,3.1,,,4-4-2,,16,True,3
+4137,2023-11-04 00:00:00,2023,apertura,16,América,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Oscar Mejia,Estadio Azteca,D.F.,46046.0,3.4,0.2,,,4-4-2,,16,True,3
+4138,2023-11-04 00:00:00,2023,apertura,16,Chivas,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio AKRON,Zapopan,36847.0,1.4,0.9,,,4-3-3,,16,True,3
+4139,2023-11-04 00:00:00,2023,apertura,16,Pachuca,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Daniel Quintero,Estadio Hidalgo,Pachuca de Soto,19805.0,1.3,0.5,,,4-3-3,,16,True,3
+4140,2023-11-04 00:00:00,2023,apertura,16,Tigres UANL,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Luis Enrique Santander,Estadio Universitario,San Nicolás de los Garza,39416.0,1.9,0.8,,,4-2-3-1,,16,True,3
+4141,2023-11-05 00:00:00,2023,apertura,16,FC Juárez,Querétaro,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio Olímpico Benito Juárez,Ciudad Juárez,8640.0,0.9,2.2,,,4-4-2,,16,True,3
+4142,2023-11-05 00:00:00,2023,apertura,16,Necaxa,Mazatlán FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,César Arturo Ramos,Estadio Victoria,Aguascalientes,6789.0,1.8,0.9,,,4-4-2,,16,True,3
+4143,2023-11-05 00:00:00,2023,apertura,16,Santos Laguna,Toluca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Víctor Cáceres,Estadio Corona,Torreón,12367.0,2.3,1.7,,,4-2-3-1,,16,True,3
+4144,2023-11-05 00:00:00,2023,apertura,16,UNAM Pumas,Atlas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Fernando Guerrero,Estadio Olímpico Universitario,D.F.,17297.0,3.9,0.3,,,4-4-2,,16,True,3
+4145,2023-11-08 00:00:00,2023,apertura,10,Monterrey,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Fernando Guerrero,Estadio BBVA,Guadalupe,36678.0,2.0,0.1,,,4-1-4-1,,10,True,3
+4146,2023-11-10 00:00:00,2023,apertura,17,Atlas,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Guillermo Pacheco,Estadio Jalisco,Guadalajara,11128.0,0.5,0.5,,,4-3-3,,17,True,3
+4147,2023-11-10 00:00:00,2023,apertura,17,Club Tijuana,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Fernando Hernández,Estadio Caliente,Tijuana,26333.0,3.0,1.1,,,4-2-3-1,,17,True,3
+4148,2023-11-10 00:00:00,2023,apertura,17,Mazatlán FC,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio El Encanto,Mazatlán,14509.0,0.9,0.5,,,4-2-3-1,,17,True,3
+4149,2023-11-11 00:00:00,2023,apertura,17,Atlético San Luis,Santos Laguna,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14479.0,1.3,1.0,,,4-2-3-1,,17,True,3
+4150,2023-11-11 00:00:00,2023,apertura,17,Querétaro,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Víctor Cáceres,Estadio Corregidora,Santiago de Querétaro,16717.0,1.6,0.8,,,4-4-2,,17,True,3
+4151,2023-11-11 00:00:00,2023,apertura,17,Tigres UANL,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Universitario,San Nicolás de los Garza,36783.0,0.7,1.0,,,4-2-3-1,,17,True,3
+4152,2023-11-11 00:00:00,2023,apertura,17,UNAM Pumas,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio Olímpico Universitario,D.F.,46823.0,1.1,1.0,,,4-2-3-1,,17,True,3
+4153,2023-11-12 00:00:00,2023,apertura,17,Cruz Azul,Puebla FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Enrique Santander,Estadio Azteca,D.F.,18653.0,2.2,1.3,,,3-5-2,,17,True,3
+4154,2023-11-12 00:00:00,2023,apertura,17,León,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio León,León de los Aldamas,25288.0,2.0,0.3,,,4-4-2,,17,True,3
+4155,2024-01-12 00:00:00,2023,clausura,1,Mazatlán FC,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Maximiliano Quintero,Estadio El Encanto,Mazatlán,9510.0,2.8,0.6,,,4-4-2,,1,True,3
+4156,2024-01-12 00:00:00,2023,clausura,1,Querétaro,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Abraham Quirarte,Estadio Corregidora,Santiago de Querétaro,13428.0,0.7,1.1,,,4-4-2,,1,True,3
+4157,2024-01-13 00:00:00,2023,clausura,1,Chivas,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Camacho,Estadio AKRON,Zapopan,36743.0,2.0,1.2,,,4-3-3,,1,True,3
+4158,2024-01-13 00:00:00,2023,clausura,1,Club Tijuana,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Edgar Morales,Estadio Caliente,Tijuana,31133.0,2.2,0.4,,,4-1-4-1,,1,True,3
+4159,2024-01-13 00:00:00,2023,clausura,1,Cruz Azul,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Iván López,Estadio Ciudad de los Deportes,D.F.,26100.0,1.4,1.4,,,4-1-4-1,,1,True,3
+4160,2024-01-13 00:00:00,2023,clausura,1,Monterrey,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Guillermo Pacheco,Estadio BBVA,Guadalupe,33233.0,2.2,0.8,,,4-4-2,,1,True,3
+4161,2024-01-14 00:00:00,2023,clausura,1,Necaxa,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,Estadio Victoria,Aguascalientes,13663.0,1.4,0.3,,,4-4-2,,1,True,3
+4162,2024-01-14 00:00:00,2023,clausura,1,UNAM Pumas,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Charles Terrazas,Estadio Olímpico Universitario,D.F.,22057.0,1.3,0.6,,,4-2-3-1,,1,True,3
+4163,2024-01-17 00:00:00,2023,clausura,1,León,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Jesus Lopez,Estadio León,León de los Aldamas,,1.5,1.4,,,4-3-3,,1,True,3
+4164,2024-01-19 00:00:00,2023,clausura,2,Atlético San Luis,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Iván López,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,1.9,2.6,,,4-3-3,,2,True,3
+4165,2024-01-19 00:00:00,2023,clausura,2,FC Juárez,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Erick Miranda,Estadio Olímpico Benito Juárez,Ciudad Juárez,,0.4,2.0,,,4-4-2,,2,True,3
+4166,2024-01-19 00:00:00,2023,clausura,2,Puebla FC,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Vicente Arce,Estadio Cuauhtémoc,Puebla,,1.8,1.2,,,4-4-2,,2,True,3
+4167,2024-01-20 00:00:00,2023,clausura,2,América,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Maximiliano Quintero,Estadio Azteca,D.F.,,2.3,0.2,,,4-2-3-1,,2,True,3
+4168,2024-01-20 00:00:00,2023,clausura,2,Atlas,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Óscar Macias,Estadio Jalisco,Guadalajara,,1.6,0.3,,,4-2-3-1,,2,True,3
+4169,2024-01-20 00:00:00,2023,clausura,2,Toluca,Mazatlán FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Jorge Camacho,Estadio Nemesio Díez,Toluca de Lerdo,23387.0,2.7,2.0,,,4-2-3-1,,2,True,3
+4170,2024-01-21 00:00:00,2023,clausura,2,Santos Laguna,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Edgar Morales,Estadio Corona,Torreón,,1.2,0.9,,,4-2-3-1,,2,True,3
+4171,2024-01-21 00:00:00,2023,clausura,2,Tigres UANL,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Guillermo Pacheco,Estadio Universitario,San Nicolás de los Garza,40283.0,0.4,0.9,,,4-1-4-1,,2,True,3
+4172,2024-01-24 00:00:00,2023,clausura,4,Atlético San Luis,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Víctor Cáceres,Estadio Alfonso Lastras Ramírez,San Luis Potosí,20089.0,1.0,1.6,,,4-3-3,,4,True,3
+4173,2024-01-24 00:00:00,2023,clausura,4,FC Juárez,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Luis Enrique Santander,Estadio Olímpico Benito Juárez,Ciudad Juárez,,1.3,2.2,,,4-4-2,,4,True,3
+4174,2024-01-24 00:00:00,2023,clausura,4,Monterrey,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Antonio Ortíz,Estadio BBVA,Guadalupe,32263.0,1.9,0.8,,,4-4-2,,4,True,3
+4175,2024-01-26 00:00:00,2023,clausura,3,Club Tijuana,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Brian Gonzalez,Estadio Caliente,Tijuana,31133.0,0.8,1.6,,,4-4-2,,3,True,3
+4176,2024-01-26 00:00:00,2023,clausura,3,Puebla FC,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Iván López,Estadio Cuauhtémoc,Puebla,15864.0,1.0,0.8,,,4-4-2,,3,True,3
+4177,2024-01-27 00:00:00,2023,clausura,3,Cruz Azul,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Enrique Santander,Estadio Ciudad de los Deportes,D.F.,20032.0,2.3,0.3,,,3-5-2,,3,True,3
+4178,2024-01-27 00:00:00,2023,clausura,3,León,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio León,León de los Aldamas,18271.0,1.5,1.3,,,4-3-3,,3,True,3
+4179,2024-01-27 00:00:00,2023,clausura,3,Monterrey,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Jesus Lopez,Estadio BBVA,Guadalupe,44386.0,0.7,0.5,,,4-4-2,,3,True,3
+4180,2024-01-27 00:00:00,2023,clausura,3,Necaxa,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,Estadio Victoria,Aguascalientes,20837.0,0.6,0.6,,,4-4-2,,3,True,3
+4181,2024-01-28 00:00:00,2023,clausura,3,Atlas,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio Jalisco,Guadalajara,16099.0,1.5,0.8,,,4-2-3-1,,3,True,3
+4182,2024-01-28 00:00:00,2023,clausura,3,Querétaro,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio Corregidora,Santiago de Querétaro,14846.0,0.6,2.2,,,4-4-2,,3,True,3
+4183,2024-01-28 00:00:00,2023,clausura,3,UNAM Pumas,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Maximiliano Quintero,Estadio Olímpico Universitario,D.F.,,1.1,1.4,,,4-2-3-1,,3,True,3
+4184,2024-01-30 00:00:00,2023,clausura,4,Chivas,Toluca,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio AKRON,Zapopan,,2.2,1.9,,,4-3-3,,4,True,3
+4185,2024-01-30 00:00:00,2023,clausura,4,Cruz Azul,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jesus Lopez,Estadio Ciudad de los Deportes,D.F.,16650.0,1.8,0.6,,,3-5-2,,4,True,3
+4186,2024-01-30 00:00:00,2023,clausura,4,Mazatlán FC,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Edgar Morales,Estadio El Encanto,Mazatlán,9150.0,0.5,1.8,,,4-3-3,,4,True,3
+4187,2024-01-30 00:00:00,2023,clausura,4,Santos Laguna,Puebla FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Brian Gonzalez,Estadio Corona,Torreón,,2.8,1.6,,,4-2-3-1,,4,True,3
+4188,2024-01-31 00:00:00,2023,clausura,4,Pachuca,Atlas,4.0,3.0,FINISHED,7.0,1.0,LOCAL,fbref,Daniel Quintero,Estadio Hidalgo,Pachuca de Soto,9205.0,2.1,1.4,,,4-2-3-1,,4,True,3
+4189,2024-01-31 00:00:00,2023,clausura,4,UNAM Pumas,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Olímpico Universitario,D.F.,,2.8,0.7,,,4-2-3-1,,4,True,3
+4190,2024-02-02 00:00:00,2023,clausura,5,Puebla FC,Mazatlán FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Guerrero,Estadio Cuauhtémoc,Puebla,,1.6,0.4,,,5-3-2,,5,True,3
+4191,2024-02-02 00:00:00,2023,clausura,5,Querétaro,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Jorge Camacho,Estadio Corregidora,Santiago de Querétaro,24777.0,0.9,2.2,,,4-4-2,,5,True,3
+4192,2024-02-03 00:00:00,2023,clausura,5,América,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Azteca,D.F.,,1.2,0.7,,,4-2-3-1,,5,True,3
+4193,2024-02-03 00:00:00,2023,clausura,5,FC Juárez,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Antonio Ortíz,,,9197.0,1.6,0.9,,,3-4-3,,5,True,2
+4194,2024-02-03 00:00:00,2023,clausura,5,Pachuca,Club Tijuana,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Guillermo Pacheco,Estadio Hidalgo,Pachuca de Soto,10137.0,2.7,1.9,,,4-2-3-1,,5,True,3
+4195,2024-02-03 00:00:00,2023,clausura,5,Tigres UANL,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Universitario,San Nicolás de los Garza,41036.0,1.6,0.6,,,5-4-1,,5,True,3
+4196,2024-02-03 00:00:00,2023,clausura,5,Toluca,León,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Ismael Lopez,Estadio Nemesio Díez,Toluca de Lerdo,25171.0,2.1,0.6,,,4-2-3-1,,5,True,3
+4197,2024-02-04 00:00:00,2023,clausura,5,Atlas,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Charles Terrazas,Estadio Jalisco,Guadalajara,16847.0,2.9,0.7,,,4-2-3-1,,5,True,3
+4198,2024-02-04 00:00:00,2023,clausura,5,Atlético San Luis,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Oscar Mejia,Estadio Alfonso Lastras Ramírez,San Luis Potosí,22044.0,0.5,2.4,,,4-4-2,,5,True,3
+4199,2024-02-04 17:06:00,2023,clausura,5,FC Juárez,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,M. Ortíz,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,5,True,1
+4200,2024-02-07 00:00:00,2023,clausura,2,Pachuca,León,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Abraham Quirarte,Estadio Hidalgo,Pachuca de Soto,,0.9,1.1,,,4-2-3-1,,2,True,3
+4201,2024-02-09 00:00:00,2023,clausura,6,Club Tijuana,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio Caliente,Tijuana,,0.9,0.7,,,4-3-3,,6,True,3
+4202,2024-02-09 00:00:00,2023,clausura,6,Mazatlán FC,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Víctor Cáceres,Estadio El Encanto,Mazatlán,,1.2,0.5,,,4-3-3,,6,True,3
+4203,2024-02-10 00:00:00,2023,clausura,6,Chivas,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Vicente Arce,Estadio AKRON,Zapopan,,2.1,1.0,,,4-3-3,,6,True,3
+4204,2024-02-10 00:00:00,2023,clausura,6,Cruz Azul,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Fernando Guerrero,Estadio Ciudad de los Deportes,D.F.,,3.3,0.6,,,5-3-2,,6,True,3
+4205,2024-02-10 00:00:00,2023,clausura,6,León,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio León,León de los Aldamas,,1.1,2.5,,,4-4-2,,6,True,3
+4206,2024-02-10 00:00:00,2023,clausura,6,Monterrey,Pachuca,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Fernando Hernández,Estadio BBVA,Guadalupe,,2.3,0.7,,,4-2-3-1,,6,True,3
+4207,2024-02-10 00:00:00,2023,clausura,6,Necaxa,Toluca,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Victoria,Aguascalientes,,1.9,2.7,,,5-3-2,,6,True,3
+4208,2024-02-10 00:00:00,2023,clausura,6,Santos Laguna,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Oscar Mejia,Estadio Corona,Torreón,,0.9,2.0,,,4-2-3-1,,6,True,3
+4209,2024-02-11 00:00:00,2023,clausura,6,UNAM Pumas,Puebla FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Guillermo Pacheco,Estadio Olímpico Universitario,D.F.,,1.5,0.5,,,4-2-3-1,,6,True,3
+4210,2024-02-14 00:00:00,2023,clausura,9,Atlas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Jesus Lopez,Estadio Jalisco,Guadalajara,,0.4,0.5,,,4-4-2,,9,True,3
+4211,2024-02-16 00:00:00,2023,clausura,7,Mazatlán FC,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Adonai Escobedo,Estadio El Encanto,Mazatlán,,1.1,1.5,,,4-2-3-1,,7,True,3
+4212,2024-02-16 00:00:00,2023,clausura,7,Querétaro,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,Estadio Corregidora,Santiago de Querétaro,,0.3,1.0,,,4-4-2,,7,True,3
+4213,2024-02-17 00:00:00,2023,clausura,7,Atlético San Luis,Club Tijuana,3.0,3.0,FINISHED,6.0,0.0,EMPATE,fbref,Daniel Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,14919.0,2.6,1.5,,,5-3-2,,7,True,3
+4214,2024-02-17 00:00:00,2023,clausura,7,Cruz Azul,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio Ciudad de los Deportes,D.F.,,1.0,0.3,,,3-4-3,,7,True,3
+4215,2024-02-17 00:00:00,2023,clausura,7,Pachuca,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Víctor Cáceres,Estadio Hidalgo,Pachuca de Soto,18143.0,1.9,1.2,,,4-2-3-1,,7,True,3
+4216,2024-02-18 00:00:00,2023,clausura,7,Atlas,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Jesus Lopez,Estadio Jalisco,Guadalajara,16881.0,1.5,1.8,,,4-4-2,,7,True,3
+4217,2024-02-18 00:00:00,2023,clausura,7,Monterrey,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Enrique Santander,Estadio BBVA,Guadalupe,,1.7,0.2,,,4-2-3-1,,7,True,3
+4218,2024-02-18 00:00:00,2023,clausura,7,UNAM Pumas,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Ismael Lopez,Estadio Olímpico Universitario,D.F.,,2.2,0.2,,,4-2-3-1,,7,True,3
+4219,2024-02-20 00:00:00,2023,clausura,9,Necaxa,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Brian Gonzalez,Estadio Victoria,Aguascalientes,,1.6,0.7,,,4-1-2-1-2◆,,9,True,3
+4220,2024-02-20 00:00:00,2023,clausura,9,Puebla FC,Pachuca,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Maximiliano Quintero,Estadio Cuauhtémoc,Puebla,,0.3,2.1,,,5-3-2,,9,True,3
+4221,2024-02-21 00:00:00,2023,clausura,9,América,Mazatlán FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Ismael Lopez,Estadio Azteca,D.F.,,2.4,1.5,,,4-2-3-1,,9,True,3
+4222,2024-02-21 00:00:00,2023,clausura,9,León,Cruz Azul,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Diego Montaño,Estadio León,León de los Aldamas,,0.8,2.3,,,4-4-2,,9,True,3
+4223,2024-02-21 00:00:00,2023,clausura,9,Toluca,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Abraham Quirarte,Estadio Nemesio Díez,Toluca de Lerdo,22999.0,1.1,0.4,,,4-2-3-1,,9,True,3
+4224,2024-02-23 00:00:00,2023,clausura,8,FC Juárez,Monterrey,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Marco Antonio Ortíz,Estadio Olímpico Benito Juárez,Ciudad Juárez,,0.4,2.2,,,3-4-1-2,,8,True,3
+4225,2024-02-23 00:00:00,2023,clausura,8,Necaxa,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Camacho,Estadio Victoria,Aguascalientes,,0.9,1.5,,,4-4-1-1,,8,True,3
+4226,2024-02-23 00:00:00,2023,clausura,8,Puebla FC,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Jesus Lopez,Estadio Cuauhtémoc,Puebla,9480.0,0.9,1.6,,,4-2-2-2,,8,True,3
+4227,2024-02-24 00:00:00,2023,clausura,8,América,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,Estadio Azteca,D.F.,,0.9,0.7,,,4-2-3-1,,8,True,3
+4228,2024-02-24 00:00:00,2023,clausura,8,Chivas,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Óscar Macias,Estadio AKRON,Zapopan,34574.0,1.6,1.1,,,4-3-3,,8,True,3
+4229,2024-02-24 00:00:00,2023,clausura,8,León,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Iván López,Estadio León,León de los Aldamas,20780.0,1.1,1.1,,,4-4-2,,8,True,3
+4230,2024-02-24 00:00:00,2023,clausura,8,Tigres UANL,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,Estadio Universitario,San Nicolás de los Garza,39762.0,1.1,1.2,,,4-2-3-1,,8,True,3
+4231,2024-02-25 00:00:00,2023,clausura,8,Santos Laguna,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Guerrero,Estadio Corona,Torreón,,1.8,0.5,,,4-4-2,,8,True,3
+4232,2024-02-25 00:00:00,2023,clausura,8,Toluca,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Diego Montaño,Estadio Nemesio Díez,Toluca de Lerdo,21297.0,1.5,0.6,,,4-2-3-1,,8,True,3
+4233,2024-02-27 00:00:00,2023,clausura,9,Querétaro,Atlético San Luis,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Edgar Morales,Estadio Corregidora,Santiago de Querétaro,,2.5,0.8,,,4-4-2,,9,True,3
+4234,2024-02-28 00:00:00,2023,clausura,9,Club Tijuana,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,Estadio Caliente,Tijuana,,1.0,0.8,,,4-3-2-1,,9,True,3
+4235,2024-02-28 00:00:00,2023,clausura,9,Tigres UANL,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jesus Lopez,Estadio Universitario,San Nicolás de los Garza,,1.1,1.0,,,4-2-3-1,,9,True,3
+4236,2024-03-01 00:00:00,2023,clausura,10,Atlético San Luis,Puebla FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Vicente Arce,Estadio Alfonso Lastras Ramírez,San Luis Potosí,12581.0,1.9,0.1,,,4-2-3-1,,10,True,3
+4237,2024-03-01 00:00:00,2023,clausura,10,Mazatlán FC,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Marco Antonio Ortíz,Estadio El Encanto,Mazatlán,,2.2,1.4,,,4-2-3-1,,10,True,3
+4238,2024-03-01 00:00:00,2023,clausura,10,Querétaro,Santos Laguna,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Brian Gonzalez,Estadio Corregidora,Santiago de Querétaro,12004.0,0.3,1.1,,,3-4-3,,10,True,3
+4239,2024-03-02 00:00:00,2023,clausura,10,Atlas,América,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,fbref,Fernando Guerrero,Estadio Jalisco,Guadalajara,,1.0,4.9,,,4-2-3-1,,10,True,3
+4240,2024-03-02 00:00:00,2023,clausura,10,Cruz Azul,Chivas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,César Arturo Ramos,Estadio Azteca,D.F.,67623.0,1.2,0.3,,,3-4-3,,10,True,3
+4241,2024-03-02 00:00:00,2023,clausura,10,Pachuca,FC Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Abraham Quirarte,Estadio Hidalgo,Pachuca de Soto,17896.0,0.9,0.5,,,4-2-3-1,,10,True,3
+4242,2024-03-02 00:00:00,2023,clausura,10,Toluca,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,Estadio Nemesio Díez,Toluca de Lerdo,,2.7,0.5,,,4-2-3-1,,10,True,3
+4243,2024-03-03 00:00:00,2023,clausura,10,Club Tijuana,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Guillermo Pacheco,Estadio Caliente,Tijuana,,1.7,1.1,,,4-4-2,,10,True,3
+4244,2024-03-03 00:00:00,2023,clausura,10,Monterrey,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Víctor Cáceres,Estadio BBVA,Guadalupe,,2.6,0.4,,,4-4-2,,10,True,3
+4245,2024-03-08 19:00:00,2023,clausura,11,Puebla FC,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,L. Santander,Estadio Cuauhtémoc,Puebla,,,,,,,,11,True,2
+4246,2024-03-08 21:00:00,2023,clausura,11,Necaxa,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,F. Hernández,Estadio Victoria,Aguascalientes,,,,,,,,11,True,2
+4247,2024-03-08 21:10:00,2023,clausura,11,FC Juárez,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,F. Guerrero,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,11,True,2
+4248,2024-03-09 17:05:00,2023,clausura,11,Chivas,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio AKRON,Zapopan,,,,,,,,11,True,2
+4249,2024-03-09 19:00:00,2023,clausura,11,Pachuca,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,K. Garcia,Estadio Hidalgo,Pachuca de Soto,,,,,,,,11,True,2
+4250,2024-03-09 19:00:00,2023,clausura,11,Santos Laguna,Cruz Azul,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,A. Escobedo,Estadio Corona,Torreón,,,,,,,,11,True,2
+4251,2024-03-09 21:00:00,2023,clausura,11,América,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,V. Cáceres,Estadio Azteca,D.F.,,,,,,,,11,True,2
+4252,2024-03-10 12:00:00,2023,clausura,11,UNAM Pumas,Club Tijuana,3.0,3.0,FINISHED,6.0,0.0,EMPATE,api_football,M. Ortíz,Estadio Olímpico Universitario,D.F.,,,,,,,,11,True,2
+4253,2024-03-10 19:00:00,2023,clausura,11,Monterrey,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,C. Ramos,Estadio BBVA,Guadalupe,,,,,,,,11,True,2
+4254,2024-03-15 19:00:00,2023,clausura,12,Querétaro,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. Santander,Estadio Corregidora,Santiago de Querétaro,,,,,,,,12,True,2
+4255,2024-03-15 21:00:00,2023,clausura,12,Club Tijuana,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,D. Quintero,Estadio Caliente,Tijuana,,,,,,,,12,True,2
+4256,2024-03-16 17:00:00,2023,clausura,12,Cruz Azul,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,F. Guerrero,Estadio Ciudad de los Deportes,D.F.,,,,,,,,12,True,2
+4257,2024-03-16 19:00:00,2023,clausura,12,León,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,K. Hernández,Estadio León,León de los Aldamas,,,,,,,,12,True,2
+4258,2024-03-16 19:00:00,2023,clausura,12,Tigres UANL,Mazatlán FC,5.0,1.0,FINISHED,6.0,4.0,LOCAL,api_football,Ó. Mejía,Estadio Universitario,San Nicolás de los Garza,,,,,,,,12,True,2
+4259,2024-03-16 21:05:00,2023,clausura,12,Chivas,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,F. Hernández,Estadio AKRON,Zapopan,,,,,,,,12,True,2
+4260,2024-03-17 17:00:00,2023,clausura,12,Atlas,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,I. Lopez,Estadio Jalisco,Guadalajara,,,,,,,,12,True,2
+4261,2024-03-17 19:00:00,2023,clausura,12,Atlético San Luis,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,12,True,2
+4262,2024-03-17 19:00:00,2023,clausura,12,Toluca,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,C. Ramos,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,12,True,2
+4263,2024-03-23 19:00:00,2023,clausura,7,FC Juárez,Puebla FC,4.0,3.0,FINISHED,7.0,1.0,LOCAL,api_football,C. Ramos,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,7,True,2
+4264,2024-03-29 19:00:00,2023,clausura,13,Puebla FC,Tigres UANL,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,J. Camacho,Estadio Cuauhtémoc,Puebla,,,,,,,,13,True,2
+4265,2024-03-29 20:00:00,2023,clausura,13,América,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,J. Lopez,Estadio Azteca,D.F.,,,,,,,,13,True,2
+4266,2024-03-29 21:00:00,2023,clausura,13,Mazatlán FC,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,F. Guerrero,Estadio El Encanto,Mazatlán,,,,,,,,13,True,2
+4267,2024-03-30 19:00:00,2023,clausura,13,Monterrey,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,A. Escobedo,Estadio BBVA,Guadalupe,,,,,,,,13,True,2
+4268,2024-03-30 19:00:00,2023,clausura,13,Pachuca,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Hidalgo,Pachuca de Soto,,,,,,,,13,True,2
+4269,2024-03-30 21:05:00,2023,clausura,13,UNAM Pumas,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,F. Hernández,Estadio Olímpico Universitario,D.F.,,,,,,,,13,True,2
+4270,2024-03-31 17:00:00,2023,clausura,13,Atlas,Querétaro,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,C. Ramos,Estadio Jalisco,Guadalajara,,,,,,,,13,True,2
+4271,2024-03-31 19:00:00,2023,clausura,13,Necaxa,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,V. Cáceres,Estadio Victoria,Aguascalientes,,,,,,,,13,True,2
+4272,2024-03-31 19:36:00,2023,clausura,13,FC Juárez,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,E. Miranda,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,13,True,2
+4273,2024-04-05 19:00:00,2023,clausura,14,Mazatlán FC,UNAM Pumas,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,api_football,V. Cáceres,Estadio El Encanto,Mazatlán,,,,,,,,14,True,2
+4274,2024-04-05 21:10:00,2023,clausura,14,Club Tijuana,Necaxa,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,I. Lopez,Estadio Caliente,Tijuana,,,,,,,,14,True,2
+4275,2024-04-06 17:00:00,2023,clausura,14,León,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,A. Escobedo,Estadio León,León de los Aldamas,,,,,,,,14,True,2
+4276,2024-04-06 19:00:00,2023,clausura,14,Tigres UANL,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,F. Hernández,Estadio Universitario,San Nicolás de los Garza,,,,,,,,14,True,2
+4277,2024-04-06 19:05:00,2023,clausura,14,Chivas,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,F. Guerrero,Estadio AKRON,Zapopan,,,,,,,,14,True,2
+4278,2024-04-06 21:05:00,2023,clausura,14,Cruz Azul,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Ciudad de los Deportes,D.F.,,,,,,,,14,True,2
+4279,2024-04-06 21:05:00,2023,clausura,14,Santos Laguna,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,L. Santander,Estadio Corona,Torreón,,,,,,,,14,True,2
+4280,2024-04-07 12:00:00,2023,clausura,14,Toluca,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,K. Hernández,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,14,True,2
+4281,2024-04-07 18:00:00,2023,clausura,14,Atlético San Luis,FC Juárez,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,Ó. Mejía,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,14,True,1
+4282,2024-04-08 00:00:00,2023,clausura,14,Atlético San Luis,FC Juárez,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+4283,2024-04-12 19:06:00,2023,clausura,15,Querétaro,Mazatlán FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,M. Ortíz,Estadio Corregidora,Santiago de Querétaro,,,,,,,,15,True,2
+4284,2024-04-12 21:00:00,2023,clausura,15,Necaxa,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,F. Hernández,Estadio Victoria,Aguascalientes,,,,,,,,15,True,2
+4285,2024-04-12 21:00:00,2023,clausura,15,Puebla FC,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,K. Garcia,Estadio Cuauhtémoc,Puebla,,,,,,,,15,True,2
+4286,2024-04-13 17:00:00,2023,clausura,15,Pachuca,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Hidalgo,Pachuca de Soto,,,,,,,,15,True,2
+4287,2024-04-13 19:05:00,2023,clausura,15,América,Toluca,5.0,1.0,FINISHED,6.0,4.0,LOCAL,api_football,A. Escobedo,Estadio Azteca,D.F.,,,,,,,,15,True,2
+4288,2024-04-13 21:10:00,2023,clausura,15,Monterrey,Tigres UANL,3.0,3.0,FINISHED,6.0,0.0,EMPATE,api_football,C. Ramos,Estadio BBVA,Guadalupe,,,,,,,,15,True,2
+4289,2024-04-14 18:00:00,2023,clausura,15,Atlas,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Jalisco,Guadalajara,,,,,,,,15,True,2
+4290,2024-04-14 18:00:00,2023,clausura,15,UNAM Pumas,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,D. Quintero,Estadio Olímpico Universitario,D.F.,,,,,,,,15,True,2
+4291,2024-04-14 20:06:00,2023,clausura,15,FC Juárez,Club Tijuana,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,L. Santander,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,15,True,2
+4292,2024-04-19 19:00:00,2023,clausura,16,Mazatlán FC,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,F. Hernández,Estadio El Encanto,Mazatlán,,,,,,,,16,True,2
+4293,2024-04-19 21:00:00,2023,clausura,16,Atlético San Luis,Toluca,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,api_football,D. Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,16,True,2
+4294,2024-04-19 21:10:00,2023,clausura,16,Club Tijuana,Puebla FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,A. Escobedo,Estadio Caliente,Tijuana,,,,,,,,16,True,2
+4295,2024-04-20 17:00:00,2023,clausura,16,León,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,V. Cáceres,Estadio León,León de los Aldamas,,,,,,,,16,True,2
+4296,2024-04-20 19:05:00,2023,clausura,16,Chivas,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,Ó. Mejía,Estadio AKRON,Zapopan,,,,,,,,16,True,2
+4297,2024-04-20 19:05:00,2023,clausura,16,Santos Laguna,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,I. Lopez,Estadio Corona,Torreón,,,,,,,,16,True,2
+4298,2024-04-20 19:05:00,2023,clausura,16,Tigres UANL,Necaxa,5.0,2.0,FINISHED,7.0,3.0,LOCAL,api_football,M. Ortíz,Estadio Universitario,San Nicolás de los Garza,,,,,,,,16,True,2
+4299,2024-04-20 21:10:00,2023,clausura,16,UNAM Pumas,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,F. Guerrero,Estadio Olímpico Universitario,D.F.,,,,,,,,16,True,2
+4300,2024-04-21 18:00:00,2023,clausura,16,Cruz Azul,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,L. Santander,Estadio Ciudad de los Deportes,D.F.,,,,,,,,16,True,2
+4301,2024-04-26 19:00:00,2023,clausura,17,Puebla FC,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,G. Pacheco,Estadio Cuauhtémoc,Puebla,,,,,,,,17,True,2
+4302,2024-04-26 21:10:00,2023,clausura,17,Querétaro,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,I. Lopez,Estadio Corregidora,Santiago de Querétaro,,,,,,,,17,True,2
+4303,2024-04-27 17:06:00,2023,clausura,17,FC Juárez,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,A. Escobedo,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,17,True,2
+4304,2024-04-27 19:00:00,2023,clausura,17,Tigres UANL,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,F. Hernández,Estadio Universitario,San Nicolás de los Garza,,,,,,,,17,True,2
+4305,2024-04-27 19:00:00,2023,clausura,17,Toluca,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,F. Guerrero,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,17,True,2
+4306,2024-04-27 19:10:00,2023,clausura,17,Pachuca,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,L. Santander,Estadio Hidalgo,Pachuca de Soto,,,,,,,,17,True,2
+4307,2024-04-27 21:10:00,2023,clausura,17,Atlas,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,M. Ortíz,Estadio Jalisco,Guadalajara,,,,,,,,17,True,2
+4308,2024-04-28 18:00:00,2023,clausura,17,Necaxa,Monterrey,2.0,5.0,FINISHED,7.0,-3.0,VISITANTE,api_football,J. Lopez,Estadio Victoria,Aguascalientes,,,,,,,,17,True,2
+4309,2024-04-28 18:00:00,2023,clausura,17,Santos Laguna,Atlético San Luis,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,I. López,Estadio Corona,Torreón,,,,,,,,17,True,2

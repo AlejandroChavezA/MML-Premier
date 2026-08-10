@@ -1,0 +1,241 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+1663,2017-07-21,2017,apertura,1,Atlante,Cafetaleros de Tapachula,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1664,2017-07-21,2017,apertura,1,Leones Negros,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1665,2017-07-21,2017,apertura,1,Venados FC,Mineros de Zacatecas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1666,2017-07-21,2017,apertura,1,Cimarrones de Sonora,Murciélagos FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1667,2017-07-22,2017,apertura,1,Alebrijes de Oaxaca,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1668,2017-07-22,2017,apertura,1,FC Juárez,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1669,2017-07-22,2017,apertura,1,TM Fútbol Club,Zacatepec,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1670,2017-07-22,2017,apertura,1,Dorados de Sinaloa,Potros UAEM,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1671,2017-07-28,2017,apertura,2,Mineros de Zacatecas,Dorados de Sinaloa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1672,2017-07-28,2017,apertura,2,Atlético San Luis,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1673,2017-07-28,2017,apertura,2,Correcaminos UAT,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1674,2017-07-28,2017,apertura,2,Cafetaleros de Tapachula,Cimarrones de Sonora,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1675,2017-07-28,2017,apertura,2,Murciélagos FC,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1676,2017-07-29,2017,apertura,2,Potros UAEM,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1677,2017-07-29,2017,apertura,2,Zacatepec,Atlante,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1678,2017-07-29,2017,apertura,2,Club Celaya,TM Fútbol Club,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1679,2017-08-04,2017,apertura,3,Atlante,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1680,2017-08-04,2017,apertura,3,Leones Negros,Mineros de Zacatecas,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+1681,2017-08-04,2017,apertura,3,Venados FC,Dorados de Sinaloa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1682,2017-08-04,2017,apertura,3,Cimarrones de Sonora,Zacatepec,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1683,2017-08-04,2017,apertura,3,Murciélagos FC,Cafetaleros de Tapachula,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1684,2017-08-05,2017,apertura,3,Alebrijes de Oaxaca,Potros UAEM,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1685,2017-08-05,2017,apertura,3,FC Juárez,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1686,2017-08-05,2017,apertura,3,TM Fútbol Club,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1687,2017-08-11,2017,apertura,4,Mineros de Zacatecas,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1688,2017-08-11,2017,apertura,4,Atlético San Luis,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1689,2017-08-11,2017,apertura,4,Correcaminos UAT,TM Fútbol Club,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1690,2017-08-11,2017,apertura,4,Cafetaleros de Tapachula,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1691,2017-08-12,2017,apertura,4,Zacatepec,Murciélagos FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1692,2017-08-12,2017,apertura,4,Potros UAEM,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1693,2017-08-12,2017,apertura,4,Club Celaya,Cimarrones de Sonora,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1694,2017-08-12,2017,apertura,4,Dorados de Sinaloa,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1695,2017-08-18,2017,apertura,5,Atlante,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1696,2017-08-18,2017,apertura,5,Venados FC,Leones Negros,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1697,2017-08-18,2017,apertura,5,Cafetaleros de Tapachula,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1698,2017-08-18,2017,apertura,5,Murciélagos FC,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1699,2017-08-18,2017,apertura,5,Cimarrones de Sonora,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1700,2017-08-19,2017,apertura,5,Alebrijes de Oaxaca,Dorados de Sinaloa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1701,2017-08-19,2017,apertura,5,FC Juárez,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1702,2017-08-19,2017,apertura,5,TM Fútbol Club,Potros UAEM,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1703,2017-08-25,2017,apertura,6,Mineros de Zacatecas,TM Fútbol Club,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1704,2017-08-25,2017,apertura,6,Atlético San Luis,Murciélagos FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1705,2017-08-25,2017,apertura,6,Correcaminos UAT,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1706,2017-08-25,2017,apertura,6,Leones Negros,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1707,2017-08-26,2017,apertura,6,Zacatepec,Venados FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1708,2017-08-26,2017,apertura,6,Potros UAEM,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1709,2017-08-26,2017,apertura,6,Club Celaya,Cafetaleros de Tapachula,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1710,2017-08-26,2017,apertura,6,Dorados de Sinaloa,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1711,2017-09-08,2017,apertura,7,Atlante,Mineros de Zacatecas,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1712,2017-09-08,2017,apertura,7,Venados FC,Alebrijes de Oaxaca,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1713,2017-09-08,2017,apertura,7,Cafetaleros de Tapachula,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1714,2017-09-08,2017,apertura,7,Cimarrones de Sonora,Potros UAEM,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1715,2017-09-08,2017,apertura,7,Murciélagos FC,Correcaminos UAT,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1716,2017-09-09,2017,apertura,7,Zacatepec,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1717,2017-09-09,2017,apertura,7,FC Juárez,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1718,2017-09-09,2017,apertura,7,TM Fútbol Club,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1719,2017-09-15,2017,apertura,8,Mineros de Zacatecas,Cimarrones de Sonora,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1720,2017-09-15,2017,apertura,8,Atlético San Luis,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1721,2017-09-15,2017,apertura,8,Correcaminos UAT,Cafetaleros de Tapachula,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1722,2017-09-15,2017,apertura,8,Leones Negros,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1723,2017-09-16,2017,apertura,8,Potros UAEM,Murciélagos FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1724,2017-09-16,2017,apertura,8,Alebrijes de Oaxaca,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1725,2017-09-16,2017,apertura,8,Club Celaya,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1726,2017-09-16,2017,apertura,8,Dorados de Sinaloa,Atlante,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1727,2017-09-29,2017,apertura,10,Potros UAEM,Zacatepec,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1728,2017-09-29,2017,apertura,10,Mineros de Zacatecas,Cafetaleros de Tapachula,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1729,2017-09-29,2017,apertura,10,Correcaminos UAT,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1730,2017-09-29,2017,apertura,10,Atlético San Luis,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1731,2017-09-30,2017,apertura,10,Alebrijes de Oaxaca,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1732,2017-09-30,2017,apertura,10,FC Juárez,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1733,2017-09-30,2017,apertura,10,Dorados de Sinaloa,Murciélagos FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1734,2017-10-01,2017,apertura,10,Leones Negros,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1735,2017-10-06,2017,apertura,9,Atlante,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1736,2017-10-06,2017,apertura,9,Murciélagos FC,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1737,2017-10-07,2017,apertura,9,Zacatepec,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1738,2017-10-07,2017,apertura,9,Venados FC,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1739,2017-10-07,2017,apertura,9,Cafetaleros de Tapachula,Potros UAEM,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+1740,2017-10-07,2017,apertura,9,TM Fútbol Club,Alebrijes de Oaxaca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1741,2017-10-07,2017,apertura,9,Club Celaya,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1742,2017-10-07,2017,apertura,9,Cimarrones de Sonora,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1743,2017-10-13,2017,apertura,11,Atlético San Luis,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1744,2017-10-13,2017,apertura,11,Atlante,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1745,2017-10-13,2017,apertura,11,Venados FC,TM Fútbol Club,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1746,2017-10-13,2017,apertura,11,Cafetaleros de Tapachula,Dorados de Sinaloa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1747,2017-10-13,2017,apertura,11,Murciélagos FC,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1748,2017-10-13,2017,apertura,11,Cimarrones de Sonora,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1749,2017-10-14,2017,apertura,11,Zacatepec,Mineros de Zacatecas,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1750,2017-10-14,2017,apertura,11,Club Celaya,Potros UAEM,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1751,2017-10-20,2017,apertura,12,Mineros de Zacatecas,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1752,2017-10-20,2017,apertura,12,Correcaminos UAT,Venados FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1753,2017-10-21,2017,apertura,12,Potros UAEM,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1754,2017-10-21,2017,apertura,12,Alebrijes de Oaxaca,Murciélagos FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1755,2017-10-21,2017,apertura,12,FC Juárez,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1756,2017-10-21,2017,apertura,12,TM Fútbol Club,Atlante,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1757,2017-10-21,2017,apertura,12,Dorados de Sinaloa,Zacatepec,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1758,2017-10-22,2017,apertura,12,Leones Negros,Cafetaleros de Tapachula,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1759,2017-10-27,2017,apertura,13,Correcaminos UAT,Potros UAEM,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1760,2017-10-27,2017,apertura,13,Atlético San Luis,Mineros de Zacatecas,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1761,2017-10-27,2017,apertura,13,Venados FC,Atlante,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1762,2017-10-27,2017,apertura,13,Murciélagos FC,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1763,2017-10-27,2017,apertura,13,Cimarrones de Sonora,TM Fútbol Club,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1764,2017-10-28,2017,apertura,13,Zacatepec,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1765,2017-10-28,2017,apertura,13,Cafetaleros de Tapachula,Alebrijes de Oaxaca,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1766,2017-10-28,2017,apertura,13,Club Celaya,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1767,2017-11-03,2017,apertura,14,Mineros de Zacatecas,Correcaminos UAT,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1768,2017-11-03,2017,apertura,14,Atlante,Cimarrones de Sonora,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1769,2017-11-03,2017,apertura,14,Venados FC,Potros UAEM,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1770,2017-11-03,2017,apertura,14,Leones Negros,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1771,2017-11-04,2017,apertura,14,Alebrijes de Oaxaca,Zacatepec,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1772,2017-11-04,2017,apertura,14,FC Juárez,Cafetaleros de Tapachula,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1773,2017-11-04,2017,apertura,14,TM Fútbol Club,Murciélagos FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1774,2017-11-04,2017,apertura,14,Dorados de Sinaloa,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1775,2017-11-10,2017,apertura,15,Atlético San Luis,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1776,2017-11-10,2017,apertura,15,Correcaminos UAT,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1777,2017-11-10,2017,apertura,15,Cimarrones de Sonora,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1778,2017-11-10,2017,apertura,15,Cafetaleros de Tapachula,TM Fútbol Club,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1779,2017-11-10,2017,apertura,15,Murciélagos FC,Atlante,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1780,2017-11-11,2017,apertura,15,Zacatepec,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1781,2017-11-11,2017,apertura,15,Potros UAEM,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1782,2017-11-11,2017,apertura,15,Club Celaya,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1783,2018-01-05,2017,clausura,1,Potros UAEM,Dorados de Sinaloa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1784,2018-01-05,2017,clausura,1,Mineros de Zacatecas,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1785,2018-01-05,2017,clausura,1,Atlético San Luis,Alebrijes de Oaxaca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1786,2018-01-05,2017,clausura,1,Correcaminos UAT,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1787,2018-01-05,2017,clausura,1,Murciélagos FC,Cimarrones de Sonora,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1788,2018-01-06,2017,clausura,1,Zacatepec,TM Fútbol Club,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1789,2018-01-06,2017,clausura,1,Cafetaleros de Tapachula,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1790,2018-01-06,2017,clausura,1,Club Celaya,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1791,2018-01-12,2017,clausura,2,Atlante,Zacatepec,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1792,2018-01-12,2017,clausura,2,Venados FC,Murciélagos FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1793,2018-01-12,2017,clausura,2,Cimarrones de Sonora,Cafetaleros de Tapachula,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1794,2018-01-13,2017,clausura,2,FC Juárez,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1795,2018-01-13,2017,clausura,2,Alebrijes de Oaxaca,Correcaminos UAT,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1796,2018-01-13,2017,clausura,2,TM Fútbol Club,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1797,2018-01-13,2017,clausura,2,Dorados de Sinaloa,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1798,2018-01-14,2017,clausura,2,Leones Negros,Potros UAEM,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1799,2018-01-19,2017,clausura,3,Potros UAEM,Alebrijes de Oaxaca,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1800,2018-01-19,2017,clausura,3,Mineros de Zacatecas,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1801,2018-01-19,2017,clausura,3,Atlético San Luis,TM Fútbol Club,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1802,2018-01-19,2017,clausura,3,Correcaminos UAT,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1803,2018-01-20,2017,clausura,3,Zacatepec,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1804,2018-01-20,2017,clausura,3,Cafetaleros de Tapachula,Murciélagos FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1805,2018-01-20,2017,clausura,3,Club Celaya,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1806,2018-01-20,2017,clausura,3,Dorados de Sinaloa,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1807,2018-01-26,2017,clausura,4,Atlante,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1808,2018-01-26,2017,clausura,4,Venados FC,Cafetaleros de Tapachula,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1809,2018-01-26,2017,clausura,4,Cimarrones de Sonora,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1810,2018-01-26,2017,clausura,4,Murciélagos FC,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1811,2018-01-27,2017,clausura,4,FC Juárez,Potros UAEM,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1812,2018-01-27,2017,clausura,4,Alebrijes de Oaxaca,Mineros de Zacatecas,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1813,2018-01-27,2017,clausura,4,TM Fútbol Club,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1814,2018-01-28,2017,clausura,4,Leones Negros,Dorados de Sinaloa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1815,2018-01-30,2017,clausura,5,Club Celaya,Murciélagos FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1816,2018-01-30,2017,clausura,5,Potros UAEM,TM Fútbol Club,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1817,2018-01-30,2017,clausura,5,Zacatepec,Cafetaleros de Tapachula,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1818,2018-01-30,2017,clausura,5,Atlético San Luis,Cimarrones de Sonora,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1819,2018-01-30,2017,clausura,5,Correcaminos UAT,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1820,2018-01-30,2017,clausura,5,Leones Negros,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1821,2018-01-31,2017,clausura,5,Mineros de Zacatecas,FC Juárez,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+1822,2018-01-31,2017,clausura,5,Dorados de Sinaloa,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1823,2018-02-02,2017,clausura,6,Atlante,Potros UAEM,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1824,2018-02-02,2017,clausura,6,Venados FC,Zacatepec,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1825,2018-02-02,2017,clausura,6,Cimarrones de Sonora,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1826,2018-02-02,2017,clausura,6,Murciélagos FC,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1827,2018-02-03,2017,clausura,6,FC Juárez,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1828,2018-02-03,2017,clausura,6,Alebrijes de Oaxaca,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1829,2018-02-03,2017,clausura,6,Cafetaleros de Tapachula,Club Celaya,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1830,2018-02-03,2017,clausura,6,TM Fútbol Club,Mineros de Zacatecas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1831,2018-02-09,2017,clausura,7,Mineros de Zacatecas,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1832,2018-02-09,2017,clausura,7,Potros UAEM,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1833,2018-02-09,2017,clausura,7,Atlético San Luis,Cafetaleros de Tapachula,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1834,2018-02-09,2017,clausura,7,Correcaminos UAT,Murciélagos FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1835,2018-02-10,2017,clausura,7,Alebrijes de Oaxaca,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1836,2018-02-10,2017,clausura,7,Club Celaya,Zacatepec,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1837,2018-02-10,2017,clausura,7,Dorados de Sinaloa,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1838,2018-02-11,2017,clausura,7,Leones Negros,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1839,2018-02-13,2017,clausura,8,Murciélagos FC,Potros UAEM,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1840,2018-02-13,2017,clausura,8,Venados FC,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1841,2018-02-13,2017,clausura,8,Cafetaleros de Tapachula,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1842,2018-02-13,2017,clausura,8,Cimarrones de Sonora,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1843,2018-02-14,2017,clausura,8,Atlante,Dorados de Sinaloa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1844,2018-02-14,2017,clausura,8,FC Juárez,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1845,2018-02-14,2017,clausura,8,TM Fútbol Club,Leones Negros,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+1846,2018-02-16,2017,clausura,9,Potros UAEM,Cafetaleros de Tapachula,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1847,2018-02-16,2017,clausura,9,Atlético San Luis,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1848,2018-02-16,2017,clausura,9,Correcaminos UAT,Zacatepec,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1849,2018-02-17,2017,clausura,9,Mineros de Zacatecas,Murciélagos FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1850,2018-02-17,2017,clausura,9,FC Juárez,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1851,2018-02-17,2017,clausura,9,Alebrijes de Oaxaca,TM Fútbol Club,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1852,2018-02-17,2017,clausura,9,Dorados de Sinaloa,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1853,2018-02-18,2017,clausura,9,Leones Negros,Atlante,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1854,2018-02-20,2017,clausura,8,Zacatepec,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1855,2018-02-23,2017,clausura,10,Atlante,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1856,2018-02-23,2017,clausura,10,Venados FC,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1857,2018-02-23,2017,clausura,10,Cimarrones de Sonora,Leones Negros,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1858,2018-02-23,2017,clausura,10,Murciélagos FC,Dorados de Sinaloa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1859,2018-02-24,2017,clausura,10,Zacatepec,Potros UAEM,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1860,2018-02-24,2017,clausura,10,Cafetaleros de Tapachula,Mineros de Zacatecas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1861,2018-02-24,2017,clausura,10,Club Celaya,Correcaminos UAT,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1862,2018-02-24,2017,clausura,10,TM Fútbol Club,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1863,2018-03-02,2017,clausura,11,Potros UAEM,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1864,2018-03-02,2017,clausura,11,Correcaminos UAT,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1865,2018-03-03,2017,clausura,11,Mineros de Zacatecas,Zacatepec,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1866,2018-03-03,2017,clausura,11,Alebrijes de Oaxaca,Cimarrones de Sonora,5.0,2.0,FINISHED,7.0,3.0,LOCAL
+1867,2018-03-03,2017,clausura,11,FC Juárez,Atlante,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1868,2018-03-03,2017,clausura,11,TM Fútbol Club,Venados FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1869,2018-03-03,2017,clausura,11,Dorados de Sinaloa,Cafetaleros de Tapachula,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1870,2018-03-04,2017,clausura,11,Leones Negros,Murciélagos FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1871,2018-03-09,2017,clausura,12,Atlante,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1872,2018-03-09,2017,clausura,12,Atlético San Luis,Potros UAEM,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1873,2018-03-09,2017,clausura,12,Venados FC,Correcaminos UAT,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1874,2018-03-09,2017,clausura,12,Cafetaleros de Tapachula,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1875,2018-03-09,2017,clausura,12,Cimarrones de Sonora,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1876,2018-03-09,2017,clausura,12,Murciélagos FC,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1877,2018-03-10,2017,clausura,12,Zacatepec,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1878,2018-03-10,2017,clausura,12,Club Celaya,Mineros de Zacatecas,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1879,2018-03-16,2017,clausura,13,Potros UAEM,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1880,2018-03-16,2017,clausura,13,Atlante,Venados FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1881,2018-03-17,2017,clausura,13,Mineros de Zacatecas,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1882,2018-03-17,2017,clausura,13,Alebrijes de Oaxaca,Cafetaleros de Tapachula,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1883,2018-03-17,2017,clausura,13,FC Juárez,Murciélagos FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1884,2018-03-17,2017,clausura,13,TM Fútbol Club,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1885,2018-03-17,2017,clausura,13,Dorados de Sinaloa,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1886,2018-03-18,2017,clausura,13,Leones Negros,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1887,2018-03-23,2017,clausura,14,Potros UAEM,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1888,2018-03-23,2017,clausura,14,Atlético San Luis,Dorados de Sinaloa,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1889,2018-03-23,2017,clausura,14,Correcaminos UAT,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1890,2018-03-23,2017,clausura,14,Cafetaleros de Tapachula,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1891,2018-03-23,2017,clausura,14,Cimarrones de Sonora,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1892,2018-03-23,2017,clausura,14,Murciélagos FC,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1893,2018-03-24,2017,clausura,14,Zacatepec,Alebrijes de Oaxaca,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1894,2018-03-24,2017,clausura,14,Club Celaya,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1895,2018-03-30,2017,clausura,15,Mineros de Zacatecas,Potros UAEM,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1896,2018-03-30,2017,clausura,15,Atlante,Murciélagos FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1897,2018-03-30,2017,clausura,15,Venados FC,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1898,2018-03-31,2017,clausura,15,FC Juárez,Zacatepec,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1899,2018-03-31,2017,clausura,15,Alebrijes de Oaxaca,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1900,2018-03-31,2017,clausura,15,TM Fútbol Club,Cafetaleros de Tapachula,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1901,2018-03-31,2017,clausura,15,Dorados de Sinaloa,Correcaminos UAT,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1902,2018-04-01,2017,clausura,15,Leones Negros,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL

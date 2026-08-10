@@ -1,0 +1,307 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+4310,2024-07-05 16:45:00,2024,apertura,1,Puebla FC,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,J. Camacho,Estadio Cuauhtémoc,Puebla,,,,,,,,1,True,2
+4311,2024-07-05 19:00:00,2024,apertura,1,Querétaro,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,L. García,Estadio Corregidora,Santiago de Querétaro,,,,,,,,1,True,2
+4312,2024-07-05 21:10:00,2024,apertura,1,FC Juárez,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,Ó. Macías,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,1,True,2
+4313,2024-07-06 17:00:00,2024,apertura,1,Atlético San Luis,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,I. López,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,1,True,2
+4314,2024-07-06 19:00:00,2024,apertura,1,Chivas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,J. Lopez,Estadio AKRON,Zapopan,,,,,,,,1,True,2
+4315,2024-07-06 19:00:00,2024,apertura,1,Tigres UANL,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Arce,Estadio Universitario,San Nicolás de los Garza,,,,,,,,1,True,2
+4316,2024-07-06 21:00:00,2024,apertura,1,Cruz Azul,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,K. Hernández,Estadio Ciudad de los Deportes,D.F.,,,,,,,,1,True,2
+4317,2024-07-07 12:00:00,2024,apertura,1,UNAM Pumas,León,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,M. Quintero,Estadio Olímpico Universitario,D.F.,,,,,,,,1,True,2
+4318,2024-07-07 19:06:00,2024,apertura,1,Pachuca,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,I. Lopez,Estadio Hidalgo,Pachuca de Soto,,,,,,,,1,True,2
+4319,2024-07-12 19:00:00,2024,apertura,2,América,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,K. Garcia,Estadio Ciudad de los Deportes,D.F.,,,,,,,,2,True,2
+4320,2024-07-12 21:00:00,2024,apertura,2,Club Tijuana,Chivas,4.0,2.0,FINISHED,6.0,2.0,LOCAL,api_football,I. López,Estadio Caliente,Tijuana,,,,,,,,2,True,2
+4321,2024-07-12 21:00:00,2024,apertura,2,Mazatlán FC,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,M. Molina,Estadio El Encanto,Mazatlán,,,,,,,,2,True,2
+4322,2024-07-12 21:05:00,2024,apertura,2,Atlas,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Camacho,Estadio Jalisco,Guadalajara,,,,,,,,2,True,2
+4323,2024-07-13 17:00:00,2024,apertura,2,León,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,S. Pérez Villalobos,Estadio León,León de los Aldamas,,,,,,,,2,True,2
+4324,2024-07-13 17:00:00,2024,apertura,2,Necaxa,Puebla FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,A. Quirarte,Estadio Victoria,Aguascalientes,,,,,,,,2,True,2
+4325,2024-07-13 19:10:00,2024,apertura,2,Toluca,FC Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,V. Arce,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,2,True,2
+4326,2024-07-13 19:25:00,2024,apertura,2,Santos Laguna,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Terrazas,Estadio Corona,Torreón,,,,,,,,2,True,2
+4327,2024-07-13 21:10:00,2024,apertura,2,Monterrey,Cruz Azul,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,api_football,M. Quintero,Estadio BBVA,Guadalupe,,,,,,,,2,True,2
+4328,2024-07-16 19:00:00,2024,apertura,3,Atlas,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. Santander,Estadio Jalisco,Guadalajara,,,,,,,,3,True,2
+4329,2024-07-16 19:00:00,2024,apertura,3,Pachuca,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,V. Cáceres,Estadio Hidalgo,Pachuca de Soto,,,,,,,,3,True,2
+4330,2024-07-16 19:00:00,2024,apertura,3,Querétaro,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,F. Hernández,Estadio Corregidora,Santiago de Querétaro,,,,,,,,3,True,2
+4331,2024-07-16 21:00:00,2024,apertura,3,Puebla FC,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,M. Ortíz,Estadio Cuauhtémoc,Puebla,,,,,,,,3,True,2
+4332,2024-07-16 21:05:00,2024,apertura,3,Cruz Azul,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,I. Lopez,Estadio Ciudad de los Deportes,D.F.,,,,,,,,3,True,2
+4333,2024-07-17 19:00:00,2024,apertura,3,Necaxa,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Victoria,Aguascalientes,,,,,,,,3,True,2
+4334,2024-07-17 19:06:00,2024,apertura,3,FC Juárez,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,3,True,2
+4335,2024-07-17 21:00:00,2024,apertura,3,Tigres UANL,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,F. Guerrero,Estadio Universitario,San Nicolás de los Garza,,,,,,,,3,True,2
+4336,2024-07-17 21:00:00,2024,apertura,3,Toluca,Mazatlán FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,A. Escobedo,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,3,True,2
+4337,2024-07-19 19:00:00,2024,apertura,4,Atlético San Luis,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Terrazas,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,4,True,2
+4338,2024-07-19 21:05:00,2024,apertura,4,Puebla FC,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,I. López,Estadio Cuauhtémoc,Puebla,,,,,,,,4,True,2
+4339,2024-07-20 17:05:00,2024,apertura,4,Chivas,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,Ó. Mejía,Estadio AKRON,Zapopan,,,,,,,,4,True,2
+4340,2024-07-20 19:00:00,2024,apertura,4,Monterrey,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio BBVA,Guadalupe,,,,,,,,4,True,2
+4341,2024-07-20 19:00:00,2024,apertura,4,Santos Laguna,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,M. Ortíz,Estadio Corona,Torreón,,,,,,,,4,True,2
+4342,2024-07-20 21:05:00,2024,apertura,4,Cruz Azul,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Lopez,Estadio Ciudad de los Deportes,D.F.,,,,,,,,4,True,2
+4343,2024-07-20 21:10:00,2024,apertura,4,FC Juárez,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,4,True,2
+4344,2024-07-21 17:00:00,2024,apertura,4,UNAM Pumas,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,V. Arce,Estadio Olímpico Universitario,D.F.,,,,,,,,4,True,2
+4345,2024-07-21 19:05:00,2024,apertura,4,León,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,L. García,Estadio León,León de los Aldamas,,,,,,,,4,True,2
+4346,2024-08-16 19:00:00,2024,apertura,16,Puebla FC,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,S. Pérez Villalobos,Estadio Cuauhtémoc,Puebla,,,,,,,,16,True,2
+4347,2024-08-18 18:05:00,2024,apertura,8,Club Tijuana,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,M. Quintero,Estadio Caliente,Tijuana,,,,,,,,8,True,2
+4348,2024-08-18 20:00:00,2024,apertura,13,Atlético San Luis,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,J. Lopez,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,13,True,2
+4349,2024-08-23 19:00:00,2024,apertura,5,Querétaro,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,G. Pacheco,Estadio Corregidora,Santiago de Querétaro,,,,,,,,5,True,2
+4350,2024-08-23 20:00:00,2024,apertura,5,Mazatlán FC,Pachuca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,M. Ortíz,Estadio El Encanto,Mazatlán,,,,,,,,5,True,2
+4351,2024-08-23 21:05:00,2024,apertura,5,Club Tijuana,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,C. Ramos,Estadio Caliente,Tijuana,,,,,,,,5,True,2
+4352,2024-08-24 17:00:00,2024,apertura,5,Necaxa,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,M. Molina,Estadio Victoria,Aguascalientes,,,,,,,,5,True,2
+4353,2024-08-24 19:00:00,2024,apertura,5,Atlas,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,F. Hernández,Estadio Jalisco,Guadalajara,,,,,,,,5,True,2
+4354,2024-08-24 19:00:00,2024,apertura,5,León,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,A. Escobedo,Estadio León,León de los Aldamas,,,,,,,,5,True,2
+4355,2024-08-24 19:00:00,2024,apertura,5,Tigres UANL,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,D. Quintero,Estadio Universitario,San Nicolás de los Garza,,,,,,,,5,True,2
+4356,2024-08-24 21:05:00,2024,apertura,5,América,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,L. Santander,Estadio Ciudad de los Deportes,D.F.,,,,,,,,5,True,2
+4357,2024-08-25 12:00:00,2024,apertura,5,Toluca,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,K. Garcia,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,5,True,2
+4358,2024-08-30 19:00:00,2024,apertura,6,Atlético San Luis,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,J. Camacho,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,6,True,2
+4359,2024-08-30 20:00:00,2024,apertura,6,Mazatlán FC,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,I. Lopez,Estadio El Encanto,Mazatlán,,,,,,,,6,True,2
+4360,2024-08-30 21:05:00,2024,apertura,6,Club Tijuana,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Caliente,Tijuana,,,,,,,,6,True,2
+4361,2024-08-31 17:00:00,2024,apertura,6,Pachuca,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,I. López,Estadio Hidalgo,Pachuca de Soto,,,,,,,,6,True,2
+4362,2024-08-31 17:05:00,2024,apertura,6,Chivas,FC Juárez,5.0,0.0,FINISHED,5.0,5.0,LOCAL,api_football,A. Escobedo,Estadio AKRON,Zapopan,,,,,,,,6,True,2
+4363,2024-08-31 19:00:00,2024,apertura,6,Monterrey,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,F. Guerrero,Estadio BBVA,Guadalupe,,,,,,,,6,True,2
+4364,2024-08-31 21:10:00,2024,apertura,6,Cruz Azul,América,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,C. Ramos,Estadio Ciudad de los Deportes,D.F.,,,,,,,,6,True,2
+4365,2024-09-01 17:00:00,2024,apertura,6,UNAM Pumas,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,Ó. Mejía,Estadio Olímpico Universitario,D.F.,,,,,,,,6,True,2
+4366,2024-09-01 19:05:00,2024,apertura,6,Santos Laguna,Necaxa,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,G. Pacheco,Estadio Corona,Torreón,,,,,,,,6,True,2
+4367,2024-09-13 18:00:00,2024,apertura,7,Puebla FC,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Arce,Estadio Cuauhtémoc,Puebla,,,,,,,,7,True,2
+4368,2024-09-13 19:00:00,2024,apertura,7,Atlas,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,L. Santander,Estadio Jalisco,Guadalajara,,,,,,,,7,True,2
+4369,2024-09-13 20:10:00,2024,apertura,7,FC Juárez,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,F. Hernández,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,7,True,2
+4370,2024-09-13 20:10:00,2024,apertura,7,Tigres UANL,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,M. Molina,Estadio Universitario,San Nicolás de los Garza,,,,,,,,7,True,2
+4371,2024-09-13 21:00:00,2024,apertura,7,Necaxa,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,K. Garcia,Estadio Victoria,Aguascalientes,,,,,,,,7,True,2
+4372,2024-09-14 16:45:00,2024,apertura,7,Toluca,Club Tijuana,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,I. Lopez,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,7,True,2
+4373,2024-09-14 18:50:00,2024,apertura,7,América,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Ciudad de los Deportes,D.F.,,,,,,,,7,True,2
+4374,2024-09-14 20:35:00,2024,apertura,7,León,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio León,León de los Aldamas,,,,,,,,7,True,2
+4375,2024-09-14 21:00:00,2024,apertura,7,Santos Laguna,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,E. Miranda,Estadio Corona,Torreón,,,,,,,,7,True,2
+4376,2024-09-17 19:00:00,2024,apertura,8,América,Atlas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,A. Escobedo,Estadio Ciudad de los Deportes,D.F.,,,,,,,,8,True,2
+4377,2024-09-17 19:00:00,2024,apertura,8,Atlético San Luis,Cruz Azul,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,Ó. Mejía,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,8,True,2
+4378,2024-09-17 19:00:00,2024,apertura,8,Pachuca,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,J. Lopez,Estadio Hidalgo,Pachuca de Soto,,,,,,,,8,True,2
+4379,2024-09-17 21:00:00,2024,apertura,8,Querétaro,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,F. Guerrero,Estadio Corregidora,Santiago de Querétaro,,,,,,,,8,True,2
+4380,2024-09-17 21:05:00,2024,apertura,8,UNAM Pumas,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,I. López,Estadio Olímpico Universitario,D.F.,,,,,,,,8,True,2
+4381,2024-09-18 19:05:00,2024,apertura,8,Chivas,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,G. Pacheco,Estadio AKRON,Zapopan,,,,,,,,8,True,2
+4382,2024-09-18 20:00:00,2024,apertura,8,Mazatlán FC,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,D. Quintero,Estadio El Encanto,Mazatlán,,,,,,,,8,True,2
+4383,2024-09-18 21:00:00,2024,apertura,8,Monterrey,FC Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,S. Pérez Villalobos,Estadio BBVA,Guadalupe,,,,,,,,8,True,2
+4384,2024-09-20 19:00:00,2024,apertura,9,Atlas,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Jalisco,Guadalajara,,,,,,,,9,True,2
+4385,2024-09-20 19:00:00,2024,apertura,9,Puebla FC,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio Cuauhtémoc,Puebla,,,,,,,,9,True,2
+4386,2024-09-21 17:00:00,2024,apertura,9,León,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. García,Estadio León,León de los Aldamas,,,,,,,,9,True,2
+4387,2024-09-21 19:00:00,2024,apertura,9,Monterrey,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,I. Lopez,Estadio BBVA,Guadalupe,,,,,,,,9,True,2
+4388,2024-09-21 19:00:00,2024,apertura,9,Necaxa,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,Ó. Mejía,Estadio Victoria,Aguascalientes,,,,,,,,9,True,2
+4389,2024-09-21 21:05:00,2024,apertura,9,Cruz Azul,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,D. Quintero,Estadio Ciudad de los Deportes,D.F.,,,,,,,,9,True,2
+4390,2024-09-22 17:00:00,2024,apertura,9,UNAM Pumas,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. Santander,Estadio Olímpico Universitario,D.F.,,,,,,,,9,True,2
+4391,2024-09-22 19:05:00,2024,apertura,9,Santos Laguna,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,I. López,Estadio Corona,Torreón,,,,,,,,9,True,2
+4392,2024-09-22 19:10:00,2024,apertura,9,FC Juárez,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,V. Cáceres,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,9,True,2
+4393,2024-09-27 18:00:00,2024,apertura,10,Puebla FC,FC Juárez,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,Ó. Mejía,Estadio Cuauhtémoc,Puebla,,,,,,,,10,True,2
+4394,2024-09-27 19:00:00,2024,apertura,10,Querétaro,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,J. Camacho,Estadio Corregidora,Santiago de Querétaro,,,,,,,,10,True,2
+4395,2024-09-27 20:00:00,2024,apertura,10,Tigres UANL,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,D. Quintero,Estadio Universitario,San Nicolás de los Garza,,,,,,,,10,True,2
+4396,2024-09-27 21:05:00,2024,apertura,10,Club Tijuana,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Caliente,Tijuana,,,,,,,,10,True,2
+4397,2024-09-28 17:00:00,2024,apertura,10,Toluca,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,M. Terrazas,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,10,True,2
+4398,2024-09-28 19:05:00,2024,apertura,10,Pachuca,Cruz Azul,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,api_football,A. Escobedo,Estadio Hidalgo,Pachuca de Soto,,,,,,,,10,True,2
+4399,2024-09-28 21:05:00,2024,apertura,10,Chivas,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Lopez,Estadio AKRON,Zapopan,,,,,,,,10,True,2
+4400,2024-09-28 21:10:00,2024,apertura,10,Atlético San Luis,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,M. Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,10,True,2
+4401,2024-09-29 18:00:00,2024,apertura,10,América,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,F. Hernández,Estadio Ciudad de los Deportes,D.F.,,,,,,,,10,True,2
+4402,2024-10-04 20:00:00,2024,apertura,11,Mazatlán FC,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,Ó. Mejía,Estadio El Encanto,Mazatlán,,,,,,,,11,True,2
+4403,2024-10-04 21:00:00,2024,apertura,11,Club Tijuana,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,I. López,Estadio Caliente,Tijuana,,,,,,,,11,True,2
+4404,2024-10-05 17:00:00,2024,apertura,11,Atlético San Luis,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,11,True,2
+4405,2024-10-05 17:00:00,2024,apertura,11,Cruz Azul,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,G. Pacheco,Estadio Ciudad de los Deportes,D.F.,,,,,,,,11,True,2
+4406,2024-10-05 17:00:00,2024,apertura,11,Tigres UANL,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Arce,Estadio Universitario,San Nicolás de los Garza,,,,,,,,11,True,2
+4407,2024-10-05 19:00:00,2024,apertura,11,Toluca,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,A. Escobedo,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,11,True,2
+4408,2024-10-05 19:05:00,2024,apertura,11,Chivas,Atlas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,F. Hernández,Estadio AKRON,Zapopan,,,,,,,,11,True,2
+4409,2024-10-05 21:00:00,2024,apertura,11,León,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,C. Ramos,Estadio León,León de los Aldamas,,,,,,,,11,True,2
+4410,2024-10-06 20:05:00,2024,apertura,11,Santos Laguna,FC Juárez,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,I. Lopez,Estadio Corona,Torreón,,,,,,,,11,True,2
+4411,2024-10-18 19:00:00,2024,apertura,12,Atlas,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,D. Quintero,Estadio Jalisco,Guadalajara,,,,,,,,12,True,2
+4412,2024-10-18 19:00:00,2024,apertura,12,Querétaro,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio Corregidora,Santiago de Querétaro,,,,,,,,12,True,2
+4413,2024-10-18 21:00:00,2024,apertura,12,Necaxa,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,A. Escobedo,Estadio Victoria,Aguascalientes,,,,,,,,12,True,2
+4414,2024-10-18 21:05:00,2024,apertura,12,Puebla FC,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,M. Terrazas,Estadio Cuauhtémoc,Puebla,,,,,,,,12,True,2
+4415,2024-10-19 17:00:00,2024,apertura,12,Pachuca,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,C. Ramos,Estadio Hidalgo,Pachuca de Soto,,,,,,,,12,True,2
+4416,2024-10-19 19:05:00,2024,apertura,12,América,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,J. Lopez,Estadio Ciudad de los Deportes,D.F.,,,,,,,,12,True,2
+4417,2024-10-19 19:06:00,2024,apertura,12,FC Juárez,León,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,V. Cáceres,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,12,True,2
+4418,2024-10-19 21:10:00,2024,apertura,12,Monterrey,Tigres UANL,4.0,2.0,FINISHED,6.0,2.0,LOCAL,api_football,Ó. Mejía,Estadio BBVA,Guadalupe,,,,,,,,12,True,2
+4419,2024-10-20 12:00:00,2024,apertura,12,UNAM Pumas,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,G. Pacheco,Estadio Olímpico Universitario,D.F.,,,,,,,,12,True,2
+4420,2024-10-22 19:00:00,2024,apertura,13,Santos Laguna,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,D. Quintero,Estadio Corona,Torreón,,,,,,,,13,True,2
+4421,2024-10-22 19:05:00,2024,apertura,13,Chivas,Necaxa,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,V. Cáceres,Estadio AKRON,Zapopan,,,,,,,,13,True,2
+4422,2024-10-22 21:05:00,2024,apertura,13,Toluca,Puebla FC,5.0,0.0,FINISHED,5.0,5.0,LOCAL,api_football,J. Camacho,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,13,True,2
+4423,2024-10-22 21:06:00,2024,apertura,13,Mazatlán FC,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,C. Ramos,Estadio El Encanto,Mazatlán,,,,,,,,13,True,2
+4424,2024-10-23 19:00:00,2024,apertura,13,Cruz Azul,FC Juárez,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,V. Arce,Estadio Ciudad de los Deportes,D.F.,,,,,,,,13,True,2
+4425,2024-10-23 19:00:00,2024,apertura,13,Monterrey,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,A. Escobedo,Estadio BBVA,Guadalupe,,,,,,,,13,True,2
+4426,2024-10-23 21:00:00,2024,apertura,13,León,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,Ó. Mejía,Estadio León,León de los Aldamas,,,,,,,,13,True,2
+4427,2024-10-23 21:05:00,2024,apertura,13,Club Tijuana,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,F. Hernández,Estadio Caliente,Tijuana,,,,,,,,13,True,2
+4428,2024-10-25 19:00:00,2024,apertura,14,Santos Laguna,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,J. Camacho,Estadio Corona,Torreón,,,,,,,,14,True,2
+4429,2024-10-25 21:00:00,2024,apertura,14,Puebla FC,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,I. Lopez,Estadio Cuauhtémoc,Puebla,,,,,,,,14,True,2
+4430,2024-10-26 17:00:00,2024,apertura,14,León,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,A. Escobedo,Estadio León,León de los Aldamas,,,,,,,,14,True,2
+4431,2024-10-26 19:00:00,2024,apertura,14,UNAM Pumas,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,C. Ramos,Estadio Olímpico Universitario,D.F.,,,,,,,,14,True,2
+4432,2024-10-26 21:00:00,2024,apertura,14,Tigres UANL,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Universitario,San Nicolás de los Garza,,,,,,,,14,True,2
+4433,2024-10-26 21:05:00,2024,apertura,14,Atlas,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,K. Garcia,Estadio Jalisco,Guadalajara,,,,,,,,14,True,2
+4434,2024-10-27 18:00:00,2024,apertura,14,Necaxa,Toluca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,F. Guerrero,Estadio Victoria,Aguascalientes,,,,,,,,14,True,2
+4435,2024-10-27 18:06:00,2024,apertura,14,FC Juárez,Atlético San Luis,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,api_football,M. Ortíz,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,14,True,2
+4436,2024-10-27 20:05:00,2024,apertura,14,América,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,D. Quintero,Estadio Ciudad de los Deportes,D.F.,,,,,,,,14,True,2
+4437,2024-11-01 19:00:00,2024,apertura,15,Querétaro,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,C. Ramos,Estadio Corregidora,Santiago de Querétaro,,,,,,,,15,True,2
+4438,2024-11-01 21:00:00,2024,apertura,15,Mazatlán FC,América,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE,api_football,A. Escobedo,Estadio El Encanto,Mazatlán,,,,,,,,15,True,2
+4439,2024-11-01 21:05:00,2024,apertura,15,Club Tijuana,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,F. Guerrero,Estadio Caliente,Tijuana,,,,,,,,15,True,2
+4440,2024-11-02 17:00:00,2024,apertura,15,Atlético San Luis,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,Ó. Mejía,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,15,True,2
+4441,2024-11-02 17:00:00,2024,apertura,15,Toluca,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,G. Pacheco,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,15,True,2
+4442,2024-11-02 19:05:00,2024,apertura,15,Chivas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,M. Ortíz,Estadio AKRON,Zapopan,,,,,,,,15,True,2
+4443,2024-11-02 19:05:00,2024,apertura,15,Monterrey,Atlas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,F. Hernández,Estadio BBVA,Guadalupe,,,,,,,,15,True,2
+4444,2024-11-02 21:06:00,2024,apertura,15,Pachuca,Necaxa,6.0,2.0,FINISHED,8.0,4.0,LOCAL,api_football,I. Lopez,Estadio Hidalgo,Pachuca de Soto,,,,,,,,15,True,2
+4445,2024-11-02 21:10:00,2024,apertura,15,Cruz Azul,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,K. Hernández,Estadio Ciudad de los Deportes,D.F.,,,,,,,,15,True,2
+4446,2024-11-05 19:00:00,2024,apertura,16,León,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,F. Hernández,Estadio León,León de los Aldamas,,,,,,,,16,True,2
+4447,2024-11-05 19:00:00,2024,apertura,16,Santos Laguna,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,I. López,Estadio Corona,Torreón,,,,,,,,16,True,2
+4448,2024-11-05 21:05:00,2024,apertura,16,UNAM Pumas,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,D. Quintero,Estadio Olímpico Universitario,D.F.,,,,,,,,16,True,2
+4449,2024-11-06 19:00:00,2024,apertura,16,América,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,F. Guerrero,Estadio Cuauhtémoc,Puebla,,,,,,,,16,True,2
+4450,2024-11-06 19:00:00,2024,apertura,16,Necaxa,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Lopez,Estadio Victoria,Aguascalientes,,,,,,,,16,True,2
+4451,2024-11-06 19:00:00,2024,apertura,16,Tigres UANL,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Universitario,San Nicolás de los Garza,,,,,,,,16,True,2
+4452,2024-11-06 21:05:00,2024,apertura,16,Atlas,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,V. Cáceres,Estadio Jalisco,Guadalajara,,,,,,,,16,True,2
+4453,2024-11-06 21:06:00,2024,apertura,16,FC Juárez,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,Ó. Mejía,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,16,True,2
+4454,2024-11-08 19:00:00,2024,apertura,17,Querétaro,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,Ó. Macías,Estadio Corregidora,Santiago de Querétaro,,,,,,,,17,True,2
+4455,2024-11-08 21:00:00,2024,apertura,17,Mazatlán FC,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,E. Miranda,Estadio El Encanto,Mazatlán,,,,,,,,17,True,2
+4456,2024-11-09 17:05:00,2024,apertura,17,Chivas,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio AKRON,Zapopan,,,,,,,,17,True,2
+4457,2024-11-09 19:00:00,2024,apertura,17,Pachuca,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Camacho,Estadio Hidalgo,Pachuca de Soto,,,,,,,,17,True,2
+4458,2024-11-09 19:00:00,2024,apertura,17,Toluca,América,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,V. Cáceres,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,17,True,2
+4459,2024-11-09 21:05:00,2024,apertura,17,Cruz Azul,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,A. Escobedo,Estadio Ciudad de los Deportes,D.F.,,,,,,,,17,True,2
+4460,2024-11-10 17:00:00,2024,apertura,17,Necaxa,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,M. Ortíz,Estadio Victoria,Aguascalientes,,,,,,,,17,True,2
+4461,2024-11-10 19:05:00,2024,apertura,17,Monterrey,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,C. Ramos,Estadio BBVA,Guadalupe,,,,,,,,17,True,2
+4462,2024-11-10 21:10:00,2024,apertura,17,Club Tijuana,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,I. Lopez,Estadio Caliente,Tijuana,,,,,,,,17,True,2
+4463,2025-01-10 19:00:00,2024,clausura,1,Querétaro,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Corregidora,Santiago de Querétaro,,,,,,,,1,True,2
+4464,2025-01-10 21:00:00,2024,clausura,1,Mazatlán FC,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,F. Hernández,Estadio El Encanto,Mazatlán,,,,,,,,1,True,2
+4465,2025-01-10 21:05:00,2024,clausura,1,Club Tijuana,Toluca,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,api_football,J. Camacho,Estadio Caliente,Tijuana,,,,,,,,1,True,2
+4466,2025-01-11 17:00:00,2024,clausura,1,Atlético San Luis,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,G. Pacheco,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,1,True,2
+4467,2025-01-11 19:05:00,2024,clausura,1,Chivas,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,D. Quintero,Estadio AKRON,Zapopan,,,,,,,,1,True,2
+4468,2025-01-11 21:05:00,2024,clausura,1,Cruz Azul,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Quintero,Estadio Olímpico Universitario,D.F.,,,,,,,,1,True,2
+4469,2025-01-12 12:00:00,2024,clausura,1,UNAM Pumas,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,I. Lopez,Estadio Olímpico Universitario,D.F.,,,,,,,,1,True,2
+4470,2025-01-12 19:00:00,2024,clausura,1,Monterrey,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,L. García,Estadio BBVA,Guadalupe,,,,,,,,1,True,2
+4471,2025-01-16 20:10:00,2024,clausura,2,América,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,K. Garcia,Estadio Ciudad de los Deportes,D.F.,,,,,,,,2,True,2
+4472,2025-01-17 19:00:00,2024,clausura,2,Puebla FC,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,A. Quirarte,Estadio Cuauhtémoc,Puebla,,,,,,,,2,True,2
+4473,2025-01-17 19:00:00,2024,clausura,2,Tigres UANL,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,Ó. Mejía,Estadio Universitario,San Nicolás de los Garza,,,,,,,,2,True,2
+4474,2025-01-17 21:05:00,2024,clausura,2,Necaxa,Chivas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,S. Pérez Villalobos,Estadio Victoria,Aguascalientes,,,,,,,,2,True,2
+4475,2025-01-18 17:00:00,2024,clausura,2,FC Juárez,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,I. López,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,2,True,2
+4476,2025-01-18 19:00:00,2024,clausura,2,Toluca,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,F. Guerrero,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,2,True,2
+4477,2025-01-18 21:00:00,2024,clausura,2,Atlas,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,C. Ramos,Estadio Jalisco,Guadalajara,,,,,,,,2,True,2
+4478,2025-01-19 17:00:00,2024,clausura,2,Querétaro,UNAM Pumas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,A. Escobedo,Estadio Corregidora,Santiago de Querétaro,,,,,,,,2,True,2
+4479,2025-01-20 19:00:00,2024,clausura,2,Pachuca,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Arce,Estadio Hidalgo,Pachuca de Soto,,,,,,,,2,True,2
+4480,2025-01-24 19:00:00,2024,clausura,3,Atlético San Luis,Necaxa,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,V. Cáceres,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,3,True,2
+4481,2025-01-24 21:00:00,2024,clausura,3,Club Tijuana,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,K. Hernández,Estadio Caliente,Tijuana,,,,,,,,3,True,2
+4482,2025-01-24 21:00:00,2024,clausura,3,Mazatlán FC,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,A. Escobedo,Estadio El Encanto,Mazatlán,,,,,,,,3,True,2
+4483,2025-01-25 17:00:00,2024,clausura,3,Cruz Azul,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Camacho,Estadio Olímpico Universitario,D.F.,,,,,,,,3,True,2
+4484,2025-01-25 17:00:00,2024,clausura,3,León,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,M. Terrazas,Estadio León,León de los Aldamas,,,,,,,,3,True,2
+4485,2025-01-25 19:05:00,2024,clausura,3,Chivas,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,J. Lopez,Estadio AKRON,Zapopan,,,,,,,,3,True,2
+4486,2025-01-25 19:05:00,2024,clausura,3,Santos Laguna,América,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,api_football,F. Hernández,Estadio Corona,Torreón,,,,,,,,3,True,2
+4487,2025-01-25 21:10:00,2024,clausura,3,Monterrey,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,G. Pacheco,Estadio BBVA,Guadalupe,,,,,,,,3,True,2
+4488,2025-01-26 12:00:00,2024,clausura,3,UNAM Pumas,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,M. Molina,Estadio Olímpico Universitario,D.F.,,,,,,,,3,True,2
+4489,2025-01-28 19:00:00,2024,clausura,4,América,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,J. Camacho,Estadio Ciudad de los Deportes,D.F.,,,,,,,,4,True,2
+4490,2025-01-28 19:00:00,2024,clausura,4,Puebla FC,Mazatlán FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Cuauhtémoc,Puebla,,,,,,,,4,True,2
+4491,2025-01-28 21:00:00,2024,clausura,4,León,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,Ó. Mejía,Estadio León,León de los Aldamas,,,,,,,,4,True,2
+4492,2025-01-28 21:00:00,2024,clausura,4,Tigres UANL,Club Tijuana,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,I. López,Estadio Universitario,San Nicolás de los Garza,,,,,,,,4,True,2
+4493,2025-01-28 21:05:00,2024,clausura,4,Necaxa,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,L. García,Estadio Victoria,Aguascalientes,,,,,,,,4,True,2
+4494,2025-01-29 19:00:00,2024,clausura,4,Atlas,Monterrey,3.0,3.0,FINISHED,6.0,0.0,EMPATE,api_football,M. Quintero,Estadio Jalisco,Guadalajara,,,,,,,,4,True,2
+4495,2025-01-29 19:00:00,2024,clausura,4,Querétaro,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,S. Pérez Villalobos,Estadio Corregidora,Santiago de Querétaro,,,,,,,,4,True,2
+4496,2025-01-29 21:00:00,2024,clausura,4,FC Juárez,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,A. Quirarte,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,4,True,2
+4497,2025-01-29 21:05:00,2024,clausura,4,UNAM Pumas,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,Ó. Macías,Estadio Olímpico Universitario,D.F.,,,,,,,,4,True,2
+4498,2025-01-31 19:00:00,2024,clausura,5,Mazatlán FC,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,L. Santander,Estadio El Encanto,Mazatlán,,,,,,,,5,True,2
+4499,2025-01-31 21:05:00,2024,clausura,5,Club Tijuana,Cruz Azul,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,M. Terrazas,Estadio Caliente,Tijuana,,,,,,,,5,True,2
+4500,2025-02-01 17:00:00,2024,clausura,5,América,FC Juárez,4.0,0.0,FINISHED,4.0,4.0,LOCAL,api_football,C. Ramos,Estadio Ciudad de los Deportes,D.F.,,,,,,,,5,True,2
+4501,2025-02-01 17:05:00,2024,clausura,5,Chivas,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,I. Lopez,Estadio AKRON,Zapopan,,,,,,,,5,True,2
+4502,2025-02-01 19:00:00,2024,clausura,5,Pachuca,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,J. Lopez,Estadio Hidalgo,Pachuca de Soto,,,,,,,,5,True,2
+4503,2025-02-01 19:05:00,2024,clausura,5,Monterrey,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,M. Ortíz,Estadio BBVA,Guadalupe,,,,,,,,5,True,2
+4504,2025-02-01 21:15:00,2024,clausura,5,Toluca,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,F. Hernández,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,5,True,2
+4505,2025-02-02 17:00:00,2024,clausura,5,Santos Laguna,Puebla FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,V. Cáceres,Estadio Corona,Torreón,,,,,,,,5,True,2
+4506,2025-02-02 19:00:00,2024,clausura,5,Atlético San Luis,UNAM Pumas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,5,True,2
+4507,2025-02-05 21:10:00,2024,clausura,1,Pachuca,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,A. Escobedo,Estadio Hidalgo,Pachuca de Soto,,,,,,,,1,True,2
+4508,2025-02-07 19:00:00,2024,clausura,6,Necaxa,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,D. Quintero,Estadio Victoria,Aguascalientes,,,,,,,,6,True,2
+4509,2025-02-07 19:00:00,2024,clausura,6,Querétaro,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Arce,Estadio Corregidora,Santiago de Querétaro,,,,,,,,6,True,2
+4510,2025-02-07 21:00:00,2024,clausura,6,Puebla FC,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,I. Lopez,Estadio Cuauhtémoc,Puebla,,,,,,,,6,True,2
+4511,2025-02-08 19:00:00,2024,clausura,6,León,Toluca,3.0,3.0,FINISHED,6.0,0.0,EMPATE,api_football,M. Ortíz,Estadio León,León de los Aldamas,,,,,,,,6,True,2
+4512,2025-02-08 19:00:00,2024,clausura,6,Tigres UANL,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,A. Escobedo,Estadio Universitario,San Nicolás de los Garza,,,,,,,,6,True,2
+4513,2025-02-08 21:00:00,2024,clausura,6,FC Juárez,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,L. Santander,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,6,True,2
+4514,2025-02-08 21:05:00,2024,clausura,6,Cruz Azul,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,C. Ramos,Estadio Olímpico Universitario,D.F.,,,,,,,,6,True,2
+4515,2025-02-09 18:00:00,2024,clausura,6,UNAM Pumas,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Olímpico Universitario,D.F.,,,,,,,,6,True,2
+4516,2025-02-09 21:05:00,2024,clausura,6,Chivas,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,F. Hernández,Estadio AKRON,Zapopan,,,,,,,,6,True,2
+4517,2025-02-14 21:00:00,2024,clausura,7,América,Necaxa,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,Ó. Mejía,Estadio Ciudad de los Deportes,D.F.,,,,,,,,7,True,2
+4518,2025-02-14 21:00:00,2024,clausura,7,Club Tijuana,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,G. Pacheco,Estadio Caliente,Tijuana,,,,,,,,7,True,2
+4519,2025-02-14 21:00:00,2024,clausura,7,Mazatlán FC,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Ortíz,Estadio El Encanto,Mazatlán,,,,,,,,7,True,2
+4520,2025-02-15 17:00:00,2024,clausura,7,Atlas,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,L. Santander,Estadio Jalisco,Guadalajara,,,,,,,,7,True,2
+4521,2025-02-15 19:00:00,2024,clausura,7,Tigres UANL,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,V. Cáceres,Estadio Universitario,San Nicolás de los Garza,,,,,,,,7,True,2
+4522,2025-02-15 21:10:00,2024,clausura,7,Toluca,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,J. Lopez,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,7,True,2
+4523,2025-02-16 17:00:00,2024,clausura,7,Querétaro,Monterrey,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,api_football,F. Hernández,Estadio Corregidora,Santiago de Querétaro,,,,,,,,7,True,2
+4524,2025-02-16 19:00:00,2024,clausura,7,Atlético San Luis,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,7,True,2
+4525,2025-02-16 19:05:00,2024,clausura,7,Pachuca,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,K. Garcia,Estadio Hidalgo,Pachuca de Soto,,,,,,,,7,True,2
+4526,2025-02-18 21:10:00,2024,clausura,9,Atlas,Necaxa,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,api_football,V. Cáceres,Estadio Jalisco,Guadalajara,,,,,,,,9,True,2
+4527,2025-02-19 19:00:00,2024,clausura,9,América,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,C. Ramos,Estadio Ciudad de los Deportes,D.F.,,,,,,,,9,True,2
+4528,2025-02-19 21:05:00,2024,clausura,9,Santos Laguna,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Corona,Torreón,,,,,,,,9,True,2
+4529,2025-02-21 19:00:00,2024,clausura,8,Necaxa,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,I. Lopez,Estadio Victoria,Aguascalientes,,,,,,,,8,True,2
+4530,2025-02-21 21:00:00,2024,clausura,8,Puebla FC,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,M. Ortíz,Estadio Cuauhtémoc,Puebla,,,,,,,,8,True,2
+4531,2025-02-22 17:00:00,2024,clausura,8,FC Juárez,Toluca,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,api_football,A. Escobedo,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,8,True,2
+4532,2025-02-22 19:00:00,2024,clausura,8,León,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,Ó. Mejía,Estadio León,León de los Aldamas,,,,,,,,8,True,2
+4533,2025-02-22 19:00:00,2024,clausura,8,Monterrey,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,D. Quintero,Estadio BBVA,Guadalupe,,,,,,,,8,True,2
+4534,2025-02-22 19:05:00,2024,clausura,8,Chivas,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,G. Pacheco,Estadio AKRON,Zapopan,,,,,,,,8,True,2
+4535,2025-02-22 21:05:00,2024,clausura,8,UNAM Pumas,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,F. Hernández,Estadio Olímpico Universitario,D.F.,,,,,,,,8,True,2
+4536,2025-02-23 17:00:00,2024,clausura,8,Santos Laguna,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,M. Quintero,Estadio Corona,Torreón,,,,,,,,8,True,2
+4537,2025-02-23 19:05:00,2024,clausura,8,Cruz Azul,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,J. Camacho,Estadio Olímpico Universitario,D.F.,,,,,,,,8,True,2
+4538,2025-02-25 19:00:00,2024,clausura,9,Tigres UANL,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Universitario,San Nicolás de los Garza,,,,,,,,9,True,2
+4539,2025-02-25 21:00:00,2024,clausura,9,Club Tijuana,UNAM Pumas,4.0,2.0,FINISHED,6.0,2.0,LOCAL,api_football,S. Pérez Villalobos,Estadio Caliente,Tijuana,,,,,,,,9,True,2
+4540,2025-02-25 21:00:00,2024,clausura,9,Mazatlán FC,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,A. Quirarte,Estadio El Encanto,Mazatlán,,,,,,,,9,True,2
+4541,2025-02-26 19:00:00,2024,clausura,9,Pachuca,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Terrazas,Estadio Hidalgo,Pachuca de Soto,,,,,,,,9,True,2
+4542,2025-02-26 21:00:00,2024,clausura,9,Toluca,Querétaro,5.0,0.0,FINISHED,5.0,5.0,LOCAL,api_football,M. Molina,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,9,True,2
+4543,2025-02-26 21:05:00,2024,clausura,9,Atlético San Luis,Chivas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,I. Lopez,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,9,True,2
+4544,2025-02-28 21:00:00,2024,clausura,10,Mazatlán FC,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,L. García,Estadio El Encanto,Mazatlán,,,,,,,,10,True,2
+4545,2025-03-01 17:00:00,2024,clausura,10,América,Toluca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,J. Lopez,Estadio Ciudad de los Deportes,D.F.,,,,,,,,10,True,2
+4546,2025-03-01 17:00:00,2024,clausura,10,FC Juárez,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,L. Santander,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,10,True,2
+4547,2025-03-01 19:00:00,2024,clausura,10,León,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,I. Lopez,Estadio León,León de los Aldamas,,,,,,,,10,True,2
+4548,2025-03-01 19:00:00,2024,clausura,10,Necaxa,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,G. Pacheco,Estadio Victoria,Aguascalientes,,,,,,,,10,True,2
+4549,2025-03-01 21:10:00,2024,clausura,10,UNAM Pumas,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Olímpico Universitario,D.F.,,,,,,,,10,True,2
+4550,2025-03-02 16:00:00,2024,clausura,10,Querétaro,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,C. Ramos,Estadio Corregidora,Santiago de Querétaro,,,,,,,,10,True,2
+4551,2025-03-02 18:00:00,2024,clausura,10,Atlas,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,J. Camacho,Estadio Jalisco,Guadalajara,,,,,,,,10,True,2
+4552,2025-03-02 20:05:00,2024,clausura,10,Monterrey,Santos Laguna,4.0,2.0,FINISHED,6.0,2.0,LOCAL,api_football,A. Escobedo,Estadio BBVA,Guadalupe,,,,,,,,10,True,2
+4553,2025-03-07 19:00:00,2024,clausura,11,Atlético San Luis,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,11,True,2
+4554,2025-03-07 19:00:00,2024,clausura,11,Tigres UANL,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,I. López,Estadio Universitario,San Nicolás de los Garza,,,,,,,,11,True,2
+4555,2025-03-07 21:00:00,2024,clausura,11,Puebla FC,UNAM Pumas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,V. Cáceres,Estadio Cuauhtémoc,Puebla,,,,,,,,11,True,2
+4556,2025-03-08 17:00:00,2024,clausura,11,Toluca,Necaxa,5.0,2.0,FINISHED,7.0,3.0,LOCAL,api_football,K. Garcia,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,11,True,2
+4557,2025-03-08 19:00:00,2024,clausura,11,Pachuca,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Quintero,Estadio Hidalgo,Pachuca de Soto,,,,,,,,11,True,2
+4558,2025-03-08 19:05:00,2024,clausura,11,Cruz Azul,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,Ó. Mejía,Estadio Olímpico Universitario,D.F.,,,,,,,,11,True,2
+4559,2025-03-08 21:05:00,2024,clausura,11,Chivas,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,A. Escobedo,Estadio AKRON,Zapopan,,,,,,,,11,True,2
+4560,2025-03-09 17:00:00,2024,clausura,11,Santos Laguna,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,G. Pacheco,Estadio Corona,Torreón,,,,,,,,11,True,2
+4561,2025-03-09 21:00:00,2024,clausura,11,Club Tijuana,Atlas,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE,api_football,F. Hernández,Estadio Caliente,Tijuana,,,,,,,,11,True,2
+4562,2025-03-14 19:00:00,2024,clausura,12,Necaxa,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Victoria,Aguascalientes,,,,,,,,12,True,2
+4563,2025-03-14 19:00:00,2024,clausura,12,Querétaro,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. Santander,Estadio Corregidora,Santiago de Querétaro,,,,,,,,12,True,2
+4564,2025-03-14 21:05:00,2024,clausura,12,Puebla FC,Toluca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,api_football,S. Pérez Villalobos,Estadio Cuauhtémoc,Puebla,,,,,,,,12,True,2
+4565,2025-03-15 17:00:00,2024,clausura,12,Tigres UANL,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,C. Ramos,Estadio Universitario,San Nicolás de los Garza,,,,,,,,12,True,2
+4566,2025-03-15 19:00:00,2024,clausura,12,Cruz Azul,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,V. Cáceres,Estadio Olímpico Universitario,D.F.,,,,,,,,12,True,2
+4567,2025-03-15 19:10:00,2024,clausura,12,FC Juárez,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,F. Hernández,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,12,True,2
+4568,2025-03-15 21:05:00,2024,clausura,12,Atlas,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,Ó. Mejía,Estadio Jalisco,Guadalajara,,,,,,,,12,True,2
+4569,2025-03-16 18:00:00,2024,clausura,12,UNAM Pumas,Monterrey,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,api_football,I. Lopez,Estadio Olímpico Universitario,D.F.,,,,,,,,12,True,2
+4570,2025-03-16 20:00:00,2024,clausura,12,Pachuca,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,api_football,J. Camacho,Estadio Hidalgo,Pachuca de Soto,,,,,,,,12,True,2
+4571,2025-03-28 19:00:00,2024,clausura,13,Necaxa,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,A. Quirarte,Estadio Victoria,Aguascalientes,,,,,,,,13,True,2
+4572,2025-03-28 21:10:00,2024,clausura,13,Mazatlán FC,Atlas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,C. Ramos,Estadio El Encanto,Mazatlán,,,,,,,,13,True,2
+4573,2025-03-29 17:00:00,2024,clausura,13,FC Juárez,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,D. Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,13,True,2
+4574,2025-03-29 17:00:00,2024,clausura,13,Toluca,Pachuca,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,13,True,2
+4575,2025-03-29 19:05:00,2024,clausura,13,América,Tigres UANL,3.0,0.0,FINISHED,3.0,3.0,LOCAL,api_football,V. Cáceres,Estadio Ciudad de los Deportes,D.F.,,,,,,,,13,True,2
+4576,2025-03-29 21:05:00,2024,clausura,13,Chivas,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,J. Lopez,Estadio Jalisco,Guadalajara,,,,,,,,13,True,2
+4577,2025-03-29 21:15:00,2024,clausura,13,Monterrey,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,L. Santander,Estadio BBVA,Guadalupe,,,,,,,,13,True,2
+4578,2025-03-30 17:00:00,2024,clausura,13,Santos Laguna,Atlético San Luis,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,K. Garcia,Estadio Corona,Torreón,,,,,,,,13,True,2
+4579,2025-03-30 19:05:00,2024,clausura,13,León,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,A. Escobedo,Estadio León,León de los Aldamas,,,,,,,,13,True,2
+4580,2025-04-04 19:00:00,2024,clausura,14,Querétaro,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,M. Quintero,Estadio Corregidora,Santiago de Querétaro,,,,,,,,14,True,2
+4581,2025-04-04 21:00:00,2024,clausura,14,Club Tijuana,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,Ó. Mejía,Estadio Caliente,Tijuana,,,,,,,,14,True,2
+4582,2025-04-04 21:05:00,2024,clausura,14,Puebla FC,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,J. Camacho,Estadio Cuauhtémoc,Puebla,,,,,,,,14,True,2
+4583,2025-04-05 17:00:00,2024,clausura,14,Atlas,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,A. Escobedo,Estadio Jalisco,Guadalajara,,,,,,,,14,True,2
+4584,2025-04-05 17:00:00,2024,clausura,14,Pachuca,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,F. Hernández,Estadio Hidalgo,Pachuca de Soto,,,,,,,,14,True,2
+4585,2025-04-05 19:00:00,2024,clausura,14,Atlético San Luis,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,J. Lopez,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,14,True,2
+4586,2025-04-05 19:05:00,2024,clausura,14,Monterrey,Chivas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,api_football,G. Pacheco,Estadio BBVA,Guadalupe,,,,,,,,14,True,2
+4587,2025-04-05 21:10:00,2024,clausura,14,Cruz Azul,UNAM Pumas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,api_football,D. Quintero,Estadio Cuauhtémoc,Puebla,,,,,,,,14,True,2
+4588,2025-04-06 18:00:00,2024,clausura,14,Toluca,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,L. Santander,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,14,True,2
+4589,2025-04-10 20:05:00,2024,clausura,15,Club Tijuana,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Terrazas,Estadio Caliente,Tijuana,,,,,,,,15,True,2
+4590,2025-04-11 19:00:00,2024,clausura,15,Necaxa,Pachuca,3.0,5.0,FINISHED,8.0,-2.0,VISITANTE,api_football,J. Lopez,Estadio Victoria,Aguascalientes,,,,,,,,15,True,2
+4591,2025-04-11 21:05:00,2024,clausura,15,Mazatlán FC,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,F. Hernández,Estadio El Encanto,Mazatlán,,,,,,,,15,True,2
+4592,2025-04-12 17:00:00,2024,clausura,15,León,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,L. Santander,Estadio León,León de los Aldamas,,,,,,,,15,True,2
+4593,2025-04-12 17:00:00,2024,clausura,15,UNAM Pumas,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,G. Pacheco,Estadio Olímpico Universitario,D.F.,,,,,,,,15,True,2
+4594,2025-04-12 19:00:00,2024,clausura,15,Tigres UANL,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,M. Ortíz,Estadio Universitario,San Nicolás de los Garza,,,,,,,,15,True,2
+4595,2025-04-12 19:05:00,2024,clausura,15,Atlas,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,api_football,D. Quintero,Estadio Jalisco,Guadalajara,,,,,,,,15,True,2
+4596,2025-04-12 21:15:00,2024,clausura,15,América,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,C. Ramos,Estadio Ciudad de los Deportes,D.F.,,,,,,,,15,True,2
+4597,2025-04-13 17:00:00,2024,clausura,15,Santos Laguna,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,V. Cáceres,Estadio Corona,Torreón,,,,,,,,15,True,2
+4598,2025-04-15 19:00:00,2024,clausura,16,Pachuca,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,api_football,C. Ramos,Estadio Hidalgo,Pachuca de Soto,,,,,,,,16,True,2
+4599,2025-04-15 19:05:00,2024,clausura,16,Chivas,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,K. Garcia,Estadio AKRON,Zapopan,,,,,,,,16,True,2
+4600,2025-04-15 21:00:00,2024,clausura,16,FC Juárez,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,J. Camacho,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,16,True,2
+4601,2025-04-15 21:05:00,2024,clausura,16,Cruz Azul,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,Ó. Mejía,Estadio Olímpico Universitario,D.F.,,,,,,,,16,True,2
+4602,2025-04-16 19:00:00,2024,clausura,16,Monterrey,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,api_football,D. Quintero,Estadio BBVA,Guadalupe,,,,,,,,16,True,2
+4603,2025-04-16 19:00:00,2024,clausura,16,Querétaro,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,api_football,M. Ortíz,Estadio Corregidora,Santiago de Querétaro,,,,,,,,16,True,2
+4604,2025-04-16 20:00:00,2024,clausura,16,Atlético San Luis,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,M. Quintero,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,16,True,2
+4605,2025-04-16 21:00:00,2024,clausura,16,Mazatlán FC,Club Tijuana,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,V. Cáceres,Estadio El Encanto,Mazatlán,,,,,,,,16,True,2
+4606,2025-04-16 21:05:00,2024,clausura,16,UNAM Pumas,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,api_football,A. Escobedo,Estadio Olímpico Universitario,D.F.,,,,,,,,16,True,2
+4607,2025-04-18 19:00:00,2024,clausura,17,Puebla FC,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,api_football,G. Pacheco,Estadio Cuauhtémoc,Puebla,,,,,,,,17,True,2
+4608,2025-04-19 17:00:00,2024,clausura,17,América,Mazatlán FC,5.0,0.0,FINISHED,5.0,5.0,LOCAL,api_football,K. Garcia,Estadio Ciudad de los Deportes,D.F.,,,,,,,,17,True,2
+4609,2025-04-19 19:05:00,2024,clausura,17,Toluca,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,api_football,L. Santander,Estadio Nemesio Díez,Toluca de Lerdo,,,,,,,,17,True,2
+4610,2025-04-19 21:00:00,2024,clausura,17,Tigres UANL,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,C. Ramos,Estadio Universitario,San Nicolás de los Garza,,,,,,,,17,True,2
+4611,2025-04-19 21:15:00,2024,clausura,17,Atlas,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,api_football,V. Cáceres,Estadio Jalisco,Guadalajara,,,,,,,,17,True,2
+4612,2025-04-20 17:00:00,2024,clausura,17,Santos Laguna,Club Tijuana,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,api_football,M. Ortíz,Estadio Corona,Torreón,,,,,,,,17,True,2
+4613,2025-04-20 19:00:00,2024,clausura,17,Atlético San Luis,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,api_football,A. Quirarte,Estadio Alfonso Lastras Ramírez,San Luis Potosí,,,,,,,,17,True,2
+4614,2025-04-20 19:05:00,2024,clausura,17,León,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,A. Escobedo,Estadio León,León de los Aldamas,,,,,,,,17,True,2
+4615,2025-04-20 21:00:00,2024,clausura,17,FC Juárez,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,api_football,D. Quintero,Estadio Olímpico Benito Juárez,Ciudad Juárez,,,,,,,,17,True,2

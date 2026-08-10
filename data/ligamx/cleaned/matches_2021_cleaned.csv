@@ -1,0 +1,307 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+3385,2021-07-22,2021,apertura,1,Querétaro,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,10221.0,0.4,1.4,,,4-1-4-1,,1,True,2
+3386,2021-07-23,2021,apertura,1,FC Juárez,Toluca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Jorge Rojas,,,7345.0,0.4,2.9,,,4-5-1,,1,True,2
+3387,2021-07-23,2021,apertura,1,Necaxa,Santos Laguna,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Jorge Pérez,,,9153.0,1.4,1.7,,,4-3-3,,1,True,2
+3388,2021-07-24,2021,apertura,1,Chivas,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Eduardo Basulto,,,11647.0,1.7,0.8,,,4-4-2,,1,True,2
+3389,2021-07-24,2021,apertura,1,Pachuca,León,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Alejandro Funk,,,,2.6,0.7,,,5-3-2,,1,True,2
+3390,2021-07-25,2021,apertura,1,Club Tijuana,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Óscar Macias,,,4333.0,1.2,0.7,,,4-3-3,,1,True,2
+3391,2021-07-25,2021,apertura,1,Monterrey,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,20267.0,1.5,1.2,,,4-2-3-1,,1,True,2
+3392,2021-07-25,2021,apertura,1,UNAM Pumas,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Santander,,,,0.6,1.3,,,4-2-3-1,,1,True,2
+3393,2021-07-26,2021,apertura,1,Cruz Azul,Mazatlán FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Diego Montaño,,,9598.0,1.6,0.8,,,3-4-3,,1,True,2
+3394,2021-07-30,2021,apertura,2,Mazatlán FC,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Edgar Rangel,,,4675.0,2.0,1.1,,,3-5-2,,2,True,2
+3395,2021-07-30,2021,apertura,2,Puebla FC,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Fernando Guerrero,,,6800.0,0.9,0.6,,,3-4-1-2,,2,True,2
+3396,2021-07-31,2021,apertura,2,América,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,,,9590.0,1.2,1.9,,,4-1-4-1,,2,True,2
+3397,2021-07-31,2021,apertura,2,Atlas,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Oscar Mejia,,,7859.0,1.0,0.2,,,4-2-3-1,,2,True,2
+3398,2021-07-31,2021,apertura,2,León,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Pérez,,,8863.0,2.8,2.1,,,4-3-3,,2,True,2
+3399,2021-07-31,2021,apertura,2,Monterrey,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Adonai Escobedo,,,20943.0,1.9,0.6,,,4-2-3-1,,2,True,2
+3400,2021-08-01,2021,apertura,2,Santos Laguna,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Rojas,,,12200.0,2.0,0.2,,,4-2-3-1,,2,True,2
+3401,2021-08-01,2021,apertura,2,Toluca,Tigres UANL,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Victor Caceres,,,8540.0,1.8,0.9,,,4-2-3-1,,2,True,2
+3402,2021-08-02,2021,apertura,2,Atlético San Luis,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Santander,,,6917.0,2.8,0.9,,,5-3-2,,2,True,2
+3403,2021-08-05,2021,apertura,3,Querétaro,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,10031.0,1.1,1.3,,,4-2-3-1,,3,True,2
+3404,2021-08-06,2021,apertura,3,Club Tijuana,Toluca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Diego Montaño,,,5333.0,0.9,0.8,,,4-2-3-1,,3,True,2
+3405,2021-08-06,2021,apertura,3,Mazatlán FC,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Mario Vargas,,,6543.0,0.7,1.1,,,3-5-2,,3,True,2
+3406,2021-08-06,2021,apertura,3,Necaxa,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Adonai Escobedo,,,13187.0,1.8,1.0,,,4-4-2,,3,True,2
+3407,2021-08-07,2021,apertura,3,América,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,César Arturo Ramos,,,8567.0,2.4,1.1,,,4-2-3-1,,3,True,2
+3408,2021-08-07,2021,apertura,3,Chivas,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Hernández,,,9208.0,1.8,1.4,,,3-4-3,,3,True,2
+3409,2021-08-07,2021,apertura,3,Tigres UANL,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,,,14350.0,1.0,1.8,,,4-4-2,,3,True,2
+3410,2021-08-08,2021,apertura,3,UNAM Pumas,Atlético San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Óscar Macias,,,,1.2,1.4,,,4-2-3-1,,3,True,2
+3411,2021-08-09,2021,apertura,3,Pachuca,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Guillermo Pacheco Larios,,,,1.5,1.4,,,4-3-1-2,,3,True,2
+3412,2021-08-12,2021,apertura,4,Atlético San Luis,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,César Arturo Ramos,,,4128.0,1.2,1.2,,,3-1-4-2,,4,True,2
+3413,2021-08-13,2021,apertura,4,FC Juárez,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Edgar Morales,,,7806.0,1.9,0.3,,,4-2-3-1,,4,True,2
+3414,2021-08-13,2021,apertura,4,Puebla FC,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Rojas,,,7654.0,2.0,2.2,,,5-4-1,,4,True,2
+3415,2021-08-14,2021,apertura,4,Cruz Azul,Toluca,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Fernando Guerrero,,,8588.0,1.3,0.8,,,4-4-2,,4,True,2
+3416,2021-08-14,2021,apertura,4,León,Mazatlán FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Brian Gonzalez,,,9663.0,2.4,0.5,,,4-3-3,,4,True,2
+3417,2021-08-14,2021,apertura,4,Monterrey,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Óscar Macias,,,15833.0,1.4,0.9,,,4-3-3,,4,True,2
+3418,2021-08-14,2021,apertura,4,UNAM Pumas,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Oscar Mejia,,,,1.3,1.3,,,4-2-3-1,,4,True,2
+3419,2021-08-15,2021,apertura,4,Atlas,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Jorge Pérez,,,13637.0,0.4,1.7,,,4-2-3-1,,4,True,2
+3420,2021-08-15,2021,apertura,4,Santos Laguna,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Santander,,,13082.0,0.9,1.0,,,4-4-2,,4,True,2
+3421,2021-08-17,2021,apertura,5,Club Tijuana,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,,,,1.2,0.6,,,4-2-3-1,,5,True,2
+3422,2021-08-17,2021,apertura,5,Necaxa,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Eduardo Basulto,,,9242.0,1.4,0.6,,,4-4-2,,5,True,2
+3423,2021-08-17,2021,apertura,5,Tigres UANL,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Diego Montaño,,,9264.0,1.1,0.2,,,3-5-2,,5,True,2
+3424,2021-08-17,2021,apertura,5,Toluca,Mazatlán FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Saul Silva,,,,1.6,0.6,,,4-2-3-1,,5,True,2
+3425,2021-08-18,2021,apertura,5,Chivas,León,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Adonai Escobedo,,,10892.0,1.1,1.6,,,4-4-2,,5,True,2
+3426,2021-08-18,2021,apertura,5,Cruz Azul,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Pérez,,,7720.0,1.5,1.2,,,3-4-1-2,,5,True,2
+3427,2021-08-18,2021,apertura,5,FC Juárez,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Santander,,,13992.0,0.8,2.3,,,4-4-2,,5,True,2
+3428,2021-08-18,2021,apertura,5,Santos Laguna,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,,,11998.0,0.8,0.9,,,5-3-2,,5,True,2
+3429,2021-08-20,2021,apertura,6,Mazatlán FC,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Eduardo Basulto,,,7733.0,0.6,1.8,,,3-1-4-2,,6,True,2
+3430,2021-08-21,2021,apertura,6,Atlas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,7239.0,1.5,2.4,,,4-1-4-1,,6,True,2
+3431,2021-08-21,2021,apertura,6,Atlético San Luis,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Oscar Mejia,,,3909.0,1.4,0.1,,,5-3-2,,6,True,2
+3432,2021-08-21,2021,apertura,6,León,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,,,9239.0,2.8,2.0,,,4-4-2,,6,True,2
+3433,2021-08-21,2021,apertura,6,Monterrey,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,,,15467.0,0.5,0.5,,,4-3-3,,6,True,2
+3434,2021-08-22,2021,apertura,6,América,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Rojas,,,,1.5,0.2,,,4-4-2,,6,True,2
+3435,2021-08-22,2021,apertura,6,Necaxa,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Daniel Quintero,,,8983.0,0.9,0.4,,,5-3-2,,6,True,2
+3436,2021-08-22,2021,apertura,6,Querétaro,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,César Arturo Ramos,,,5190.0,1.4,1.4,,,4-2-3-1,,6,True,2
+3437,2021-08-22,2021,apertura,6,UNAM Pumas,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Brian Gonzalez,,,,2.2,0.9,,,4-3-3,,6,True,2
+3438,2021-08-27,2021,apertura,7,Club Tijuana,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,,,3333.0,1.5,0.9,,,4-3-3,,7,True,2
+3439,2021-08-27,2021,apertura,7,Mazatlán FC,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Adonai Escobedo,,,5477.0,1.2,2.0,,,5-3-2,,7,True,2
+3440,2021-08-27,2021,apertura,7,Puebla FC,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Erick Miranda,,,6086.0,0.8,1.0,,,3-4-3,,7,True,2
+3441,2021-08-28,2021,apertura,7,Chivas,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Rojas,,,9603.0,1.5,1.3,,,4-2-3-1,,7,True,2
+3442,2021-08-28,2021,apertura,7,León,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,,,12719.0,1.5,1.0,,,4-2-3-1,,7,True,2
+3443,2021-08-28,2021,apertura,7,Tigres UANL,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Santander,,,11225.0,1.9,1.0,,,5-3-2,,7,True,2
+3444,2021-08-29,2021,apertura,7,Cruz Azul,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Alejandro Funk,,,14626.0,1.1,0.8,,,4-4-2,,7,True,2
+3445,2021-08-29,2021,apertura,7,Santos Laguna,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Óscar Macias,,,11691.0,1.4,0.2,,,4-2-3-1,,7,True,2
+3446,2021-08-29,2021,apertura,7,Toluca,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,César Arturo Ramos,,,9566.0,2.5,1.3,,,4-2-3-1,,7,True,2
+3447,2021-09-10,2021,apertura,8,Club Tijuana,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Santander,,,6333.0,3.1,0.6,,,4-3-3,,8,True,2
+3448,2021-09-10,2021,apertura,8,FC Juárez,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Marco Ortíz,,,11623.0,0.9,1.1,,,4-1-4-1,,8,True,2
+3449,2021-09-10,2021,apertura,8,Puebla FC,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Juan Esquivel,,,3370.0,1.2,1.2,,,3-4-3,,8,True,2
+3450,2021-09-11,2021,apertura,8,América,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Diego Montaño,,,14637.0,1.6,0.0,,,4-2-3-1,,8,True,2
+3451,2021-09-11,2021,apertura,8,Atlas,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Óscar Macias,,,5568.0,1.4,0.5,,,3-4-3,,8,True,2
+3452,2021-09-11,2021,apertura,8,Tigres UANL,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Jorge Pérez,,,12962.0,0.5,2.6,,,3-5-2,,8,True,2
+3453,2021-09-12,2021,apertura,8,Querétaro,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Fernando Hernández,,,5704.0,0.4,1.1,,,4-3-3,,8,True,2
+3454,2021-09-12,2021,apertura,8,UNAM Pumas,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Guerrero,,,,0.8,1.9,,,4-3-3,,8,True,2
+3455,2021-09-13,2021,apertura,8,Pachuca,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Oscar Mejia,,,,1.5,0.6,,,3-1-4-2,,8,True,2
+3456,2021-09-16,2021,apertura,9,Atlético San Luis,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,fbref,Oscar Mejia,,,3038.0,3.1,1.0,,,4-5-1,,9,True,2
+3457,2021-09-17,2021,apertura,9,Necaxa,Atlas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Fernando Guerrero,,,11020.0,0.9,1.2,,,4-4-2,,9,True,2
+3458,2021-09-18,2021,apertura,9,Chivas,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Diego Montaño,,,11135.0,1.2,1.4,,,4-2-3-1,,9,True,2
+3459,2021-09-18,2021,apertura,9,León,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Adonai Escobedo,,,10078.0,1.4,0.6,,,4-2-3-1,,9,True,2
+3460,2021-09-18,2021,apertura,9,Mazatlán FC,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Erick Miranda,,,7902.0,1.2,2.0,,,4-4-2,,9,True,2
+3461,2021-09-18,2021,apertura,9,Toluca,América,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Jorge Rojas,,,10297.0,2.0,1.2,,,4-4-2,,9,True,2
+3462,2021-09-19,2021,apertura,9,Cruz Azul,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Edgar Morales,,,14882.0,2.1,0.4,,,4-4-2,,9,True,2
+3463,2021-09-19,2021,apertura,9,Monterrey,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,,,26755.0,1.7,1.2,,,4-4-2,,9,True,2
+3464,2021-09-19,2021,apertura,9,Santos Laguna,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,,,11431.0,1.2,0.9,,,4-2-3-1,,9,True,2
+3465,2021-09-21,2021,apertura,14,FC Juárez,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Eduardo Basulto,,,11906.0,1.1,0.8,,,5-3-2,,14,True,2
+3466,2021-09-22,2021,apertura,11,Monterrey,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Erick Miranda,,,19836.0,2.8,1.4,,,3-4-3,,11,True,2
+3467,2021-09-23,2021,apertura,10,Pachuca,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jorge Pérez,,,4710.0,0.9,0.5,,,4-4-1-1,,10,True,2
+3468,2021-09-24,2021,apertura,10,Club Tijuana,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Adonai Escobedo,,,7333.0,0.7,0.6,,,4-3-3,,10,True,2
+3469,2021-09-24,2021,apertura,10,Puebla FC,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,14782.0,1.9,1.7,,,4-2-3-1,,10,True,2
+3470,2021-09-25,2021,apertura,10,América,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,César Arturo Ramos,,,42862.0,0.9,0.5,,,4-2-3-1,,10,True,2
+3471,2021-09-25,2021,apertura,10,Atlas,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Rojas,,,8832.0,1.4,1.0,,,5-3-2,,10,True,2
+3472,2021-09-25,2021,apertura,10,Tigres UANL,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Óscar Macias,,,15581.0,1.0,1.9,,,4-4-2,,10,True,2
+3473,2021-09-26,2021,apertura,10,Santos Laguna,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Marco Ortíz,,,14484.0,1.5,2.5,,,4-2-3-1,,10,True,2
+3474,2021-09-26,2021,apertura,10,Toluca,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Luis Santander,,,6833.0,2.4,1.9,,,4-3-3,,10,True,2
+3475,2021-09-28,2021,apertura,11,Atlas,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Hernández,,,9902.0,2.0,0.7,,,4-3-3,,11,True,2
+3476,2021-09-28,2021,apertura,11,Mazatlán FC,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Jorge Pérez,,,5880.0,0.3,0.9,,,3-5-1-1,,11,True,2
+3477,2021-09-28,2021,apertura,11,Necaxa,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Guillermo Pacheco Larios,,,7251.0,1.6,0.8,,,4-1-2-1-2◆,,11,True,2
+3478,2021-09-28,2021,apertura,11,Pachuca,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,,,7454.0,0.9,1.5,,,3-4-3,,11,True,2
+3479,2021-09-29,2021,apertura,11,Atlético San Luis,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Jorge Rojas,,,9545.0,1.1,1.7,,,3-4-3,,11,True,2
+3480,2021-09-29,2021,apertura,11,Querétaro,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Santander,,,6812.0,1.1,1.1,,,4-1-4-1,,11,True,2
+3481,2021-10-01,2021,apertura,12,FC Juárez,Monterrey,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Hernández,,,9608.0,1.0,1.2,,,5-3-2,,12,True,2
+3482,2021-10-01,2021,apertura,12,Puebla FC,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,5906.0,1.8,1.2,,,3-1-4-2,,12,True,2
+3483,2021-10-02,2021,apertura,12,Chivas,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,,,21709.0,0.5,1.2,,,4-2-3-1,,12,True,2
+3484,2021-10-02,2021,apertura,12,León,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Victor Caceres,,,9675.0,0.9,0.9,,,4-3-3,,12,True,2
+3485,2021-10-02,2021,apertura,12,Santos Laguna,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Erick Miranda,,,11293.0,1.6,0.3,,,4-2-3-1,,12,True,2
+3486,2021-10-03,2021,apertura,12,América,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Pérez,,,27571.0,1.3,0.8,,,4-2-3-1,,12,True,2
+3487,2021-10-03,2021,apertura,12,Club Tijuana,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Luis Santander,,,10333.0,1.1,1.0,,,4-4-2,,12,True,2
+3488,2021-10-03,2021,apertura,12,Tigres UANL,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,15797.0,0.9,0.8,,,5-3-2,,12,True,2
+3489,2021-10-03,2021,apertura,12,Toluca,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,6585.0,1.6,1.8,,,3-4-3,,12,True,2
+3490,2021-10-08,2021,apertura,10,FC Juárez,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,10646.0,1.5,0.9,,,5-3-2,,10,True,2
+3491,2021-10-14,2021,apertura,13,Querétaro,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Eduardo Basulto,,,8471.0,2.2,0.5,,,4-1-4-1,,13,True,2
+3492,2021-10-15,2021,apertura,13,Mazatlán FC,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Mario Vargas,,,8120.0,2.3,1.1,,,3-5-1-1,,13,True,2
+3493,2021-10-15,2021,apertura,13,Necaxa,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,,,8723.0,1.8,1.8,,,3-4-3,,13,True,2
+3494,2021-10-16,2021,apertura,13,Atlético San Luis,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Diego Montaño,,,16373.0,0.5,0.9,,,3-4-3,,13,True,2
+3495,2021-10-16,2021,apertura,13,Cruz Azul,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jorge Pérez,,,20894.0,0.5,1.1,,,3-4-1-2,,13,True,2
+3496,2021-10-16,2021,apertura,13,Monterrey,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,César Arturo Ramos,,,26078.0,1.7,0.3,,,4-2-3-1,,13,True,2
+3497,2021-10-16,2021,apertura,13,Pachuca,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,5503.0,2.3,2.0,,,4-1-4-1,,13,True,2
+3498,2021-10-17,2021,apertura,13,Chivas,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,,,15019.0,0.8,0.4,,,4-3-3,,13,True,2
+3499,2021-10-17,2021,apertura,13,UNAM Pumas,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Adonai Escobedo,,,9000.0,0.8,1.2,,,4-4-2,,13,True,2
+3500,2021-10-19,2021,apertura,14,América,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Marco Ortíz,,,16918.0,1.2,1.2,,,4-2-3-1,,14,True,2
+3501,2021-10-19,2021,apertura,14,Atlas,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Jorge Rojas,,,9604.0,0.7,0.8,,,4-4-2,,14,True,2
+3502,2021-10-19,2021,apertura,14,Puebla FC,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Pérez,,,5624.0,2.9,0.3,,,3-4-3,,14,True,2
+3503,2021-10-19,2021,apertura,14,Querétaro,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Guerrero,,,10595.0,1.1,1.4,,,4-1-4-1,,14,True,2
+3504,2021-10-20,2021,apertura,14,Club Tijuana,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Juan Esquivel,,,10333.0,0.9,0.6,,,4-4-2,,14,True,2
+3505,2021-10-20,2021,apertura,14,León,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Erick Miranda,,,12333.0,2.5,0.9,,,4-4-2,,14,True,2
+3506,2021-10-20,2021,apertura,14,Tigres UANL,Pachuca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Santander,,,24153.0,2.3,1.4,,,5-3-2,,14,True,2
+3507,2021-10-20,2021,apertura,14,Toluca,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,,,10090.0,0.8,1.3,,,4-2-3-1,,14,True,2
+3508,2021-10-22,2021,apertura,15,Mazatlán FC,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Óscar Macias,,,9107.0,0.6,1.1,,,3-1-4-2,,15,True,2
+3509,2021-10-23,2021,apertura,15,América,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Guerrero,,,32675.0,1.0,0.8,,,4-3-3,,15,True,2
+3510,2021-10-23,2021,apertura,15,Chivas,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Marco Ortíz,,,20492.0,0.4,1.1,,,4-2-3-1,,15,True,2
+3511,2021-10-23,2021,apertura,15,Monterrey,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Luis Santander,,,23077.0,0.9,1.9,,,4-2-3-1,,15,True,2
+3512,2021-10-23,2021,apertura,15,Puebla FC,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Eduardo Basulto,,,15101.0,0.7,1.3,,,3-4-3,,15,True,2
+3513,2021-10-24,2021,apertura,15,Atlético San Luis,Atlas,2.0,6.0,FINISHED,8.0,-4.0,VISITANTE,fbref,César Arturo Ramos,,,9309.0,1.2,2.7,,,3-4-3,,15,True,2
+3514,2021-10-24,2021,apertura,15,Pachuca,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Diego Montaño,,,2747.0,1.6,0.9,,,4-1-4-1,,15,True,2
+3515,2021-10-24,2021,apertura,15,Santos Laguna,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Jorge Rojas,,,12511.0,2.4,1.2,,,4-2-3-1,,15,True,2
+3516,2021-10-24,2021,apertura,15,UNAM Pumas,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Fernando Hernández,,,11981.0,1.8,0.7,,,4-2-3-1,,15,True,2
+3517,2021-10-28,2021,apertura,16,Atlas,Club Tijuana,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Óscar Macias,,,10299.0,1.0,1.1,,,4-1-3-2,,16,True,2
+3518,2021-10-29,2021,apertura,16,FC Juárez,Puebla FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Erick Miranda,,,10942.0,0.5,1.6,,,5-3-2,,16,True,2
+3519,2021-10-29,2021,apertura,16,Necaxa,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Oscar Mejia,,,10809.0,2.7,1.3,,,4-1-2-1-2◆,,16,True,2
+3520,2021-10-30,2021,apertura,16,Pachuca,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Guerrero,,,6887.0,2.5,0.7,,,4-1-4-1,,16,True,2
+3521,2021-10-30,2021,apertura,16,Querétaro,Santos Laguna,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Jorge Pérez,,,13254.0,2.4,2.6,,,4-4-1-1,,16,True,2
+3522,2021-10-30,2021,apertura,16,Tigres UANL,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Diego Montaño,,,25523.0,0.9,1.1,,,5-3-2,,16,True,2
+3523,2021-10-31,2021,apertura,16,Atlético San Luis,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,,,7690.0,0.6,0.4,,,5-3-2,,16,True,2
+3524,2021-10-31,2021,apertura,16,Cruz Azul,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Santander,,,31257.0,1.1,0.5,,,4-2-3-1,,16,True,2
+3525,2021-10-31,2021,apertura,16,Toluca,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,11210.0,0.3,1.0,,,4-4-2,,16,True,2
+3526,2021-11-03,2021,apertura,11,Cruz Azul,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,,,17928.0,1.5,0.7,,,4-3-3,,11,True,2
+3527,2021-11-03,2021,apertura,5,Pachuca,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Erick Miranda,,,10683.0,2.7,1.5,,,4-1-4-1,,5,True,2
+3528,2021-11-04,2021,apertura,17,Atlas,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Guillermo Pacheco Larios,,,10421.0,2.3,0.3,,,5-3-2,,17,True,2
+3529,2021-11-04,2021,apertura,11,UNAM Pumas,Santos Laguna,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Adonai Escobedo,,,14190.0,1.6,1.3,,,4-3-3,,11,True,2
+3530,2021-11-05,2021,apertura,17,Mazatlán FC,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Jorge Rojas,,,12830.0,0.5,0.4,,,4-4-2,,17,True,2
+3531,2021-11-05,2021,apertura,17,Puebla FC,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Jorge Pérez,,,16136.0,1.9,1.2,,,3-4-3,,17,True,2
+3532,2021-11-06,2021,apertura,17,América,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,,,25654.0,0.5,0.4,,,4-4-2,,17,True,2
+3533,2021-11-06,2021,apertura,17,Club Tijuana,Pachuca,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Eduardo Basulto,,,6333.0,2.0,2.6,,,4-2-3-1,,17,True,2
+3534,2021-11-06,2021,apertura,17,León,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Santander,,,11240.0,2.1,1.1,,,4-3-3,,17,True,2
+3535,2021-11-06,2021,apertura,17,Tigres UANL,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Óscar Macias,,,26243.0,2.0,0.4,,,5-3-2,,17,True,2
+3536,2021-11-07,2021,apertura,17,Santos Laguna,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Guerrero,,,14658.0,1.7,0.9,,,4-2-3-1,,17,True,2
+3537,2021-11-07,2021,apertura,17,UNAM Pumas,Cruz Azul,4.0,3.0,FINISHED,7.0,1.0,LOCAL,fbref,Marco Ortíz,,,23573.0,2.0,2.0,,,4-1-4-1,,17,True,2
+3538,2022-01-06,2021,clausura,1,Atlético San Luis,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Óscar Macias,,,6841.0,0.7,2.3,,,5-4-1,,1,True,2
+3539,2022-01-07,2021,clausura,1,FC Juárez,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Santander,,,7731.0,2.4,0.9,,,5-3-2,,1,True,2
+3540,2022-01-07,2021,clausura,1,Puebla FC,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,35040.0,1.0,0.7,,,5-3-2,,1,True,2
+3541,2022-01-08,2021,clausura,1,Cruz Azul,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,,,16271.0,0.7,1.3,,,4-4-1-1,,1,True,2
+3542,2022-01-08,2021,clausura,1,Monterrey,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Edgar Morales,,,18926.0,2.1,0.7,,,4-2-3-1,,1,True,2
+3543,2022-01-09,2021,clausura,1,Chivas,Mazatlán FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,César Arturo Ramos,,,19565.0,2.0,0.6,,,4-3-3,,1,True,2
+3544,2022-01-10,2021,clausura,1,UNAM Pumas,Toluca,5.0,0.0,FINISHED,5.0,5.0,LOCAL,fbref,Diego Montaño,,,8493.0,3.5,0.3,,,4-4-2,,1,True,2
+3545,2022-01-12,2021,clausura,1,Santos Laguna,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,,,9377.0,0.3,0.7,,,4-2-3-1,,1,True,2
+3546,2022-01-14,2021,clausura,2,Necaxa,Monterrey,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,fbref,Fernando Hernández,,,8921.0,0.4,2.0,,,4-1-3-2,,2,True,2
+3547,2022-01-14,2021,clausura,2,Querétaro,UNAM Pumas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Erick Miranda,,,13569.0,1.2,0.7,,,4-4-2,,2,True,2
+3548,2022-01-15,2021,clausura,2,Atlas,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Brian Gonzalez,,,13353.0,0.4,0.6,,,3-5-2,,2,True,2
+3549,2022-01-15,2021,clausura,2,Club Tijuana,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,8333.0,1.2,0.7,,,4-3-3,,2,True,2
+3550,2022-01-15,2021,clausura,2,Cruz Azul,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Guillermo Pacheco Larios,,,13801.0,0.7,0.2,,,4-2-3-1,,2,True,2
+3551,2022-01-15,2021,clausura,2,Tigres UANL,Puebla FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Luis Santander,,,14829.0,2.2,1.4,,,4-4-2,,2,True,2
+3552,2022-01-16,2021,clausura,2,Pachuca,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,,,6692.0,0.8,0.9,,,4-4-1-1,,2,True,2
+3553,2022-01-16,2021,clausura,2,Toluca,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,César Arturo Ramos,,,10023.0,2.2,1.0,,,4-2-3-1,,2,True,2
+3554,2022-01-19,2021,clausura,1,León,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,,,8997.0,1.3,1.3,,,4-2-3-1,,1,True,2
+3555,2022-01-20,2021,clausura,3,Atlético San Luis,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Erick Miranda,,,5397.0,0.6,2.1,,,4-3-3,,3,True,2
+3556,2022-01-21,2021,clausura,3,Mazatlán FC,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Óscar Macias,,,8517.0,1.3,1.1,,,4-2-3-1,,3,True,2
+3557,2022-01-22,2021,clausura,3,América,Atlas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Marco Ortíz,,,20825.0,0.9,0.1,,,4-2-3-1,,3,True,2
+3558,2022-01-22,2021,clausura,3,Chivas,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Diego Montaño,,,15193.0,0.7,0.3,,,4-3-3,,3,True,2
+3559,2022-01-22,2021,clausura,3,León,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Daniel Quintero,,,9463.0,1.3,0.9,,,4-1-4-1,,3,True,2
+3560,2022-01-22,2021,clausura,3,Monterrey,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,César Arturo Ramos,,,16508.0,1.2,1.1,,,4-3-3,,3,True,2
+3561,2022-01-23,2021,clausura,3,Santos Laguna,Necaxa,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Victor Caceres,,,9630.0,0.5,1.6,,,4-4-2,,3,True,2
+3562,2022-01-23,2021,clausura,3,UNAM Pumas,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Oscar Mejia,,,18805.0,1.0,1.6,,,4-4-2,,3,True,2
+3563,2022-01-28,2021,clausura,3,Puebla FC,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Guillermo Pacheco Larios,,,11180.0,2.8,0.5,,,3-4-3,,3,True,2
+3564,2022-02-05,2021,clausura,4,América,Atlético San Luis,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Adonai Escobedo,,,16968.0,2.2,2.9,,,4-3-3,,4,True,2
+3565,2022-02-05,2021,clausura,4,Club Tijuana,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Diego Montaño,,,11633.0,3.9,0.9,,,4-2-3-1,,4,True,2
+3566,2022-02-05,2021,clausura,4,Necaxa,Pachuca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Marco Ortíz,,,9238.0,2.8,2.7,,,5-3-2,,4,True,2
+3567,2022-02-06,2021,clausura,4,Atlas,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Pérez,,,17346.0,1.1,1.3,,,5-3-2,,4,True,2
+3568,2022-02-06,2021,clausura,4,Querétaro,Puebla FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Ismael Lopez,,,13622.0,2.9,2.8,,,4-4-2,,4,True,2
+3569,2022-02-06,2021,clausura,4,Tigres UANL,Mazatlán FC,4.0,3.0,FINISHED,7.0,1.0,LOCAL,fbref,Fernando Hernández,,,10497.0,4.1,2.4,,,5-4-1,,4,True,2
+3570,2022-02-07,2021,clausura,4,León,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Victor Caceres,,,14097.0,1.7,1.1,,,4-1-4-1,,4,True,2
+3571,2022-02-09,2021,clausura,4,FC Juárez,Chivas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Brian Gonzalez,,,7801.0,1.0,1.1,,,4-4-2,,4,True,2
+3572,2022-02-11,2021,clausura,5,Mazatlán FC,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Guerrero,,,8221.0,1.6,1.2,,,4-2-3-1,,5,True,2
+3573,2022-02-11,2021,clausura,5,Puebla FC,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Victor Caceres,,,23170.0,1.5,1.9,,,5-4-1,,5,True,2
+3574,2022-02-12,2021,clausura,5,Atlético San Luis,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,5574.0,2.4,0.3,,,5-3-2,,5,True,2
+3575,2022-02-12,2021,clausura,5,Chivas,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Jorge Pérez,,,22564.0,0.9,2.1,,,4-4-2,,5,True,2
+3576,2022-02-12,2021,clausura,5,Cruz Azul,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Erick Miranda,,,26967.0,1.3,0.8,,,4-2-3-1,,5,True,2
+3577,2022-02-12,2021,clausura,5,Santos Laguna,América,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Luis Santander,,,18774.0,0.6,2.1,,,5-4-1,,5,True,2
+3578,2022-02-13,2021,clausura,5,UNAM Pumas,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Guillermo Pacheco Larios,,,15079.0,0.8,1.3,,,4-3-3,,5,True,2
+3579,2022-02-14,2021,clausura,5,Pachuca,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Jorge Camacho,,,5584.0,0.9,1.6,,,4-4-1-1,,5,True,2
+3580,2022-02-16,2021,clausura,2,Mazatlán FC,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Pérez,,,13934.0,1.2,1.2,,,5-4-1,,2,True,2
+3581,2022-02-18,2021,clausura,6,Club Tijuana,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,,,10333.0,1.8,0.3,,,4-3-3,,6,True,2
+3582,2022-02-18,2021,clausura,6,FC Juárez,Santos Laguna,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Hernández,,,7355.0,0.3,0.6,,,4-4-2,,6,True,2
+3583,2022-02-18,2021,clausura,6,Puebla FC,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,,,25934.0,0.8,2.1,,,5-4-1,,6,True,2
+3584,2022-02-19,2021,clausura,6,León,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Guerrero,,,16204.0,1.2,1.2,,,4-1-4-1,,6,True,2
+3585,2022-02-19,2021,clausura,6,Querétaro,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Luis Santander,,,7458.0,1.4,0.3,,,4-4-2,,6,True,2
+3586,2022-02-19,2021,clausura,6,Tigres UANL,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Marco Ortíz,,,20850.0,1.3,0.3,,,4-5-1,,6,True,2
+3587,2022-02-20,2021,clausura,6,América,Pachuca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Diego Montaño,,,27858.0,1.4,1.6,,,4-3-1-2,,6,True,2
+3588,2022-02-20,2021,clausura,6,Atlas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Daniel Quintero,,,20436.0,0.6,0.6,,,5-3-2,,6,True,2
+3589,2022-02-20,2021,clausura,6,Toluca,Cruz Azul,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,fbref,Jorge Pérez,,,22438.0,0.8,2.3,,,4-2-3-1,,6,True,2
+3590,2022-02-24,2021,clausura,7,Pachuca,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Ismael Lopez,,,6875.0,1.3,0.4,,,4-2-3-1,,7,True,2
+3591,2022-02-24,2021,clausura,7,Querétaro,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,11524.0,0.4,1.5,,,4-4-2,,7,True,2
+3592,2022-02-25,2021,clausura,7,Club Tijuana,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Pérez,,,14333.0,1.0,0.7,,,4-2-3-1,,7,True,2
+3593,2022-02-25,2021,clausura,7,FC Juárez,Tigres UANL,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,10113.0,1.0,2.9,,,4-2-3-1,,7,True,2
+3594,2022-02-25,2021,clausura,7,Necaxa,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Óscar Macias,,,12781.0,1.1,1.2,,,4-2-3-1,,7,True,2
+3595,2022-02-26,2021,clausura,7,Chivas,Puebla FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,fbref,Fernando Hernández,,,19747.0,1.9,1.5,,,4-2-3-1,,7,True,2
+3596,2022-02-26,2021,clausura,7,Monterrey,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Diego Montaño,,,24507.0,1.3,1.2,,,4-3-3,,7,True,2
+3597,2022-02-26,2021,clausura,7,UNAM Pumas,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Fernando Guerrero,,,42650.0,0.4,0.8,,,4-4-2,,7,True,2
+3598,2022-02-27,2021,clausura,7,Cruz Azul,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,César Arturo Ramos,,,33924.0,2.6,1.0,,,4-3-3,,7,True,2
+3599,2022-03-01,2021,clausura,8,América,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Fernando Hernández,,,17414.0,0.7,0.9,,,4-2-3-1,,8,True,2
+3600,2022-03-01,2021,clausura,8,León,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Luis Santander,,,10581.0,1.5,1.9,,,4-2-3-1,,8,True,2
+3601,2022-03-01,2021,clausura,8,Mazatlán FC,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Diego Montaño,,,9414.0,0.6,0.6,,,3-4-1-2,,8,True,2
+3602,2022-03-01,2021,clausura,8,Puebla FC,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Ismael Lopez,,,26100.0,0.6,0.5,,,3-5-2,,8,True,2
+3603,2022-03-01,2021,clausura,8,Toluca,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Jorge Camacho,,,12523.0,1.1,0.7,,,4-2-3-1,,8,True,2
+3604,2022-03-02,2021,clausura,8,Atlas,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Brian Gonzalez,,,14421.0,0.7,1.7,,,5-3-2,,8,True,2
+3605,2022-03-02,2021,clausura,8,Atlético San Luis,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,César Arturo Ramos,,,14630.0,1.5,0.6,,,4-4-1-1,,8,True,2
+3606,2022-03-02,2021,clausura,8,Santos Laguna,UNAM Pumas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,fbref,Óscar Macias,,,12238.0,2.1,1.3,,,4-4-2,,8,True,2
+3607,2022-03-02,2021,clausura,8,Tigres UANL,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Victor Caceres,,,36978.0,2.8,1.0,,,5-4-1,,8,True,2
+3608,2022-03-04,2021,clausura,9,FC Juárez,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Oscar Mejia,,,9307.0,0.4,0.8,,,3-4-3,,9,True,2
+3609,2022-03-04,2021,clausura,9,Necaxa,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Guillermo Pacheco Larios,,,11783.0,0.5,0.9,,,4-2-3-1,,9,True,2
+3610,2022-03-05,2021,clausura,9,Chivas,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Victor Caceres,,,18522.0,1.0,0.4,,,3-4-3,,9,True,2
+3611,2022-03-05,2021,clausura,9,Cruz Azul,Puebla FC,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Jorge Pérez,,,29336.0,0.7,1.3,,,4-2-3-1,,9,True,2
+3612,2022-03-05,2021,clausura,9,Monterrey,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Erick Miranda,,,40327.0,1.8,1.2,,,4-2-3-1,,9,True,2
+3613,2022-03-05,2021,clausura,9,Querétaro,Atlas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Fernando Guerrero,,,,,,,,4-4-2,,9,True,2
+3614,2022-03-11,2021,clausura,10,FC Juárez,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Erick Miranda,,,9002.0,0.4,1.0,,,3-4-3,,10,True,2
+3615,2022-03-11,2021,clausura,10,Monterrey,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Daniel Quintero,,,27012.0,1.9,1.0,,,4-2-3-1,,10,True,2
+3616,2022-03-11,2021,clausura,10,Necaxa,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,,,,1.2,0.8,,,4-2-3-1,,10,True,2
+3617,2022-03-12,2021,clausura,10,Chivas,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Jorge Pérez,,,33047.0,0.7,0.3,,,4-3-3,,10,True,2
+3618,2022-03-12,2021,clausura,10,Cruz Azul,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,,,12686.0,0.9,1.2,,,4-3-3,,10,True,2
+3619,2022-03-12,2021,clausura,10,León,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,Fernando Guerrero,,,16242.0,1.5,1.4,,,4-2-3-1,,10,True,2
+3620,2022-03-13,2021,clausura,10,Atlético San Luis,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Luis Santander,,,5904.0,1.9,1.8,,,4-3-3,,10,True,2
+3621,2022-03-13,2021,clausura,10,Santos Laguna,Club Tijuana,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Brian Gonzalez,,,9895.0,2.0,0.9,,,4-4-2,,10,True,2
+3622,2022-03-13,2021,clausura,10,Toluca,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,fbref,César Arturo Ramos,,,10044.0,0.6,2.1,,,4-2-3-1,,10,True,2
+3623,2022-03-15,2021,clausura,5,Monterrey,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Victor Caceres,,,29052.0,1.9,0.3,,,4-2-3-1,,5,True,2
+3624,2022-03-17,2021,clausura,11,Querétaro,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,,,,1.4,2.0,,,4-4-2,,11,True,2
+3625,2022-03-18,2021,clausura,11,Puebla FC,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Fernando Guerrero,,,19713.0,2.0,1.6,,,5-4-1,,11,True,2
+3626,2022-03-19,2021,clausura,11,Pachuca,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Brian Gonzalez,,,11367.0,0.9,0.7,,,4-3-3,,11,True,2
+3627,2022-03-19,2021,clausura,11,Tigres UANL,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jorge Pérez,,,41473.0,0.5,0.5,,,4-1-4-1,,11,True,2
+3628,2022-03-19,2021,clausura,11,UNAM Pumas,Necaxa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Adonai Escobedo,,,10380.0,0.7,2.4,,,4-4-2,,11,True,2
+3629,2022-03-20,2021,clausura,11,América,Toluca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Oscar Mejia,,,34571.0,2.6,0.2,,,4-2-3-1,,11,True,2
+3630,2022-03-20,2021,clausura,11,Atlas,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,,,19017.0,0.8,0.9,,,5-3-2,,11,True,2
+3631,2022-03-20,2021,clausura,11,Club Tijuana,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Santander,,,17333.0,1.4,1.8,,,4-2-3-1,,11,True,2
+3632,2022-03-20,2021,clausura,11,Mazatlán FC,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Ismael Lopez,,,9566.0,1.1,1.3,,,4-4-2,,11,True,2
+3633,2022-03-26,2021,clausura,9,UNAM Pumas,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Luis Santander,,,9289.0,1.5,0.4,,,4-4-2,,9,True,2
+3634,2022-04-01,2021,clausura,12,Atlético San Luis,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,César Arturo Ramos,,,5803.0,1.3,0.3,,,4-2-3-1,,12,True,2
+3635,2022-04-02,2021,clausura,12,Cruz Azul,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Luis Santander,,,21644.0,0.4,0.8,,,4-4-1-1,,12,True,2
+3636,2022-04-02,2021,clausura,12,FC Juárez,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,,,11748.0,0.7,1.3,,,5-3-2,,12,True,2
+3637,2022-04-02,2021,clausura,12,Necaxa,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Daniel Quintero,,,19485.0,0.3,1.5,,,4-2-3-1,,12,True,2
+3638,2022-04-03,2021,clausura,12,León,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Guillermo Pacheco Larios,,,,1.0,1.3,,,4-1-4-1,,12,True,2
+3639,2022-04-03,2021,clausura,12,Santos Laguna,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Adonai Escobedo,,,12908.0,2.2,1.2,,,4-4-1-1,,12,True,2
+3640,2022-04-03,2021,clausura,12,Tigres UANL,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Óscar Macias,,,37691.0,2.3,0.8,,,4-1-4-1,,12,True,2
+3641,2022-04-03,2021,clausura,12,Toluca,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Fernando Hernández,,,9215.0,1.1,1.4,,,3-5-1-1,,12,True,2
+3642,2022-04-06,2021,clausura,9,Club Tijuana,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Jesus Lopez,,,13533.0,2.6,1.2,,,4-2-3-1,,9,True,2
+3643,2022-04-06,2021,clausura,4,Toluca,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Eduardo Galván,,,10150.0,1.3,1.9,,,5-3-2,,4,True,2
+3644,2022-04-07,2021,clausura,13,Atlas,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Pérez,,,12588.0,1.9,0.6,,,5-3-2,,13,True,2
+3645,2022-04-07,2021,clausura,9,Pachuca,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Ismael Lopez,,,10664.0,1.7,0.6,,,4-2-3-1,,9,True,2
+3646,2022-04-08,2021,clausura,13,Mazatlán FC,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Erick Miranda,,,15206.0,0.9,2.2,,,4-4-2,,13,True,2
+3647,2022-04-08,2021,clausura,13,Puebla FC,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Brian Gonzalez,,,28115.0,1.4,2.2,,,3-4-3,,13,True,2
+3648,2022-04-09,2021,clausura,13,América,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,César Arturo Ramos,,,19757.0,1.5,0.5,,,4-3-3,,13,True,2
+3649,2022-04-09,2021,clausura,13,Atlético San Luis,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Luis Santander,,,6102.0,1.7,2.0,,,4-2-3-1,,13,True,2
+3650,2022-04-09,2021,clausura,13,Monterrey,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Marco Ortíz,,,29769.0,2.1,0.8,,,4-2-3-1,,13,True,2
+3651,2022-04-09,2021,clausura,13,Toluca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Óscar Macias,,,20166.0,0.8,0.8,,,5-3-2,,13,True,2
+3652,2022-04-10,2021,clausura,13,Querétaro,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Diego Montaño,,,,1.7,0.3,,,4-4-2,,13,True,2
+3653,2022-04-11,2021,clausura,13,Pachuca,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Daniel Quintero,,,9191.0,2.7,0.2,,,4-2-3-1,,13,True,2
+3654,2022-04-13,2021,clausura,12,Chivas,Monterrey,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Diego Montaño,,,24247.0,1.3,1.8,,,4-3-3,,12,True,2
+3655,2022-04-14,2021,clausura,14,Atlas,Mazatlán FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Ismael Lopez,,,18316.0,1.6,1.4,,,3-5-2,,14,True,2
+3656,2022-04-15,2021,clausura,14,Club Tijuana,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Luis Santander,,,27333.0,0.4,3.1,,,4-2-3-1,,14,True,2
+3657,2022-04-15,2021,clausura,14,FC Juárez,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,fbref,Óscar Macias,,,8568.0,0.7,0.7,,,5-4-1,,14,True,2
+3658,2022-04-15,2021,clausura,14,Necaxa,Atlético San Luis,4.0,2.0,FINISHED,6.0,2.0,LOCAL,fbref,Oscar Mejia,,,12804.0,1.6,1.9,,,4-4-2,,14,True,2
+3659,2022-04-16,2021,clausura,14,Cruz Azul,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Jorge Pérez,,,21280.0,0.5,1.3,,,4-3-3,,14,True,2
+3660,2022-04-16,2021,clausura,14,León,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Eduardo Galván,,,12859.0,1.7,2.2,,,4-2-3-1,,14,True,2
+3661,2022-04-16,2021,clausura,14,Santos Laguna,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,César Arturo Ramos,,,,1.8,1.4,,,4-4-1-1,,14,True,2
+3662,2022-04-16,2021,clausura,14,Tigres UANL,Toluca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Marco Ortíz,,,36658.0,2.8,0.4,,,4-3-3,,14,True,2
+3663,2022-04-17,2021,clausura,14,UNAM Pumas,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Erick Miranda,,,17167.0,1.4,1.7,,,4-4-2,,14,True,2
+3664,2022-04-19,2021,clausura,15,Chivas,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Adonai Escobedo,,,20945.0,0.9,0.9,,,3-5-1-1,,15,True,2
+3665,2022-04-19,2021,clausura,15,Mazatlán FC,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Fernando Hernández,,,10960.0,0.9,1.5,,,4-4-2,,15,True,2
+3666,2022-04-19,2021,clausura,15,Necaxa,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Jesus Lopez,,,,0.7,1.1,,,4-4-2,,15,True,2
+3667,2022-04-19,2021,clausura,15,Pachuca,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,fbref,Oscar Mejia,,,10427.0,1.2,1.1,,,4-2-3-1,,15,True,2
+3668,2022-04-19,2021,clausura,15,Toluca,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Victor Caceres,,,9211.0,1.4,1.2,,,4-4-2,,15,True,2
+3669,2022-04-20,2021,clausura,15,América,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Diego Montaño,,,36210.0,1.7,0.5,,,4-2-3-1,,15,True,2
+3670,2022-04-20,2021,clausura,15,Atlético San Luis,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Marco Ortíz,,,14948.0,1.7,0.5,,,4-2-3-1,,15,True,2
+3671,2022-04-20,2021,clausura,15,Monterrey,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,César Arturo Ramos,,,31426.0,1.7,0.4,,,4-2-3-1,,15,True,2
+3672,2022-04-21,2021,clausura,15,Querétaro,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Fernando Guerrero,,,,1.1,1.6,,,4-4-2,,15,True,2
+3673,2022-04-22,2021,clausura,16,FC Juárez,Mazatlán FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Oscar Mejia,,,7688.0,0.1,0.6,,,3-5-2,,16,True,2
+3674,2022-04-22,2021,clausura,16,Puebla FC,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Ismael Lopez,,,16320.0,1.1,1.4,,,5-4-1,,16,True,2
+3675,2022-04-23,2021,clausura,16,Chivas,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,fbref,Óscar Macias,,,31767.0,1.3,0.6,,,5-3-2,,16,True,2
+3676,2022-04-23,2021,clausura,16,Pachuca,Monterrey,3.0,0.0,FINISHED,3.0,3.0,LOCAL,fbref,Luis Santander,,,8041.0,0.8,0.9,,,4-2-3-1,,16,True,2
+3677,2022-04-23,2021,clausura,16,Tigres UANL,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,fbref,Fernando Hernández,,,38810.0,0.5,1.6,,,4-3-3,,16,True,2
+3678,2022-04-24,2021,clausura,16,Club Tijuana,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,fbref,Marco Ortíz,,,,2.9,1.6,,,4-1-4-1,,16,True,2
+3679,2022-04-24,2021,clausura,16,Cruz Azul,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,Jesus Lopez,,,17222.0,0.9,0.7,,,4-2-3-1,,16,True,2
+3680,2022-04-24,2021,clausura,16,Santos Laguna,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Adonai Escobedo,,,11345.0,2.0,1.5,,,4-2-2-2,,16,True,2
+3681,2022-04-24,2021,clausura,16,Toluca,Atlas,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,fbref,Fernando Guerrero,,,10765.0,2.5,3.1,,,4-4-2,,16,True,2
+3682,2022-04-29,2021,clausura,17,Mazatlán FC,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,fbref,Jorge Pérez,,,15729.0,2.4,1.4,,,4-4-1-1,,17,True,2
+3683,2022-04-29,2021,clausura,17,Necaxa,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,fbref,César Arturo Ramos,,,20537.0,0.6,0.8,,,4-4-2,,17,True,2
+3684,2022-04-30,2021,clausura,17,América,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,fbref,Marco Ortíz,,,52630.0,1.2,0.3,,,4-2-3-1,,17,True,2
+3685,2022-04-30,2021,clausura,17,Atlas,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,fbref,Oscar Mejia,,,21968.0,0.5,1.5,,,3-5-2,,17,True,2
+3686,2022-04-30,2021,clausura,17,Monterrey,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Daniel Quintero,,,28642.0,2.3,1.0,,,4-2-3-1,,17,True,2
+3687,2022-04-30,2021,clausura,17,Querétaro,FC Juárez,4.0,0.0,FINISHED,4.0,4.0,LOCAL,fbref,Adonai Escobedo,,,,2.4,1.2,,,4-4-2,,17,True,2
+3688,2022-05-01,2021,clausura,17,Atlético San Luis,Santos Laguna,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,fbref,Ismael Lopez,,,10364.0,1.6,1.0,,,4-4-2,,17,True,2
+3689,2022-05-01,2021,clausura,17,León,Toluca,4.0,4.0,FINISHED,8.0,0.0,EMPATE,fbref,Luis Santander,,,18732.0,3.0,0.7,,,4-1-4-1,,17,True,2
+3690,2022-05-01,2021,clausura,17,UNAM Pumas,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,fbref,Fernando Hernández,,,14286.0,1.5,0.6,,,4-2-3-1,,17,True,2

@@ -1,0 +1,325 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+2755,2019-07-19,2019,apertura,1,Atlas,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2756,2019-07-19,2019,apertura,1,Puebla FC,Club Tijuana,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2757,2019-07-20,2019,apertura,1,América,Monterrey,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2758,2019-07-20,2019,apertura,1,Atlético San Luis,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2759,2019-07-20,2019,apertura,1,Necaxa,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+2760,2019-07-20,2019,apertura,1,Pachuca,León,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2761,2019-07-20,2019,apertura,1,Tigres UANL,Monarcas Morelia,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2762,2019-07-21,2019,apertura,1,Santos Laguna,Chivas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2763,2019-07-21,2019,apertura,1,Toluca,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2764,2019-07-26,2019,apertura,2,Monarcas Morelia,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+2765,2019-07-26,2019,apertura,2,Veracruz,Pachuca,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2766,2019-07-27,2019,apertura,2,Club Tijuana,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2767,2019-07-27,2019,apertura,2,Cruz Azul,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2768,2019-07-27,2019,apertura,2,León,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2769,2019-07-28,2019,apertura,2,Atlético San Luis,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2770,2019-07-28,2019,apertura,2,Chivas,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2771,2019-07-28,2019,apertura,2,Santos Laguna,FC Juárez,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2772,2019-07-28,2019,apertura,2,UNAM Pumas,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2773,2019-08-02,2019,apertura,3,Atlas,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2774,2019-08-02,2019,apertura,3,Puebla FC,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2775,2019-08-03,2019,apertura,3,América,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2776,2019-08-03,2019,apertura,3,Monterrey,León,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2777,2019-08-03,2019,apertura,3,Necaxa,Veracruz,7.0,0.0,FINISHED,7.0,7.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2778,2019-08-03,2019,apertura,3,Pachuca,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2779,2019-08-03,2019,apertura,3,Querétaro,Cruz Azul,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2780,2019-08-04,2019,apertura,3,FC Juárez,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2781,2019-08-04,2019,apertura,3,UNAM Pumas,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2782,2019-08-09,2019,apertura,4,Club Tijuana,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2783,2019-08-09,2019,apertura,4,Monarcas Morelia,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2784,2019-08-09,2019,apertura,4,Veracruz,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2785,2019-08-10,2019,apertura,4,Chivas,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2786,2019-08-10,2019,apertura,4,Cruz Azul,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2787,2019-08-10,2019,apertura,4,Querétaro,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2788,2019-08-10,2019,apertura,4,Tigres UANL,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2789,2019-08-11,2019,apertura,4,Santos Laguna,Puebla FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2790,2019-08-11,2019,apertura,4,Toluca,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2791,2019-08-16,2019,apertura,5,Atlas,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2792,2019-08-16,2019,apertura,5,Puebla FC,Pachuca,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2793,2019-08-17,2019,apertura,5,América,Monarcas Morelia,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2794,2019-08-17,2019,apertura,5,Atlético San Luis,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2795,2019-08-17,2019,apertura,5,León,Chivas,4.0,3.0,FINISHED,7.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2796,2019-08-17,2019,apertura,5,Monterrey,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2797,2019-08-18,2019,apertura,5,FC Juárez,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2798,2019-08-18,2019,apertura,5,Necaxa,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2799,2019-08-18,2019,apertura,5,UNAM Pumas,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2800,2019-08-23,2019,apertura,6,Monarcas Morelia,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2801,2019-08-23,2019,apertura,6,Santos Laguna,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2802,2019-08-23,2019,apertura,6,Veracruz,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2803,2019-08-24,2019,apertura,6,Cruz Azul,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2804,2019-08-24,2019,apertura,6,Pachuca,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2805,2019-08-24,2019,apertura,6,Querétaro,León,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2806,2019-08-24,2019,apertura,6,Tigres UANL,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2807,2019-08-25,2019,apertura,6,Chivas,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2808,2019-08-25,2019,apertura,6,Toluca,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2809,2019-08-27,2019,apertura,7,América,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2810,2019-08-27,2019,apertura,7,Atlas,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2811,2019-08-27,2019,apertura,7,Atlético San Luis,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2812,2019-08-27,2019,apertura,7,Veracruz,Querétaro,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2813,2019-08-28,2019,apertura,7,Club Tijuana,Cruz Azul,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2814,2019-08-28,2019,apertura,7,León,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2815,2019-08-28,2019,apertura,7,Necaxa,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2816,2019-08-29,2019,apertura,7,Monterrey,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2817,2019-08-29,2019,apertura,7,Puebla FC,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2818,2019-08-30,2019,apertura,8,Atlas,América,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2819,2019-08-30,2019,apertura,8,Monarcas Morelia,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2820,2019-08-31,2019,apertura,8,Cruz Azul,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2821,2019-08-31,2019,apertura,8,Necaxa,Club Tijuana,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2822,2019-08-31,2019,apertura,8,Pachuca,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2823,2019-08-31,2019,apertura,8,Tigres UANL,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2824,2019-09-01,2019,apertura,8,FC Juárez,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2825,2019-09-01,2019,apertura,8,Querétaro,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2826,2019-09-01,2019,apertura,8,UNAM Pumas,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2827,2019-09-13,2019,apertura,9,Club Tijuana,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2828,2019-09-13,2019,apertura,9,Puebla FC,Atlético San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+2829,2019-09-13,2019,apertura,9,Veracruz,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2830,2019-09-14,2019,apertura,9,América,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2831,2019-09-14,2019,apertura,9,Chivas,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2832,2019-09-14,2019,apertura,9,León,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2833,2019-09-14,2019,apertura,9,Monterrey,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+2834,2019-09-15,2019,apertura,9,Santos Laguna,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2835,2019-09-15,2019,apertura,9,Toluca,Monarcas Morelia,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+2836,2019-09-20,2019,apertura,10,Atlas,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+2837,2019-09-20,2019,apertura,10,Monarcas Morelia,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2838,2019-09-21,2019,apertura,10,América,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2839,2019-09-21,2019,apertura,10,Atlético San Luis,Santos Laguna,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+2840,2019-09-21,2019,apertura,10,Monterrey,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2841,2019-09-21,2019,apertura,10,Necaxa,León,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+2842,2019-09-21,2019,apertura,10,Pachuca,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2843,2019-09-22,2019,apertura,10,FC Juárez,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2844,2019-09-22,2019,apertura,10,UNAM Pumas,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2845,2019-09-24,2019,apertura,11,Chivas,Pachuca,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2846,2019-09-24,2019,apertura,11,León,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2847,2019-09-24,2019,apertura,11,Querétaro,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2848,2019-09-24,2019,apertura,11,Tigres UANL,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2849,2019-09-25,2019,apertura,11,Club Tijuana,Monarcas Morelia,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2850,2019-09-25,2019,apertura,11,Cruz Azul,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2851,2019-09-25,2019,apertura,11,FC Juárez,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2852,2019-09-25,2019,apertura,11,Santos Laguna,Veracruz,5.0,0.0,FINISHED,5.0,5.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2853,2019-09-26,2019,apertura,11,Toluca,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2854,2019-09-27,2019,apertura,12,Atlas,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2855,2019-09-27,2019,apertura,12,Puebla FC,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2856,2019-09-28,2019,apertura,12,América,Chivas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2857,2019-09-28,2019,apertura,12,Monterrey,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+2858,2019-09-28,2019,apertura,12,Necaxa,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+2859,2019-09-28,2019,apertura,12,Pachuca,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2860,2019-09-29,2019,apertura,12,Atlético San Luis,Club Tijuana,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+2861,2019-09-29,2019,apertura,12,UNAM Pumas,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2862,2019-09-29,2019,apertura,12,Veracruz,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+2863,2019-10-04,2019,apertura,13,Monarcas Morelia,Necaxa,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+2864,2019-10-05,2019,apertura,13,Chivas,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2865,2019-10-05,2019,apertura,13,Club Tijuana,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2866,2019-10-05,2019,apertura,13,Cruz Azul,América,5.0,2.0,FINISHED,7.0,3.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2867,2019-10-05,2019,apertura,13,León,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2868,2019-10-05,2019,apertura,13,Tigres UANL,Santos Laguna,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2869,2019-10-06,2019,apertura,13,FC Juárez,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+2870,2019-10-06,2019,apertura,13,Querétaro,Monterrey,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2871,2019-10-06,2019,apertura,13,Toluca,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2872,2019-10-18,2019,apertura,14,Puebla FC,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2873,2019-10-18,2019,apertura,14,Santos Laguna,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+2874,2019-10-18,2019,apertura,14,Veracruz,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2875,2019-10-19,2019,apertura,14,Cruz Azul,Monarcas Morelia,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2876,2019-10-19,2019,apertura,14,Necaxa,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+2877,2019-10-19,2019,apertura,14,Pachuca,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2878,2019-10-20,2019,apertura,14,Atlético San Luis,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2879,2019-10-20,2019,apertura,14,Monterrey,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+2880,2019-10-20,2019,apertura,14,UNAM Pumas,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2881,2019-10-25,2019,apertura,15,Atlas,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+2882,2019-10-25,2019,apertura,15,Club Tijuana,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2883,2019-10-25,2019,apertura,15,Monarcas Morelia,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+2884,2019-10-26,2019,apertura,15,América,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2885,2019-10-26,2019,apertura,15,León,Atlético San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2886,2019-10-26,2019,apertura,15,Querétaro,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2887,2019-10-26,2019,apertura,15,Tigres UANL,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+2888,2019-10-27,2019,apertura,15,FC Juárez,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+2889,2019-10-27,2019,apertura,15,Toluca,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2890,2019-10-29,2019,apertura,16,Atlético San Luis,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2891,2019-10-29,2019,apertura,16,Santos Laguna,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2892,2019-10-29,2019,apertura,16,UNAM Pumas,Atlas,5.0,1.0,FINISHED,6.0,4.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2893,2019-10-29,2019,apertura,16,Veracruz,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2894,2019-10-30,2019,apertura,16,Chivas,Club Tijuana,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2895,2019-10-30,2019,apertura,16,Pachuca,Monterrey,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2896,2019-10-30,2019,apertura,16,Tigres UANL,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2897,2019-10-31,2019,apertura,16,Cruz Azul,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2898,2019-10-31,2019,apertura,16,Monarcas Morelia,FC Juárez,6.0,1.0,FINISHED,7.0,5.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2899,2019-11-01,2019,apertura,17,Atlas,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2900,2019-11-01,2019,apertura,17,Puebla FC,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2901,2019-11-02,2019,apertura,17,América,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2902,2019-11-02,2019,apertura,17,Monterrey,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2903,2019-11-02,2019,apertura,17,Necaxa,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2904,2019-11-02,2019,apertura,17,Querétaro,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2905,2019-11-03,2019,apertura,17,FC Juárez,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+2906,2019-11-03,2019,apertura,17,León,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2907,2019-11-03,2019,apertura,17,Toluca,Chivas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2908,2019-11-08,2019,apertura,18,Club Tijuana,Monterrey,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,18,True,1
+2909,2019-11-08,2019,apertura,18,Monarcas Morelia,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,18,True,1
+2910,2019-11-08,2019,apertura,18,Veracruz,América,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE,openfootball,,,,,,,,,,,18,True,1
+2911,2019-11-09,2019,apertura,18,Atlético San Luis,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,18,True,1
+2912,2019-11-09,2019,apertura,18,Chivas,Querétaro,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,18,True,1
+2913,2019-11-09,2019,apertura,18,León,Toluca,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,18,True,1
+2914,2019-11-09,2019,apertura,18,Tigres UANL,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,18,True,1
+2915,2019-11-10,2019,apertura,18,Santos Laguna,Cruz Azul,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,18,True,1
+2916,2019-11-10,2019,apertura,18,UNAM Pumas,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,18,True,1
+2917,2019-11-22,2019,apertura,19,Club Tijuana,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,19,True,1
+2918,2019-11-22,2019,apertura,19,Puebla FC,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2919,2019-11-23,2019,apertura,19,Chivas,Veracruz,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2920,2019-11-23,2019,apertura,19,Cruz Azul,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2921,2019-11-23,2019,apertura,19,Monterrey,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2922,2019-11-23,2019,apertura,19,Pachuca,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2923,2019-11-23,2019,apertura,19,Querétaro,Monarcas Morelia,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,19,True,1
+2924,2019-11-24,2019,apertura,19,FC Juárez,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,19,True,1
+2925,2019-11-24,2019,apertura,19,Toluca,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,19,True,1
+2926,2020-01-10,2019,clausura,1,Club Tijuana,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2927,2020-01-10,2019,clausura,1,Monarcas Morelia,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2928,2020-01-11,2019,clausura,1,Chivas,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2929,2020-01-11,2019,clausura,1,Cruz Azul,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2930,2020-01-11,2019,clausura,1,León,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2931,2020-01-11,2019,clausura,1,Tigres UANL,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+2932,2020-01-12,2019,clausura,1,UNAM Pumas,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2933,2020-01-16,2019,clausura,2,FC Juárez,UNAM Pumas,4.0,4.0,FINISHED,8.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2934,2020-01-17,2019,clausura,2,Atlas,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+2935,2020-01-17,2019,clausura,2,Atlético San Luis,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2936,2020-01-18,2019,clausura,2,América,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2937,2020-01-18,2019,clausura,2,Monterrey,Monarcas Morelia,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2938,2020-01-18,2019,clausura,2,Pachuca,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2939,2020-01-19,2019,clausura,2,Querétaro,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2940,2020-01-19,2019,clausura,2,Santos Laguna,León,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2941,2020-01-19,2019,clausura,2,Toluca,Necaxa,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+2942,2020-01-24,2019,clausura,3,Club Tijuana,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2943,2020-01-24,2019,clausura,3,Puebla FC,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2944,2020-01-25,2019,clausura,3,Chivas,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2945,2020-01-25,2019,clausura,3,Cruz Azul,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2946,2020-01-25,2019,clausura,3,León,Pachuca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2947,2020-01-25,2019,clausura,3,Tigres UANL,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2948,2020-01-26,2019,clausura,3,FC Juárez,Monarcas Morelia,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2949,2020-01-26,2019,clausura,3,Necaxa,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2950,2020-01-26,2019,clausura,3,UNAM Pumas,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2951,2020-01-31,2019,clausura,4,Atlas,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2952,2020-01-31,2019,clausura,4,Atlético San Luis,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+2953,2020-02-01,2019,clausura,4,América,FC Juárez,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2954,2020-02-01,2019,clausura,4,Monarcas Morelia,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2955,2020-02-01,2019,clausura,4,Monterrey,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2956,2020-02-01,2019,clausura,4,Necaxa,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2957,2020-02-01,2019,clausura,4,Pachuca,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2958,2020-02-01,2019,clausura,4,Santos Laguna,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+2959,2020-02-02,2019,clausura,4,Toluca,Cruz Azul,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+2960,2020-02-04,2019,clausura,1,Puebla FC,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2961,2020-02-05,2019,clausura,1,Necaxa,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+2962,2020-02-06,2019,clausura,5,Atlas,Monarcas Morelia,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2963,2020-02-07,2019,clausura,5,Club Tijuana,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2964,2020-02-07,2019,clausura,5,Puebla FC,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2965,2020-02-08,2019,clausura,5,Cruz Azul,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2966,2020-02-08,2019,clausura,5,León,Monterrey,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2967,2020-02-08,2019,clausura,5,Tigres UANL,Chivas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2968,2020-02-09,2019,clausura,5,FC Juárez,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2969,2020-02-09,2019,clausura,5,Querétaro,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2970,2020-02-09,2019,clausura,5,UNAM Pumas,Atlético San Luis,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2971,2020-02-14,2019,clausura,6,Atlético San Luis,León,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2972,2020-02-14,2019,clausura,6,Monarcas Morelia,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2973,2020-02-15,2019,clausura,6,América,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2974,2020-02-15,2019,clausura,6,Chivas,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2975,2020-02-15,2019,clausura,6,Monterrey,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2976,2020-02-15,2019,clausura,6,Pachuca,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2977,2020-02-15,2019,clausura,6,Toluca,UNAM Pumas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2978,2020-02-16,2019,clausura,6,Necaxa,Querétaro,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2979,2020-02-16,2019,clausura,6,Santos Laguna,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2980,2020-02-21,2019,clausura,7,Atlas,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2981,2020-02-21,2019,clausura,7,Club Tijuana,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2982,2020-02-21,2019,clausura,7,Puebla FC,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2983,2020-02-22,2019,clausura,7,Cruz Azul,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2984,2020-02-22,2019,clausura,7,León,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2985,2020-02-22,2019,clausura,7,Monterrey,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2986,2020-02-23,2019,clausura,7,FC Juárez,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2987,2020-02-23,2019,clausura,7,Querétaro,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2988,2020-02-23,2019,clausura,7,UNAM Pumas,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2989,2020-02-28,2019,clausura,8,Atlético San Luis,FC Juárez,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2990,2020-02-28,2019,clausura,8,Club Tijuana,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2991,2020-02-28,2019,clausura,8,Monarcas Morelia,Cruz Azul,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2992,2020-02-28,2019,clausura,8,Toluca,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2993,2020-02-29,2019,clausura,8,América,Necaxa,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2994,2020-02-29,2019,clausura,8,Pachuca,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2995,2020-02-29,2019,clausura,8,Tigres UANL,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2996,2020-03-01,2019,clausura,8,Chivas,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2997,2020-03-01,2019,clausura,8,Santos Laguna,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2998,2020-03-06,2019,clausura,9,Puebla FC,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2999,2020-03-06,2019,clausura,9,Querétaro,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+3000,2020-03-06,2019,clausura,9,UNAM Pumas,América,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+3001,2020-03-07,2019,clausura,9,Atlas,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+3002,2020-03-07,2019,clausura,9,Cruz Azul,Club Tijuana,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+3003,2020-03-07,2019,clausura,9,Monterrey,Atlético San Luis,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+3004,2020-03-07,2019,clausura,9,Pachuca,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+3005,2020-03-08,2019,clausura,9,FC Juárez,León,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+3006,2020-03-08,2019,clausura,9,Necaxa,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+3007,2020-03-13,2019,clausura,10,Club Tijuana,Pachuca,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+3008,2020-03-13,2019,clausura,10,Monarcas Morelia,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+3009,2020-03-14,2019,clausura,10,Atlético San Luis,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+3010,2020-03-14,2019,clausura,10,Chivas,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+3011,2020-03-14,2019,clausura,10,León,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+3012,2020-03-14,2019,clausura,10,Tigres UANL,FC Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+3013,2020-03-15,2019,clausura,10,América,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+3014,2020-03-15,2019,clausura,10,Santos Laguna,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+3015,2020-03-15,2019,clausura,10,Toluca,Atlas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+3016,2020-03-21,2019,clausura,11,Monarcas Morelia,Atlético San Luis,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3017,2020-03-22,2019,clausura,11,América,León,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3018,2020-03-22,2019,clausura,11,Monterrey,Santos Laguna,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3019,2020-03-22,2019,clausura,11,Necaxa,Tigres UANL,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3020,2020-03-22,2019,clausura,11,Pachuca,Toluca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3021,2020-03-22,2019,clausura,11,Puebla FC,Cruz Azul,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3022,2020-03-22,2019,clausura,11,UNAM Pumas,Club Tijuana,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3023,2020-03-23,2019,clausura,11,FC Juárez,Atlas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3024,2020-03-23,2019,clausura,11,Querétaro,Chivas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,11,True,1
+3025,2020-04-04,2019,clausura,12,Atlas,Monterrey,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3026,2020-04-04,2019,clausura,12,Atlético San Luis,Pachuca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3027,2020-04-05,2019,clausura,12,Chivas,Monarcas Morelia,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3028,2020-04-05,2019,clausura,12,Cruz Azul,UNAM Pumas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3029,2020-04-05,2019,clausura,12,León,Puebla FC,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3030,2020-04-05,2019,clausura,12,Tigres UANL,Querétaro,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3031,2020-04-05,2019,clausura,12,Toluca,FC Juárez,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3032,2020-04-06,2019,clausura,12,Club Tijuana,Necaxa,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3033,2020-04-06,2019,clausura,12,Santos Laguna,América,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,12,True,1
+3034,2020-04-11,2019,clausura,13,Atlético San Luis,Atlas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3035,2020-04-11,2019,clausura,13,Monarcas Morelia,Tigres UANL,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3036,2020-04-12,2019,clausura,13,América,Toluca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3037,2020-04-12,2019,clausura,13,León,Cruz Azul,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3038,2020-04-12,2019,clausura,13,Monterrey,Club Tijuana,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3039,2020-04-12,2019,clausura,13,Necaxa,Chivas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3040,2020-04-12,2019,clausura,13,UNAM Pumas,Puebla FC,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3041,2020-04-13,2019,clausura,13,FC Juárez,Pachuca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3042,2020-04-13,2019,clausura,13,Querétaro,Santos Laguna,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,13,True,1
+3043,2020-04-17,2019,clausura,14,Club Tijuana,FC Juárez,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3044,2020-04-18,2019,clausura,14,Atlas,UNAM Pumas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3045,2020-04-18,2019,clausura,14,Puebla FC,Monarcas Morelia,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3046,2020-04-19,2019,clausura,14,Cruz Azul,Querétaro,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3047,2020-04-19,2019,clausura,14,Pachuca,Necaxa,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3048,2020-04-19,2019,clausura,14,Tigres UANL,Monterrey,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3049,2020-04-19,2019,clausura,14,Toluca,León,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3050,2020-04-20,2019,clausura,14,Chivas,América,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3051,2020-04-20,2019,clausura,14,Santos Laguna,Atlético San Luis,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,14,True,1
+3052,2020-04-25,2019,clausura,15,Monarcas Morelia,Pachuca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3053,2020-04-25,2019,clausura,15,Querétaro,Atlas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3054,2020-04-26,2019,clausura,15,América,Atlético San Luis,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3055,2020-04-26,2019,clausura,15,Chivas,Santos Laguna,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3056,2020-04-26,2019,clausura,15,León,Club Tijuana,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3057,2020-04-26,2019,clausura,15,Monterrey,Cruz Azul,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3058,2020-04-26,2019,clausura,15,Toluca,Tigres UANL,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3059,2020-04-27,2019,clausura,15,FC Juárez,Puebla FC,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3060,2020-04-27,2019,clausura,15,Necaxa,UNAM Pumas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,15,True,1
+3061,2020-05-01,2019,clausura,16,Atlético San Luis,Toluca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3062,2020-05-02,2019,clausura,16,Atlas,León,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3063,2020-05-02,2019,clausura,16,Puebla FC,Monterrey,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3064,2020-05-03,2019,clausura,16,Cruz Azul,Necaxa,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3065,2020-05-03,2019,clausura,16,Pachuca,América,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3066,2020-05-03,2019,clausura,16,Querétaro,FC Juárez,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3067,2020-05-03,2019,clausura,16,Tigres UANL,Club Tijuana,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3068,2020-05-03,2019,clausura,16,UNAM Pumas,Chivas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3069,2020-05-04,2019,clausura,16,Santos Laguna,Monarcas Morelia,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,16,True,1
+3070,2020-05-09,2019,clausura,17,Club Tijuana,Atlético San Luis,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3071,2020-05-09,2019,clausura,17,Santos Laguna,Toluca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3072,2020-05-10,2019,clausura,17,Chivas,Puebla FC,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3073,2020-05-10,2019,clausura,17,León,Tigres UANL,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3074,2020-05-10,2019,clausura,17,Monterrey,Pachuca,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3075,2020-05-10,2019,clausura,17,Necaxa,Atlas,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3076,2020-05-10,2019,clausura,17,UNAM Pumas,Querétaro,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3077,2020-05-11,2019,clausura,17,FC Juárez,Cruz Azul,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1
+3078,2020-05-11,2019,clausura,17,Monarcas Morelia,América,,,CANCELLED,0.0,0.0,SIN JUGAR,openfootball,,,,,,,,,,,17,True,1

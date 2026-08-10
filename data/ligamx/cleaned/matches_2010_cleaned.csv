@@ -1,0 +1,307 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+1,2010-07-23,2010,apertura,1,Estudiantes Tecos,Cruz Azul,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+2,2010-07-24,2010,apertura,1,Atlante,Santos Laguna,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+3,2010-07-24,2010,apertura,1,Chivas,Puebla FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+4,2010-07-24,2010,apertura,1,Club San Luis,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+5,2010-07-24,2010,apertura,1,Jaguares de Chiapas,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+6,2010-07-24,2010,apertura,1,Pachuca,América,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+7,2010-07-24,2010,apertura,1,Tigres UANL,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+8,2010-07-25,2010,apertura,1,Monarcas Morelia,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+9,2010-07-25,2010,apertura,1,UNAM Pumas,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+10,2010-07-30,2010,apertura,2,Necaxa,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+11,2010-07-31,2010,apertura,2,Cruz Azul,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+12,2010-07-31,2010,apertura,2,Monterrey,Estudiantes Tecos,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+13,2010-07-31,2010,apertura,2,Querétaro,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+14,2010-07-31,2010,apertura,2,Santos Laguna,UNAM Pumas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+15,2010-08-01,2010,apertura,2,América,Jaguares de Chiapas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+16,2010-08-01,2010,apertura,2,Puebla FC,Club San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+17,2010-08-01,2010,apertura,2,Toluca,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+18,2010-08-07,2010,apertura,3,Atlante,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+19,2010-08-07,2010,apertura,3,Atlas,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+20,2010-08-07,2010,apertura,3,Club San Luis,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+21,2010-08-07,2010,apertura,3,Jaguares de Chiapas,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+22,2010-08-07,2010,apertura,3,Pachuca,Santos Laguna,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+23,2010-08-07,2010,apertura,3,Tigres UANL,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+24,2010-08-08,2010,apertura,3,Estudiantes Tecos,Puebla FC,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+25,2010-08-08,2010,apertura,3,Monarcas Morelia,Querétaro,6.0,0.0,FINISHED,6.0,6.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+26,2010-08-08,2010,apertura,3,UNAM Pumas,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+27,2010-08-13,2010,apertura,4,Necaxa,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+28,2010-08-14,2010,apertura,4,Club San Luis,Monarcas Morelia,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+29,2010-08-14,2010,apertura,4,Cruz Azul,Pachuca,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+30,2010-08-14,2010,apertura,4,Monterrey,UNAM Pumas,5.0,2.0,FINISHED,7.0,3.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+31,2010-08-14,2010,apertura,4,Santos Laguna,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+32,2010-08-15,2010,apertura,4,América,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+33,2010-08-15,2010,apertura,4,Puebla FC,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+34,2010-08-15,2010,apertura,4,Toluca,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+35,2010-08-20,2010,apertura,5,Estudiantes Tecos,Club San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+36,2010-08-21,2010,apertura,5,Atlante,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+37,2010-08-21,2010,apertura,5,Atlas,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+38,2010-08-21,2010,apertura,5,Jaguares de Chiapas,Cruz Azul,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+39,2010-08-21,2010,apertura,5,Pachuca,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+40,2010-08-21,2010,apertura,5,Tigres UANL,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+41,2010-08-22,2010,apertura,5,Monarcas Morelia,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+42,2010-08-22,2010,apertura,5,Querétaro,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+43,2010-08-22,2010,apertura,5,UNAM Pumas,Puebla FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+44,2010-08-27,2010,apertura,6,Estudiantes Tecos,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+45,2010-08-28,2010,apertura,6,Chivas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+46,2010-08-28,2010,apertura,6,Club San Luis,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+47,2010-08-28,2010,apertura,6,Cruz Azul,Tigres UANL,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+48,2010-08-28,2010,apertura,6,Monterrey,Jaguares de Chiapas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+49,2010-08-28,2010,apertura,6,Santos Laguna,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+50,2010-08-29,2010,apertura,6,América,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+51,2010-08-29,2010,apertura,6,Puebla FC,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+52,2010-08-29,2010,apertura,6,Toluca,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+53,2010-09-05,2010,apertura,4,Chivas,Estudiantes Tecos,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+54,2010-09-10,2010,apertura,7,Necaxa,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+55,2010-09-11,2010,apertura,7,Atlante,Estudiantes Tecos,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+56,2010-09-11,2010,apertura,7,Atlas,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+57,2010-09-11,2010,apertura,7,Jaguares de Chiapas,Puebla FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+58,2010-09-11,2010,apertura,7,Pachuca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+59,2010-09-11,2010,apertura,7,Querétaro,Santos Laguna,5.0,2.0,FINISHED,7.0,3.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+60,2010-09-11,2010,apertura,7,Tigres UANL,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+61,2010-09-12,2010,apertura,7,Monarcas Morelia,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+62,2010-09-12,2010,apertura,7,UNAM Pumas,Club San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+63,2010-09-17,2010,apertura,8,Estudiantes Tecos,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+64,2010-09-18,2010,apertura,8,Atlante,Monarcas Morelia,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+65,2010-09-18,2010,apertura,8,Chivas,Jaguares de Chiapas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+66,2010-09-18,2010,apertura,8,Club San Luis,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+67,2010-09-18,2010,apertura,8,Cruz Azul,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+68,2010-09-18,2010,apertura,8,Monterrey,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+69,2010-09-18,2010,apertura,8,Santos Laguna,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+70,2010-09-19,2010,apertura,8,Puebla FC,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+71,2010-09-19,2010,apertura,8,Toluca,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+72,2010-09-24,2010,apertura,9,Necaxa,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+73,2010-09-25,2010,apertura,9,Atlas,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+74,2010-09-25,2010,apertura,9,Jaguares de Chiapas,Club San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+75,2010-09-25,2010,apertura,9,Pachuca,Estudiantes Tecos,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+76,2010-09-25,2010,apertura,9,Querétaro,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+77,2010-09-26,2010,apertura,9,América,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+78,2010-09-26,2010,apertura,9,Monarcas Morelia,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+79,2010-09-26,2010,apertura,9,Tigres UANL,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+80,2010-09-26,2010,apertura,9,UNAM Pumas,Atlante,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+81,2010-10-01,2010,apertura,10,Estudiantes Tecos,Jaguares de Chiapas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+82,2010-10-02,2010,apertura,10,Atlante,Pachuca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+83,2010-10-02,2010,apertura,10,Club San Luis,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+84,2010-10-02,2010,apertura,10,Monterrey,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+85,2010-10-02,2010,apertura,10,Santos Laguna,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+86,2010-10-03,2010,apertura,10,Chivas,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+87,2010-10-03,2010,apertura,10,Cruz Azul,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+88,2010-10-03,2010,apertura,10,Puebla FC,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+89,2010-10-03,2010,apertura,10,UNAM Pumas,Monarcas Morelia,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+90,2010-10-06,2010,apertura,2,Chivas,Monarcas Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+91,2010-10-08,2010,apertura,11,Necaxa,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+92,2010-10-09,2010,apertura,11,Atlas,Club San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+93,2010-10-09,2010,apertura,11,Jaguares de Chiapas,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+94,2010-10-09,2010,apertura,11,Pachuca,UNAM Pumas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+95,2010-10-09,2010,apertura,11,Querétaro,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+96,2010-10-09,2010,apertura,11,Tigres UANL,Estudiantes Tecos,5.0,0.0,FINISHED,5.0,5.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+97,2010-10-10,2010,apertura,11,América,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+98,2010-10-10,2010,apertura,11,Monarcas Morelia,Santos Laguna,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+99,2010-10-10,2010,apertura,11,Toluca,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+100,2010-10-15,2010,apertura,12,Estudiantes Tecos,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+101,2010-10-16,2010,apertura,12,Atlante,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+102,2010-10-16,2010,apertura,12,Chivas,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+103,2010-10-16,2010,apertura,12,Club San Luis,Querétaro,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+104,2010-10-16,2010,apertura,12,Cruz Azul,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+105,2010-10-16,2010,apertura,12,Monterrey,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+106,2010-10-16,2010,apertura,12,Pachuca,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+107,2010-10-17,2010,apertura,12,Puebla FC,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+108,2010-10-17,2010,apertura,12,UNAM Pumas,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+109,2010-10-22,2010,apertura,13,Necaxa,Club San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+110,2010-10-23,2010,apertura,13,Atlas,Atlante,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+111,2010-10-23,2010,apertura,13,Jaguares de Chiapas,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+112,2010-10-23,2010,apertura,13,Querétaro,Estudiantes Tecos,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+113,2010-10-23,2010,apertura,13,Santos Laguna,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+114,2010-10-23,2010,apertura,13,Tigres UANL,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+115,2010-10-24,2010,apertura,13,América,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+116,2010-10-24,2010,apertura,13,Monarcas Morelia,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+117,2010-10-24,2010,apertura,13,Toluca,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+118,2010-10-26,2010,apertura,14,Pachuca,Tigres UANL,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+119,2010-10-26,2010,apertura,14,UNAM Pumas,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+120,2010-10-27,2010,apertura,14,Atlante,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+121,2010-10-27,2010,apertura,14,Chivas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+122,2010-10-27,2010,apertura,14,Estudiantes Tecos,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+123,2010-10-27,2010,apertura,14,Jaguares de Chiapas,Monarcas Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+124,2010-10-27,2010,apertura,14,Monterrey,Cruz Azul,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+125,2010-10-27,2010,apertura,14,Puebla FC,Santos Laguna,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+126,2010-10-28,2010,apertura,14,Club San Luis,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+127,2010-10-30,2010,apertura,15,Atlas,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+128,2010-10-30,2010,apertura,15,Cruz Azul,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+129,2010-10-30,2010,apertura,15,Querétaro,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+130,2010-10-30,2010,apertura,15,Santos Laguna,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+131,2010-10-30,2010,apertura,15,Tigres UANL,Jaguares de Chiapas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+132,2010-10-31,2010,apertura,15,América,Estudiantes Tecos,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+133,2010-10-31,2010,apertura,15,Monarcas Morelia,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+134,2010-10-31,2010,apertura,15,Necaxa,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+135,2010-10-31,2010,apertura,15,Toluca,Club San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+136,2010-11-05,2010,apertura,16,Estudiantes Tecos,Toluca,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+137,2010-11-06,2010,apertura,16,Atlante,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+138,2010-11-06,2010,apertura,16,Chivas,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+139,2010-11-06,2010,apertura,16,Club San Luis,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+140,2010-11-06,2010,apertura,16,Jaguares de Chiapas,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+141,2010-11-06,2010,apertura,16,Pachuca,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+142,2010-11-06,2010,apertura,16,Tigres UANL,Monarcas Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+143,2010-11-07,2010,apertura,16,Puebla FC,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+144,2010-11-07,2010,apertura,16,UNAM Pumas,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+145,2010-11-12,2010,apertura,17,Necaxa,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+146,2010-11-13,2010,apertura,17,Atlas,Tigres UANL,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+147,2010-11-13,2010,apertura,17,Cruz Azul,Club San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+148,2010-11-13,2010,apertura,17,Monterrey,Chivas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+149,2010-11-13,2010,apertura,17,Querétaro,Jaguares de Chiapas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+150,2010-11-13,2010,apertura,17,Santos Laguna,Estudiantes Tecos,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+151,2010-11-14,2010,apertura,17,América,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+152,2010-11-14,2010,apertura,17,Monarcas Morelia,Puebla FC,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+153,2010-11-14,2010,apertura,17,Toluca,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+154,2011-01-07,2010,clausura,1,Necaxa,Jaguares de Chiapas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+155,2011-01-08,2010,clausura,1,Atlas,Monarcas Morelia,5.0,0.0,FINISHED,5.0,5.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+156,2011-01-08,2010,clausura,1,Cruz Azul,Estudiantes Tecos,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+157,2011-01-08,2010,clausura,1,Monterrey,Club San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+158,2011-01-08,2010,clausura,1,Querétaro,Tigres UANL,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+159,2011-01-08,2010,clausura,1,Santos Laguna,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+160,2011-01-09,2010,clausura,1,América,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+161,2011-01-09,2010,clausura,1,Puebla FC,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+162,2011-01-09,2010,clausura,1,Toluca,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+163,2011-01-14,2010,clausura,2,Estudiantes Tecos,Monterrey,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+164,2011-01-15,2010,clausura,2,Atlante,Cruz Azul,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+165,2011-01-15,2010,clausura,2,Atlas,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+166,2011-01-15,2010,clausura,2,Club San Luis,Puebla FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+167,2011-01-15,2010,clausura,2,Jaguares de Chiapas,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+168,2011-01-15,2010,clausura,2,Pachuca,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+169,2011-01-15,2010,clausura,2,Tigres UANL,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+170,2011-01-16,2010,clausura,2,Monarcas Morelia,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+171,2011-01-16,2010,clausura,2,UNAM Pumas,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+172,2011-01-21,2010,clausura,3,Necaxa,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+173,2011-01-22,2010,clausura,3,Chivas,Club San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+174,2011-01-22,2010,clausura,3,Cruz Azul,UNAM Pumas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+175,2011-01-22,2010,clausura,3,Monterrey,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+176,2011-01-22,2010,clausura,3,Querétaro,Monarcas Morelia,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+177,2011-01-22,2010,clausura,3,Santos Laguna,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+178,2011-01-23,2010,clausura,3,América,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+179,2011-01-23,2010,clausura,3,Puebla FC,Estudiantes Tecos,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+180,2011-01-23,2010,clausura,3,Toluca,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+181,2011-01-28,2010,clausura,4,Estudiantes Tecos,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+182,2011-01-29,2010,clausura,4,Atlante,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+183,2011-01-29,2010,clausura,4,Atlas,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+184,2011-01-29,2010,clausura,4,Jaguares de Chiapas,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+185,2011-01-29,2010,clausura,4,Pachuca,Cruz Azul,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+186,2011-01-29,2010,clausura,4,Querétaro,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+187,2011-01-29,2010,clausura,4,Tigres UANL,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+188,2011-01-30,2010,clausura,4,Monarcas Morelia,Club San Luis,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+189,2011-01-30,2010,clausura,4,UNAM Pumas,Monterrey,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+190,2011-02-02,2010,clausura,14,América,Club San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+191,2011-02-04,2010,clausura,5,Necaxa,Monarcas Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+192,2011-02-05,2010,clausura,5,Chivas,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+193,2011-02-05,2010,clausura,5,Club San Luis,Estudiantes Tecos,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+194,2011-02-05,2010,clausura,5,Cruz Azul,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+195,2011-02-05,2010,clausura,5,Monterrey,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+196,2011-02-05,2010,clausura,5,Santos Laguna,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+197,2011-02-06,2010,clausura,5,América,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+198,2011-02-06,2010,clausura,5,Puebla FC,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+199,2011-02-06,2010,clausura,5,Toluca,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+200,2011-02-11,2010,clausura,6,Necaxa,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+201,2011-02-12,2010,clausura,6,Atlante,Club San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+202,2011-02-12,2010,clausura,6,Atlas,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+203,2011-02-12,2010,clausura,6,Jaguares de Chiapas,Monterrey,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+204,2011-02-12,2010,clausura,6,Pachuca,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+205,2011-02-12,2010,clausura,6,Querétaro,Toluca,0.0,5.0,FINISHED,5.0,-5.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+206,2011-02-12,2010,clausura,6,Tigres UANL,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+207,2011-02-13,2010,clausura,6,Monarcas Morelia,Estudiantes Tecos,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+208,2011-02-13,2010,clausura,6,UNAM Pumas,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+209,2011-02-18,2010,clausura,7,Club San Luis,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+210,2011-02-18,2010,clausura,7,Estudiantes Tecos,Atlante,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+211,2011-02-19,2010,clausura,7,Chivas,Pachuca,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+212,2011-02-19,2010,clausura,7,Cruz Azul,Atlas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+213,2011-02-19,2010,clausura,7,Monterrey,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+214,2011-02-19,2010,clausura,7,Santos Laguna,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+215,2011-02-20,2010,clausura,7,América,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+216,2011-02-20,2010,clausura,7,Puebla FC,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+217,2011-02-20,2010,clausura,7,Toluca,Necaxa,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+218,2011-02-25,2010,clausura,8,Necaxa,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+219,2011-02-26,2010,clausura,8,Atlas,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+220,2011-02-26,2010,clausura,8,Jaguares de Chiapas,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+221,2011-02-26,2010,clausura,8,Pachuca,Club San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+222,2011-02-26,2010,clausura,8,Querétaro,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+223,2011-02-26,2010,clausura,8,Tigres UANL,Puebla FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+224,2011-02-27,2010,clausura,8,América,Toluca,4.0,3.0,FINISHED,7.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+225,2011-02-27,2010,clausura,8,Monarcas Morelia,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+226,2011-02-27,2010,clausura,8,UNAM Pumas,Estudiantes Tecos,5.0,1.0,FINISHED,6.0,4.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+227,2011-03-04,2010,clausura,9,Estudiantes Tecos,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+228,2011-03-05,2010,clausura,9,Atlante,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+229,2011-03-05,2010,clausura,9,Chivas,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+230,2011-03-05,2010,clausura,9,Club San Luis,Jaguares de Chiapas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+231,2011-03-05,2010,clausura,9,Cruz Azul,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+232,2011-03-05,2010,clausura,9,Monterrey,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+233,2011-03-05,2010,clausura,9,Santos Laguna,América,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+234,2011-03-06,2010,clausura,9,Puebla FC,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+235,2011-03-06,2010,clausura,9,Toluca,Monarcas Morelia,1.0,6.0,FINISHED,7.0,-5.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+236,2011-03-11,2010,clausura,10,Necaxa,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+237,2011-03-12,2010,clausura,10,Atlas,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+238,2011-03-12,2010,clausura,10,Jaguares de Chiapas,Estudiantes Tecos,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+239,2011-03-12,2010,clausura,10,Pachuca,Atlante,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+240,2011-03-12,2010,clausura,10,Querétaro,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+241,2011-03-12,2010,clausura,10,Tigres UANL,Club San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+242,2011-03-13,2010,clausura,10,América,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+243,2011-03-13,2010,clausura,10,Monarcas Morelia,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+244,2011-03-13,2010,clausura,10,Toluca,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+245,2011-03-18,2010,clausura,11,Estudiantes Tecos,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+246,2011-03-19,2010,clausura,11,Atlante,Jaguares de Chiapas,5.0,1.0,FINISHED,6.0,4.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+247,2011-03-19,2010,clausura,11,Chivas,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+248,2011-03-19,2010,clausura,11,Club San Luis,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+249,2011-03-19,2010,clausura,11,Cruz Azul,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+250,2011-03-19,2010,clausura,11,Monterrey,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+251,2011-03-19,2010,clausura,11,Santos Laguna,Monarcas Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+252,2011-03-20,2010,clausura,11,Puebla FC,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+253,2011-03-20,2010,clausura,11,UNAM Pumas,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+254,2011-04-01,2010,clausura,12,Necaxa,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+255,2011-04-02,2010,clausura,12,Atlas,Estudiantes Tecos,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+256,2011-04-02,2010,clausura,12,Jaguares de Chiapas,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+257,2011-04-02,2010,clausura,12,Querétaro,Club San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+258,2011-04-02,2010,clausura,12,Santos Laguna,Cruz Azul,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+259,2011-04-02,2010,clausura,12,Tigres UANL,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+260,2011-04-03,2010,clausura,12,América,Puebla FC,5.0,4.0,FINISHED,9.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+261,2011-04-03,2010,clausura,12,Monarcas Morelia,Pachuca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+262,2011-04-03,2010,clausura,12,Toluca,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+263,2011-04-08,2010,clausura,13,Estudiantes Tecos,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+264,2011-04-09,2010,clausura,13,Atlante,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+265,2011-04-09,2010,clausura,13,Club San Luis,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+266,2011-04-09,2010,clausura,13,Cruz Azul,Monarcas Morelia,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+267,2011-04-09,2010,clausura,13,Monterrey,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+268,2011-04-09,2010,clausura,13,Pachuca,Jaguares de Chiapas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+269,2011-04-10,2010,clausura,13,Chivas,América,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+270,2011-04-10,2010,clausura,13,Puebla FC,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+271,2011-04-10,2010,clausura,13,UNAM Pumas,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+272,2011-04-12,2010,clausura,14,Monarcas Morelia,Jaguares de Chiapas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+273,2011-04-13,2010,clausura,14,Atlas,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+274,2011-04-13,2010,clausura,14,Cruz Azul,Monterrey,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+275,2011-04-13,2010,clausura,14,Necaxa,Estudiantes Tecos,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+276,2011-04-13,2010,clausura,14,Querétaro,Atlante,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+277,2011-04-13,2010,clausura,14,Santos Laguna,Puebla FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+278,2011-04-13,2010,clausura,14,Tigres UANL,Pachuca,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+279,2011-04-13,2010,clausura,14,Toluca,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+280,2011-04-16,2010,clausura,15,Atlante,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+281,2011-04-16,2010,clausura,15,Chivas,Santos Laguna,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+282,2011-04-16,2010,clausura,15,Club San Luis,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+283,2011-04-16,2010,clausura,15,Jaguares de Chiapas,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+284,2011-04-16,2010,clausura,15,Monterrey,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+285,2011-04-16,2010,clausura,15,Pachuca,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+286,2011-04-16,2010,clausura,15,Puebla FC,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+287,2011-04-17,2010,clausura,15,Estudiantes Tecos,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+288,2011-04-17,2010,clausura,15,UNAM Pumas,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+289,2011-04-22,2010,clausura,16,Necaxa,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+290,2011-04-23,2010,clausura,16,Atlas,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+291,2011-04-23,2010,clausura,16,Cruz Azul,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+292,2011-04-23,2010,clausura,16,Monterrey,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+293,2011-04-23,2010,clausura,16,Querétaro,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+294,2011-04-23,2010,clausura,16,Santos Laguna,Club San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+295,2011-04-24,2010,clausura,16,América,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+296,2011-04-24,2010,clausura,16,Monarcas Morelia,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+297,2011-04-24,2010,clausura,16,Toluca,Estudiantes Tecos,4.0,4.0,FINISHED,8.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+298,2011-04-29,2010,clausura,17,Estudiantes Tecos,Santos Laguna,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+299,2011-04-30,2010,clausura,17,Atlante,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+300,2011-04-30,2010,clausura,17,Chivas,Monterrey,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+301,2011-04-30,2010,clausura,17,Club San Luis,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+302,2011-04-30,2010,clausura,17,Jaguares de Chiapas,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+303,2011-04-30,2010,clausura,17,Pachuca,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+304,2011-04-30,2010,clausura,17,Tigres UANL,Atlas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+305,2011-05-01,2010,clausura,17,Puebla FC,Monarcas Morelia,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+306,2011-05-01,2010,clausura,17,UNAM Pumas,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1

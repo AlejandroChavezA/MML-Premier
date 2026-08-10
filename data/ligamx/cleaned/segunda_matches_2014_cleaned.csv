@@ -1,0 +1,183 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+935,2014-07-18,2014,apertura,1,Lobos BUAP,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+936,2014-07-18,2014,apertura,1,Correcaminos UAT,Mineros de Zacatecas,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+937,2014-07-18,2014,apertura,1,Deportivo Tepic,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+938,2014-07-19,2014,apertura,1,Necaxa,Club Celaya,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+939,2014-07-19,2014,apertura,1,Estudiantes de Altamira,Mérida FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+940,2014-07-19,2014,apertura,1,Alebrijes de Oaxaca,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+941,2014-07-19,2014,apertura,1,Dorados de Sinaloa,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+942,2014-07-25,2014,apertura,2,Atlante,Estudiantes de Altamira,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+943,2014-07-25,2014,apertura,2,Mineros de Zacatecas,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+944,2014-07-26,2014,apertura,2,Mérida FC,Alebrijes de Oaxaca,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+945,2014-07-26,2014,apertura,2,Zacatepec,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+946,2014-07-26,2014,apertura,2,Atlético San Luis,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+947,2014-07-26,2014,apertura,2,Club Irapuato,Deportivo Tepic,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+948,2014-07-26,2014,apertura,2,Club Celaya,Lobos BUAP,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+949,2014-08-01,2014,apertura,3,Lobos BUAP,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+950,2014-08-01,2014,apertura,3,Deportivo Tepic,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+951,2014-08-02,2014,apertura,3,Necaxa,Zacatepec,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+952,2014-08-02,2014,apertura,3,Estudiantes de Altamira,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+953,2014-08-02,2014,apertura,3,Alebrijes de Oaxaca,Atlante,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+954,2014-08-02,2014,apertura,3,Club Irapuato,Mérida FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+955,2014-08-02,2014,apertura,3,Dorados de Sinaloa,Club Celaya,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+956,2014-08-08,2014,apertura,4,Atlante,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+957,2014-08-08,2014,apertura,4,Mineros de Zacatecas,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+958,2014-08-08,2014,apertura,4,Correcaminos UAT,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+959,2014-08-09,2014,apertura,4,Mérida FC,Deportivo Tepic,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+960,2014-08-09,2014,apertura,4,Zacatepec,Lobos BUAP,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+961,2014-08-09,2014,apertura,4,Atlético San Luis,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+962,2014-08-09,2014,apertura,4,Club Celaya,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+963,2014-08-15,2014,apertura,5,Lobos BUAP,Correcaminos UAT,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+964,2014-08-15,2014,apertura,5,Deportivo Tepic,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+965,2014-08-16,2014,apertura,5,Estudiantes de Altamira,Mineros de Zacatecas,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+966,2014-08-16,2014,apertura,5,Mérida FC,Atlante,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+967,2014-08-16,2014,apertura,5,Alebrijes de Oaxaca,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+968,2014-08-16,2014,apertura,5,Club Irapuato,Atlético San Luis,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+969,2014-08-16,2014,apertura,5,Dorados de Sinaloa,Zacatepec,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+970,2014-08-22,2014,apertura,6,Atlante,Deportivo Tepic,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+971,2014-08-22,2014,apertura,6,Mineros de Zacatecas,Alebrijes de Oaxaca,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+972,2014-08-22,2014,apertura,6,Correcaminos UAT,Dorados de Sinaloa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+973,2014-08-23,2014,apertura,6,Necaxa,Lobos BUAP,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+974,2014-08-23,2014,apertura,6,Zacatepec,Estudiantes de Altamira,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+975,2014-08-23,2014,apertura,6,Atlético San Luis,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+976,2014-08-23,2014,apertura,6,Club Celaya,Club Irapuato,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+977,2014-08-29,2014,apertura,7,Atlante,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+978,2014-08-29,2014,apertura,7,Deportivo Tepic,Lobos BUAP,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+979,2014-08-30,2014,apertura,7,Estudiantes de Altamira,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+980,2014-08-30,2014,apertura,7,Mérida FC,Club Celaya,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+981,2014-08-30,2014,apertura,7,Alebrijes de Oaxaca,Zacatepec,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+982,2014-08-30,2014,apertura,7,Club Irapuato,Mineros de Zacatecas,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+983,2014-08-30,2014,apertura,7,Dorados de Sinaloa,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+984,2014-09-12,2014,apertura,8,Lobos BUAP,Dorados de Sinaloa,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+985,2014-09-12,2014,apertura,8,Mineros de Zacatecas,Mérida FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+986,2014-09-12,2014,apertura,8,Correcaminos UAT,Alebrijes de Oaxaca,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+987,2014-09-13,2014,apertura,8,Necaxa,Estudiantes de Altamira,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+988,2014-09-13,2014,apertura,8,Zacatepec,Club Irapuato,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+989,2014-09-13,2014,apertura,8,Atlético San Luis,Deportivo Tepic,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+990,2014-09-13,2014,apertura,8,Club Celaya,Atlante,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+991,2014-09-20,2014,apertura,9,Estudiantes de Altamira,Lobos BUAP,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+992,2014-09-20,2014,apertura,9,Atlante,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+993,2014-09-20,2014,apertura,9,Deportivo Tepic,Dorados de Sinaloa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+994,2014-09-21,2014,apertura,9,Mérida FC,Zacatepec,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+995,2014-09-21,2014,apertura,9,Atlético San Luis,Club Celaya,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+996,2014-09-21,2014,apertura,9,Alebrijes de Oaxaca,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+997,2014-09-21,2014,apertura,9,Club Irapuato,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+998,2014-09-26,2014,apertura,10,Lobos BUAP,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+999,2014-09-26,2014,apertura,10,Mineros de Zacatecas,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1000,2014-09-26,2014,apertura,10,Correcaminos UAT,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1001,2014-09-27,2014,apertura,10,Necaxa,Club Irapuato,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1002,2014-09-27,2014,apertura,10,Club Celaya,Deportivo Tepic,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1003,2014-09-27,2014,apertura,10,Zacatepec,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1004,2014-09-27,2014,apertura,10,Dorados de Sinaloa,Estudiantes de Altamira,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1005,2014-10-03,2014,apertura,11,Atlante,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1006,2014-10-03,2014,apertura,11,Deportivo Tepic,Estudiantes de Altamira,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1007,2014-10-04,2014,apertura,11,Mérida FC,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1008,2014-10-04,2014,apertura,11,Atlético San Luis,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1009,2014-10-04,2014,apertura,11,Alebrijes de Oaxaca,Dorados de Sinaloa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1010,2014-10-04,2014,apertura,11,Club Irapuato,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1011,2014-10-04,2014,apertura,11,Club Celaya,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1012,2014-10-17,2014,apertura,12,Lobos BUAP,Mérida FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1013,2014-10-17,2014,apertura,12,Correcaminos UAT,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1014,2014-10-17,2014,apertura,12,Deportivo Tepic,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1015,2014-10-18,2014,apertura,12,Necaxa,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1016,2014-10-18,2014,apertura,12,Estudiantes de Altamira,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1017,2014-10-18,2014,apertura,12,Zacatepec,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1018,2014-10-18,2014,apertura,12,Dorados de Sinaloa,Club Irapuato,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1019,2014-10-24,2014,apertura,13,Atlante,Lobos BUAP,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1020,2014-10-24,2014,apertura,13,Mineros de Zacatecas,Zacatepec,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1021,2014-10-25,2014,apertura,13,Mérida FC,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1022,2014-10-25,2014,apertura,13,Atlético San Luis,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1023,2014-10-25,2014,apertura,13,Alebrijes de Oaxaca,Deportivo Tepic,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1024,2014-10-25,2014,apertura,13,Club Irapuato,Estudiantes de Altamira,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1025,2014-10-25,2014,apertura,13,Club Celaya,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1026,2015-01-09,2014,clausura,1,Mineros de Zacatecas,Correcaminos UAT,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+1027,2015-01-09,2014,clausura,1,Club Irapuato,Alebrijes de Oaxaca,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1028,2015-01-09,2014,clausura,1,Atlante,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1029,2015-01-09,2014,clausura,1,Mérida FC,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1030,2015-01-10,2014,clausura,1,Zacatepec,Deportivo Tepic,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1031,2015-01-10,2014,clausura,1,Atlético San Luis,Lobos BUAP,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1032,2015-01-10,2014,clausura,1,Club Celaya,Necaxa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1033,2015-01-16,2014,clausura,2,Lobos BUAP,Club Celaya,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1034,2015-01-16,2014,clausura,2,Correcaminos UAT,Zacatepec,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1035,2015-01-17,2014,clausura,2,Necaxa,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1036,2015-01-17,2014,clausura,2,Alebrijes de Oaxaca,Mérida FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1037,2015-01-17,2014,clausura,2,Dorados de Sinaloa,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1038,2015-01-17,2014,clausura,2,Deportivo Tepic,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1039,2015-01-18,2014,clausura,2,Estudiantes de Altamira,Atlante,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1040,2015-01-23,2014,clausura,3,Mineros de Zacatecas,Lobos BUAP,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1041,2015-01-23,2014,clausura,3,Atlante,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1042,2015-01-23,2014,clausura,3,Correcaminos UAT,Deportivo Tepic,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1043,2015-01-23,2014,clausura,3,Mérida FC,Club Irapuato,4.0,4.0,FINISHED,8.0,0.0,EMPATE
+1044,2015-01-24,2014,clausura,3,Zacatepec,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1045,2015-01-24,2014,clausura,3,Atlético San Luis,Estudiantes de Altamira,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1046,2015-01-24,2014,clausura,3,Club Celaya,Dorados de Sinaloa,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE
+1047,2015-01-30,2014,clausura,4,Lobos BUAP,Zacatepec,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1048,2015-01-30,2014,clausura,4,Club Irapuato,Atlante,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1049,2015-01-31,2014,clausura,4,Alebrijes de Oaxaca,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1050,2015-01-31,2014,clausura,4,Necaxa,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1051,2015-01-31,2014,clausura,4,Dorados de Sinaloa,Mineros de Zacatecas,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1052,2015-01-31,2014,clausura,4,Deportivo Tepic,Mérida FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1053,2015-02-01,2014,clausura,4,Estudiantes de Altamira,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1054,2015-02-06,2014,clausura,5,Mineros de Zacatecas,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1055,2015-02-06,2014,clausura,5,Atlante,Mérida FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1056,2015-02-06,2014,clausura,5,Correcaminos UAT,Lobos BUAP,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1057,2015-02-07,2014,clausura,5,Necaxa,Deportivo Tepic,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1058,2015-02-07,2014,clausura,5,Zacatepec,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1059,2015-02-07,2014,clausura,5,Atlético San Luis,Club Irapuato,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1060,2015-02-07,2014,clausura,5,Club Celaya,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1061,2015-02-13,2014,clausura,6,Lobos BUAP,Necaxa,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+1062,2015-02-13,2014,clausura,6,Club Irapuato,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1063,2015-02-13,2014,clausura,6,Mérida FC,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1064,2015-02-14,2014,clausura,6,Alebrijes de Oaxaca,Mineros de Zacatecas,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1065,2015-02-14,2014,clausura,6,Dorados de Sinaloa,Correcaminos UAT,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1066,2015-02-14,2014,clausura,6,Deportivo Tepic,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1067,2015-02-15,2014,clausura,6,Estudiantes de Altamira,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1068,2015-02-20,2014,clausura,7,Lobos BUAP,Deportivo Tepic,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1069,2015-02-20,2014,clausura,7,Mineros de Zacatecas,Club Irapuato,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1070,2015-02-20,2014,clausura,7,Correcaminos UAT,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1071,2015-02-21,2014,clausura,7,Necaxa,Dorados de Sinaloa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1072,2015-02-21,2014,clausura,7,Zacatepec,Alebrijes de Oaxaca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1073,2015-02-21,2014,clausura,7,Atlético San Luis,Atlante,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1074,2015-02-21,2014,clausura,7,Club Celaya,Mérida FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1075,2015-02-27,2014,clausura,8,Atlante,Club Celaya,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1076,2015-02-27,2014,clausura,8,Club Irapuato,Zacatepec,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1077,2015-02-27,2014,clausura,8,Mérida FC,Mineros de Zacatecas,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1078,2015-02-28,2014,clausura,8,Alebrijes de Oaxaca,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1079,2015-02-28,2014,clausura,8,Dorados de Sinaloa,Lobos BUAP,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1080,2015-02-28,2014,clausura,8,Deportivo Tepic,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1081,2015-03-01,2014,clausura,8,Estudiantes de Altamira,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1082,2015-03-06,2014,clausura,9,Lobos BUAP,Estudiantes de Altamira,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1083,2015-03-06,2014,clausura,9,Mineros de Zacatecas,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1084,2015-03-06,2014,clausura,9,Correcaminos UAT,Club Irapuato,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1085,2015-03-07,2014,clausura,9,Necaxa,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1086,2015-03-07,2014,clausura,9,Zacatepec,Mérida FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1087,2015-03-07,2014,clausura,9,Dorados de Sinaloa,Deportivo Tepic,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1088,2015-03-07,2014,clausura,9,Club Celaya,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1089,2015-03-13,2014,clausura,10,Atlante,Zacatepec,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1090,2015-03-13,2014,clausura,10,Club Irapuato,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1091,2015-03-13,2014,clausura,10,Mérida FC,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1092,2015-03-14,2014,clausura,10,Alebrijes de Oaxaca,Lobos BUAP,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1093,2015-03-14,2014,clausura,10,Atlético San Luis,Mineros de Zacatecas,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1094,2015-03-14,2014,clausura,10,Deportivo Tepic,Club Celaya,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1095,2015-03-15,2014,clausura,10,Estudiantes de Altamira,Dorados de Sinaloa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1096,2015-03-20,2014,clausura,11,Lobos BUAP,Club Irapuato,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1097,2015-03-20,2014,clausura,11,Mineros de Zacatecas,Club Celaya,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1098,2015-03-20,2014,clausura,11,Correcaminos UAT,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1099,2015-03-21,2014,clausura,11,Necaxa,Mérida FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1100,2015-03-21,2014,clausura,11,Zacatepec,Atlético San Luis,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1101,2015-03-21,2014,clausura,11,Dorados de Sinaloa,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1102,2015-03-22,2014,clausura,11,Estudiantes de Altamira,Deportivo Tepic,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1103,2015-04-03,2014,clausura,12,Atlante,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1104,2015-04-03,2014,clausura,12,Mineros de Zacatecas,Deportivo Tepic,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1105,2015-04-03,2014,clausura,12,Club Irapuato,Dorados de Sinaloa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1106,2015-04-03,2014,clausura,12,Mérida FC,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1107,2015-04-04,2014,clausura,12,Alebrijes de Oaxaca,Estudiantes de Altamira,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1108,2015-04-04,2014,clausura,12,Atlético San Luis,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1109,2015-04-04,2014,clausura,12,Club Celaya,Zacatepec,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1110,2015-04-10,2014,clausura,13,Lobos BUAP,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1111,2015-04-10,2014,clausura,13,Correcaminos UAT,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1112,2015-04-10,2014,clausura,13,Deportivo Tepic,Alebrijes de Oaxaca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1113,2015-04-11,2014,clausura,13,Necaxa,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1114,2015-04-11,2014,clausura,13,Estudiantes de Altamira,Club Irapuato,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1115,2015-04-11,2014,clausura,13,Zacatepec,Mineros de Zacatecas,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1116,2015-04-11,2014,clausura,13,Dorados de Sinaloa,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL

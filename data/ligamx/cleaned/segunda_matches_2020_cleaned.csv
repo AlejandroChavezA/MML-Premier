@@ -1,0 +1,241 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+2270,2020-08-18,2020,apertura,1,Tapatío,Cimarrones de Sonora,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2271,2020-08-18,2020,apertura,1,Alebrijes de Oaxaca,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2272,2020-08-18,2020,apertura,1,Dorados de Sinaloa,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2273,2020-08-19,2020,apertura,1,Tepatitlán,Atlético Morelia,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2274,2020-08-19,2020,apertura,1,Mineros de Zacatecas,Coyotes de Tlaxcala,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2275,2020-08-19,2020,apertura,1,Correcaminos UAT,Pumas Tabasco,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2276,2020-08-20,2020,apertura,1,Cancún FC,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2277,2020-08-25,2020,apertura,2,Club Celaya,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2278,2020-08-25,2020,apertura,2,Atlético Morelia,Pumas Tabasco,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2279,2020-08-25,2020,apertura,2,Alebrijes de Oaxaca,Dorados de Sinaloa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+2280,2020-08-26,2020,apertura,2,Venados FC,Tapatío,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2281,2020-08-27,2020,apertura,2,Cimarrones de Sonora,Cancún FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2282,2020-08-30,2020,apertura,2,Leones Negros,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2283,2020-08-30,2020,apertura,2,TM Fútbol Club,Tepatitlán,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2284,2020-09-01,2020,apertura,3,Tapatío,Atlético Morelia,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+2285,2020-09-01,2020,apertura,3,Cancún FC,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2286,2020-09-01,2020,apertura,3,TM Fútbol Club,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2287,2020-09-02,2020,apertura,3,Coyotes de Tlaxcala,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2288,2020-09-02,2020,apertura,3,Pumas Tabasco,Mineros de Zacatecas,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+2289,2020-09-03,2020,apertura,3,Tepatitlán,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2290,2020-09-06,2020,apertura,3,Atlante,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2291,2020-09-06,2020,apertura,3,Dorados de Sinaloa,Cimarrones de Sonora,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2292,2020-09-09,2020,apertura,4,Venados FC,Dorados de Sinaloa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2293,2020-09-09,2020,apertura,4,Correcaminos UAT,Tepatitlán,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2294,2020-09-10,2020,apertura,4,Mineros de Zacatecas,Tapatío,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2295,2020-09-10,2020,apertura,4,Atlético Morelia,Cancún FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2296,2020-09-10,2020,apertura,4,Leones Negros,TM Fútbol Club,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2297,2020-09-11,2020,apertura,4,Alebrijes de Oaxaca,Coyotes de Tlaxcala,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2298,2020-09-13,2020,apertura,4,Club Celaya,Atlante,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+2299,2020-09-13,2020,apertura,4,Cimarrones de Sonora,Pumas Tabasco,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2300,2020-09-15,2020,apertura,5,Coyotes de Tlaxcala,Leones Negros,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+2301,2020-09-15,2020,apertura,5,Tepatitlán,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2302,2020-09-15,2020,apertura,5,Cancún FC,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2303,2020-09-16,2020,apertura,5,Atlante,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2304,2020-09-16,2020,apertura,5,Pumas Tabasco,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2305,2020-09-16,2020,apertura,5,Dorados de Sinaloa,Correcaminos UAT,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2306,2020-09-17,2020,apertura,5,TM Fútbol Club,Atlético Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2307,2020-09-19,2020,apertura,1,Atlante,Venados FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+2308,2020-09-20,2020,apertura,5,Tapatío,Alebrijes de Oaxaca,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+2309,2020-09-22,2020,apertura,6,Mineros de Zacatecas,Tepatitlán,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2310,2020-09-22,2020,apertura,6,Correcaminos UAT,Cimarrones de Sonora,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2311,2020-09-22,2020,apertura,6,Dorados de Sinaloa,Cancún FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2312,2020-09-23,2020,apertura,6,Atlante,Tapatío,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2313,2020-09-23,2020,apertura,6,Venados FC,Coyotes de Tlaxcala,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2314,2020-09-23,2020,apertura,6,Club Celaya,TM Fútbol Club,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2315,2020-09-24,2020,apertura,6,Alebrijes de Oaxaca,Atlético Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2316,2020-09-26,2020,apertura,2,Coyotes de Tlaxcala,Atlante,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+2317,2020-09-27,2020,apertura,6,Leones Negros,Pumas Tabasco,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2318,2020-09-29,2020,apertura,7,Cancún FC,Venados FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2319,2020-09-29,2020,apertura,7,Cimarrones de Sonora,Mineros de Zacatecas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2320,2020-09-30,2020,apertura,7,Tapatío,Tepatitlán,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2321,2020-09-30,2020,apertura,7,Pumas Tabasco,Atlante,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+2322,2020-09-30,2020,apertura,7,Atlético Morelia,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2323,2020-10-01,2020,apertura,7,Club Celaya,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2324,2020-10-01,2020,apertura,7,TM Fútbol Club,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2325,2020-10-06,2020,apertura,8,Atlante,Cancún FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2326,2020-10-06,2020,apertura,8,Pumas Tabasco,Dorados de Sinaloa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2327,2020-10-07,2020,apertura,8,Tepatitlán,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2328,2020-10-07,2020,apertura,8,Cimarrones de Sonora,TM Fútbol Club,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+2329,2020-10-08,2020,apertura,8,Mineros de Zacatecas,Alebrijes de Oaxaca,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2330,2020-10-09,2020,apertura,9,Atlético Morelia,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2331,2020-10-10,2020,apertura,9,TM Fútbol Club,Correcaminos UAT,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2332,2020-10-11,2020,apertura,9,Club Celaya,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2333,2020-10-11,2020,apertura,9,Alebrijes de Oaxaca,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2334,2020-10-11,2020,apertura,9,Leones Negros,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2335,2020-10-11,2020,apertura,9,Dorados de Sinaloa,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2336,2020-10-13,2020,apertura,10,Atlante,TM Fútbol Club,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2337,2020-10-13,2020,apertura,10,Tapatío,Cancún FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2338,2020-10-14,2020,apertura,10,Tepatitlán,Dorados de Sinaloa,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+2339,2020-10-14,2020,apertura,10,Mineros de Zacatecas,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2340,2020-10-14,2020,apertura,10,Venados FC,Atlético Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2341,2020-10-15,2020,apertura,10,Correcaminos UAT,Alebrijes de Oaxaca,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+2342,2020-10-17,2020,apertura,9,Cancún FC,Pumas Tabasco,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+2343,2020-10-18,2020,apertura,7,Coyotes de Tlaxcala,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2344,2020-10-18,2020,apertura,10,Cimarrones de Sonora,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2345,2020-10-20,2020,apertura,11,Tepatitlán,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2346,2020-10-20,2020,apertura,11,Atlético Morelia,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2347,2020-10-20,2020,apertura,11,TM Fútbol Club,Pumas Tabasco,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2348,2020-10-21,2020,apertura,11,Coyotes de Tlaxcala,Cimarrones de Sonora,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2349,2020-10-21,2020,apertura,11,Leones Negros,Cancún FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2350,2020-10-21,2020,apertura,11,Dorados de Sinaloa,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2351,2020-10-22,2020,apertura,11,Alebrijes de Oaxaca,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2352,2020-10-22,2020,apertura,11,Venados FC,Correcaminos UAT,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2353,2020-10-24,2020,apertura,8,Tapatío,Coyotes de Tlaxcala,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2354,2020-10-27,2020,apertura,12,Mineros de Zacatecas,TM Fútbol Club,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2355,2020-10-27,2020,apertura,12,Pumas Tabasco,Alebrijes de Oaxaca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2356,2020-10-27,2020,apertura,12,Cimarrones de Sonora,Tepatitlán,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2357,2020-10-28,2020,apertura,12,Club Celaya,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2358,2020-10-28,2020,apertura,12,Correcaminos UAT,Tapatío,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+2359,2020-10-28,2020,apertura,12,Leones Negros,Atlético Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2360,2020-10-29,2020,apertura,12,Atlante,Dorados de Sinaloa,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+2361,2020-10-31,2020,apertura,8,Venados FC,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2362,2020-11-01,2020,apertura,12,Cancún FC,Coyotes de Tlaxcala,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2363,2020-11-03,2020,apertura,13,Tapatío,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2364,2020-11-03,2020,apertura,13,Atlético Morelia,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2365,2020-11-03,2020,apertura,13,Venados FC,Pumas Tabasco,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+2366,2020-11-04,2020,apertura,13,Coyotes de Tlaxcala,TM Fútbol Club,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2367,2020-11-04,2020,apertura,13,Tepatitlán,Cancún FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2368,2020-11-04,2020,apertura,13,Mineros de Zacatecas,Correcaminos UAT,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+2369,2020-11-05,2020,apertura,13,Dorados de Sinaloa,Leones Negros,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+2370,2020-11-07,2020,apertura,9,Coyotes de Tlaxcala,Tepatitlán,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2371,2020-11-08,2020,apertura,13,Alebrijes de Oaxaca,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2372,2020-11-10,2020,apertura,14,Club Celaya,Atlético Morelia,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2373,2020-11-10,2020,apertura,14,Leones Negros,Correcaminos UAT,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+2374,2020-11-10,2020,apertura,14,Pumas Tabasco,Tepatitlán,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2375,2020-11-11,2020,apertura,14,Coyotes de Tlaxcala,Dorados de Sinaloa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2376,2020-11-11,2020,apertura,14,Cancún FC,Alebrijes de Oaxaca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2377,2020-11-11,2020,apertura,14,TM Fútbol Club,Tapatío,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2378,2020-11-12,2020,apertura,14,Cimarrones de Sonora,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2379,2020-11-14,2020,apertura,8,Correcaminos UAT,Atlético Morelia,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2380,2020-11-15,2020,apertura,10,Pumas Tabasco,Coyotes de Tlaxcala,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2381,2020-11-15,2020,apertura,14,Atlante,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2382,2020-11-17,2020,apertura,15,Tepatitlán,Leones Negros,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+2383,2020-11-17,2020,apertura,15,Alebrijes de Oaxaca,Cimarrones de Sonora,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+2384,2020-11-17,2020,apertura,15,Mineros de Zacatecas,Venados FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2385,2020-11-18,2020,apertura,15,Tapatío,Pumas Tabasco,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+2386,2020-11-18,2020,apertura,15,Cancún FC,Club Celaya,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2387,2020-11-18,2020,apertura,15,Correcaminos UAT,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2388,2020-11-19,2020,apertura,15,Dorados de Sinaloa,TM Fútbol Club,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2389,2020-11-21,2020,apertura,15,Atlético Morelia,Coyotes de Tlaxcala,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+2390,2021-01-12,2020,clausura,1,Club Celaya,Tepatitlán,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2391,2021-01-12,2020,clausura,1,Pumas Tabasco,Tapatío,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2392,2021-01-13,2020,clausura,1,Mineros de Zacatecas,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2393,2021-01-13,2020,clausura,1,Correcaminos UAT,Cancún FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+2394,2021-01-13,2020,clausura,1,Cimarrones de Sonora,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2395,2021-01-17,2020,clausura,1,Leones Negros,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2396,2021-01-19,2020,clausura,2,Cancún FC,Cimarrones de Sonora,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2397,2021-01-19,2020,clausura,2,Alebrijes de Oaxaca,Tepatitlán,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2398,2021-01-20,2020,clausura,2,Coyotes de Tlaxcala,Atlético Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2399,2021-01-20,2020,clausura,2,Club Celaya,Pumas Tabasco,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2400,2021-01-20,2020,clausura,2,TM Fútbol Club,Leones Negros,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2401,2021-01-21,2020,clausura,2,Atlante,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2402,2021-01-23,2020,clausura,1,Atlético Morelia,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2403,2021-01-24,2020,clausura,2,Tapatío,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2404,2021-01-26,2020,clausura,3,Correcaminos UAT,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2405,2021-01-26,2020,clausura,3,Cimarrones de Sonora,Club Celaya,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2406,2021-01-27,2020,clausura,3,Mineros de Zacatecas,Pumas Tabasco,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2407,2021-01-27,2020,clausura,3,Cancún FC,Atlético Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2408,2021-01-27,2020,clausura,3,Alebrijes de Oaxaca,Tapatío,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2409,2021-01-28,2020,clausura,3,Leones Negros,Dorados de Sinaloa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2410,2021-01-29,2020,clausura,3,Atlante,Coyotes de Tlaxcala,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2411,2021-01-31,2020,clausura,3,Tepatitlán,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2412,2021-02-02,2020,clausura,4,Coyotes de Tlaxcala,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2413,2021-02-02,2020,clausura,4,Venados FC,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2414,2021-02-02,2020,clausura,4,Pumas Tabasco,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2415,2021-02-03,2020,clausura,4,Club Celaya,Mineros de Zacatecas,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2416,2021-02-03,2020,clausura,4,Dorados de Sinaloa,Tepatitlán,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2417,2021-02-04,2020,clausura,4,TM Fútbol Club,Cancún FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2418,2021-02-04,2020,clausura,4,Tapatío,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2419,2021-02-05,2020,clausura,1,Venados FC,Alebrijes de Oaxaca,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2420,2021-02-06,2020,clausura,4,Atlético Morelia,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2421,2021-02-09,2020,clausura,5,Alebrijes de Oaxaca,Pumas Tabasco,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+2422,2021-02-09,2020,clausura,5,Cancún FC,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2423,2021-02-09,2020,clausura,5,TM Fútbol Club,Coyotes de Tlaxcala,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2424,2021-02-10,2020,clausura,5,Tepatitlán,Tapatío,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2425,2021-02-10,2020,clausura,5,Correcaminos UAT,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2426,2021-02-10,2020,clausura,5,Cimarrones de Sonora,Atlético Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2427,2021-02-11,2020,clausura,5,Leones Negros,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2428,2021-02-14,2020,clausura,5,Atlante,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2429,2021-02-16,2020,clausura,6,Pumas Tabasco,Cimarrones de Sonora,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2430,2021-02-16,2020,clausura,6,Correcaminos UAT,Leones Negros,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2431,2021-02-17,2020,clausura,6,Club Celaya,Cancún FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+2432,2021-02-17,2020,clausura,6,Venados FC,Tepatitlán,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2433,2021-02-17,2020,clausura,6,Dorados de Sinaloa,Coyotes de Tlaxcala,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2434,2021-02-18,2020,clausura,6,Tapatío,TM Fútbol Club,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2435,2021-02-19,2020,clausura,6,Mineros de Zacatecas,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2436,2021-02-20,2020,clausura,2,Dorados de Sinaloa,Venados FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2437,2021-02-20,2020,clausura,6,Atlético Morelia,Alebrijes de Oaxaca,6.0,3.0,FINISHED,9.0,3.0,LOCAL
+2438,2021-02-23,2020,clausura,7,Coyotes de Tlaxcala,Venados FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2439,2021-02-23,2020,clausura,7,TM Fútbol Club,Mineros de Zacatecas,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+2440,2021-02-23,2020,clausura,7,Cimarrones de Sonora,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2441,2021-02-24,2020,clausura,7,Alebrijes de Oaxaca,Correcaminos UAT,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2442,2021-02-24,2020,clausura,7,Cancún FC,Tapatío,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2443,2021-02-24,2020,clausura,7,Leones Negros,Atlante,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+2444,2021-02-25,2020,clausura,7,Tepatitlán,Pumas Tabasco,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2445,2021-02-28,2020,clausura,7,Atlético Morelia,Club Celaya,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2446,2021-03-02,2020,clausura,8,Correcaminos UAT,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2447,2021-03-02,2020,clausura,8,Venados FC,TM Fútbol Club,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2448,2021-03-03,2020,clausura,8,Mineros de Zacatecas,Cancún FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2449,2021-03-03,2020,clausura,8,Pumas Tabasco,Atlético Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2450,2021-03-03,2020,clausura,8,Cimarrones de Sonora,Alebrijes de Oaxaca,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2451,2021-03-04,2020,clausura,8,Tapatío,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2452,2021-03-05,2020,clausura,8,Club Celaya,Coyotes de Tlaxcala,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2453,2021-03-07,2020,clausura,8,Atlante,Tepatitlán,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+2454,2021-03-09,2020,clausura,9,Alebrijes de Oaxaca,Mineros de Zacatecas,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+2455,2021-03-09,2020,clausura,9,Coyotes de Tlaxcala,Tapatío,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2456,2021-03-09,2020,clausura,9,Dorados de Sinaloa,Pumas Tabasco,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2457,2021-03-10,2020,clausura,9,Tepatitlán,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2458,2021-03-10,2020,clausura,9,Cancún FC,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2459,2021-03-10,2020,clausura,9,TM Fútbol Club,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2460,2021-03-11,2020,clausura,9,Leones Negros,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2461,2021-03-12,2020,clausura,9,Atlético Morelia,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2462,2021-03-15,2020,clausura,10,Leones Negros,Tepatitlán,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2463,2021-03-16,2020,clausura,10,Mineros de Zacatecas,Atlético Morelia,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2464,2021-03-16,2020,clausura,10,Venados FC,Cancún FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2465,2021-03-16,2020,clausura,10,Pumas Tabasco,TM Fútbol Club,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2466,2021-03-17,2020,clausura,10,Club Celaya,Dorados de Sinaloa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2467,2021-03-17,2020,clausura,10,Correcaminos UAT,Coyotes de Tlaxcala,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2468,2021-03-17,2020,clausura,10,Cimarrones de Sonora,Tapatío,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2469,2021-03-18,2020,clausura,10,Atlante,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2470,2021-03-23,2020,clausura,11,Coyotes de Tlaxcala,Pumas Tabasco,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2471,2021-03-23,2020,clausura,11,Venados FC,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2472,2021-03-23,2020,clausura,11,Tapatío,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2473,2021-03-23,2020,clausura,11,Alebrijes de Oaxaca,Cancún FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2474,2021-03-24,2020,clausura,11,Tepatitlán,Mineros de Zacatecas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2475,2021-03-24,2020,clausura,11,TM Fútbol Club,Cimarrones de Sonora,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2476,2021-03-24,2020,clausura,11,Dorados de Sinaloa,Atlante,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+2477,2021-03-25,2020,clausura,11,Atlético Morelia,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2478,2021-03-26,2020,clausura,12,Club Celaya,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2479,2021-03-26,2020,clausura,12,Pumas Tabasco,Venados FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2480,2021-03-27,2020,clausura,12,Tapatío,Dorados de Sinaloa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2481,2021-03-27,2020,clausura,12,Cancún FC,Tepatitlán,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+2482,2021-03-27,2020,clausura,12,Correcaminos UAT,TM Fútbol Club,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2483,2021-03-28,2020,clausura,12,Atlante,Atlético Morelia,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+2484,2021-03-28,2020,clausura,12,Mineros de Zacatecas,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2485,2021-03-28,2020,clausura,12,Cimarrones de Sonora,Coyotes de Tlaxcala,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2486,2021-03-30,2020,clausura,13,Pumas Tabasco,Correcaminos UAT,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2487,2021-03-30,2020,clausura,13,Dorados de Sinaloa,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2488,2021-03-31,2020,clausura,13,Coyotes de Tlaxcala,Cancún FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2489,2021-03-31,2020,clausura,13,Venados FC,Mineros de Zacatecas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2490,2021-03-31,2020,clausura,13,TM Fútbol Club,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2491,2021-04-01,2020,clausura,13,Leones Negros,Club Celaya,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+2492,2021-04-02,2020,clausura,13,Tepatitlán,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2493,2021-04-04,2020,clausura,13,Atlético Morelia,Tapatío,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2494,2021-04-06,2020,clausura,14,Tepatitlán,Coyotes de Tlaxcala,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2495,2021-04-06,2020,clausura,14,Correcaminos UAT,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2496,2021-04-06,2020,clausura,14,Alebrijes de Oaxaca,TM Fútbol Club,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+2497,2021-04-07,2020,clausura,14,Mineros de Zacatecas,Cimarrones de Sonora,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+2498,2021-04-07,2020,clausura,14,Cancún FC,Leones Negros,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2499,2021-04-07,2020,clausura,14,Dorados de Sinaloa,Atlético Morelia,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+2500,2021-04-08,2020,clausura,14,Tapatío,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2501,2021-04-11,2020,clausura,14,Atlante,Pumas Tabasco,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+2502,2021-04-13,2020,clausura,15,Coyotes de Tlaxcala,Mineros de Zacatecas,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+2503,2021-04-13,2020,clausura,15,TM Fútbol Club,Dorados de Sinaloa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2504,2021-04-13,2020,clausura,15,Cimarrones de Sonora,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+2505,2021-04-14,2020,clausura,15,Leones Negros,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+2506,2021-04-14,2020,clausura,15,Venados FC,Atlante,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+2507,2021-04-14,2020,clausura,15,Pumas Tabasco,Cancún FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+2508,2021-04-15,2020,clausura,15,Club Celaya,Tapatío,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+2509,2021-04-15,2020,clausura,15,Atlético Morelia,Tepatitlán,2.0,2.0,FINISHED,4.0,0.0,EMPATE

@@ -1,0 +1,303 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+4616,2025-07-12,2025,apertura,1,Club Tijuana,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,18.333,,,,,4-1-4-1,,1,True,1
+4617,2025-07-12,2025,apertura,1,FC Juárez,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,18.098,,,,,3-4-3,,1,True,1
+4618,2025-07-12,2025,apertura,1,Puebla FC,Atlas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,,,,11.433,,,,,4-3-3 Attacking,,1,True,1
+4619,2025-07-13,2025,apertura,1,Cruz Azul,Mazatlán FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,20.098,,,,,3-4-2-1,,1,True,1
+4620,2025-07-13,2025,apertura,1,Santos Laguna,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,11.508,,,,,5-3-2,,1,True,1
+4621,2025-07-13,2025,apertura,1,Toluca,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,27.273,,,,,4-2-3-1,,1,True,1
+4622,2025-07-14,2025,apertura,1,León,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,21.957,,,,,4-1-4-1,,1,True,1
+4623,2025-07-14,2025,apertura,1,Pachuca,Monterrey,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,13.915,,,,,4-2-3-1,,1,True,1
+4624,2025-07-17,2025,apertura,2,América,Club Tijuana,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,20.398,,,,,4-3-3 Attacking,,2,True,1
+4625,2025-07-17,2025,apertura,2,Santos Laguna,Toluca,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,transfermarkt,,,,19.155,,,,,5-3-2,,2,True,1
+4626,2025-07-19,2025,apertura,2,Atlético San Luis,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,16.93,,,,,4-2-3-1,,2,True,1
+4627,2025-07-19,2025,apertura,2,Mazatlán FC,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,8.703,,,,,3-4-2-1,,2,True,1
+4628,2025-07-19,2025,apertura,2,Necaxa,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,19.108,,,,,3-4-3,,2,True,1
+4629,2025-07-20,2025,apertura,2,Atlas,Cruz Azul,3.0,3.0,FINISHED,6.0,0.0,EMPATE,transfermarkt,,,,25.098,,,,,4-2-3-1,,2,True,1
+4630,2025-07-20,2025,apertura,2,León,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,22.185,,,,,4-2-3-1,,2,True,1
+4631,2025-07-20,2025,apertura,2,Tigres UANL,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,41.615,,,,,4-4-2,,2,True,1
+4632,2025-07-20,2025,apertura,2,UNAM Pumas,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,,,,24.277,,,,,4-4-2,,2,True,1
+4633,2025-07-26,2025,apertura,3,Club Tijuana,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,18.133,,,,,4-1-4-1,,3,True,1
+4634,2025-07-26,2025,apertura,3,Pachuca,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,11.747,,,,,4-2-3-1,,3,True,1
+4635,2025-07-26,2025,apertura,3,Puebla FC,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,13.25,,,,,3-4-2-1,,3,True,1
+4636,2025-07-26,2025,apertura,3,Querétaro,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,23.432,,,,,3-4-3,,3,True,1
+4637,2025-07-27,2025,apertura,3,Chivas,Atlético San Luis,4.0,3.0,FINISHED,7.0,1.0,LOCAL,transfermarkt,,,,38.832,,,,,3-4-2-1,,3,True,1
+4638,2025-07-27,2025,apertura,3,Cruz Azul,León,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,,,,20.094,,,,,3-4-2-1,,3,True,1
+4639,2025-07-27,2025,apertura,3,Monterrey,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,47.16,,,,,3-4-3,,3,True,1
+4640,2025-07-27,2025,apertura,3,Necaxa,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,20.586,,,,,4-3-1-2,,3,True,1
+4641,2025-07-27,2025,apertura,3,Toluca,Tigres UANL,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE,transfermarkt,,,,27.273,,,,,4-2-3-1,,3,True,1
+4642,2025-08-09,2025,apertura,4,Tigres UANL,Puebla FC,7.0,0.0,FINISHED,7.0,7.0,LOCAL,transfermarkt,,,,40.023,,,,,4-4-2,,4,True,1
+4643,2025-08-10,2025,apertura,4,América,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,23.701,,,,,4-4-2,,4,True,1
+4644,2025-08-10,2025,apertura,4,Atlas,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,,,,16.773,,,,,5-4-1,,4,True,1
+4645,2025-08-11,2025,apertura,4,Santos Laguna,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,16.155,,,,,4-3-1-2,,4,True,1
+4646,2025-08-11,2025,apertura,4,UNAM Pumas,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,34.108,,,,,4-2-3-1,,4,True,1
+4647,2025-08-12,2025,apertura,4,Atlético San Luis,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,19.335,,,,,5-3-2,,4,True,1
+4648,2025-08-12,2025,apertura,4,FC Juárez,Toluca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,7.793,,,,,3-4-2-1,,4,True,1
+4649,2025-08-12,2025,apertura,4,León,Monterrey,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,23.057,,,,,4-2-3-1,,4,True,1
+4650,2025-08-16,2025,apertura,5,Necaxa,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,19.588,,,,,3-4-2-1,,5,True,1
+4651,2025-08-16,2025,apertura,5,Puebla FC,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,10.978,,,,,3-4-2-1,,5,True,1
+4652,2025-08-17,2025,apertura,5,Chivas,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,33.176,,,,,3-4-2-1,,5,True,1
+4653,2025-08-17,2025,apertura,5,Cruz Azul,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,14.101,,,,,3-4-2-1,,5,True,1
+4654,2025-08-17,2025,apertura,5,Pachuca,Club Tijuana,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,11.798,,,,,4-1-4-1,,5,True,1
+4655,2025-08-17,2025,apertura,5,Tigres UANL,América,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,41.615,,,,,4-4-2,,5,True,1
+4656,2025-08-17,2025,apertura,5,Toluca,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,27.273,,,,,4-2-3-1,,5,True,1
+4657,2025-08-18,2025,apertura,5,Monterrey,Mazatlán FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,45.894,,,,,4-2-3-1,,5,True,1
+4658,2025-08-18,2025,apertura,5,Querétaro,Atlas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,transfermarkt,,,,9.261,,,,,3-4-3 Diamond,,5,True,1
+4659,2025-08-23,2025,apertura,6,Club Tijuana,Chivas,3.0,3.0,FINISHED,6.0,0.0,EMPATE,transfermarkt,,,,28.553,,,,,4-3-3 Attacking,,6,True,1
+4660,2025-08-23,2025,apertura,6,FC Juárez,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,7.518,,,,,4-1-3-2,,6,True,1
+4661,2025-08-23,2025,apertura,6,Querétaro,Atlético San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,8.159,,,,,4-2-3-1,,6,True,1
+4662,2025-08-24,2025,apertura,6,Cruz Azul,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,22.867,,,,,3-4-2-1,,6,True,1
+4663,2025-08-24,2025,apertura,6,León,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,20.655,,,,,4-2-3-1,,6,True,1
+4664,2025-08-24,2025,apertura,6,Mazatlán FC,Tigres UANL,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,13.656,,,,,4-2-3-1,,6,True,1
+4665,2025-08-24,2025,apertura,6,Monterrey,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,45.032,,,,,4-2-3-1,,6,True,1
+4666,2025-08-25,2025,apertura,6,Atlas,América,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,transfermarkt,,,,35.588,,,,,5-4-1,,6,True,1
+4667,2025-08-30,2025,apertura,7,Atlético San Luis,Toluca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,15.15,,,,,4-2-3-1,,7,True,1
+4668,2025-08-30,2025,apertura,7,FC Juárez,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,6.822,,,,,3-4-3 Diamond,,7,True,1
+4669,2025-08-30,2025,apertura,7,Puebla FC,Monterrey,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,transfermarkt,,,,21.945,,,,,4-4-2,,7,True,1
+4670,2025-08-31,2025,apertura,7,América,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,x,,,,,4-1-4-1,,7,True,1
+4671,2025-08-31,2025,apertura,7,Chivas,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,40.17,,,,,3-4-1-2,,7,True,1
+4672,2025-08-31,2025,apertura,7,León,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,21.351,,,,,4-2-3-1,,7,True,1
+4673,2025-08-31,2025,apertura,7,Santos Laguna,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,15.457,,,,,4-2-3-1,,7,True,1
+4674,2025-09-01,2025,apertura,7,Club Tijuana,Necaxa,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,17.233,,,,,4-4-2 double 6,,7,True,1
+4675,2025-09-01,2025,apertura,7,UNAM Pumas,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,17.196,,,,,4-2-3-1,,7,True,1
+4676,2025-09-13,2025,apertura,8,Mazatlán FC,UNAM Pumas,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,transfermarkt,,,,10.606,,,,,4-4-2,,8,True,1
+4677,2025-09-13,2025,apertura,8,Necaxa,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,10.987,,,,,3-5-2,,8,True,1
+4678,2025-09-14,2025,apertura,8,América,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,30.247,,,,,5-4-1,,8,True,1
+4679,2025-09-14,2025,apertura,8,Atlas,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,13.982,,,,,5-4-1,,8,True,1
+4680,2025-09-14,2025,apertura,8,Pachuca,Cruz Azul,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,19.479,,,,,4-2-3-1,,8,True,1
+4681,2025-09-14,2025,apertura,8,Querétaro,Monterrey,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,15.673,,,,,4-4-2,,8,True,1
+4682,2025-09-14,2025,apertura,8,Tigres UANL,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,40.186,,,,,4-4-2 Diamond,,8,True,1
+4683,2025-09-14,2025,apertura,8,Toluca,Puebla FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,26.589,,,,,4-2-3-1,,8,True,1
+4684,2025-09-15,2025,apertura,8,Atlético San Luis,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,13.178,,,,,4-2-3-1,,8,True,1
+4685,2025-09-18,2025,apertura,1,Chivas,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,29.257,,,,,3-1-4-2,,1,True,1
+4686,2025-09-20,2025,apertura,9,Club Tijuana,León,5.0,0.0,FINISHED,5.0,5.0,LOCAL,transfermarkt,,,,18.333,,,,,4-1-4-1,,9,True,1
+4687,2025-09-20,2025,apertura,9,Cruz Azul,FC Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,15.815,,,,,3-4-2-1,,9,True,1
+4688,2025-09-20,2025,apertura,9,Mazatlán FC,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,9.962,,,,,4-1-4-1,,9,True,1
+4689,2025-09-20,2025,apertura,9,Necaxa,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,11.49,,,,,4-4-1-1,,9,True,1
+4690,2025-09-21,2025,apertura,9,Chivas,Toluca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,,,,37.371,,,,,3-4-2-1,,9,True,1
+4691,2025-09-21,2025,apertura,9,Monterrey,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,50.91,,,,,4-2-3-1,,9,True,1
+4692,2025-09-21,2025,apertura,9,Pachuca,Querétaro,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,6.942,,,,,4-2-3-1,,9,True,1
+4693,2025-09-22,2025,apertura,9,Santos Laguna,Atlético San Luis,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,transfermarkt,,,,9.032,,,,,4-3-3 Attacking,,9,True,1
+4694,2025-09-24,2025,apertura,10,Chivas,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,25.13,,,,,3-1-4-2,,10,True,1
+4695,2025-09-24,2025,apertura,10,FC Juárez,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,10.09,,,,,3-4-2-1,,10,True,1
+4696,2025-09-24,2025,apertura,10,León,Mazatlán FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,24.335,,,,,4-2-3-1,,10,True,1
+4697,2025-09-24,2025,apertura,10,Puebla FC,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,9.939,,,,,4-4-2,,10,True,1
+4698,2025-09-25,2025,apertura,10,Atlético San Luis,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,22.841,,,,,4-2-3-1,,10,True,1
+4699,2025-09-25,2025,apertura,10,Cruz Azul,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,16.783,,,,,3-4-2-1,,10,True,1
+4700,2025-09-25,2025,apertura,10,Santos Laguna,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,7.154,,,,,4-2-3-1,,10,True,1
+4701,2025-09-25,2025,apertura,10,Tigres UANL,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,36.168,,,,,4-2-3-1,,10,True,1
+4702,2025-09-25,2025,apertura,10,Toluca,Monterrey,6.0,2.0,FINISHED,8.0,4.0,LOCAL,transfermarkt,,,,25.772,,,,,4-4-2 double 6,,10,True,1
+4703,2025-09-27,2025,apertura,11,FC Juárez,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,7.008,,,,,4-4-1-1,,11,True,1
+4704,2025-09-28,2025,apertura,11,América,UNAM Pumas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,,,,26.387,,,,,4-2-3-1,,11,True,1
+4705,2025-09-28,2025,apertura,11,Atlas,Necaxa,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,13.567,,,,,5-4-1,,11,True,1
+4706,2025-09-28,2025,apertura,11,Monterrey,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,46.29,,,,,4-2-3-1,,11,True,1
+4707,2025-09-28,2025,apertura,11,Pachuca,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,10.450,,,,,4-2-3-1,,11,True,1
+4708,2025-09-28,2025,apertura,11,Puebla FC,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,22.177,,,,,4-4-2,,11,True,1
+4709,2025-09-28,2025,apertura,11,Toluca,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,22.273,,,,,4-2-3-1,,11,True,1
+4710,2025-09-29,2025,apertura,11,Club Tijuana,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,29.333,,,,,4-4-2,,11,True,1
+4711,2025-09-29,2025,apertura,11,Querétaro,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,17.71,,,,,4-1-4-1,,11,True,1
+4712,2025-10-04,2025,apertura,12,Atlas,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,13.504,,,,,3-4-2-1,,12,True,1
+4713,2025-10-04,2025,apertura,12,Mazatlán FC,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,7.993,,,,,3-4-3,,12,True,1
+4714,2025-10-04,2025,apertura,12,Necaxa,Pachuca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,12.777,,,,,3-4-1-2,,12,True,1
+4715,2025-10-05,2025,apertura,12,América,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,21.870,,,,,4-3-3 Attacking,,12,True,1
+4716,2025-10-05,2025,apertura,12,León,Toluca,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,transfermarkt,,,,25.795,,,,,4-2-3-1,,12,True,1
+4717,2025-10-05,2025,apertura,12,Querétaro,Puebla FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,7.763,,,,,4-1-4-1,,12,True,1
+4718,2025-10-06,2025,apertura,12,Club Tijuana,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,22.333,,,,,4-4-2,,12,True,1
+4719,2025-10-06,2025,apertura,12,UNAM Pumas,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,41.35,,,,,4-2-3-1,,12,True,1
+4720,2025-10-18,2025,apertura,13,Atlético San Luis,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,13.534,,,,,4-4-2 double 6,,13,True,1
+4721,2025-10-18,2025,apertura,13,Puebla FC,Club Tijuana,4.0,3.0,FINISHED,7.0,1.0,LOCAL,transfermarkt,,,,6.955,,,,,5-4-1 Diamond,,13,True,1
+4722,2025-10-18,2025,apertura,13,Tigres UANL,Necaxa,5.0,3.0,FINISHED,8.0,2.0,LOCAL,transfermarkt,,,,41.615,,,,,4-1-4-1,,13,True,1
+4723,2025-10-19,2025,apertura,13,Chivas,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,34.478,,,,,3-4-2-1,,13,True,1
+4724,2025-10-19,2025,apertura,13,Cruz Azul,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,40.237,,,,,5-4-1,,13,True,1
+4725,2025-10-19,2025,apertura,13,FC Juárez,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,6.053,,,,,4-4-1-1,,13,True,1
+4726,2025-10-19,2025,apertura,13,Monterrey,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,47.706,,,,,4-2-3-1,,13,True,1
+4727,2025-10-19,2025,apertura,13,Santos Laguna,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,8.217,,,,,4-1-4-1,,13,True,1
+4728,2025-10-19,2025,apertura,13,Toluca,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,transfermarkt,,,,27.273,,,,,4-2-3-1,,13,True,1
+4729,2025-10-22,2025,apertura,14,América,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,18.130,,,,,4-2-3-1,,14,True,1
+4730,2025-10-22,2025,apertura,14,Mazatlán FC,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,6.528,,,,,3-4-1-2,,14,True,1
+4731,2025-10-22,2025,apertura,14,Monterrey,FC Juárez,4.0,2.0,FINISHED,6.0,2.0,LOCAL,transfermarkt,,,,38.734,,,,,4-2-3-1,,14,True,1
+4732,2025-10-22,2025,apertura,14,Necaxa,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,17.523,,,,,3-1-4-2,,14,True,1
+4733,2025-10-23,2025,apertura,14,Atlas,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,16.256,,,,,3-4-2-1,,14,True,1
+4734,2025-10-23,2025,apertura,14,Club Tijuana,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,23.333,,,,,4-4-2 double 6,,14,True,1
+4735,2025-10-23,2025,apertura,14,Pachuca,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,10.485,,,,,4-2-3-1,,14,True,1
+4736,2025-10-23,2025,apertura,14,Querétaro,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,27.712,,,,,4-1-4-1,,14,True,1
+4737,2025-10-23,2025,apertura,14,UNAM Pumas,Atlético San Luis,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,10.235,,,,,4-2-3-1,,14,True,1
+4738,2025-10-25,2025,apertura,15,FC Juárez,Puebla FC,4.0,4.0,FINISHED,8.0,0.0,EMPATE,transfermarkt,,,,7.006,,,,,4-2-3-1,,15,True,1
+4739,2025-10-25,2025,apertura,15,Mazatlán FC,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,18.66,,,,,5-4-1,,15,True,1
+4740,2025-10-26,2025,apertura,15,Chivas,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,,,,40.699,,,,,3-4-2-1,,15,True,1
+4741,2025-10-26,2025,apertura,15,Cruz Azul,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,18.406,,,,,3-4-2-1,,15,True,1
+4742,2025-10-26,2025,apertura,15,León,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,21.151,,,,,4-4-2,,15,True,1
+4743,2025-10-26,2025,apertura,15,Tigres UANL,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,41.615,,,,,4-1-4-1,,15,True,1
+4744,2025-10-27,2025,apertura,15,Atlético San Luis,Necaxa,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE,transfermarkt,,,,12.494,,,,,3-5-2 Attacking,,15,True,1
+4745,2025-10-27,2025,apertura,15,Santos Laguna,Querétaro,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,8.563,,,,,4-1-4-1,,15,True,1
+4746,2025-10-27,2025,apertura,15,Toluca,Pachuca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,24.0,,,,,4-2-3-1,,15,True,1
+4747,2025-11-01,2025,apertura,16,Atlético San Luis,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,10.237,,,,,4-2-3-1,,16,True,1
+4748,2025-11-01,2025,apertura,16,Necaxa,Santos Laguna,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,,,,14.747,,,,,5-3-2,,16,True,1
+4749,2025-11-01,2025,apertura,16,Puebla FC,Cruz Azul,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,,,,25.644,,,,,5-4-1,,16,True,1
+4750,2025-11-02,2025,apertura,16,América,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,20.029,,,,,4-1-4-1,,16,True,1
+4751,2025-11-02,2025,apertura,16,Atlas,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,15.921,,,,,3-4-3 Diamond,,16,True,1
+4752,2025-11-02,2025,apertura,16,Monterrey,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,50.447,,,,,4-2-3-1,,16,True,1
+4753,2025-11-02,2025,apertura,16,UNAM Pumas,Club Tijuana,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,,,,13.901,,,,,4-1-3-2,,16,True,1
+4754,2025-11-03,2025,apertura,16,Pachuca,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,14.967,,,,,4-2-3-1,,16,True,1
+4755,2025-11-03,2025,apertura,16,Querétaro,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,8.803,,,,,4-1-4-1,,16,True,1
+4756,2025-11-08,2025,apertura,17,Club Tijuana,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,18.733,,,,,4-4-2,,17,True,1
+4757,2025-11-08,2025,apertura,17,FC Juárez,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,8.556,,,,,4-1-4-1,,17,True,1
+4758,2025-11-08,2025,apertura,17,Mazatlán FC,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,9.546,,,,,3-5-2 flat,,17,True,1
+4759,2025-11-09,2025,apertura,17,Chivas,Monterrey,4.0,2.0,FINISHED,6.0,2.0,LOCAL,transfermarkt,,,,40.396,,,,,3-4-2-1,,17,True,1
+4760,2025-11-09,2025,apertura,17,Cruz Azul,UNAM Pumas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,,,,36.025,,,,,3-4-2-1,,17,True,1
+4761,2025-11-09,2025,apertura,17,León,Puebla FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,25.032,,,,,4-4-2 double 6,,17,True,1
+4762,2025-11-09,2025,apertura,17,Santos Laguna,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,8.74,,,,,4-1-4-1,,17,True,1
+4763,2025-11-09,2025,apertura,17,Tigres UANL,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,41.615,,,,,4-4-2 double 6,,17,True,1
+4764,2025-11-09,2025,apertura,17,Toluca,América,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,27.273,,,,,3-4-3,,17,True,1
+4765,2026-01-10,2025,clausura,1,Atlas,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,César Ramos Palazuelos,Estadio Jalisco,,17086.0,,,Diego Cocca,Albert Espigares,3-4-1-2,4-1-4-1,1,True,1
+4766,2026-01-10,2025,clausura,1,Club Tijuana,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Ismael López Peñuelas,Estadio Caliente,,28833.0,,,Sebastián Abreu,André Jardine,4-4-2,4-1-3-2,1,True,1
+4767,2026-01-10,2025,clausura,1,Mazatlán FC,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Iván López Sánchez,Estadio de Mazatlán,,6472.0,,,Christian Ramírez,Pedro Caixinha,4-3-1-2,4-1-4-1,1,True,1
+4768,2026-01-11,2025,clausura,1,Chivas,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Marco Ortiz Nava,Estadio Akron,,35278.0,,,Gabriel Milito,Esteban Solari,3-4-3,3-5-2 flat,1,True,1
+4769,2026-01-11,2025,clausura,1,León,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Víctor Cáceres Hernández,Nou Camp,,18694.0,,,Ignacio Ambriz,Nicolás Larcamón,4-2-3-1,3-4-2-1,1,True,1
+4770,2026-01-11,2025,clausura,1,Monterrey,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Luis Santander Aguirre,Estadio BBVA,,45238.0,,,Domènec Torrent,Antonio Mohamed,4-2-3-1,4-4-2,1,True,1
+4771,2026-01-11,2025,clausura,1,Santos Laguna,Necaxa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,Luis García Rodríguez,Estadio Territorio Santos Modelo Corona,,15174.0,,,Francisco Rodríguez,Martín Varini,4-1-4-1,4-2-3-1,1,True,1
+4772,2026-01-11,2025,clausura,1,UNAM Pumas,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Maximiliano Quintero Hernández,Estadio Olímpico Universitario,,22135.0,,,Efraín Juárez,Esteban González,4-4-2 double 6,4-1-4-1,1,True,1
+4773,2026-01-12,2025,clausura,1,Atlético San Luis,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Daniel Quintero,Estadio Alfonso Lastras Ramírez,,16900.0,,,Guillermo Abascal,Guido Pizarro,4-2-3-1,4-2-3-1,1,True,1
+4774,2026-01-14,2025,clausura,2,FC Juárez,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Adonai Escobedo González,Estadio Olímpico Benito Juárez,,14558.0,,,Pedro Caixinha,Gabriel Milito,4-2-3-1,3-4-2-1,2,True,1
+4775,2026-01-14,2025,clausura,2,Necaxa,Monterrey,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,Fernando Hernández Gómez,Estadio Victoria,,12638.0,,,Martín Varini,Domènec Torrent,4-2-3-1,4-2-3-1,2,True,1
+4776,2026-01-14,2025,clausura,2,Pachuca,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Guillermo Pacheco,Estadio Hidalgo,,9114.0,,,Esteban Solari,Ignacio Ambriz,4-1-4-1,4-1-4-1,2,True,1
+4777,2026-01-14,2025,clausura,2,Puebla FC,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Joaquín Vizcarra,Estadio Cuauhtémoc,,8696.0,,,Albert Espigares,Christian Ramírez,4-3-3 Attacking,4-3-1-2,2,True,1
+4778,2026-01-15,2025,clausura,2,América,Atlético San Luis,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,Vicente Reynoso,Estadio Azteca,,15331.0,,,André Jardine,Guillermo Abascal,4-4-2 double 6,3-4-2-1,2,True,1
+4779,2026-01-15,2025,clausura,2,Cruz Azul,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Yonatan Peinado Aguirre,Estadio Cuauhtémoc,,7519.0,,,Nicolás Larcamón,Diego Cocca,3-4-2-1,5-4-1,2,True,1
+4780,2026-01-15,2025,clausura,2,Querétaro,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Karen Hernández Andrade,Estadio La Corregidora,,10915.0,,,Esteban González,Sebastián Abreu,4-1-4-1,4-5-1,2,True,1
+4781,2026-01-15,2025,clausura,2,Tigres UANL,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Jesús López Valle,Estadio Universitario,,40074.0,,,Guido Pizarro,Efraín Juárez,4-1-4-1,5-4-1,2,True,1
+4782,2026-01-15,2025,clausura,2,Toluca,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Martín Molina Astorga,Estadio Nemesio Díez Riega,,26513.0,,,Antonio Mohamed,Omar Tapia,4-2-3-1,4-4-2 double 6,2,True,1
+4783,2026-01-17,2025,clausura,3,Mazatlán FC,Monterrey,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,transfermarkt,Ismael López Peñuelas,Estadio de Mazatlán,,9411.0,,,Christian Ramírez,Domènec Torrent,3-5-2,4-2-3-1,3,True,1
+4784,2026-01-18,2025,clausura,3,Chivas,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Jorge Camacho Peregrina,Estadio Akron,,34839.0,,,Gabriel Milito,Esteban González,3-4-2-1,3-4-3,3,True,1
+4785,2026-01-18,2025,clausura,3,Club Tijuana,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Víctor Cáceres Hernández,Estadio Caliente,,17733.0,,,Sebastián Abreu,Guillermo Abascal,4-1-4-1,3-5-2,3,True,1
+4786,2026-01-18,2025,clausura,3,Cruz Azul,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Mario Terrazas Chávez,Estadio Cuauhtémoc,,15440.0,,,Nicolás Larcamón,Albert Espigares,3-4-2-1,4-1-4-1,3,True,1
+4787,2026-01-18,2025,clausura,3,Necaxa,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Maximiliano Quintero Hernández,Estadio Victoria,,17557.0,,,Martín Varini,Diego Cocca,4-2-3-1,3-5-2 Attacking,3,True,1
+4788,2026-01-18,2025,clausura,3,Tigres UANL,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Óscar Mejía García,Estadio Universitario,,40319.0,,,Guido Pizarro,Antonio Mohamed,4-2-3-1,4-2-3-1,3,True,1
+4789,2026-01-18,2025,clausura,3,UNAM Pumas,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Daniel Quintero,Estadio Olímpico Universitario,,21487.0,,,Efraín Juárez,Ignacio Ambriz,4-2-3-1,4-1-4-1,3,True,1
+4790,2026-01-19,2025,clausura,3,Pachuca,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Luis Santander Aguirre,Estadio Hidalgo,,13403.0,,,Esteban Solari,André Jardine,4-3-3 Attacking,4-2-3-1,3,True,1
+4791,2026-01-19,2025,clausura,3,Santos Laguna,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Marco Ortiz Nava,Estadio Territorio Santos Modelo Corona,,11767.0,,,Francisco Rodríguez,Pedro Caixinha,4-3-3 Attacking,4-4-2,3,True,1
+4792,2026-01-31,2025,clausura,4,América,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Ismael López Peñuelas,Estadio Azteca,,26544.0,,,André Jardine,Martín Varini,4-2-3-1,4-1-4-1,4,True,1
+4793,2026-01-31,2025,clausura,4,FC Juárez,Cruz Azul,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE,transfermarkt,Jesús López Valle,Estadio Olímpico Benito Juárez,,14124.0,,,Pedro Caixinha,Nicolás Larcamón,4-2-3-1,3-4-2-1,4,True,1
+4794,2026-01-31,2025,clausura,4,Puebla FC,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Abraham Quirarte,Estadio Cuauhtémoc,,20703.0,,,Albert Espigares,Antonio Mohamed,4-1-4-1,4-2-3-1,4,True,1
+4795,2026-01-31,2025,clausura,4,UNAM Pumas,Santos Laguna,4.0,0.0,FINISHED,4.0,4.0,LOCAL,transfermarkt,Vicente Reynoso,Estadio Olímpico Universitario,,20130.0,,,Efraín Juárez,Francisco Rodríguez,4-1-3-2,4-2-3-1,4,True,1
+4796,2026-02-01,2025,clausura,4,Atlas,Mazatlán FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Salvador Pérez Villalobos,Estadio Jalisco,,19723.0,,,Diego Cocca,Sergio Bueno,3-5-2,5-3-2,4,True,1
+4797,2026-02-01,2025,clausura,4,Atlético San Luis,Chivas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,Yonatan Peinado Aguirre,Estadio Alfonso Lastras Ramírez,,22883.0,,,Guillermo Abascal,Gabriel Milito,4-1-4-1,3-4-2-1,4,True,1
+4798,2026-02-01,2025,clausura,4,León,Tigres UANL,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Adonai Escobedo González,Nou Camp,,22565.0,,,Ignacio Ambriz,Guido Pizarro,4-3-3 Defending,4-1-4-1,4,True,1
+4799,2026-02-01,2025,clausura,4,Monterrey,Club Tijuana,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,César Ramos Palazuelos,Estadio BBVA,,44748.0,,,Nicolás Sánchez,Sebastián Abreu,4-2-3-1,4-2-3-1,4,True,1
+4800,2026-02-02,2025,clausura,4,Querétaro,Pachuca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Fernando Hernández Gómez,Estadio La Corregidora,,12338.0,,,Esteban González,Esteban Solari,4-4-2 double 6,4-3-3 Attacking,4,True,1
+4801,2026-02-07,2025,clausura,5,Club Tijuana,Puebla FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Karen Hernández Andrade,Estadio Caliente,,16933.0,,,Sebastián Abreu,Albert Espigares,4-1-4-1,4-1-4-1,5,True,1
+4802,2026-02-07,2025,clausura,5,Mazatlán FC,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Vicente Reynoso,Estadio de Mazatlán,,16251.0,,,Sergio Bueno,Gabriel Milito,3-4-2-1,3-4-2-1,5,True,1
+4803,2026-02-07,2025,clausura,5,Necaxa,Atlético San Luis,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,Iván López Sánchez,Estadio Victoria,,13337.0,,,Martín Varini,Guillermo Abascal,3-4-2-1,4-1-4-1,5,True,1
+4804,2026-02-07,2025,clausura,5,Tigres UANL,Santos Laguna,5.0,1.0,FINISHED,6.0,4.0,LOCAL,transfermarkt,Katia Itzel García,Estadio Universitario,,38487.0,,,Guido Pizarro,Francisco Rodríguez,4-2-3-1,5-3-2,5,True,1
+4805,2026-02-08,2025,clausura,5,América,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Óscar Mejía García,Estadio Azteca,,23939.0,,,André Jardine,Domènec Torrent,4-2-3-1,4-1-4-1,5,True,1
+4806,2026-02-08,2025,clausura,5,Atlas,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Jorge Camacho Peregrina,Estadio Jalisco,,22127.0,,,Diego Cocca,Efraín Juárez,3-4-1-2,4-4-2 double 6,5,True,1
+4807,2026-02-08,2025,clausura,5,Pachuca,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Daniel Quintero,Estadio Hidalgo,,7112.0,,,Esteban Solari,Pedro Caixinha,4-2-3-1,4-1-4-1,5,True,1
+4808,2026-02-08,2025,clausura,5,Querétaro,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Marco Ortiz Nava,Estadio La Corregidora,,11333.0,,,Esteban González,Ignacio Ambriz,4-4-2 double 6,4-3-3 Attacking,5,True,1
+4809,2026-02-08,2025,clausura,5,Toluca,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Luis Santander Aguirre,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Nicolás Larcamón,3-4-1-2,3-4-2-1,5,True,1
+4810,2026-02-14,2025,clausura,6,Puebla FC,UNAM Pumas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,Ismael López Peñuelas,Estadio Cuauhtémoc,,16340.0,,,Albert Espigares,Efraín Juárez,4-1-4-1,4-4-2,6,True,1
+4811,2026-02-14,2025,clausura,6,Toluca,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Joaquín Vizcarra,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Sebastián Abreu,4-4-2,4-2-3-1,6,True,1
+4812,2026-02-15,2025,clausura,6,Atlético San Luis,Querétaro,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,Adonai Escobedo González,Estadio Alfonso Lastras Ramírez,,13170.0,,,Guillermo Abascal,Esteban González,5-4-1,4-4-2 double 6,6,True,1
+4813,2026-02-15,2025,clausura,6,Chivas,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,César Ramos Palazuelos,Estadio Akron,,43078.0,,,Gabriel Milito,André Jardine,3-4-2-1,4-2-3-1,6,True,1
+4814,2026-02-15,2025,clausura,6,Cruz Azul,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Daniel Quintero,Estadio Cuauhtémoc,,16419.0,,,Nicolás Larcamón,Guido Pizarro,3-4-2-1,4-2-3-1,6,True,1
+4815,2026-02-15,2025,clausura,6,FC Juárez,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Óscar Mejía García,Estadio Olímpico Benito Juárez,,6796.0,,,Pedro Caixinha,Martín Varini,4-2-3-1,3-4-2-1,6,True,1
+4816,2026-02-15,2025,clausura,6,Monterrey,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Fernando Hernández Gómez,Estadio BBVA,,44902.0,,,Domènec Torrent,Ignacio Ambriz,4-3-3 Attacking,4-3-3 Attacking,6,True,1
+4817,2026-02-15,2025,clausura,6,Pachuca,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Víctor Cáceres Hernández,Estadio Hidalgo,,10627.0,,,Esteban Solari,Diego Cocca,4-2-3-1,5-4-1,6,True,1
+4818,2026-02-16,2025,clausura,6,Santos Laguna,Mazatlán FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Luis García Rodríguez,Estadio Territorio Santos Modelo Corona,,10767.0,,,Francisco Rodríguez,Sergio Bueno,4-1-4-1,4-4-2 double 6,6,True,1
+4819,2026-02-21,2025,clausura,7,Puebla FC,América,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE,transfermarkt,Katia Itzel García,Estadio Cuauhtémoc,,37204.0,,,Albert Espigares,,4-1-4-1,4-1-4-1,7,True,1
+4820,2026-02-21,2025,clausura,7,Tigres UANL,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Marco Ortiz Nava,Estadio Universitario,,41615.0,,,Guido Pizarro,Esteban Solari,4-2-3-1,4-2-3-1,7,True,1
+4821,2026-02-22,2025,clausura,7,Atlas,Atlético San Luis,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,Daniel Quintero,Estadio Jalisco,,,,,Diego Cocca,Guillermo Abascal,3-4-1-2,5-3-2,7,True,1
+4822,2026-02-22,2025,clausura,7,Club Tijuana,Mazatlán FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Martín Molina Astorga,Estadio Caliente,,15333.0,,,Sebastián Abreu,Sergio Bueno,4-1-4-1,4-4-1-1,7,True,1
+4823,2026-02-22,2025,clausura,7,Cruz Azul,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Maximiliano Quintero Hernández,Estadio Cuauhtémoc,,43134.0,,,Nicolás Larcamón,Gabriel Milito,3-4-2-1,3-4-2-1,7,True,1
+4824,2026-02-22,2025,clausura,7,León,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Salvador Pérez Villalobos,Nou Camp,,25098.0,,,Ignacio Ambriz,Omar Tapia,4-3-3 Attacking,4-2-3-1,7,True,1
+4825,2026-02-22,2025,clausura,7,Necaxa,Toluca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,Yonatan Peinado Aguirre,Estadio Victoria,,20013.0,,,Martín Varini,Antonio Mohamed,3-4-2-1,4-2-3-1,7,True,1
+4826,2026-02-23,2025,clausura,7,UNAM Pumas,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Vicente Reynoso,Estadio Olímpico Universitario,,21867.0,,,Efraín Juárez,Domènec Torrent,4-4-2 Diamond,4-2-3-1,7,True,1
+4827,2026-02-28,2025,clausura,8,Club Tijuana,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Luis Santander Aguirre,Estadio Caliente,,21333.0,,,Sebastián Abreu,Efraín Juárez,4-4-2 double 6,4-1-3-2,8,True,1
+4828,2026-02-28,2025,clausura,8,FC Juárez,Atlas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Vicente Reynoso,Estadio Olímpico Benito Juárez,,8242.0,,,Pedro Caixinha,Diego Cocca,4-1-4-1,3-4-3 Diamond,8,True,1
+4829,2026-02-28,2025,clausura,8,Mazatlán FC,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Mario Terrazas Chávez,Estadio de Mazatlán,,6971.0,,,Sergio Bueno,Esteban Solari,4-3-3 Attacking,4-2-3-1,8,True,1
+4830,2026-02-28,2025,clausura,8,Querétaro,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Abraham Quirarte,Estadio La Corregidora,,9911.0,,,Esteban González,Omar Tapia,4-4-1-1,4-2-3-1,8,True,1
+4831,2026-03-01,2025,clausura,8,América,Tigres UANL,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,transfermarkt,Jorge Camacho Peregrina,Estadio Azteca,,26410.0,,,André Jardine,Guido Pizarro,4-2-3-1,4-2-3-1,8,True,1
+4832,2026-03-01,2025,clausura,8,Atlético San Luis,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Maximiliano Quintero Hernández,Estadio Alfonso Lastras Ramírez,,11416.0,,,Albert Espigares,,5-3-2,4-1-4-1,8,True,1
+4833,2026-03-01,2025,clausura,8,León,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Víctor Cáceres Hernández,Nou Camp,,24456.0,,,Ignacio Ambriz,Martín Varini,4-3-3 Attacking,3-4-2-1,8,True,1
+4834,2026-03-01,2025,clausura,8,Monterrey,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,Guillermo Pacheco,Estadio BBVA,,47907.0,,,Domènec Torrent,Nicolás Larcamón,3-4-1-2,3-4-2-1,8,True,1
+4835,2026-03-01,2025,clausura,8,Toluca,Chivas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Óscar Mejía García,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Gabriel Milito,4-4-2 double 6,3-4-2-1,8,True,1
+4836,2026-03-04,2025,clausura,9,Atlético San Luis,Mazatlán FC,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,Yonatan Peinado Aguirre,Estadio Alfonso Lastras Ramírez,,8808.0,,,Guillermo Abascal,Sergio Bueno,3-1-4-2,3-4-2-1,9,True,1
+4837,2026-03-04,2025,clausura,9,Pachuca,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Katia Itzel García,Estadio Hidalgo,,8601.0,,,Esteban Solari,Martín Varini,4-2-3-1,3-4-1-2,9,True,1
+4838,2026-03-04,2025,clausura,9,Santos Laguna,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Iván López Sánchez,Estadio Territorio Santos Modelo Corona,,15065.0,,,Omar Tapia,Nicolás Larcamón,4-2-3-1,3-4-3 Diamond,9,True,1
+4839,2026-03-04,2025,clausura,9,UNAM Pumas,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,Marco Ortiz Nava,Estadio Olímpico Universitario,,29068.0,,,Efraín Juárez,Antonio Mohamed,4-4-2,3-5-2 Attacking,9,True,1
+4840,2026-03-05,2025,clausura,9,América,FC Juárez,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Maximiliano Quintero Hernández,Estadio Azteca,,12560.0,,,André Jardine,Pedro Caixinha,4-2-3-1,4-3-3 Attacking,9,True,1
+4841,2026-03-05,2025,clausura,9,Atlas,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Adonai Escobedo González,Estadio Jalisco,,15171.0,,,Diego Cocca,Sebastián Abreu,4-4-2,4-4-2,9,True,1
+4842,2026-03-05,2025,clausura,9,Monterrey,Querétaro,4.0,0.0,FINISHED,4.0,4.0,LOCAL,transfermarkt,Salvador Pérez Villalobos,Estadio BBVA,,36491.0,,,Nicolás Sánchez,Esteban González,4-1-4-1,4-4-2 double 6,9,True,1
+4843,2026-03-05,2025,clausura,9,Puebla FC,Tigres UANL,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Joaquín Vizcarra,Estadio Cuauhtémoc,,15661.0,,,Albert Espigares,Guido Pizarro,5-3-2,4-2-3-1,9,True,1
+4844,2026-03-07,2025,clausura,10,Mazatlán FC,León,4.0,2.0,FINISHED,6.0,2.0,LOCAL,transfermarkt,Daniel Quintero,Estadio de Mazatlán,,6792.0,,,Sergio Bueno,Ignacio Ambriz,3-4-2-1,4-3-3 Attacking,10,True,1
+4845,2026-03-07,2025,clausura,10,Necaxa,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Jorge Camacho Peregrina,Estadio Victoria,,18290.0,,,Martín Varini,Efraín Juárez,3-4-2-1,3-1-4-2,10,True,1
+4846,2026-03-08,2025,clausura,10,Atlas,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Marco Ortiz Nava,Estadio Jalisco,,36767.0,,,Diego Cocca,Gabriel Milito,4-2-3-1,3-5-2,10,True,1
+4847,2026-03-08,2025,clausura,10,Cruz Azul,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,Vicente Reynoso,Estadio Cuauhtémoc,,10.0,,,Nicolás Larcamón,Guillermo Abascal,3-4-2-1,5-4-1,10,True,1
+4848,2026-03-08,2025,clausura,10,Pachuca,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Jesús López Valle,Estadio Hidalgo,,10893.0,,,Esteban Solari,Albert Espigares,4-2-3-1,4-2-3-1,10,True,1
+4849,2026-03-08,2025,clausura,10,Querétaro,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio La Corregidora,,29388.0,,,Esteban González,André Jardine,4-4-2 double 6,4-2-3-1,10,True,1
+4850,2026-03-08,2025,clausura,10,Tigres UANL,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Ismael López Peñuelas,Estadio Universitario,,41615.0,,,Guido Pizarro,Nicolás Sánchez,5-4-1,4-3-3 Attacking,10,True,1
+4851,2026-03-09,2025,clausura,10,Club Tijuana,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Guillermo Pacheco,Estadio Caliente,,,,,Sebastián Abreu,Omar Tapia,4-2-3-1,4-2-3-1,10,True,1
+4852,2026-03-09,2025,clausura,10,Toluca,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Luis Santander Aguirre,Estadio Nemesio Díez Riega,,,,,Antonio Mohamed,Pedro Caixinha,4-2-3-1,4-3-3 Attacking,10,True,1
+4853,2026-03-14,2025,clausura,11,FC Juárez,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Marco Ortiz Nava,Estadio Olímpico Benito Juárez,,9425.0,,,Pedro Caixinha,Nicolás Sánchez,4-2-3-1,4-2-3-1,11,True,1
+4854,2026-03-14,2025,clausura,11,Puebla FC,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Ismael López Peñuelas,Estadio Cuauhtémoc,,12190.0,,,Albert Espigares,Martín Varini,5-3-2,3-1-4-2,11,True,1
+4855,2026-03-15,2025,clausura,11,Atlético San Luis,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Jorge Camacho Peregrina,Estadio Alfonso Lastras Ramírez,,11096.0,,,Guillermo Abascal,Esteban Solari,3-4-1-2,4-2-3-1,11,True,1
+4856,2026-03-15,2025,clausura,11,Chivas,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,Adonai Escobedo González,Estadio Akron,,36263.0,,,Gabriel Milito,Omar Tapia,3-5-2,4-2-3-1,11,True,1
+4857,2026-03-15,2025,clausura,11,León,Club Tijuana,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,Katia Itzel García,Nou Camp,,23301.0,,,Ignacio Ambriz,Sebastián Abreu,4-4-2 double 6,4-4-2 double 6,11,True,1
+4858,2026-03-15,2025,clausura,11,Toluca,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,César Ramos Palazuelos,Estadio Nemesio Díez Riega,,27272.0,,,Antonio Mohamed,Diego Cocca,4-2-3-1,3-5-2 flat,11,True,1
+4859,2026-03-15,2025,clausura,11,UNAM Pumas,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Daniel Quintero,Estadio Olímpico Universitario,,42223.0,,,Efraín Juárez,Nicolás Larcamón,3-1-4-2,3-4-2-1,11,True,1
+4860,2026-03-16,2025,clausura,11,América,Mazatlán FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Karen Hernández Andrade,Estadio Azteca,,24786.0,,,André Jardine,Sergio Bueno,4-2-3-1,3-4-2-1,11,True,1
+4861,2026-03-16,2025,clausura,11,Tigres UANL,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Óscar Mejía García,Estadio Universitario,,40217.0,,,Guido Pizarro,Esteban González,4-1-3-2,4-4-2 double 6,11,True,1
+4862,2026-03-19,2025,clausura,9,Chivas,León,5.0,0.0,FINISHED,5.0,5.0,LOCAL,transfermarkt,Jorge Camacho Peregrina,Estadio Akron,,35150.0,,,Gabriel Milito,Ignacio Ambriz,3-4-2-1,3-3-3-1,9,True,1
+4863,2026-03-21,2025,clausura,12,Mazatlán FC,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Maximiliano Quintero Hernández,Estadio de Mazatlán,,13746.0,,,Sergio Bueno,Nicolás Larcamón,3-4-2-1,3-4-2-1,12,True,1
+4864,2026-03-21,2025,clausura,12,Necaxa,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,Martín Molina Astorga,Estadio Victoria,,14840.0,,,Martín Varini,Sebastián Abreu,3-1-4-2,4-2-3-1,12,True,1
+4865,2026-03-22,2025,clausura,12,Atlas,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Luis García Rodríguez,Estadio Jalisco,,15321.0,,,Diego Cocca,Esteban González,3-5-2,4-4-2,12,True,1
+4866,2026-03-22,2025,clausura,12,Atlético San Luis,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Luis Santander Aguirre,Estadio Alfonso Lastras Ramírez,,10659.0,,,Guillermo Abascal,Javier Gandolfi,5-3-2,4-3-3 Attacking,12,True,1
+4867,2026-03-22,2025,clausura,12,Monterrey,Chivas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio BBVA,,48853.0,,,Nicolás Sánchez,Gabriel Milito,4-2-3-1,3-5-2,12,True,1
+4868,2026-03-22,2025,clausura,12,UNAM Pumas,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,César Ramos Palazuelos,Estadio Olímpico Universitario,,42610.0,,,Efraín Juárez,André Jardine,3-5-2 Attacking,4-2-3-1,12,True,1
+4869,2026-03-23,2025,clausura,12,FC Juárez,Tigres UANL,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Adonai Escobedo González,Estadio Olímpico Benito Juárez,,11511.0,,,Pedro Caixinha,Guido Pizarro,4-2-3-1,4-2-3-1,12,True,1
+4870,2026-03-23,2025,clausura,12,Pachuca,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Vicente Reynoso,Estadio Hidalgo,,18509.0,,,Antonio Mohamed,,4-2-3-1,3-4-3,12,True,1
+4871,2026-03-23,2025,clausura,12,Santos Laguna,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Yonatan Peinado Aguirre,Estadio Territorio Santos Modelo Corona,,10821.0,,,Omar Tapia,Albert Espigares,4-2-3-1,4-1-4-1,12,True,1
+4872,2026-04-04,2025,clausura,13,Club Tijuana,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Daniel Quintero,Estadio Caliente,,21533.0,,,Sebastián Abreu,Guido Pizarro,4-4-2,4-2-3-1,13,True,1
+4873,2026-04-04,2025,clausura,13,Necaxa,Mazatlán FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,César Ramos Palazuelos,Estadio Victoria,,16632.0,,,Martín Varini,Sergio Bueno,3-1-4-2,4-1-3-2,13,True,1
+4874,2026-04-04,2025,clausura,13,Puebla FC,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Mario Terrazas Chávez,Estadio Cuauhtémoc,,14344.0,,,Albert Espigares,Pedro Caixinha,3-4-2-1,4-2-3-1,13,True,1
+4875,2026-04-05,2025,clausura,13,Cruz Azul,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio Cuauhtémoc,,14726.0,,,Nicolás Larcamón,Esteban Solari,3-4-2-1,4-2-3-1,13,True,1
+4876,2026-04-05,2025,clausura,13,León,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Guillermo Pacheco,Nou Camp,,22437.0,,,Javier Gandolfi,Diego Cocca,4-3-3 Attacking,4-2-3-1,13,True,1
+4877,2026-04-05,2025,clausura,13,Monterrey,Atlético San Luis,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Joaquín Vizcarra,Estadio BBVA,,41467.0,,,Nicolás Sánchez,Raúl Chabrand,4-2-3-1,4-2-3-1,13,True,1
+4878,2026-04-05,2025,clausura,13,Querétaro,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Karen Hernández Andrade,Estadio La Corregidora,,21363.0,,,Esteban González,Antonio Mohamed,4-4-2 double 6,4-2-3-1,13,True,1
+4879,2026-04-05,2025,clausura,13,Santos Laguna,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Fernando Hernández Gómez,Estadio Territorio Santos Modelo Corona,,23258.0,,,Omar Tapia,André Jardine,4-3-1-2,4-2-3-1,13,True,1
+4880,2026-04-06,2025,clausura,13,Chivas,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,Ismael López Peñuelas,Estadio Akron,,40907.0,,,Gabriel Milito,Efraín Juárez,3-4-2-1,4-1-3-2,13,True,1
+4881,2026-04-08,2025,clausura,7,Querétaro,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Jesús López Valle,Estadio La Corregidora,,7593.0,,,Esteban González,Pedro Caixinha,4-4-2 double 6,4-2-3-1,7,True,1
+4882,2026-04-11,2025,clausura,14,FC Juárez,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Jorge Camacho Peregrina,Estadio Olímpico Benito Juárez,,8752.0,,,Pedro Caixinha,Sebastián Abreu,4-1-4-1,4-1-4-1,14,True,1
+4883,2026-04-11,2025,clausura,14,Puebla FC,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Fernando Hernández Gómez,Estadio Cuauhtémoc,,11503.0,,,Albert Espigares,Javier Gandolfi,3-4-3,4-2-3-1,14,True,1
+4884,2026-04-12,2025,clausura,14,América,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Óscar Mejía García,Estadio Azteca,,46884.0,,,André Jardine,Nicolás Larcamón,4-2-3-1,3-4-2-1,14,True,1
+4885,2026-04-12,2025,clausura,14,Atlas,Monterrey,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Yonatan Peinado Aguirre,Estadio Jalisco,,19217.0,,,Diego Cocca,Nicolás Sánchez,3-5-2 flat,4-2-3-1,14,True,1
+4886,2026-04-12,2025,clausura,14,Pachuca,Santos Laguna,4.0,2.0,FINISHED,6.0,2.0,LOCAL,transfermarkt,Martín Molina Astorga,Estadio Hidalgo,,9365.0,,,Esteban Solari,Omar Tapia,4-1-4-1,4-3-2-1,14,True,1
+4887,2026-04-12,2025,clausura,14,Querétaro,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Marco Ortiz Nava,Estadio La Corregidora,,9633.0,,,Esteban González,Martín Varini,4-4-2 double 6,4-1-4-1,14,True,1
+4888,2026-04-12,2025,clausura,14,Tigres UANL,Chivas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,Maximiliano Quintero Hernández,Estadio Universitario,,41615.0,,,Guido Pizarro,Gabriel Milito,4-2-3-1,3-4-2-1,14,True,1
+4889,2026-04-12,2025,clausura,14,UNAM Pumas,Mazatlán FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Katia Itzel García,Estadio Olímpico Universitario,,25820.0,,,Efraín Juárez,Sergio Bueno,4-4-2,5-3-2,14,True,1
+4890,2026-04-13,2025,clausura,14,Toluca,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Adonai Escobedo González,Estadio Nemesio Díez Riega,,27272.0,,,Antonio Mohamed,Raúl Chabrand,4-2-3-1,4-4-2 double 6,14,True,1
+4891,2026-04-18,2025,clausura,15,Atlético San Luis,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,Luis García Rodríguez,Estadio Alfonso Lastras Ramírez,,,,,Raúl Chabrand,Efraín Juárez,4-2-3-1,4-4-2,15,True,1
+4892,2026-04-18,2025,clausura,15,Mazatlán FC,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Guillermo Pacheco,Estadio de Mazatlán,,11581.0,,,Sergio Bueno,Esteban González,3-4-3,4-2-3-1,15,True,1
+4893,2026-04-19,2025,clausura,15,América,Toluca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Ismael López Peñuelas,Estadio Azteca,,,,,André Jardine,Antonio Mohamed,3-4-2-1,3-4-3 Diamond,15,True,1
+4894,2026-04-19,2025,clausura,15,Chivas,Puebla FC,5.0,0.0,FINISHED,5.0,5.0,LOCAL,transfermarkt,César Ramos Palazuelos,Estadio Akron,,,,,Gabriel Milito,Albert Espigares,3-4-2-1,5-4-1,15,True,1
+4895,2026-04-19,2025,clausura,15,Cruz Azul,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Luis Santander Aguirre,Estadio Cuauhtémoc,,8336.0,,,Nicolás Larcamón,Sebastián Abreu,4-2-3-1,4-1-4-1,15,True,1
+4896,2026-04-19,2025,clausura,15,León,FC Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Víctor Cáceres Hernández,Nou Camp,,,,,Javier Gandolfi,Pedro Caixinha,4-1-4-1,4-2-3-1,15,True,1
+4897,2026-04-19,2025,clausura,15,Monterrey,Pachuca,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,Daniel Quintero,Estadio BBVA,,,,,Nicolás Sánchez,Esteban Solari,4-2-3-1,4-2-3-1,15,True,1
+4898,2026-04-19,2025,clausura,15,Necaxa,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Katia Itzel García,Estadio Victoria,,,,,Martín Varini,Guido Pizarro,4-2-3-1,4-2-3-1,15,True,1
+4899,2026-04-20,2025,clausura,15,Santos Laguna,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Jesús López Valle,Estadio Territorio Santos Modelo Corona,,,,,Omar Tapia,Diego Cocca,4-3-1-2,4-4-2,15,True,1
+4900,2026-04-22,2025,clausura,16,León,América,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,César Ramos Palazuelos,Nou Camp,,26668.0,,,Javier Gandolfi,André Jardine,4-1-4-1,3-4-2-1,16,True,1
+4901,2026-04-22,2025,clausura,16,Monterrey,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Luis Santander Aguirre,Estadio BBVA,,28391.0,,,Nicolás Sánchez,Albert Espigares,4-1-4-1,4-1-4-1,16,True,1
+4902,2026-04-22,2025,clausura,16,Querétaro,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Vicente Reynoso,Estadio La Corregidora,,29822.0,,,Esteban González,Nicolás Larcamón,4-4-2 double 6,3-4-2-1,16,True,1
+4903,2026-04-22,2025,clausura,16,UNAM Pumas,FC Juárez,4.0,2.0,FINISHED,6.0,2.0,LOCAL,transfermarkt,Óscar Mejía García,Estadio Olímpico Universitario,,19156.0,,,Efraín Juárez,Pedro Caixinha,4-3-3 Attacking,5-4-1,16,True,1
+4904,2026-04-23,2025,clausura,16,Atlas,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Fernando Hernández Gómez,Estadio Jalisco,,22052.0,,,Diego Cocca,Guido Pizarro,4-1-4-1,4-2-3-1,16,True,1
+4905,2026-04-23,2025,clausura,16,Atlético San Luis,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,Maximiliano Quintero Hernández,Estadio Alfonso Lastras Ramírez,,10695.0,,,Raúl Chabrand,Omar Tapia,4-2-3-1,4-4-2,16,True,1
+4906,2026-04-23,2025,clausura,16,Club Tijuana,Pachuca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,Adonai Escobedo González,Estadio Caliente,,17333.0,,,Sebastián Abreu,Esteban Solari,4-1-4-1,4-2-3-1,16,True,1
+4907,2026-04-23,2025,clausura,16,Mazatlán FC,Toluca,4.0,3.0,FINISHED,7.0,1.0,LOCAL,transfermarkt,Marco Ortiz Nava,Estadio de Mazatlán,,19384.0,,,Sergio Bueno,Antonio Mohamed,5-4-1,4-4-2 double 6,16,True,1
+4908,2026-04-23,2025,clausura,16,Necaxa,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Joaquín Vizcarra,Estadio Victoria,,20598.0,,,Martín Varini,Gabriel Milito,4-2-3-1,4-4-2 double 6,16,True,1
+4909,2026-04-25,2025,clausura,17,Puebla FC,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Salvador Pérez Villalobos,Estadio Cuauhtémoc,,9979.0,,,Albert Espigares,Esteban González,4-1-4-1,4-4-2 double 6,17,True,1
+4910,2026-04-26,2025,clausura,17,América,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio Azteca,,37516.0,,,André Jardine,Diego Cocca,3-4-3,4-2-3-1,17,True,1
+4911,2026-04-26,2025,clausura,17,Chivas,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,Katia Itzel García,Estadio Akron,,39994.0,,,Gabriel Milito,Sebastián Abreu,3-4-2-1,4-1-4-1,17,True,1
+4912,2026-04-26,2025,clausura,17,FC Juárez,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Karen Hernández Andrade,Estadio Olímpico Benito Juárez,,6942.0,,,Pedro Caixinha,Raúl Chabrand,4-2-3-1,4-4-2,17,True,1
+4913,2026-04-26,2025,clausura,17,Pachuca,UNAM Pumas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,Yonatan Peinado Aguirre,Estadio Hidalgo,,20263.0,,,Esteban Solari,Efraín Juárez,4-2-3-1,3-1-4-2,17,True,1
+4914,2026-04-26,2025,clausura,17,Tigres UANL,Mazatlán FC,5.0,1.0,FINISHED,6.0,4.0,LOCAL,transfermarkt,Ismael López Peñuelas,Estadio Universitario,,41615.0,,,Guido Pizarro,Sergio Bueno,4-2-3-1,5-4-1,17,True,1
+4915,2026-04-26,2025,clausura,17,Toluca,León,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,Daniel Quintero,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Javier Gandolfi,4-4-2 double 6,4-1-4-1,17,True,1
+4916,2026-04-27,2025,clausura,17,Cruz Azul,Necaxa,4.0,1.0,FINISHED,5.0,3.0,LOCAL,transfermarkt,Iván López Sánchez,Estadio Azteca,,20448.0,,,Joel Huiqui,Martín Varini,4-2-3-1,3-4-3,17,True,1
+4917,2026-04-27,2025,clausura,17,Santos Laguna,Monterrey,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,Abraham Quirarte,Estadio Territorio Santos Modelo Corona,,11568.0,,,Omar Tapia,Nicolás Sánchez,4-3-1-2,4-2-3-1,17,True,1

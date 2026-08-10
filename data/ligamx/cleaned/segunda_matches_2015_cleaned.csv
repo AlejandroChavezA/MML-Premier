@@ -1,0 +1,241 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+1117,2015-07-24,2015,apertura,1,Atlante,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1118,2015-07-24,2015,apertura,1,Correcaminos UAT,Cafetaleros de Tapachula,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1119,2015-07-24,2015,apertura,1,Venados FC,Mineros de Zacatecas,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE
+1120,2015-07-24,2015,apertura,1,Deportivo Tepic,Murciélagos FC,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1121,2015-07-25,2015,apertura,1,Alebrijes de Oaxaca,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1122,2015-07-25,2015,apertura,1,Zacatepec,Club Celaya,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1123,2015-07-25,2015,apertura,1,Atlético San Luis,Leones Negros,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1124,2015-07-25,2015,apertura,1,FC Juárez,Lobos BUAP,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1125,2015-07-31,2015,apertura,2,Lobos BUAP,Atlético San Luis,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1126,2015-07-31,2015,apertura,2,Mineros de Zacatecas,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1127,2015-07-31,2015,apertura,2,Leones Negros,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1128,2015-07-31,2015,apertura,2,Murciélagos FC,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1129,2015-07-31,2015,apertura,2,Cimarrones de Sonora,Zacatepec,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1130,2015-08-01,2015,apertura,2,Necaxa,Venados FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1131,2015-08-01,2015,apertura,2,Club Celaya,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1132,2015-08-07,2015,apertura,3,Correcaminos UAT,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1133,2015-08-07,2015,apertura,3,Venados FC,Atlante,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1134,2015-08-07,2015,apertura,3,Deportivo Tepic,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1135,2015-08-07,2015,apertura,3,Murciélagos FC,Cafetaleros de Tapachula,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1136,2015-08-08,2015,apertura,3,Alebrijes de Oaxaca,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1137,2015-08-08,2015,apertura,3,Atlético San Luis,Mineros de Zacatecas,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1138,2015-08-08,2015,apertura,3,FC Juárez,Necaxa,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1139,2015-08-14,2015,apertura,4,Lobos BUAP,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1140,2015-08-14,2015,apertura,4,Mineros de Zacatecas,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1141,2015-08-14,2015,apertura,4,Atlante,FC Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1142,2015-08-14,2015,apertura,4,Leones Negros,Correcaminos UAT,7.0,1.0,FINISHED,8.0,6.0,LOCAL
+1143,2015-08-14,2015,apertura,4,Venados FC,Murciélagos FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1144,2015-08-14,2015,apertura,4,Cimarrones de Sonora,Deportivo Tepic,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1145,2015-08-15,2015,apertura,4,Necaxa,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1146,2015-08-15,2015,apertura,4,Club Celaya,Cafetaleros de Tapachula,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1147,2015-08-21,2015,apertura,5,Cafetaleros de Tapachula,Cimarrones de Sonora,0.0,4.0,FINISHED,4.0,-4.0,VISITANTE
+1148,2015-08-21,2015,apertura,5,Correcaminos UAT,Lobos BUAP,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE
+1149,2015-08-21,2015,apertura,5,Deportivo Tepic,Leones Negros,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1150,2015-08-21,2015,apertura,5,Murciélagos FC,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1151,2015-08-22,2015,apertura,5,Alebrijes de Oaxaca,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1152,2015-08-22,2015,apertura,5,Zacatepec,Mineros de Zacatecas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1153,2015-08-22,2015,apertura,5,Atlético San Luis,Atlante,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1154,2015-08-22,2015,apertura,5,FC Juárez,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1155,2015-08-28,2015,apertura,6,Mineros de Zacatecas,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1156,2015-08-28,2015,apertura,6,Venados FC,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1157,2015-08-28,2015,apertura,6,Leones Negros,Cafetaleros de Tapachula,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1158,2015-08-28,2015,apertura,6,Cimarrones de Sonora,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1159,2015-08-29,2015,apertura,6,Necaxa,Zacatepec,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1160,2015-08-29,2015,apertura,6,Atlante,Alebrijes de Oaxaca,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1161,2015-08-29,2015,apertura,6,FC Juárez,Murciélagos FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1162,2015-09-04,2015,apertura,6,Lobos BUAP,Deportivo Tepic,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1163,2015-09-05,2015,apertura,3,Zacatepec,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1164,2015-09-11,2015,apertura,7,Cafetaleros de Tapachula,Lobos BUAP,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1165,2015-09-11,2015,apertura,7,Correcaminos UAT,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1166,2015-09-11,2015,apertura,7,Deportivo Tepic,Mineros de Zacatecas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1167,2015-09-11,2015,apertura,7,Murciélagos FC,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1168,2015-09-12,2015,apertura,7,Alebrijes de Oaxaca,Venados FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1169,2015-09-12,2015,apertura,7,Zacatepec,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1170,2015-09-12,2015,apertura,7,Atlético San Luis,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1171,2015-09-12,2015,apertura,7,Club Celaya,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1172,2015-09-18,2015,apertura,8,Lobos BUAP,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1173,2015-09-18,2015,apertura,8,Mineros de Zacatecas,Cafetaleros de Tapachula,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1174,2015-09-18,2015,apertura,8,Atlante,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1175,2015-09-18,2015,apertura,8,Leones Negros,Cimarrones de Sonora,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1176,2015-09-18,2015,apertura,8,Venados FC,Zacatepec,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1177,2015-09-19,2015,apertura,8,Necaxa,Deportivo Tepic,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1178,2015-09-19,2015,apertura,8,Atlético San Luis,Murciélagos FC,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+1179,2015-09-19,2015,apertura,8,FC Juárez,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1180,2015-09-25,2015,apertura,9,Correcaminos UAT,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1181,2015-09-25,2015,apertura,9,Deportivo Tepic,Atlante,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1182,2015-09-25,2015,apertura,9,Murciélagos FC,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1183,2015-09-25,2015,apertura,9,Cimarrones de Sonora,Lobos BUAP,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1184,2015-09-26,2015,apertura,9,Alebrijes de Oaxaca,Atlético San Luis,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1185,2015-09-26,2015,apertura,9,Zacatepec,FC Juárez,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1186,2015-09-26,2015,apertura,9,Club Celaya,Mineros de Zacatecas,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1187,2015-10-02,2015,apertura,10,Lobos BUAP,Leones Negros,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1188,2015-10-02,2015,apertura,10,Mineros de Zacatecas,Cimarrones de Sonora,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1189,2015-10-02,2015,apertura,10,Atlante,Cafetaleros de Tapachula,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1190,2015-10-02,2015,apertura,10,Venados FC,Deportivo Tepic,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1191,2015-10-03,2015,apertura,10,Alebrijes de Oaxaca,Murciélagos FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1192,2015-10-03,2015,apertura,10,Necaxa,Club Celaya,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1193,2015-10-03,2015,apertura,10,Atlético San Luis,Zacatepec,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1194,2015-10-03,2015,apertura,10,FC Juárez,Correcaminos UAT,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1195,2015-10-09,2015,apertura,2,Cafetaleros de Tapachula,Deportivo Tepic,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1196,2015-10-16,2015,apertura,11,Cafetaleros de Tapachula,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1197,2015-10-16,2015,apertura,11,Correcaminos UAT,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1198,2015-10-16,2015,apertura,11,Leones Negros,Mineros de Zacatecas,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1199,2015-10-16,2015,apertura,11,Deportivo Tepic,FC Juárez,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+1200,2015-10-16,2015,apertura,11,Murciélagos FC,Lobos BUAP,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1201,2015-10-16,2015,apertura,11,Cimarrones de Sonora,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1202,2015-10-17,2015,apertura,11,Zacatepec,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1203,2015-10-17,2015,apertura,11,Club Celaya,Atlante,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1204,2015-10-20,2015,apertura,9,Cafetaleros de Tapachula,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1205,2015-10-23,2015,apertura,12,Mineros de Zacatecas,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1206,2015-10-23,2015,apertura,12,Atlante,Cimarrones de Sonora,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1207,2015-10-23,2015,apertura,12,Venados FC,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1208,2015-10-24,2015,apertura,12,Alebrijes de Oaxaca,Correcaminos UAT,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1209,2015-10-24,2015,apertura,12,Necaxa,Leones Negros,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1210,2015-10-24,2015,apertura,12,Zacatepec,Murciélagos FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1211,2015-10-24,2015,apertura,12,Atlético San Luis,Deportivo Tepic,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1212,2015-10-24,2015,apertura,12,FC Juárez,Cafetaleros de Tapachula,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1213,2015-10-30,2015,apertura,13,Lobos BUAP,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1214,2015-10-30,2015,apertura,13,Cafetaleros de Tapachula,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1215,2015-10-30,2015,apertura,13,Correcaminos UAT,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1216,2015-10-30,2015,apertura,13,Leones Negros,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1217,2015-10-30,2015,apertura,13,Cimarrones de Sonora,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1218,2015-10-30,2015,apertura,13,Deportivo Tepic,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1219,2015-10-30,2015,apertura,13,Murciélagos FC,Mineros de Zacatecas,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1220,2015-10-31,2015,apertura,13,Club Celaya,FC Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1221,2015-11-06,2015,apertura,14,Atlante,Lobos BUAP,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1222,2015-11-06,2015,apertura,14,Correcaminos UAT,Murciélagos FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1223,2015-11-06,2015,apertura,14,Venados FC,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1224,2015-11-07,2015,apertura,14,Alebrijes de Oaxaca,Cafetaleros de Tapachula,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1225,2015-11-07,2015,apertura,14,Necaxa,Mineros de Zacatecas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1226,2015-11-07,2015,apertura,14,Zacatepec,Deportivo Tepic,2.0,5.0,FINISHED,7.0,-3.0,VISITANTE
+1227,2015-11-07,2015,apertura,14,Atlético San Luis,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1228,2015-11-07,2015,apertura,14,FC Juárez,Cimarrones de Sonora,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1229,2015-11-13,2015,apertura,15,Lobos BUAP,Venados FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1230,2015-11-13,2015,apertura,15,Mineros de Zacatecas,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1231,2015-11-13,2015,apertura,15,Cafetaleros de Tapachula,Zacatepec,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1232,2015-11-13,2015,apertura,15,Leones Negros,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1233,2015-11-13,2015,apertura,15,Cimarrones de Sonora,Atlético San Luis,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+1234,2015-11-13,2015,apertura,15,Deportivo Tepic,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1235,2015-11-13,2015,apertura,15,Murciélagos FC,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1236,2015-11-14,2015,apertura,15,Club Celaya,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1237,2016-01-08,2015,clausura,1,Lobos BUAP,FC Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1238,2016-01-08,2015,clausura,1,Mineros de Zacatecas,Venados FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1239,2016-01-08,2015,clausura,1,Cafetaleros de Tapachula,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1240,2016-01-08,2015,clausura,1,Cimarrones de Sonora,Alebrijes de Oaxaca,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1241,2016-01-08,2015,clausura,1,Murciélagos FC,Deportivo Tepic,0.0,6.0,FINISHED,6.0,-6.0,VISITANTE
+1242,2016-01-09,2015,clausura,1,Club Celaya,Zacatepec,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1243,2016-01-09,2015,clausura,1,Necaxa,Atlante,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1244,2016-01-10,2015,clausura,1,Leones Negros,Atlético San Luis,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1245,2016-01-15,2015,clausura,2,Atlante,Murciélagos FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1246,2016-01-15,2015,clausura,2,Correcaminos UAT,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1247,2016-01-15,2015,clausura,2,Venados FC,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1248,2016-01-15,2015,clausura,2,Deportivo Tepic,Cafetaleros de Tapachula,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1249,2016-01-16,2015,clausura,2,Alebrijes de Oaxaca,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1250,2016-01-16,2015,clausura,2,FC Juárez,Mineros de Zacatecas,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1251,2016-01-16,2015,clausura,2,Zacatepec,Cimarrones de Sonora,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1252,2016-01-16,2015,clausura,2,Atlético San Luis,Lobos BUAP,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1253,2016-01-22,2015,clausura,3,Lobos BUAP,Alebrijes de Oaxaca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1254,2016-01-22,2015,clausura,3,Atlante,Venados FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1255,2016-01-22,2015,clausura,3,Mineros de Zacatecas,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1256,2016-01-22,2015,clausura,3,Cafetaleros de Tapachula,Murciélagos FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1257,2016-01-22,2015,clausura,3,Cimarrones de Sonora,Correcaminos UAT,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1258,2016-01-23,2015,clausura,3,Club Celaya,Deportivo Tepic,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1259,2016-01-23,2015,clausura,3,Necaxa,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1260,2016-01-24,2015,clausura,3,Leones Negros,Zacatepec,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1261,2016-01-29,2015,clausura,4,Cafetaleros de Tapachula,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1262,2016-01-29,2015,clausura,4,Correcaminos UAT,Leones Negros,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+1263,2016-01-29,2015,clausura,4,Deportivo Tepic,Cimarrones de Sonora,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1264,2016-01-29,2015,clausura,4,Murciélagos FC,Venados FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1265,2016-01-30,2015,clausura,4,Alebrijes de Oaxaca,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1266,2016-01-30,2015,clausura,4,FC Juárez,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1267,2016-01-30,2015,clausura,4,Zacatepec,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1268,2016-01-30,2015,clausura,4,Atlético San Luis,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1269,2016-02-05,2015,clausura,5,Lobos BUAP,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1270,2016-02-05,2015,clausura,5,Mineros de Zacatecas,Zacatepec,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1271,2016-02-05,2015,clausura,5,Venados FC,FC Juárez,5.0,1.0,FINISHED,6.0,4.0,LOCAL
+1272,2016-02-05,2015,clausura,5,Cimarrones de Sonora,Cafetaleros de Tapachula,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1273,2016-02-06,2015,clausura,5,Atlante,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1274,2016-02-06,2015,clausura,5,Club Celaya,Murciélagos FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1275,2016-02-06,2015,clausura,5,Necaxa,Alebrijes de Oaxaca,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1276,2016-02-07,2015,clausura,5,Leones Negros,Deportivo Tepic,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1277,2016-02-12,2015,clausura,6,Correcaminos UAT,Mineros de Zacatecas,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1278,2016-02-12,2015,clausura,6,Deportivo Tepic,Lobos BUAP,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1279,2016-02-12,2015,clausura,6,Murciélagos FC,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1280,2016-02-13,2015,clausura,6,Alebrijes de Oaxaca,Atlante,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1281,2016-02-13,2015,clausura,6,Zacatepec,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1282,2016-02-13,2015,clausura,6,Cafetaleros de Tapachula,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1283,2016-02-13,2015,clausura,6,Atlético San Luis,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1284,2016-02-13,2015,clausura,6,Club Celaya,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1285,2016-02-19,2015,clausura,7,Lobos BUAP,Cafetaleros de Tapachula,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1286,2016-02-19,2015,clausura,7,Mineros de Zacatecas,Deportivo Tepic,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1287,2016-02-19,2015,clausura,7,Venados FC,Alebrijes de Oaxaca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1288,2016-02-19,2015,clausura,7,Cimarrones de Sonora,Murciélagos FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1289,2016-02-20,2015,clausura,7,FC Juárez,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1290,2016-02-20,2015,clausura,7,Necaxa,Correcaminos UAT,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1291,2016-02-20,2015,clausura,7,Atlante,Zacatepec,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1292,2016-02-21,2015,clausura,7,Leones Negros,Club Celaya,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1293,2016-02-26,2015,clausura,8,Correcaminos UAT,Atlante,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1294,2016-02-26,2015,clausura,8,Deportivo Tepic,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1295,2016-02-26,2015,clausura,8,Cimarrones de Sonora,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1296,2016-02-26,2015,clausura,8,Murciélagos FC,Atlético San Luis,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1297,2016-02-27,2015,clausura,8,Alebrijes de Oaxaca,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1298,2016-02-27,2015,clausura,8,Zacatepec,Venados FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1299,2016-02-27,2015,clausura,8,Cafetaleros de Tapachula,Mineros de Zacatecas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1300,2016-02-27,2015,clausura,8,Club Celaya,Lobos BUAP,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1301,2016-03-04,2015,clausura,9,Lobos BUAP,Cimarrones de Sonora,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1302,2016-03-04,2015,clausura,9,Mineros de Zacatecas,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1303,2016-03-04,2015,clausura,9,Atlante,Deportivo Tepic,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1304,2016-03-04,2015,clausura,9,Venados FC,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1305,2016-03-05,2015,clausura,9,Atlético San Luis,Alebrijes de Oaxaca,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1306,2016-03-05,2015,clausura,9,FC Juárez,Zacatepec,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1307,2016-03-05,2015,clausura,9,Necaxa,Cafetaleros de Tapachula,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1308,2016-03-06,2015,clausura,9,Leones Negros,Murciélagos FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1309,2016-03-11,2015,clausura,10,Cimarrones de Sonora,Mineros de Zacatecas,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1310,2016-03-11,2015,clausura,10,Correcaminos UAT,FC Juárez,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1311,2016-03-11,2015,clausura,10,Deportivo Tepic,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1312,2016-03-11,2015,clausura,10,Murciélagos FC,Alebrijes de Oaxaca,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+1313,2016-03-12,2015,clausura,10,Zacatepec,Atlético San Luis,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1314,2016-03-12,2015,clausura,10,Club Celaya,Necaxa,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+1315,2016-03-12,2015,clausura,10,Cafetaleros de Tapachula,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1316,2016-03-13,2015,clausura,10,Leones Negros,Lobos BUAP,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+1317,2016-03-18,2015,clausura,11,Lobos BUAP,Murciélagos FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1318,2016-03-18,2015,clausura,11,Atlante,Club Celaya,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1319,2016-03-18,2015,clausura,11,Mineros de Zacatecas,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1320,2016-03-18,2015,clausura,11,Venados FC,Cafetaleros de Tapachula,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1321,2016-03-19,2015,clausura,11,Alebrijes de Oaxaca,Zacatepec,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1322,2016-03-19,2015,clausura,11,Atlético San Luis,Correcaminos UAT,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+1323,2016-03-19,2015,clausura,11,FC Juárez,Deportivo Tepic,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1324,2016-03-19,2015,clausura,11,Necaxa,Cimarrones de Sonora,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+1325,2016-03-25,2015,clausura,12,Lobos BUAP,Mineros de Zacatecas,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1326,2016-03-25,2015,clausura,12,Correcaminos UAT,Alebrijes de Oaxaca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1327,2016-03-25,2015,clausura,12,Deportivo Tepic,Atlético San Luis,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1328,2016-03-25,2015,clausura,12,Cimarrones de Sonora,Atlante,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+1329,2016-03-25,2015,clausura,12,Murciélagos FC,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1330,2016-03-26,2015,clausura,12,Cafetaleros de Tapachula,FC Juárez,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1331,2016-03-26,2015,clausura,12,Club Celaya,Venados FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1332,2016-03-27,2015,clausura,12,Leones Negros,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1333,2016-04-01,2015,clausura,13,Atlante,Leones Negros,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+1334,2016-04-01,2015,clausura,13,Mineros de Zacatecas,Murciélagos FC,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+1335,2016-04-01,2015,clausura,13,Venados FC,Cimarrones de Sonora,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1336,2016-04-02,2015,clausura,13,Alebrijes de Oaxaca,Deportivo Tepic,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1337,2016-04-02,2015,clausura,13,Zacatepec,Correcaminos UAT,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1338,2016-04-02,2015,clausura,13,Atlético San Luis,Cafetaleros de Tapachula,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1339,2016-04-02,2015,clausura,13,FC Juárez,Club Celaya,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1340,2016-04-02,2015,clausura,13,Necaxa,Lobos BUAP,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1341,2016-04-08,2015,clausura,14,Lobos BUAP,Atlante,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+1342,2016-04-08,2015,clausura,14,Deportivo Tepic,Zacatepec,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+1343,2016-04-08,2015,clausura,14,Murciélagos FC,Correcaminos UAT,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+1344,2016-04-08,2015,clausura,14,Cimarrones de Sonora,FC Juárez,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+1345,2016-04-09,2015,clausura,14,Mineros de Zacatecas,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1346,2016-04-09,2015,clausura,14,Cafetaleros de Tapachula,Alebrijes de Oaxaca,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1347,2016-04-09,2015,clausura,14,Club Celaya,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1348,2016-04-10,2015,clausura,14,Leones Negros,Venados FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+1349,2016-04-15,2015,clausura,15,Atlante,Mineros de Zacatecas,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+1350,2016-04-15,2015,clausura,15,Correcaminos UAT,Deportivo Tepic,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+1351,2016-04-15,2015,clausura,15,Venados FC,Lobos BUAP,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+1352,2016-04-16,2015,clausura,15,Alebrijes de Oaxaca,Club Celaya,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+1353,2016-04-16,2015,clausura,15,Zacatepec,Cafetaleros de Tapachula,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1354,2016-04-16,2015,clausura,15,Atlético San Luis,Cimarrones de Sonora,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+1355,2016-04-16,2015,clausura,15,Necaxa,Murciélagos FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+1356,2016-04-16,2015,clausura,15,FC Juárez,Leones Negros,3.0,0.0,FINISHED,3.0,3.0,LOCAL

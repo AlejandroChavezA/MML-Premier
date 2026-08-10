@@ -1,178 +1,218 @@
-# Premier League Data Analysis Project
+<div align="center">
 
-Proyecto completo para el análisis de datos de la Premier League utilizando Python y Machine Learning.
+# ⚽ MML-Premier
 
-## 🚀 Configuración Rápida
+**Sistema de predicción de partidos de fútbol basado en Machine Learning**
 
-### 1. Crear Entorno Virtual
+Premier League · Liga MX (en expansión) · Integración con [safesports-panel](https://safesports-panel.vercel.app)
+
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![scikit--learn](https://img.shields.io/badge/ML-scikit--learn-orange)
+![status](https://img.shields.io/badge/status-en%20desarrollo-yellow)
+
+</div>
+
+---
+
+## 📖 Contenido
+
+- [¿Qué hace este proyecto?](#-qué-hace-este-proyecto)
+- [Arquitectura](#-arquitectura)
+- [Instalación](#-instalación)
+- [Uso](#-uso)
+- [Estructura del repositorio](#-estructura-del-repositorio)
+- [Pipeline de datos](#-pipeline-de-datos)
+- [Modelos](#-modelos)
+- [Integración con el dashboard](#-integración-con-el-dashboard)
+- [Expansión multi-liga](#-expansión-multi-liga-en-progreso)
+- [Variables de entorno](#-variables-de-entorno)
+- [Notas y limitaciones](#-notas-y-limitaciones)
+
+---
+
+## 🎯 ¿Qué hace este proyecto?
+
+`MML-Premier` recolecta datos históricos de partidos, entrena modelos de Machine Learning
+(clasificación de resultado, goles, over/under) y expone un **menú interactivo por consola**
+para generar predicciones jornada a jornada. Las predicciones pueden exportarse directamente
+al panel de administración [safesports-panel](https://safesports-panel.vercel.app).
+
+Actualmente soporta **Premier League** como liga principal, con una expansión en curso hacia
+**Liga MX** y otras 4 ligas europeas (ver [Expansión multi-liga](#-expansión-multi-liga-en-progreso)).
+
+## 🏗 Arquitectura
+
+```
+[football-data.org API] ─▶ [data/raw] ─▶ [limpieza] ─▶ [data/cleaned]
+                                                             │
+                                                             ▼
+                                          [feature engineering] ─▶ [modelos sklearn]
+                                                             │
+                                                             ▼
+                                          [menú interactivo] ─▶ [safesports-panel]
+```
+
+El repo mantiene **dos implementaciones en paralelo**:
+
+| Pipeline | Entrypoint | Estado |
+|---|---|---|
+| `src/` | `python main.py` | Activo, es el que usa `main.py` por defecto |
+| `src_v2/` | `python main.py --v2` | Reorganización en capas (`data/`, `features/`, `models/`, `evaluation/`, `ui/`), en progreso |
+
+## 🚀 Instalación
+
 ```bash
-# Crear entorno virtual
+# 1. Clonar el repo
+git clone https://github.com/AlejandroChavezA/MML-Premier.git
+cd MML-Premier
+
+# 2. Crear y activar entorno virtual
 python -m venv premier-league-env
+source premier-league-env/bin/activate      # Windows: premier-league-env\Scripts\activate
 
-# Activar (Mac/Linux)
-source premier-league-env/bin/activate
-
-# Activar (Windows)
-premier-league-env\Scripts\activate
-```
-
-### 2. Instalar Dependencias
-```bash
+# 3. Instalar dependencias
 pip install -r requirements.txt
+
+# 4. Configurar variables de entorno
+cp .env.example .env.local
+# edita .env.local con tus credenciales (ver sección Variables de entorno)
 ```
 
-### 3. Obtener API Key
-Regístrate en [Football-Data.org](https://www.football-data.org/login) para obtener tu API key gratuita.
+## 🕹 Uso
 
-## 📁 Estructura del Proyecto
-
-```
-premier-league/
-├── premier-league-env/          # Entorno virtual
-├── data/                         # Datos recolectados
-│   ├── teams.csv                # Información de equipos
-│   ├── matches_2023.csv         # Partidos temporada 2023
-│   └── standings_2023.csv       # Tabla de posiciones
-├── src/                         # Scripts principales
-│   ├── data_collection.py       # Recolección de datos
-│   ├── analysis.py              # Análisis estadístico
-│   └── visualization.py          # Visualizaciones
-├── notebooks/                   # Jupyter notebooks
-│   └── analysis.ipynb          # Análisis interactivo
-├── requirements.txt              # Dependencias
-└── README.md                    # Este archivo
+```bash
+python main.py            # Menú interactivo (actualiza datos automáticamente, caché de 6h)
+python main.py --train    # Reentrena los modelos con los datos limpios actuales
+python main.py --jornada  # Predictor detallado por jornada (incluye export al dashboard)
+python main.py --v2       # Ejecuta el pipeline reorganizado en src_v2/
+python main.py --help     # Ver todas las opciones
 ```
 
-## 📊 Uso del Proyecto
+### Menú principal
 
-### 1. Recolección de Datos
-```python
-from src.data_collection import PremierLeagueDataCollector
-
-# Crear colector
-collector = PremierLeagueDataCollector()
-
-# Configurar tu API key
-collector.headers['X-Auth-Token'] = 'TU_API_KEY_AQUI'
-
-# Obtener datos
-collector.get_premier_league_teams()
-collector.get_premier_league_matches(2023)
-collector.get_standings(2023)
+```
+1.  Predicción de jornada completa (Ganador + O/U)
+2.  Predicción por jornada (detalles)      ← incluye envío al dashboard
+3.  Predicción partido por partido (Ganador + O/U)
+4.  Estadísticas de equipos
+5.  Ver tabla de posiciones actual
+6.  Cambiar modelo de predicción
+7.  Rendimiento de modelos
+8.  Limpiar caché O/U
+9.  Salir
+10. Exportar historial al panel
 ```
 
-### 2. Análisis de Datos
-```python
-from src.analysis import PremierLeagueAnalyzer
+### Scripts sueltos
 
-# Crear analizador
-analyzer = PremierLeagueAnalyzer()
-
-# Cargar datos
-analyzer.load_data(2023)
-
-# Estadísticas básicas
-stats = analyzer.basic_statistics()
-print(stats)
-
-# Análisis de rendimiento
-home_stats, away_stats = analyzer.team_performance_analysis()
+```bash
+python test_competitiveness.py     # smoke test manual del módulo de competitividad
+python scripts/inspect_cleaned.py  # preview con rich/duckdb de data/ligamx/cleaned/*.csv
 ```
 
-### 3. Visualizaciones
-```python
-from src.visualization import PremierLeagueVisualizer
+> No hay suite de tests formal (sin `pytest`, sin carpeta `tests/`).
 
-# Crear visualizador
-visualizer = PremierLeagueVisualizer()
+## 📂 Estructura del repositorio
 
-# Cargar datos
-visualizer.load_data(2023)
-
-# Crear gráficos
-visualizer.plot_standings_table()
-visualizer.plot_goals_scatter()
-visualizer.plot_goal_trends()
-visualizer.plot_home_away_performance()
+```
+MML-Premier/
+├── main.py                    # Entrypoint del menú interactivo
+├── update_premier_data.py     # Descarga datos desde football-data.org
+├── src/                       # Pipeline activo (v1)
+│   ├── menu_interface.py      # Menú + envío al dashboard
+│   ├── data_cleaning.py       # Normalización de datos crudos
+│   ├── feature_engineering.py # Features para los modelos
+│   ├── prediction_models.py   # Entrenamiento/carga de modelos sklearn
+│   ├── advanced_*.py          # Features y modelos avanzados
+│   ├── season_utils.py        # Lógica de "temporada actual"
+│   ├── competitiveness.py     # Ajuste de competitividad
+│   └── build_ligamx_*.py      # Scripts de ingestión de Liga MX
+├── src_v2/                    # Reorganización en capas (en progreso)
+│   ├── data/ features/ models/ evaluation/ ui/
+│   └── predict.py train.py
+├── models/                    # Modelos entrenados (.pkl) — sin versionado, se sobreescriben
+├── data/
+│   ├── raw/ cleaned/          # Datos de Premier League
+│   └── ligamx/                # Datos de Liga MX (fase liga, sin liguilla)
+├── scripts/                   # Utilidades de inspección de datos
+├── docs/                      # Planes y documentación de expansión
+└── .claude/CLAUDE.md          # Detalle de la integración con safesports-panel
 ```
 
-## 🎯 Características Principales
+## 🔄 Pipeline de datos
 
-### Recolección de Datos
-- ✅ Equipos de la Premier League
-- ✅ Partidos por temporada
-- ✅ Tabla de posiciones
-- ✅ Estadísticas detalladas
+1. **Recolección** — `update_premier_data.py` consulta la API de
+   [football-data.org](https://www.football-data.org/) y guarda crudo en `data/raw/`.
+2. **Limpieza** — `src/data_cleaning.py` normaliza a
+   `data/cleaned/matches_{season}_cleaned.csv` / `standings_{season}_cleaned.csv`.
+3. **Features** — `src/feature_engineering.py` y `src/advanced_feature_engineering.py`
+   generan las variables de entrada de los modelos.
+4. **Modelos** — `src/prediction_models.py` / `src/advanced_prediction_models.py`
+   entrenan y cargan los `.pkl` en `models/` (Random Forest, Gradient Boosting,
+   Regresión Logística, predictor de goles, Over/Under).
+5. **Menú** — `src/menu_interface.py` genera las predicciones y, opcionalmente,
+   las envía a safesports-panel.
 
-### Análisis Estadístico
-- ✅ Estadísticas básicas de temporada
-- ✅ Análisis de rendimiento por equipo
-- ✅ Distribución de goles
-- ✅ Comparación local vs visitante
+`main.py` corre los pasos 1–2 automáticamente en cada ejecución, salvo que
+`.update_cache.json` indique una actualización en las últimas 6 horas.
 
-### Visualizaciones Interactivas
-- ✅ Tabla de posiciones interactiva
-- ✅ Gráficos de dispersión de goles
-- ✅ Tendencias durante la temporada
-- ✅ Comparación rendimiento local/visitante
-- ✅ Gráficos de pastel de resultados
+> **Nota sobre temporadas**: la temporada "actual" cambia en **julio** (no en enero),
+> siguiendo el calendario de la Premier League (`src/season_utils.py`). Para evaluar o
+> predecir contra datos ya jugados, usar `get_latest_finished_season()` en vez de
+> `get_current_season()`.
 
-## 🛠️ Librerías Utilizadas
+## 🤖 Modelos
 
-- **pandas**: Manejo y análisis de datos
-- **matplotlib**: Visualizaciones básicas
-- **plotly**: Gráficos interactivos
-- **requests**: Peticiones HTTP a APIs
-- **beautifulsoup4**: Web scraping
-- **seaborn**: Visualizaciones estadísticas
-- **numpy**: Cálculos numéricos
-- **scikit-learn**: Machine Learning
-- **streamlit**: Aplicaciones web
+| Modelo | Tarea |
+|---|---|
+| Random Forest / Gradient Boosting / Regresión Logística | Predicción de ganador (1X2) |
+| Goals Predictor | Predicción de goles |
+| Random Forest / Gradient Boosting | Over/Under |
 
-## 📈 Próximos Pasos
+Los artefactos (`models/*.pkl`, `*_scaler.pkl`, `*_columns.pkl`, `*_features.pkl`) **no están
+versionados** — cada reentrenamiento (`python main.py --train`) los sobreescribe in place.
 
-### Análisis Avanzado
-- [ ] Modelos de predicción de resultados
-- [ ] Análisis de jugadores individuales
-- [ ] Estadísticas avanzadas (xG, xA)
-- [ ] Clustering de equipos
+## 📤 Integración con el dashboard
 
-### Machine Learning
-- [ ] Modelo de clasificación de resultados
-- [ ] Sistema de recomendación de partidos
-- [ ] Análisis de sentimiento de noticias
-- [ ] Predicción de lesiones
+Las predicciones pueden exportarse a [safesports-panel](https://safesports-panel.vercel.app)
+vía `/api/predictions/import`, autenticando con API key o credenciales de admin.
+El detalle completo (formato de payload, endpoints, variables requeridas) está en
+[`.claude/CLAUDE.md`](.claude/CLAUDE.md) y [`API_PREDICCIONES.md`](API_PREDICCIONES.md).
 
-### Visualizaciones
-- [ ] Dashboard interactivo con Streamlit
-- [ ] Mapas de calor de estadios
-- [ ] Animaciones de goles
-- [ ] Gráficos 3D de estadísticas
+## 🌎 Expansión multi-liga (en progreso)
 
-## 🤝 Contribuir
+Trabajo en curso descrito en [`docs/plan_5_ligas_ligamx.md`](docs/plan_5_ligas_ligamx.md):
 
-1. Fork del proyecto
-2. Crear rama (`git checkout -b feature/AmazingFeature`)
-3. Commit cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abrir Pull Request
+- Núcleo *config-driven* para Premier + 4 ligas europeas + Liga MX.
+- Ensamble de 3 modelos (XGBoost outcome, Poisson GLM O/U, Dixon-Coles scoreline),
+  portado desde el repo hermano `MML-Mundial`.
+- **Liga MX** se limita a **fase regular** (Apertura/Clausura) — la liguilla/playoffs
+  queda explícitamente excluida en todos los scripts de construcción de datos.
+- Tres fuentes alimentan `data/ligamx/`:
+  - `src/build_liga_mx_dataset.py` — API-Football (`league_id=262`)
+  - `src/build_ligamx_fbref_dataset.py` — mirror público en GitHub (FBref bloquea Cloudflare)
+  - `src/build_ligamx_transfermarkt_dataset.py` — scraper en vivo de Transfermarkt
 
-## 📝 Notas
+Ninguno de estos pasos modifica todavía el core de Premier; son scripts independientes
+y re-ejecutables que cachean su salida como CSV/JSON.
 
-- La API de Football-Data.org tiene un límite de 10 peticiones por minuto en el plan gratuito
-- Los datos se guardan automáticamente en la carpeta `/data`
-- Los gráficos se guardan como archivos PNG y también se muestran interactivamente
+## 🔐 Variables de entorno
 
-## 🐛 Problemas Comunes
+Se cargan desde `.env` / `.env.local` en la raíz del proyecto (ver
+[`.env.example`](.env.example)).
 
-**Error: "No se encontraron archivos de datos"**
-- Asegúrate de haber ejecutado primero el script de recolección de datos
-- Verifica que tu API key sea válida
+| Variable | Descripción |
+|---|---|
+| `SAFESPORTS_PANEL_URL` | URL del panel (ej. `http://localhost:3000`) |
+| `SAFESPORTS_PANEL_EMAIL` / `SAFESPORTS_PANEL_PASSWORD` | Credenciales de admin para generar API key |
+| `SAFESPORTS_USER_API_KEY` | API key directa (alternativa a email/password) |
+| `IMPORT_API_SECRET` | Secret compartido para importación masiva |
+| `API_FOOTBALL_API_KEY` | Necesaria para los scripts de ingestión de Liga MX |
 
-**Error: "Import pandas could not be resolved"**
-- Activa el entorno virtual antes de ejecutar los scripts
-- Reinstala las dependencias con `pip install -r requirements.txt`
+## ⚠️ Notas y limitaciones
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT.
+- El `X-Auth-Token` de football-data.org está **hardcodeado** en `update_premier_data.py`
+  y `src/data_collection.py` (no se lee de variables de entorno) — tenerlo en cuenta antes
+  de tocar esos archivos.
+- No hay versionado de modelos: reentrenar sobreescribe los `.pkl` existentes.
+- El scraping (Google, Transfermarkt) puede fallar; conviene manejar errores al modificarlo.

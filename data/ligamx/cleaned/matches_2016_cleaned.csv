@@ -1,0 +1,307 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result,source,referee,venue,venue_city,attendance,home_xg,away_xg,home_manager,away_manager,home_system_of_play,away_system_of_play,source_matchday,sources_agree,n_sources
+1837,2016-07-15,2016,apertura,1,Club Tijuana,Monarcas Morelia,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1838,2016-07-16,2016,apertura,1,América,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1839,2016-07-16,2016,apertura,1,Atlas,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+1840,2016-07-16,2016,apertura,1,Monterrey,Puebla FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+1841,2016-07-16,2016,apertura,1,Necaxa,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+1842,2016-07-16,2016,apertura,1,Pachuca,León,5.0,1.0,FINISHED,6.0,4.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1843,2016-07-16,2016,apertura,1,Querétaro,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1844,2016-07-17,2016,apertura,1,Santos Laguna,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+1845,2016-07-17,2016,apertura,1,UNAM Pumas,Chivas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1846,2016-07-22,2016,apertura,2,Veracruz,Santos Laguna,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+1847,2016-07-23,2016,apertura,2,América,Toluca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+1848,2016-07-23,2016,apertura,2,Chivas,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+1849,2016-07-23,2016,apertura,2,Cruz Azul,UNAM Pumas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+1850,2016-07-23,2016,apertura,2,Jaguares de Chiapas,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+1851,2016-07-23,2016,apertura,2,León,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+1852,2016-07-23,2016,apertura,2,Monarcas Morelia,Querétaro,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+1853,2016-07-23,2016,apertura,2,Tigres UANL,Atlas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+1854,2016-07-24,2016,apertura,2,Puebla FC,Club Tijuana,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+1855,2016-07-29,2016,apertura,3,Club Tijuana,Chivas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1856,2016-07-30,2016,apertura,3,América,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+1857,2016-07-30,2016,apertura,3,Atlas,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1858,2016-07-30,2016,apertura,3,Monterrey,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+1859,2016-07-30,2016,apertura,3,Pachuca,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1860,2016-07-30,2016,apertura,3,Querétaro,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1861,2016-07-31,2016,apertura,3,Jaguares de Chiapas,Toluca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1862,2016-07-31,2016,apertura,3,Santos Laguna,Monarcas Morelia,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+1863,2016-07-31,2016,apertura,3,UNAM Pumas,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+1864,2016-08-06,2016,apertura,4,Chivas,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+1865,2016-08-06,2016,apertura,4,Cruz Azul,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+1866,2016-08-06,2016,apertura,4,León,Monterrey,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+1867,2016-08-06,2016,apertura,4,Monarcas Morelia,Atlas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+1868,2016-08-06,2016,apertura,4,Necaxa,UNAM Pumas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+1869,2016-08-06,2016,apertura,4,Tigres UANL,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+1870,2016-08-06,2016,apertura,4,Veracruz,América,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+1871,2016-08-07,2016,apertura,4,Puebla FC,Santos Laguna,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+1872,2016-08-07,2016,apertura,4,Toluca,Pachuca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+1873,2016-08-12,2016,apertura,5,Club Tijuana,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+1874,2016-08-13,2016,apertura,5,América,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+1875,2016-08-13,2016,apertura,5,Atlas,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+1876,2016-08-13,2016,apertura,5,Monterrey,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+1877,2016-08-13,2016,apertura,5,Pachuca,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+1878,2016-08-13,2016,apertura,5,Querétaro,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+1879,2016-08-14,2016,apertura,5,Jaguares de Chiapas,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+1880,2016-08-14,2016,apertura,5,Santos Laguna,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+1881,2016-08-14,2016,apertura,5,Toluca,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+1882,2016-08-19,2016,apertura,6,Veracruz,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+1883,2016-08-20,2016,apertura,6,Chivas,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+1884,2016-08-20,2016,apertura,6,Cruz Azul,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+1885,2016-08-20,2016,apertura,6,León,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+1886,2016-08-20,2016,apertura,6,Monarcas Morelia,Jaguares de Chiapas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+1887,2016-08-20,2016,apertura,6,Necaxa,Club Tijuana,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+1888,2016-08-20,2016,apertura,6,Tigres UANL,Pachuca,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+1889,2016-08-21,2016,apertura,6,Puebla FC,América,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+1890,2016-08-21,2016,apertura,6,UNAM Pumas,Monterrey,5.0,3.0,FINISHED,8.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+1891,2016-08-26,2016,apertura,7,Club Tijuana,UNAM Pumas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+1892,2016-08-27,2016,apertura,7,América,Chivas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+1893,2016-08-27,2016,apertura,7,Atlas,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+1894,2016-08-27,2016,apertura,7,Pachuca,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+1895,2016-08-27,2016,apertura,7,Querétaro,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+1896,2016-08-27,2016,apertura,7,Tigres UANL,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+1897,2016-08-28,2016,apertura,7,Jaguares de Chiapas,Puebla FC,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+1898,2016-08-28,2016,apertura,7,Santos Laguna,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+1899,2016-08-28,2016,apertura,7,Toluca,Monarcas Morelia,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+1900,2016-09-09,2016,apertura,8,Veracruz,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+1901,2016-09-10,2016,apertura,8,Chivas,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+1902,2016-09-10,2016,apertura,8,Cruz Azul,América,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+1903,2016-09-10,2016,apertura,8,León,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+1904,2016-09-10,2016,apertura,8,Monarcas Morelia,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+1905,2016-09-10,2016,apertura,8,Monterrey,Club Tijuana,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+1906,2016-09-10,2016,apertura,8,Necaxa,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+1907,2016-09-11,2016,apertura,8,Puebla FC,Toluca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+1908,2016-09-11,2016,apertura,8,UNAM Pumas,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+1909,2016-09-16,2016,apertura,9,Veracruz,Monarcas Morelia,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+1910,2016-09-17,2016,apertura,9,América,León,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+1911,2016-09-17,2016,apertura,9,Atlas,Necaxa,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+1912,2016-09-17,2016,apertura,9,Jaguares de Chiapas,Cruz Azul,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+1913,2016-09-17,2016,apertura,9,Pachuca,Club Tijuana,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+1914,2016-09-17,2016,apertura,9,Querétaro,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+1915,2016-09-17,2016,apertura,9,Tigres UANL,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+1916,2016-09-17,2016,apertura,9,Toluca,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+1917,2016-09-18,2016,apertura,9,Santos Laguna,UNAM Pumas,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+1918,2016-09-20,2016,apertura,10,Chivas,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+1919,2016-09-20,2016,apertura,10,Cruz Azul,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+1920,2016-09-20,2016,apertura,10,Monarcas Morelia,Pachuca,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+1921,2016-09-20,2016,apertura,10,Necaxa,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+1922,2016-09-20,2016,apertura,10,Puebla FC,Veracruz,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+1923,2016-09-21,2016,apertura,10,Club Tijuana,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+1924,2016-09-21,2016,apertura,10,León,Jaguares de Chiapas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+1925,2016-09-21,2016,apertura,10,Monterrey,Santos Laguna,5.0,2.0,FINISHED,7.0,3.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+1926,2016-09-21,2016,apertura,10,UNAM Pumas,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+1927,2016-09-23,2016,apertura,11,Veracruz,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+1928,2016-09-24,2016,apertura,11,América,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+1929,2016-09-24,2016,apertura,11,Atlas,Monterrey,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+1930,2016-09-24,2016,apertura,11,Jaguares de Chiapas,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+1931,2016-09-24,2016,apertura,11,Monarcas Morelia,Puebla FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+1932,2016-09-24,2016,apertura,11,Pachuca,Querétaro,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+1933,2016-09-24,2016,apertura,11,Tigres UANL,Cruz Azul,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+1934,2016-09-25,2016,apertura,11,Santos Laguna,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+1935,2016-09-25,2016,apertura,11,Toluca,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+1936,2016-09-30,2016,apertura,12,Club Tijuana,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1937,2016-10-01,2016,apertura,12,Chivas,Monarcas Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1938,2016-10-01,2016,apertura,12,Cruz Azul,Veracruz,5.0,3.0,FINISHED,8.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1939,2016-10-01,2016,apertura,12,León,Tigres UANL,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1940,2016-10-01,2016,apertura,12,Monterrey,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+1941,2016-10-01,2016,apertura,12,Necaxa,Toluca,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1942,2016-10-01,2016,apertura,12,Querétaro,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+1943,2016-10-02,2016,apertura,12,Puebla FC,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+1944,2016-10-02,2016,apertura,12,UNAM Pumas,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+1945,2016-10-14,2016,apertura,13,Veracruz,León,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+1946,2016-10-15,2016,apertura,13,América,Club Tijuana,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+1947,2016-10-15,2016,apertura,13,Atlas,Querétaro,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+1948,2016-10-15,2016,apertura,13,Jaguares de Chiapas,Monterrey,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+1949,2016-10-15,2016,apertura,13,Monarcas Morelia,Cruz Azul,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+1950,2016-10-15,2016,apertura,13,Pachuca,Santos Laguna,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+1951,2016-10-15,2016,apertura,13,Tigres UANL,Necaxa,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+1952,2016-10-16,2016,apertura,13,Puebla FC,Chivas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+1953,2016-10-16,2016,apertura,13,Toluca,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+1954,2016-10-21,2016,apertura,14,Club Tijuana,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+1955,2016-10-22,2016,apertura,14,Cruz Azul,Puebla FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+1956,2016-10-22,2016,apertura,14,León,Monarcas Morelia,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+1957,2016-10-22,2016,apertura,14,Monterrey,Toluca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+1958,2016-10-22,2016,apertura,14,Necaxa,Veracruz,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+1959,2016-10-22,2016,apertura,14,Querétaro,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+1960,2016-10-23,2016,apertura,14,Chivas,Pachuca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+1961,2016-10-23,2016,apertura,14,Santos Laguna,Atlas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+1962,2016-10-23,2016,apertura,14,UNAM Pumas,Tigres UANL,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+1963,2016-10-28,2016,apertura,15,Veracruz,UNAM Pumas,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+1964,2016-10-29,2016,apertura,15,América,Santos Laguna,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+1965,2016-10-29,2016,apertura,15,Chivas,Cruz Azul,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+1966,2016-10-29,2016,apertura,15,Jaguares de Chiapas,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+1967,2016-10-29,2016,apertura,15,Monarcas Morelia,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+1968,2016-10-29,2016,apertura,15,Pachuca,Atlas,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+1969,2016-10-29,2016,apertura,15,Tigres UANL,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+1970,2016-10-30,2016,apertura,15,Puebla FC,León,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+1971,2016-10-30,2016,apertura,15,Toluca,Club Tijuana,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+1972,2016-11-04,2016,apertura,16,Club Tijuana,Tigres UANL,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+1973,2016-11-05,2016,apertura,16,Atlas,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+1974,2016-11-05,2016,apertura,16,Cruz Azul,Pachuca,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+1975,2016-11-05,2016,apertura,16,León,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+1976,2016-11-05,2016,apertura,16,Monterrey,Veracruz,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+1977,2016-11-05,2016,apertura,16,Necaxa,Puebla FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+1978,2016-11-05,2016,apertura,16,Querétaro,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+1979,2016-11-06,2016,apertura,16,Santos Laguna,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+1980,2016-11-06,2016,apertura,16,UNAM Pumas,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+1981,2016-11-18,2016,apertura,17,Veracruz,Club Tijuana,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+1982,2016-11-19,2016,apertura,17,Chivas,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+1983,2016-11-19,2016,apertura,17,Cruz Azul,León,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+1984,2016-11-19,2016,apertura,17,Jaguares de Chiapas,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+1985,2016-11-19,2016,apertura,17,Monarcas Morelia,Monterrey,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+1986,2016-11-19,2016,apertura,17,Pachuca,América,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+1987,2016-11-19,2016,apertura,17,Tigres UANL,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+1988,2016-11-20,2016,apertura,17,Puebla FC,UNAM Pumas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+1989,2016-11-20,2016,apertura,17,Toluca,Santos Laguna,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+1990,2017-01-06,2016,clausura,1,Veracruz,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1991,2017-01-07,2016,clausura,1,Chivas,UNAM Pumas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1992,2017-01-07,2016,clausura,1,Cruz Azul,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1993,2017-01-07,2016,clausura,1,León,Pachuca,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+1994,2017-01-07,2016,clausura,1,Monarcas Morelia,Club Tijuana,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1995,2017-01-07,2016,clausura,1,Tigres UANL,Santos Laguna,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,1,True,1
+1996,2017-01-08,2016,clausura,1,Puebla FC,Monterrey,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,1,True,1
+1997,2017-01-08,2016,clausura,1,Toluca,Atlas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+1998,2017-01-13,2016,clausura,2,Club Tijuana,Puebla FC,6.0,2.0,FINISHED,8.0,4.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+1999,2017-01-14,2016,clausura,2,Atlas,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2000,2017-01-14,2016,clausura,2,Monterrey,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2001,2017-01-14,2016,clausura,2,Necaxa,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,2,True,1
+2002,2017-01-14,2016,clausura,2,Pachuca,Jaguares de Chiapas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2003,2017-01-14,2016,clausura,2,Querétaro,Monarcas Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,2,True,1
+2004,2017-01-15,2016,clausura,2,Santos Laguna,Veracruz,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2005,2017-01-15,2016,clausura,2,Toluca,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2006,2017-01-15,2016,clausura,2,UNAM Pumas,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,2,True,1
+2007,2017-01-20,2016,clausura,3,Veracruz,Atlas,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2008,2017-01-21,2016,clausura,3,Chivas,Club Tijuana,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2009,2017-01-21,2016,clausura,3,Cruz Azul,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2010,2017-01-21,2016,clausura,3,León,UNAM Pumas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2011,2017-01-21,2016,clausura,3,Monarcas Morelia,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2012,2017-01-21,2016,clausura,3,Necaxa,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2013,2017-01-21,2016,clausura,3,Tigres UANL,América,4.0,2.0,FINISHED,6.0,2.0,LOCAL,openfootball,,,,,,,,,,,3,True,1
+2014,2017-01-22,2016,clausura,3,Puebla FC,Querétaro,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,3,True,1
+2015,2017-01-22,2016,clausura,3,Toluca,Jaguares de Chiapas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,3,True,1
+2016,2017-01-27,2016,clausura,4,Club Tijuana,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2017,2017-01-28,2016,clausura,4,América,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2018,2017-01-28,2016,clausura,4,Atlas,Monarcas Morelia,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2019,2017-01-28,2016,clausura,4,Monterrey,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+2020,2017-01-28,2016,clausura,4,Pachuca,Toluca,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,4,True,1
+2021,2017-01-28,2016,clausura,4,Querétaro,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,4,True,1
+2022,2017-01-29,2016,clausura,4,Jaguares de Chiapas,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2023,2017-01-29,2016,clausura,4,Santos Laguna,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2024,2017-01-29,2016,clausura,4,UNAM Pumas,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,4,True,1
+2025,2017-02-03,2016,clausura,5,Puebla FC,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2026,2017-02-03,2016,clausura,5,Veracruz,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,5,True,1
+2027,2017-02-04,2016,clausura,5,Cruz Azul,Querétaro,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2028,2017-02-04,2016,clausura,5,León,Club Tijuana,2.0,4.0,FINISHED,6.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2029,2017-02-04,2016,clausura,5,Monarcas Morelia,América,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2030,2017-02-04,2016,clausura,5,Necaxa,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2031,2017-02-04,2016,clausura,5,Tigres UANL,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,5,True,1
+2032,2017-02-05,2016,clausura,5,Chivas,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2033,2017-02-05,2016,clausura,5,UNAM Pumas,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,5,True,1
+2034,2017-02-07,2016,clausura,1,Jaguares de Chiapas,América,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,1,True,1
+2035,2017-02-10,2016,clausura,6,Club Tijuana,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2036,2017-02-11,2016,clausura,6,América,Puebla FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2037,2017-02-11,2016,clausura,6,Atlas,Chivas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2038,2017-02-11,2016,clausura,6,Monterrey,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2039,2017-02-11,2016,clausura,6,Pachuca,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2040,2017-02-11,2016,clausura,6,Querétaro,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2041,2017-02-12,2016,clausura,6,Jaguares de Chiapas,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,6,True,1
+2042,2017-02-12,2016,clausura,6,Santos Laguna,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,6,True,1
+2043,2017-02-12,2016,clausura,6,Toluca,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,6,True,1
+2044,2017-02-17,2016,clausura,7,Veracruz,Tigres UANL,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2045,2017-02-18,2016,clausura,7,Chivas,América,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2046,2017-02-18,2016,clausura,7,Cruz Azul,Atlas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2047,2017-02-18,2016,clausura,7,León,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2048,2017-02-18,2016,clausura,7,Monarcas Morelia,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2049,2017-02-18,2016,clausura,7,Monterrey,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2050,2017-02-18,2016,clausura,7,Necaxa,Querétaro,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,7,True,1
+2051,2017-02-19,2016,clausura,7,Puebla FC,Jaguares de Chiapas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,7,True,1
+2052,2017-02-19,2016,clausura,7,UNAM Pumas,Club Tijuana,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,7,True,1
+2053,2017-02-24,2016,clausura,8,Club Tijuana,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2054,2017-02-25,2016,clausura,8,América,Cruz Azul,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2055,2017-02-25,2016,clausura,8,Atlas,León,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2056,2017-02-25,2016,clausura,8,Pachuca,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2057,2017-02-25,2016,clausura,8,Querétaro,UNAM Pumas,4.0,3.0,FINISHED,7.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2058,2017-02-25,2016,clausura,8,Tigres UANL,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2059,2017-02-26,2016,clausura,8,Jaguares de Chiapas,Chivas,4.0,3.0,FINISHED,7.0,1.0,LOCAL,openfootball,,,,,,,,,,,8,True,1
+2060,2017-02-26,2016,clausura,8,Santos Laguna,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,8,True,1
+2061,2017-02-26,2016,clausura,8,Toluca,Puebla FC,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,8,True,1
+2062,2017-03-03,2016,clausura,9,Club Tijuana,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+2063,2017-03-04,2016,clausura,9,Chivas,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2064,2017-03-04,2016,clausura,9,Cruz Azul,Jaguares de Chiapas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2065,2017-03-04,2016,clausura,9,León,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2066,2017-03-04,2016,clausura,9,Monarcas Morelia,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2067,2017-03-04,2016,clausura,9,Monterrey,Querétaro,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2068,2017-03-04,2016,clausura,9,Necaxa,Atlas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,9,True,1
+2069,2017-03-05,2016,clausura,9,Puebla FC,Tigres UANL,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,9,True,1
+2070,2017-03-05,2016,clausura,9,UNAM Pumas,Santos Laguna,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,9,True,1
+2071,2017-03-17,2016,clausura,11,Club Tijuana,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2072,2017-03-18,2016,clausura,11,Chivas,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2073,2017-03-18,2016,clausura,11,Cruz Azul,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2074,2017-03-18,2016,clausura,11,León,Toluca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2075,2017-03-18,2016,clausura,11,Monterrey,Atlas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2076,2017-03-18,2016,clausura,11,Necaxa,Jaguares de Chiapas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,11,True,1
+2077,2017-03-18,2016,clausura,11,Querétaro,Pachuca,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,11,True,1
+2078,2017-03-19,2016,clausura,11,Puebla FC,Monarcas Morelia,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2079,2017-03-19,2016,clausura,11,UNAM Pumas,América,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,11,True,1
+2080,2017-03-31,2016,clausura,12,Veracruz,Cruz Azul,3.0,1.0,FINISHED,4.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2081,2017-04-01,2016,clausura,12,América,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2082,2017-04-01,2016,clausura,12,Atlas,Club Tijuana,3.0,3.0,FINISHED,6.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+2083,2017-04-01,2016,clausura,12,Jaguares de Chiapas,UNAM Pumas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+2084,2017-04-01,2016,clausura,12,Monarcas Morelia,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+2085,2017-04-01,2016,clausura,12,Pachuca,Puebla FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,12,True,1
+2086,2017-04-01,2016,clausura,12,Tigres UANL,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,12,True,1
+2087,2017-04-02,2016,clausura,12,Santos Laguna,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2088,2017-04-02,2016,clausura,12,Toluca,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,12,True,1
+2089,2017-04-07,2016,clausura,13,Club Tijuana,América,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2090,2017-04-08,2016,clausura,13,Chivas,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2091,2017-04-08,2016,clausura,13,Cruz Azul,Monarcas Morelia,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2092,2017-04-08,2016,clausura,13,León,Veracruz,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2093,2017-04-08,2016,clausura,13,Monterrey,Jaguares de Chiapas,4.0,1.0,FINISHED,5.0,3.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2094,2017-04-08,2016,clausura,13,Necaxa,Tigres UANL,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,13,True,1
+2095,2017-04-08,2016,clausura,13,Querétaro,Atlas,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+2096,2017-04-09,2016,clausura,13,Santos Laguna,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,13,True,1
+2097,2017-04-09,2016,clausura,13,UNAM Pumas,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,13,True,1
+2098,2017-04-11,2016,clausura,10,Jaguares de Chiapas,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2099,2017-04-11,2016,clausura,10,Tigres UANL,Chivas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2100,2017-04-11,2016,clausura,10,Veracruz,Puebla FC,3.0,2.0,FINISHED,5.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2101,2017-04-12,2016,clausura,10,América,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,10,True,1
+2102,2017-04-12,2016,clausura,10,Atlas,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2103,2017-04-12,2016,clausura,10,Pachuca,Monarcas Morelia,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2104,2017-04-12,2016,clausura,10,Querétaro,Club Tijuana,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+2105,2017-04-12,2016,clausura,10,Santos Laguna,Monterrey,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,10,True,1
+2106,2017-04-13,2016,clausura,10,Toluca,Cruz Azul,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,10,True,1
+2107,2017-04-15,2016,clausura,14,América,Querétaro,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+2108,2017-04-15,2016,clausura,14,Atlas,Santos Laguna,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+2109,2017-04-15,2016,clausura,14,Jaguares de Chiapas,Club Tijuana,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2110,2017-04-15,2016,clausura,14,Monarcas Morelia,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2111,2017-04-15,2016,clausura,14,Pachuca,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+2112,2017-04-15,2016,clausura,14,Tigres UANL,UNAM Pumas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+2113,2017-04-15,2016,clausura,14,Veracruz,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,14,True,1
+2114,2017-04-16,2016,clausura,14,Puebla FC,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,14,True,1
+2115,2017-04-16,2016,clausura,14,Toluca,Monterrey,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,14,True,1
+2116,2017-04-21,2016,clausura,15,Club Tijuana,Toluca,2.0,0.0,FINISHED,2.0,2.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2117,2017-04-22,2016,clausura,15,Atlas,Pachuca,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2118,2017-04-22,2016,clausura,15,Cruz Azul,Chivas,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2119,2017-04-22,2016,clausura,15,León,Puebla FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2120,2017-04-22,2016,clausura,15,Monterrey,Tigres UANL,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2121,2017-04-22,2016,clausura,15,Necaxa,Monarcas Morelia,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2122,2017-04-22,2016,clausura,15,Querétaro,Jaguares de Chiapas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,15,True,1
+2123,2017-04-23,2016,clausura,15,Santos Laguna,América,2.0,1.0,FINISHED,3.0,1.0,LOCAL,openfootball,,,,,,,,,,,15,True,1
+2124,2017-04-23,2016,clausura,15,UNAM Pumas,Veracruz,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,openfootball,,,,,,,,,,,15,True,1
+2125,2017-04-28,2016,clausura,16,Veracruz,Monterrey,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2126,2017-04-29,2016,clausura,16,América,Atlas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2127,2017-04-29,2016,clausura,16,Chivas,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+2128,2017-04-29,2016,clausura,16,Jaguares de Chiapas,Santos Laguna,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+2129,2017-04-29,2016,clausura,16,Monarcas Morelia,UNAM Pumas,4.0,0.0,FINISHED,4.0,4.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2130,2017-04-29,2016,clausura,16,Pachuca,Cruz Azul,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,16,True,1
+2131,2017-04-29,2016,clausura,16,Tigres UANL,Club Tijuana,3.0,0.0,FINISHED,3.0,3.0,LOCAL,openfootball,,,,,,,,,,,16,True,1
+2132,2017-04-30,2016,clausura,16,Puebla FC,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2133,2017-04-30,2016,clausura,16,Toluca,Querétaro,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,16,True,1
+2134,2017-05-06,2016,clausura,17,América,Pachuca,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2135,2017-05-06,2016,clausura,17,Atlas,Jaguares de Chiapas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2136,2017-05-06,2016,clausura,17,Club Tijuana,Veracruz,1.0,0.0,FINISHED,1.0,1.0,LOCAL,openfootball,,,,,,,,,,,17,True,1
+2137,2017-05-06,2016,clausura,17,León,Cruz Azul,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2138,2017-05-06,2016,clausura,17,Monterrey,Monarcas Morelia,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2139,2017-05-06,2016,clausura,17,Necaxa,Chivas,0.0,0.0,FINISHED,0.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2140,2017-05-06,2016,clausura,17,Querétaro,Tigres UANL,1.0,5.0,FINISHED,6.0,-4.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1
+2141,2017-05-07,2016,clausura,17,Santos Laguna,Toluca,2.0,2.0,FINISHED,4.0,0.0,EMPATE,openfootball,,,,,,,,,,,17,True,1
+2142,2017-05-07,2016,clausura,17,UNAM Pumas,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,openfootball,,,,,,,,,,,17,True,1

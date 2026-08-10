@@ -1,0 +1,226 @@
+id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,total_goals,goal_difference,result
+290,2011-07-29,2011,apertura,1,Necaxa,Mérida FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+291,2011-07-29,2011,apertura,1,Correcaminos UAT,León,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+292,2011-07-29,2011,apertura,1,Leones Negros,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+293,2011-07-30,2011,apertura,1,Lobos BUAP,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+294,2011-07-30,2011,apertura,1,Pumas Morelos,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+295,2011-07-30,2011,apertura,1,Indios Juárez,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+296,2011-07-30,2011,apertura,1,Club Irapuato,Reboceros de la Piedad,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+297,2011-07-31,2011,apertura,1,Neza FC,Estudiantes de Altamira,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+298,2011-08-05,2011,apertura,2,Estudiantes de Altamira,Lobos BUAP,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+299,2011-08-06,2011,apertura,2,Veracruz,Club Irapuato,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+300,2011-08-06,2011,apertura,2,Mérida FC,Indios Juárez,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+301,2011-08-06,2011,apertura,2,Dorados de Sinaloa,Neza FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+302,2011-08-06,2011,apertura,2,León,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+303,2011-08-06,2011,apertura,2,Club Celaya,Pumas Morelos,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+304,2011-08-07,2011,apertura,2,Cruz Azul Hidalgo,Leones Negros,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+305,2011-08-07,2011,apertura,2,Reboceros de la Piedad,Correcaminos UAT,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+306,2011-08-12,2011,apertura,3,Correcaminos UAT,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+307,2011-08-12,2011,apertura,3,Leones Negros,Estudiantes de Altamira,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+308,2011-08-13,2011,apertura,3,Pumas Morelos,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+309,2011-08-13,2011,apertura,3,Indios Juárez,León,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+310,2011-08-13,2011,apertura,3,Club Irapuato,Club Celaya,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+311,2011-08-14,2011,apertura,3,Reboceros de la Piedad,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+312,2011-08-14,2011,apertura,3,Lobos BUAP,Dorados de Sinaloa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+313,2011-08-14,2011,apertura,3,Neza FC,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+314,2011-08-19,2011,apertura,4,Estudiantes de Altamira,Pumas Morelos,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+315,2011-08-19,2011,apertura,4,Necaxa,Indios Juárez,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+316,2011-08-20,2011,apertura,4,Veracruz,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+317,2011-08-20,2011,apertura,4,Mérida FC,Lobos BUAP,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+318,2011-08-20,2011,apertura,4,Dorados de Sinaloa,Leones Negros,3.0,3.0,FINISHED,6.0,0.0,EMPATE
+319,2011-08-20,2011,apertura,4,León,Neza FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+320,2011-08-20,2011,apertura,4,Club Celaya,Reboceros de la Piedad,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+321,2011-08-21,2011,apertura,4,Cruz Azul Hidalgo,Club Irapuato,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+322,2011-08-26,2011,apertura,5,Correcaminos UAT,Indios Juárez,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+323,2011-08-26,2011,apertura,5,Leones Negros,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+324,2011-08-27,2011,apertura,5,Pumas Morelos,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+325,2011-08-27,2011,apertura,5,Veracruz,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+326,2011-08-27,2011,apertura,5,Club Irapuato,Estudiantes de Altamira,6.0,1.0,FINISHED,7.0,5.0,LOCAL
+327,2011-08-28,2011,apertura,5,Reboceros de la Piedad,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+328,2011-08-28,2011,apertura,5,Lobos BUAP,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+329,2011-08-28,2011,apertura,5,Neza FC,Necaxa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+330,2011-09-09,2011,apertura,6,Estudiantes de Altamira,Reboceros de la Piedad,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+331,2011-09-09,2011,apertura,6,Necaxa,Lobos BUAP,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+332,2011-09-10,2011,apertura,6,Cruz Azul Hidalgo,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+333,2011-09-10,2011,apertura,6,Dorados de Sinaloa,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+334,2011-09-10,2011,apertura,6,Mérida FC,Pumas Morelos,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+335,2011-09-10,2011,apertura,6,Indios Juárez,Neza FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+336,2011-09-10,2011,apertura,6,León,Leones Negros,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+337,2011-09-10,2011,apertura,6,Club Celaya,Correcaminos UAT,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+338,2011-09-16,2011,apertura,7,Correcaminos UAT,Neza FC,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+339,2011-09-16,2011,apertura,7,Leones Negros,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+340,2011-09-17,2011,apertura,7,Pumas Morelos,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+341,2011-09-17,2011,apertura,7,Veracruz,Estudiantes de Altamira,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+342,2011-09-17,2011,apertura,7,Club Irapuato,Mérida FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+343,2011-09-17,2011,apertura,7,Club Celaya,Cruz Azul Hidalgo,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+344,2011-09-18,2011,apertura,7,Reboceros de la Piedad,Dorados de Sinaloa,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+345,2011-09-18,2011,apertura,7,Lobos BUAP,Indios Juárez,1.0,6.0,FINISHED,7.0,-5.0,VISITANTE
+346,2011-09-23,2011,apertura,8,Estudiantes de Altamira,Club Celaya,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+347,2011-09-23,2011,apertura,8,Necaxa,Pumas Morelos,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+348,2011-09-24,2011,apertura,8,Mérida FC,Reboceros de la Piedad,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+349,2011-09-24,2011,apertura,8,Indios Juárez,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+350,2011-09-24,2011,apertura,8,Dorados de Sinaloa,Veracruz,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+351,2011-09-24,2011,apertura,8,León,Club Irapuato,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+352,2011-09-25,2011,apertura,8,Cruz Azul Hidalgo,Correcaminos UAT,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+353,2011-09-25,2011,apertura,8,Neza FC,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+354,2011-09-30,2011,apertura,9,Correcaminos UAT,Lobos BUAP,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+355,2011-09-30,2011,apertura,9,Leones Negros,Neza FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+356,2011-10-01,2011,apertura,9,Veracruz,Mérida FC,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+357,2011-10-01,2011,apertura,9,Club Irapuato,Necaxa,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+358,2011-10-01,2011,apertura,9,Club Celaya,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+359,2011-10-02,2011,apertura,9,Cruz Azul Hidalgo,Estudiantes de Altamira,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+360,2011-10-02,2011,apertura,9,Reboceros de la Piedad,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+361,2011-10-02,2011,apertura,9,Pumas Morelos,Indios Juárez,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+362,2011-10-06,2011,apertura,10,Lobos BUAP,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+363,2011-10-07,2011,apertura,10,Estudiantes de Altamira,Correcaminos UAT,4.0,4.0,FINISHED,8.0,0.0,EMPATE
+364,2011-10-07,2011,apertura,10,Necaxa,Reboceros de la Piedad,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+365,2011-10-08,2011,apertura,10,Mérida FC,Club Celaya,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+366,2011-10-08,2011,apertura,10,Indios Juárez,Club Irapuato,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+367,2011-10-08,2011,apertura,10,Dorados de Sinaloa,Cruz Azul Hidalgo,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+368,2011-10-08,2011,apertura,10,León,Veracruz,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+369,2011-10-09,2011,apertura,10,Neza FC,Pumas Morelos,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+370,2011-10-14,2011,apertura,11,Estudiantes de Altamira,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+371,2011-10-14,2011,apertura,11,Correcaminos UAT,Leones Negros,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+372,2011-10-15,2011,apertura,11,Pumas Morelos,Lobos BUAP,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+373,2011-10-15,2011,apertura,11,Veracruz,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+374,2011-10-15,2011,apertura,11,Club Irapuato,Neza FC,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+375,2011-10-15,2011,apertura,11,Club Celaya,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+376,2011-10-16,2011,apertura,11,Cruz Azul Hidalgo,Mérida FC,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+377,2011-10-16,2011,apertura,11,Reboceros de la Piedad,Indios Juárez,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+378,2011-10-21,2011,apertura,12,Necaxa,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+379,2011-10-21,2011,apertura,12,Leones Negros,Pumas Morelos,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+380,2011-10-22,2011,apertura,12,Mérida FC,Estudiantes de Altamira,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+381,2011-10-22,2011,apertura,12,Indios Juárez,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+382,2011-10-22,2011,apertura,12,Dorados de Sinaloa,Correcaminos UAT,1.0,4.0,FINISHED,5.0,-3.0,VISITANTE
+383,2011-10-22,2011,apertura,12,León,Cruz Azul Hidalgo,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+384,2011-10-23,2011,apertura,12,Lobos BUAP,Club Irapuato,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+385,2011-10-23,2011,apertura,12,Neza FC,Reboceros de la Piedad,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+386,2011-10-28,2011,apertura,13,Estudiantes de Altamira,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+387,2011-10-28,2011,apertura,13,Correcaminos UAT,Pumas Morelos,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+388,2011-10-29,2011,apertura,13,Veracruz,Neza FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+389,2011-10-29,2011,apertura,13,Dorados de Sinaloa,Mérida FC,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+390,2011-10-29,2011,apertura,13,Club Irapuato,Leones Negros,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+391,2011-10-29,2011,apertura,13,Club Celaya,Indios Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+392,2011-10-30,2011,apertura,13,Cruz Azul Hidalgo,Necaxa,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+393,2011-10-30,2011,apertura,13,Reboceros de la Piedad,Lobos BUAP,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+394,2011-11-04,2011,apertura,14,Necaxa,Estudiantes de Altamira,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+395,2011-11-04,2011,apertura,14,Correcaminos UAT,Mérida FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+396,2011-11-04,2011,apertura,14,Leones Negros,Reboceros de la Piedad,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+397,2011-11-05,2011,apertura,14,Lobos BUAP,Veracruz,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+398,2011-11-05,2011,apertura,14,Pumas Morelos,Club Irapuato,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+399,2011-11-05,2011,apertura,14,Indios Juárez,Cruz Azul Hidalgo,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+400,2011-11-05,2011,apertura,14,León,Dorados de Sinaloa,6.0,1.0,FINISHED,7.0,5.0,LOCAL
+401,2011-11-06,2011,apertura,14,Neza FC,Club Celaya,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+402,2011-11-18,2011,apertura,15,Estudiantes de Altamira,Indios Juárez,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+403,2011-11-19,2011,apertura,15,Veracruz,Leones Negros,3.0,2.0,FINISHED,5.0,1.0,LOCAL
+404,2011-11-19,2011,apertura,15,Club Irapuato,Correcaminos UAT,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+405,2011-11-19,2011,apertura,15,Mérida FC,León,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+406,2011-11-19,2011,apertura,15,Dorados de Sinaloa,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+407,2011-11-19,2011,apertura,15,Club Celaya,Lobos BUAP,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+408,2011-11-20,2011,apertura,15,Cruz Azul Hidalgo,Neza FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+409,2011-11-20,2011,apertura,15,Reboceros de la Piedad,Pumas Morelos,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+410,2012-01-06,2011,clausura,1,Estudiantes de Altamira,Neza FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+411,2012-01-07,2011,clausura,1,Veracruz,Pumas Morelos,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+412,2012-01-07,2011,clausura,1,Mérida FC,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+413,2012-01-07,2011,clausura,1,León,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+414,2012-01-07,2011,clausura,1,Club Celaya,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+415,2012-01-08,2011,clausura,1,Cruz Azul Hidalgo,Lobos BUAP,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+416,2012-01-13,2011,clausura,2,Necaxa,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+417,2012-01-13,2011,clausura,2,Correcaminos UAT,Reboceros de la Piedad,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+418,2012-01-13,2011,clausura,2,Leones Negros,Cruz Azul Hidalgo,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+419,2012-01-14,2011,clausura,2,Pumas Morelos,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+420,2012-01-14,2011,clausura,2,Club Irapuato,Veracruz,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+421,2012-01-15,2011,clausura,2,Neza FC,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+422,2012-01-15,2011,clausura,2,Lobos BUAP,Estudiantes de Altamira,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+423,2012-01-20,2011,clausura,3,Estudiantes de Altamira,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+424,2012-01-20,2011,clausura,3,Necaxa,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+425,2012-01-21,2011,clausura,3,Veracruz,Reboceros de la Piedad,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+426,2012-01-21,2011,clausura,3,Mérida FC,Neza FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+427,2012-01-21,2011,clausura,3,Dorados de Sinaloa,Lobos BUAP,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+428,2012-01-21,2011,clausura,3,Club Celaya,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+429,2012-01-22,2011,clausura,3,Cruz Azul Hidalgo,Pumas Morelos,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+430,2012-01-27,2011,clausura,4,Correcaminos UAT,Veracruz,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+431,2012-01-27,2011,clausura,4,Leones Negros,Dorados de Sinaloa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+432,2012-01-28,2011,clausura,4,Pumas Morelos,Estudiantes de Altamira,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+433,2012-01-28,2011,clausura,4,Club Irapuato,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+434,2012-01-29,2011,clausura,4,Lobos BUAP,Mérida FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+435,2012-01-29,2011,clausura,4,Neza FC,León,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+436,2012-01-29,2011,clausura,4,Reboceros de la Piedad,Club Celaya,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+437,2012-02-03,2011,clausura,5,Estudiantes de Altamira,Club Irapuato,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+438,2012-02-03,2011,clausura,5,Necaxa,Neza FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+439,2012-02-04,2011,clausura,5,Mérida FC,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+440,2012-02-04,2011,clausura,5,Dorados de Sinaloa,Pumas Morelos,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+441,2012-02-04,2011,clausura,5,León,Lobos BUAP,5.0,2.0,FINISHED,7.0,3.0,LOCAL
+442,2012-02-04,2011,clausura,5,Club Celaya,Veracruz,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+443,2012-02-05,2011,clausura,5,Cruz Azul Hidalgo,Reboceros de la Piedad,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+444,2012-02-10,2011,clausura,6,Lobos BUAP,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+445,2012-02-10,2011,clausura,6,Correcaminos UAT,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+446,2012-02-10,2011,clausura,6,Leones Negros,León,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+447,2012-02-11,2011,clausura,6,Veracruz,Cruz Azul Hidalgo,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+448,2012-02-11,2011,clausura,6,Club Irapuato,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+449,2012-02-12,2011,clausura,6,Reboceros de la Piedad,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+450,2012-02-17,2011,clausura,7,Estudiantes de Altamira,Veracruz,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+451,2012-02-17,2011,clausura,7,Necaxa,Leones Negros,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+452,2012-02-18,2011,clausura,7,Mérida FC,Club Irapuato,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+453,2012-02-18,2011,clausura,7,Dorados de Sinaloa,Reboceros de la Piedad,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+454,2012-02-18,2011,clausura,7,León,Pumas Morelos,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+455,2012-02-19,2011,clausura,7,Cruz Azul Hidalgo,Club Celaya,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+456,2012-02-19,2011,clausura,7,Neza FC,Correcaminos UAT,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+457,2012-02-24,2011,clausura,8,Correcaminos UAT,Cruz Azul Hidalgo,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+458,2012-02-25,2011,clausura,8,Veracruz,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+459,2012-02-25,2011,clausura,8,Pumas Morelos,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+460,2012-02-25,2011,clausura,8,Club Irapuato,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+461,2012-02-25,2011,clausura,8,Club Celaya,Estudiantes de Altamira,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+462,2012-02-26,2011,clausura,8,Lobos BUAP,Neza FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+463,2012-02-26,2011,clausura,8,Reboceros de la Piedad,Mérida FC,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+464,2012-03-02,2011,clausura,9,Lobos BUAP,Correcaminos UAT,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+465,2012-03-02,2011,clausura,9,Estudiantes de Altamira,Cruz Azul Hidalgo,3.0,4.0,FINISHED,7.0,-1.0,VISITANTE
+466,2012-03-02,2011,clausura,9,Necaxa,Club Irapuato,3.0,1.0,FINISHED,4.0,2.0,LOCAL
+467,2012-03-03,2011,clausura,9,Mérida FC,Veracruz,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+468,2012-03-03,2011,clausura,9,Dorados de Sinaloa,Club Celaya,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+469,2012-03-03,2011,clausura,9,León,Reboceros de la Piedad,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+470,2012-03-04,2011,clausura,9,Neza FC,Leones Negros,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+471,2012-03-07,2011,clausura,6,Pumas Morelos,Mérida FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+472,2012-03-09,2011,clausura,10,Correcaminos UAT,Estudiantes de Altamira,4.0,0.0,FINISHED,4.0,4.0,LOCAL
+473,2012-03-09,2011,clausura,10,Leones Negros,Lobos BUAP,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE
+474,2012-03-10,2011,clausura,10,Pumas Morelos,Neza FC,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+475,2012-03-10,2011,clausura,10,Veracruz,León,2.0,5.0,FINISHED,7.0,-3.0,VISITANTE
+476,2012-03-10,2011,clausura,10,Club Celaya,Mérida FC,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+477,2012-03-11,2011,clausura,10,Cruz Azul Hidalgo,Dorados de Sinaloa,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+478,2012-03-11,2011,clausura,10,Reboceros de la Piedad,Necaxa,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+479,2012-03-16,2011,clausura,11,Lobos BUAP,Pumas Morelos,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+480,2012-03-16,2011,clausura,11,Necaxa,Veracruz,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+481,2012-03-16,2011,clausura,11,Leones Negros,Correcaminos UAT,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+482,2012-03-17,2011,clausura,11,Mérida FC,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+483,2012-03-17,2011,clausura,11,Dorados de Sinaloa,Estudiantes de Altamira,4.0,3.0,FINISHED,7.0,1.0,LOCAL
+484,2012-03-17,2011,clausura,11,León,Club Celaya,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+485,2012-03-18,2011,clausura,11,Neza FC,Club Irapuato,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+486,2012-03-23,2011,clausura,12,Estudiantes de Altamira,Mérida FC,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+487,2012-03-23,2011,clausura,12,Correcaminos UAT,Dorados de Sinaloa,4.0,2.0,FINISHED,6.0,2.0,LOCAL
+488,2012-03-24,2011,clausura,12,Club Irapuato,Lobos BUAP,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+489,2012-03-24,2011,clausura,12,Club Celaya,Necaxa,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+490,2012-03-25,2011,clausura,12,Cruz Azul Hidalgo,León,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+491,2012-03-25,2011,clausura,12,Reboceros de la Piedad,Neza FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+492,2012-03-25,2011,clausura,12,Pumas Morelos,Leones Negros,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE
+493,2012-03-30,2011,clausura,13,Lobos BUAP,Reboceros de la Piedad,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+494,2012-03-30,2011,clausura,13,Necaxa,Cruz Azul Hidalgo,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+495,2012-03-30,2011,clausura,13,Leones Negros,Club Irapuato,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+496,2012-03-31,2011,clausura,13,Pumas Morelos,Correcaminos UAT,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+497,2012-03-31,2011,clausura,13,Mérida FC,Dorados de Sinaloa,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+498,2012-03-31,2011,clausura,13,León,Estudiantes de Altamira,5.0,0.0,FINISHED,5.0,5.0,LOCAL
+499,2012-04-01,2011,clausura,13,Neza FC,Veracruz,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+500,2012-04-04,2011,clausura,1,Reboceros de la Piedad,Club Irapuato,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+501,2012-04-06,2011,clausura,14,Estudiantes de Altamira,Necaxa,2.0,0.0,FINISHED,2.0,2.0,LOCAL
+502,2012-04-07,2011,clausura,14,Veracruz,Lobos BUAP,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE
+503,2012-04-07,2011,clausura,14,Club Irapuato,Pumas Morelos,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+504,2012-04-07,2011,clausura,14,Mérida FC,Correcaminos UAT,1.0,0.0,FINISHED,1.0,1.0,LOCAL
+505,2012-04-07,2011,clausura,14,Dorados de Sinaloa,León,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE
+506,2012-04-07,2011,clausura,14,Club Celaya,Neza FC,1.0,1.0,FINISHED,2.0,0.0,EMPATE
+507,2012-04-08,2011,clausura,14,Reboceros de la Piedad,Leones Negros,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE
+508,2012-04-13,2011,clausura,15,Necaxa,Dorados de Sinaloa,3.0,0.0,FINISHED,3.0,3.0,LOCAL
+509,2012-04-13,2011,clausura,15,Correcaminos UAT,Club Irapuato,2.0,1.0,FINISHED,3.0,1.0,LOCAL
+510,2012-04-13,2011,clausura,15,Leones Negros,Veracruz,0.0,0.0,FINISHED,0.0,0.0,EMPATE
+511,2012-04-14,2011,clausura,15,Pumas Morelos,Reboceros de la Piedad,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE
+512,2012-04-14,2011,clausura,15,León,Mérida FC,2.0,2.0,FINISHED,4.0,0.0,EMPATE
+513,2012-04-15,2011,clausura,15,Neza FC,Cruz Azul Hidalgo,4.0,1.0,FINISHED,5.0,3.0,LOCAL
+514,2012-04-15,2011,clausura,15,Lobos BUAP,Club Celaya,1.0,1.0,FINISHED,2.0,0.0,EMPATE
