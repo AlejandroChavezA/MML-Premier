@@ -1,0 +1,21 @@
+league_id: "PL"  # football-data.org competition code
+name: "Premier League"
+slug: "premier_league"
+country: "England"
+data_dir: "data/cleaned"
+models_dir: "models/premier_league"
+teams_expected: 20
+jornadas: 38
+season_type: "single"
+season_cutover_month: 7
+winter_break:
+  active: false
+lower_league:
+  enabled: false
+has_legacy_baseline: true  # src/prediction_models.py entrenado sobre data/cleaned
+promoted_team_fallback:
+  strategy: "league_median"
+elo:
+  k_factor: 20
+  home_advantage: 60
+extra_features: []

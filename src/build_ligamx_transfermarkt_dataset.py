@@ -33,6 +33,11 @@ BASE_URL = "https://www.transfermarkt.com"
 PAGES = [
     {
         "season_id": 2025,
+        "phase": "apertura",
+        "url": "https://www.transfermarkt.com/liga-mx-apertura/gesamtspielplan/wettbewerb/MEXA/saison_id/2025",
+    },
+    {
+        "season_id": 2025,
         "phase": "clausura",
         "url": "https://www.transfermarkt.com/liga-mx-clausura/gesamtspielplan/wettbewerb/MEX1/saison_id/2025",
     },
@@ -218,9 +223,11 @@ def _club_rows_from_page(html: str, season_id: int, phase: str, source_url: str)
         attendance_raw = r.get("Attendance")
         attendance = None
         if pd.notna(attendance_raw):
-            attendance_text = str(attendance_raw).strip()
-            if attendance_text and attendance_text.lower() != "nan":
-                attendance = int(attendance_text.replace(".", ""))
+            attendance_text = str(attendance_raw).strip().replace(".", "")
+            # Transfermarkt a veces pone "x" o "-" en vez de un número cuando
+            # no hay asistencia reportada -- no es un dato faltante del scraper.
+            if attendance_text.isdigit():
+                attendance = int(attendance_text)
 
         row = {
             "season_id": season_id,
@@ -295,11 +302,19 @@ def _match_rows_from_page(html: str, season_id: int, phase: str, source_url: str
         df = table.copy()
         df.columns = [str(c) for c in df.columns]
 
-        # forward-fill fecha/hora dentro de la jornada
-        for col in ["Date", "Time"]:
-            if col in df.columns:
-                df[col] = df[col].replace({"": pd.NA})
-                df[col] = df[col].ffill()
+        # forward-fill fecha/hora dentro de la jornada. Ojo: dentro del mismo
+        # dia, Transfermarkt mete una fila "header" de solo-hora (ej. "3:10
+        # AM") cada vez que cambia el horario de kickoff -- esa fila NO trae
+        # fecha real, solo hora. Si se hace ffill ingenuo de "Date" con esas
+        # filas de por medio, la fecha real del dia se pisa con el string de
+        # hora y pandas la parsea como *hoy* (bug real: partidos de jornadas
+        # futuras terminaban con date=hoy en vez de su fecha real).
+        if "Date" in df.columns:
+            date_col = df["Date"].replace({"": pd.NA})
+            looks_like_date = date_col.astype(str).str.contains(r"\d{1,2}/\d{1,2}/\d{2,4}", na=False)
+            df["Date"] = date_col.where(looks_like_date).ffill()
+        if "Time" in df.columns:
+            df["Time"] = df["Time"].replace({"": pd.NA}).ffill()
 
         # filas reales: Home team = local, Home = score, Result = visitante
         if "Home team" not in df.columns or "Home" not in df.columns or "Result" not in df.columns:
@@ -308,7 +323,11 @@ def _match_rows_from_page(html: str, season_id: int, phase: str, source_url: str
         home_clean = df["Home team"].astype(str).map(_clean_team)
         away_clean = df["Result"].astype(str).map(_clean_team)
         score_raw = df["Home"].astype(str)
-        score_mask = score_raw.str.match(r"^\d+\s*:\s*\d+$", na=False)
+        # incluye terminados (N:N) Y programados (-:-) -- antes solo se
+        # quedaba con terminados, lo que tiraba toda jornada futura y
+        # obligaba al pipeline de limpieza a caer en el archivo legacy
+        # per-club (incompleto para ciertos equipos/jornadas).
+        score_mask = score_raw.str.match(r"^\d+\s*:\s*\d+$", na=False) | score_raw.str.match(r"^-\s*:\s*-$", na=False)
         mask = score_mask
         mask &= home_clean.str.contains(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]", na=False)
         mask &= away_clean.str.contains(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]", na=False)
@@ -323,8 +342,14 @@ def _match_rows_from_page(html: str, season_id: int, phase: str, source_url: str
             date_raw = str(r.get("Date") or "").strip()
             date = pd.to_datetime(date_raw, errors="coerce", dayfirst=True)
             result_text = str(r.get("Home") or "").strip()
-            report_url = report_urls[report_idx] if report_idx < len(report_urls) else None
-            report_idx += 1
+            # los partidos programados no tienen "Match report" todavia, asi
+            # que el indice de report_urls solo debe avanzar en terminados
+            # (si no, se desalinea y le pega reportes de otro partido).
+            if status == "FINISHED":
+                report_url = report_urls[report_idx] if report_idx < len(report_urls) else None
+                report_idx += 1
+            else:
+                report_url = None
 
             rows.append({
                 "season_id": season_id,

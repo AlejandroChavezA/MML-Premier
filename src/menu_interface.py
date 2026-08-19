@@ -7,6 +7,13 @@ import pandas as pd
 from pathlib import Path
 import requests
 from goals_predictor import GoalsPredictor
+import menu_actions
+from ligamx_team_codes import LIGAMX_TEAM_CODES, LIGAMX_TEAM_LOGOS
+
+_project_root = Path(__file__).parent.parent
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+from schemas import MatchPrediction
 
 # Cargar variables de entorno desde .env y .env.local
 def load_env_files():
@@ -71,6 +78,15 @@ TEAM_LOGOS = {
 }
 
 
+# Registro de códigos/logos por liga (Paso 5). 'premier_league' es el default
+# histórico -- todos los call sites existentes de get_team_code/get_team_full_name
+# siguen funcionando igual sin pasar `league`.
+TEAM_METADATA = {
+    'premier_league': (TEAM_CODES, TEAM_LOGOS),
+    'liga_mx': (LIGAMX_TEAM_CODES, LIGAMX_TEAM_LOGOS),
+}
+
+
 class PredictionMenu:
     def __init__(self):
         self.feature_engineer = None
@@ -97,29 +113,31 @@ class PredictionMenu:
         self.import_secret = os.getenv("IMPORT_API_SECRET", "")
         self.user_api_key = os.getenv("SAFESPORTS_USER_API_KEY", "")
     
-    def get_team_code(self, team_name: str) -> str:
+    def get_team_code(self, team_name: str, league: str = 'premier_league') -> str:
         """Devuelve el código corto del equipo (ARS, MCI, etc.) o las primeras 3 letras si no está en la lista."""
         if not team_name:
             return "???"
+        team_codes, _ = TEAM_METADATA.get(league, (TEAM_CODES, TEAM_LOGOS))
         t = team_name.strip()
-        if t in TEAM_CODES:
-            return TEAM_CODES[t]
+        if t in team_codes:
+            return team_codes[t]
         # Por si el nombre viene truncado (ej. "Wolverhampton Wanderers F")
-        for full_name, code in TEAM_CODES.items():
+        for full_name, code in team_codes.items():
             if full_name.startswith(t) or t.startswith(full_name.rstrip()):
                 return code
         return t[:3].upper() if len(t) >= 3 else t.upper()
-    
-    def get_team_full_name(self, team_name: str) -> str:
+
+    def get_team_full_name(self, team_name: str, league: str = 'premier_league') -> str:
         """Devuelve el nombre completo del equipo"""
         if not team_name:
             return "Unknown"
+        team_codes, _ = TEAM_METADATA.get(league, (TEAM_CODES, TEAM_LOGOS))
         t = team_name.strip()
-        if t in TEAM_CODES:
-            for full_name, code in TEAM_CODES.items():
+        if t in team_codes:
+            for full_name, code in team_codes.items():
                 if code == t:
                     return full_name
-        for full_name, code in TEAM_CODES.items():
+        for full_name, code in team_codes.items():
             if full_name.startswith(t) or t.startswith(full_name.rstrip()):
                 return full_name
         return t
@@ -164,7 +182,11 @@ class PredictionMenu:
         
         # Transformar predicciones al formato del panel
         panel_predictions = self.transform_to_panel_format(predictions)
-        
+
+        # Segunda validación (belt-and-suspenders) justo antes de postear
+        for panel_pred in panel_predictions:
+            MatchPrediction(**panel_pred)
+
         try:
             print(f"\nEnviando {len(panel_predictions)} predicciones al dashboard...")
             
@@ -260,10 +282,11 @@ class PredictionMenu:
                     }
                 }
             }
+            MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato
             panel_predictions.append(panel_pred)
-        
+
         return panel_predictions
-    
+
     def export_history_to_panel_format(self) -> List[Dict]:
         """Exporta el historial completo de predicciones al formato del panel (con resultados)"""
         history = self._load_history()
@@ -338,10 +361,11 @@ class PredictionMenu:
                     }
                 }
             }
+            MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato
             panel_predictions.append(panel_pred)
-        
+
         return panel_predictions
-        
+
     def initialize(self):
         """Inicializar todos los componentes"""
         print(" Inicializando sistema de predicción...")
@@ -363,9 +387,13 @@ class PredictionMenu:
             if not self.feature_engineer.load_data():
                 return False
             
-            # Cargar equipos
+            # Cargar equipos (si no hay teams_cleaned.csv propio de la liga, derivar
+            # la lista desde los partidos ya cargados por el feature engineer)
             teams_path = data_dir / "teams_cleaned.csv"
-            self.teams_df = pd.read_csv(teams_path)
+            if teams_path.exists():
+                self.teams_df = pd.read_csv(teams_path)
+            else:
+                self.teams_df = self.feature_engineer.teams_df
             
             # Cargar modelos entrenados o entrenar nuevos
             if not self.predictor.load_models():
@@ -390,7 +418,7 @@ class PredictionMenu:
             self.goals_predictor.feature_engineer = self.feature_engineer
             
             # Obtener mejor modelo
-            self.current_model = self.predictor.get_best_model()
+            self.current_model = self._select_default_model()
             
             # Mostrar competitividad de la liga
             comp = self.predictor.competitiveness
@@ -466,34 +494,23 @@ class PredictionMenu:
             # Get available jornadas (temporada actual)
             from season_utils import get_current_season
             season = get_current_season()
-            matches_2025_path = self.project_root / "data" / "cleaned" / f"matches_{season}_cleaned.csv"
-            matches_2025 = pd.read_csv(matches_2025_path)
-            available_matchdays = sorted(matches_2025['matchday'].unique())
-            
+            status = menu_actions.get_jornada_status(self.project_root, season)
+            available_matchdays = status['available_matchdays']
+            finished_jornadas = status['finished_jornadas']
+            upcoming_jornadas = status['upcoming_jornadas']
+
             print(f"Jornadas disponibles: {min(available_matchdays)} - {max(available_matchdays)}")
-            
-            # Show jornada status
-            finished_jornadas = []
-            upcoming_jornadas = []
-            
-            for jornada in available_matchdays:
-                jornada_matches = matches_2025[matches_2025['matchday'] == jornada]
-                if all(jornada_matches['status'] == 'FINISHED'):
-                    finished_jornadas.append(jornada)
-                elif all(jornada_matches['status'] == 'TIMED'):
-                    upcoming_jornadas.append(jornada)
-            
             print(f"Jornadas completadas: {len(finished_jornadas)}")
             if upcoming_jornadas:
                 print(f"Próxima jornada: {min(upcoming_jornadas)}")
-            
+
             print("\nOpciones:")
             print("1. Seleccionar jornada específica")
             print("2. Siguiente jornada no completada")
             print("3. Ver última jornada completada")
-            
+
             sub_choice = input("Selecciona opción (1-3): ").strip()
-            
+
             if sub_choice == '1':
                 matchday = input("Ingresa número de jornada: ").strip()
                 if not matchday.isdigit() or int(matchday) not in available_matchdays:
@@ -501,38 +518,29 @@ class PredictionMenu:
                     input("Presiona Enter para continuar...")
                     return
                 matchday = int(matchday)
-            
+
             elif sub_choice == '2':
-                # Find next unfinished jornada
-                matchday = None
-                for jornada in available_matchdays:
-                    jornada_matches = matches_2025[matches_2025['matchday'] == jornada]
-                    if not all(jornada_matches['status'] == 'FINISHED'):
-                        matchday = jornada
-                        break
-                
+                matchday = menu_actions.resolve_next_matchday(status)
                 if matchday is None:
                     print("No hay jornadas pendientes")
                     input("Presiona Enter para continuar...")
                     return
-            
+
             elif sub_choice == '3':
-                # Last finished jornada
-                if finished_jornadas:
-                    matchday = max(finished_jornadas)
-                else:
+                matchday = menu_actions.resolve_last_finished_matchday(status)
+                if matchday is None:
                     print("No hay jornadas completadas")
                     input("Presiona Enter para continuar...")
                     return
-            
+
             else:
                 print("Opción no válida")
                 input("Presiona Enter para continuar...")
                 return
-            
+
             print(f"\nAnalizando jornada {matchday}...")
-            self.display_jornada_detailed(matchday)
-            
+            self.display_jornada_detailed(matchday, season)
+
             # Guardar matchday actual para enviar
             self.current_matchday = matchday
             
@@ -550,10 +558,10 @@ class PredictionMenu:
         
         input("Presiona Enter para continuar...")
     
-    def display_jornada_detailed(self, matchday: int):
+    def display_jornada_detailed(self, matchday: int, season: int):
         """Display jornada predictions in detailed format"""
         try:
-            predictions = self.predictor.predict_week_matches(matchday, season, self.current_model)
+            predictions = menu_actions.predict_jornada(self.predictor, matchday, season, self.current_model)
             
             if not predictions or 'error' in predictions[0]:
                 print(f"Error obteniendo predicciones para jornada {matchday}")
@@ -646,27 +654,18 @@ class PredictionMenu:
             print("\n" + "─" * 80)
             print(f"📊 RESUMEN JORNADA {matchday}")
             print("─" * 80)
-            
-            # Competitividad de la liga
-            comp_level = predictions[0].get('competitiveness_level', 'N/A')
-            comp_score = predictions[0].get('competitiveness', 0)
-            print(f"🏆 Competitividad Premier League: {comp_level} ({comp_score:.2f})")
-            
-            # Count predictions
-            local_wins = sum(1 for p in predictions if p['predicted_result'] == 'LOCAL')
-            away_wins = sum(1 for p in predictions if p['predicted_result'] == 'VISITANTE')
-            draws = sum(1 for p in predictions if p['predicted_result'] == 'EMPATE')
-            
-            print(f"Victorias locales: {local_wins}")
-            print(f"Victorias visitantes: {away_wins}")
-            print(f"Empates: {draws}")
-            print(f"Total partidos: {len(predictions)}")
-            
-            # Model info
-            avg_confidence = sum(p['confidence'] for p in predictions) / len(predictions)
-            print(f"Confianza promedio: {avg_confidence:.1%}")
+
+            summary = menu_actions.summarize_jornada(predictions, self.current_model)
+            comp_score = summary.get('competitiveness_score', 0)
+
+            print(f"🏆 Competitividad Premier League: {summary.get('competitiveness_level', 'N/A')} ({comp_score:.2f})")
+            print(f"Victorias locales: {summary.get('local_wins', 0)}")
+            print(f"Victorias visitantes: {summary.get('away_wins', 0)}")
+            print(f"Empates: {summary.get('draws', 0)}")
+            print(f"Total partidos: {summary.get('total_matches', 0)}")
+            print(f"Confianza promedio: {summary.get('avg_confidence', 0):.1%}")
             print(f"Modelo utilizado: {self.current_model}")
-            
+
             # Advertencia si la liga es muy competitiva
             if comp_score > 0.5:
                 print(f"\n⚠️  Nota: Liga competitiva - esperar más upsets y empates")
@@ -767,23 +766,22 @@ class PredictionMenu:
             # Obtener jornadas disponibles (temporada actual)
             from season_utils import get_current_season
             season = get_current_season()
-            matches_2025_path = self.project_root / "data" / "cleaned" / f"matches_{season}_cleaned.csv"
-            matches_2025 = pd.read_csv(matches_2025_path)
-            available_matchdays = sorted(matches_2025['matchday'].unique())
-            
+            status = menu_actions.get_jornada_status(self.project_root, season)
+            available_matchdays = status['available_matchdays']
+
             print(f"Jornadas disponibles: {min(available_matchdays)} - {max(available_matchdays)}")
-            
+
             matchday = input("Ingresa el número de jornada: ").strip()
-            
+
             if not matchday.isdigit() or int(matchday) not in available_matchdays:
                 print("ERROR Jornada no válida")
                 input("Presiona Enter para continuar...")
                 return
-            
+
             matchday = int(matchday)
-            
+
             print(f"\n Prediciendo jornada {matchday}...")
-            predictions = self.predictor.predict_week_matches(matchday, season, self.current_model)
+            predictions = menu_actions.predict_jornada(self.predictor, matchday, season, self.current_model)
             
             if 'error' in predictions[0]:
                 print(f"ERROR Error: {predictions[0]['error']}")
@@ -853,8 +851,8 @@ class PredictionMenu:
             print(f" Fecha: {match_date.strftime('%Y-%m-%d')}")
             print(f" Modelo: {self.current_model}")
             
-            prediction = self.predictor.predict_match(
-                home_team, away_team, match_date, self.current_model
+            prediction = menu_actions.predict_single_match(
+                self.predictor, home_team, away_team, match_date, self.current_model
             )
             
             if 'error' in prediction:
@@ -909,10 +907,13 @@ class PredictionMenu:
             
             print(f"\n Estadísticas de: {team}")
             print("=" * 50)
-            
-            # Obtener forma actual
-            form = self.feature_engineer.calculate_team_form(team, pd.Timestamp.now())
-            
+
+            stats = menu_actions.get_team_statistics(self.feature_engineer, team)
+            form = stats['form']
+            home_perf = stats['home_performance']
+            away_perf = stats['away_performance']
+            standings = stats['standings']
+
             print(f" Forma actual (últimos {form['matches_played']} partidos):")
             print(f"  Victorias: {form['wins']}")
             print(f"  Empates: {form['draws']}")
@@ -921,23 +922,17 @@ class PredictionMenu:
             print(f"  Win rate: {form['win_rate']:.1%}")
             print(f"  Goles por partido: {form['goals_per_game']:.2f}")
             print(f"  Goles recibidos por partido: {form['goals_conceded_per_game']:.2f}")
-            
-            # Rendimiento local/visitante
-            home_perf = self.feature_engineer.get_home_away_performance(team, 'home', pd.Timestamp.now())
-            away_perf = self.feature_engineer.get_home_away_performance(team, 'away', pd.Timestamp.now())
-            
+
             print(f"\n[LOCAL] Rendimiento local:")
             print(f"  Win rate: {home_perf['win_rate']:.1%}")
             print(f"  Puntos por partido: {home_perf['points_per_game']:.2f}")
             print(f"  Goles por partido: {home_perf['goals_per_game']:.2f}")
-            
+
             print(f"\n[VISITANTE] Rendimiento visitante:")
             print(f"  Win rate: {away_perf['win_rate']:.1%}")
             print(f"  Puntos por partido: {away_perf['points_per_game']:.2f}")
             print(f"  Goles por partido: {away_perf['goals_per_game']:.2f}")
-            
-            # Posición en tabla
-            standings = self.feature_engineer.get_current_standings_position(team)
+
             print(f"\n Posición en tabla:")
             print(f"  Posición: {standings['position']}°")
             print(f"  Puntos: {standings['points']}")
@@ -959,9 +954,8 @@ class PredictionMenu:
         try:
             from season_utils import get_current_season
             season = get_current_season()
-            standings_path = self.project_root / "data" / "cleaned" / f"standings_{season}_cleaned.csv"
-            standings = pd.read_csv(standings_path)
-            
+            standings = menu_actions.load_standings(self.project_root, season)
+
             print(f"{'Pos':<4} {'Equipo':<25} {'PJ':<3} {'PG':<3} {'PE':<3} {'PP':<3} {'PTS':<4} {'DG':<5}")
             print("-" * 70)
             
@@ -983,19 +977,18 @@ class PredictionMenu:
         print(" CAMBIAR MODELO DE PREDICCIÓN")
         print("=" * 50)
         
-        available_models = list(self.predictor.models.keys())
-        performance = self.predictor.get_model_performance()
-        
+        models = menu_actions.list_models_with_accuracy(self.predictor, self.current_model)
+        available_models = [m['name'] for m in models]
+
         print(f"Modelo actual: {self.current_model}")
         print("\nModelos disponibles:")
-        
-        for i, model in enumerate(available_models, 1):
-            acc = performance.get(model, {}).get('test_accuracy', 0)
-            current = " (ACTUAL)" if model == self.current_model else ""
-            print(f"{i}. {model}{current} - Accuracy: {acc:.3f}")
-        
+
+        for i, m in enumerate(models, 1):
+            current = " (ACTUAL)" if m['is_current'] else ""
+            print(f"{i}. {m['name']}{current} - Accuracy: {m['test_accuracy']:.3f}")
+
         choice = input(f"\nSelecciona modelo (1-{len(available_models)}): ").strip()
-        
+
         if choice.isdigit() and 1 <= int(choice) <= len(available_models):
             self.current_model = available_models[int(choice) - 1]
             print(f"OK Modelo cambiado a: {self.current_model}")
@@ -1011,13 +1004,15 @@ class PredictionMenu:
         print(" RENDIMIENTO DE MODELOS")
         print("=" * 70)
         
-        performance = self.predictor.get_model_performance()
-        
-        if not performance:
+        report = menu_actions.get_model_performance_report(self.predictor, self._get_historical_accuracy())
+
+        if not report:
             print("ERROR No hay datos de rendimiento disponibles")
             input("Presiona Enter para continuar...")
             return
-        
+
+        performance = report['performance']
+
         print(f"{'Modelo':<22} {'Train':<10} {'Test':<10} {'CV Mean':<10}")
         print("-" * 55)
         
@@ -1032,8 +1027,8 @@ class PredictionMenu:
         print(" ACCURACY HISTÓRICO (Partidos reales)")
         print("=" * 70)
         
-        historical = self._get_historical_accuracy()
-        
+        historical = report['historical_accuracy']
+
         if not historical:
             print("  Sin datos históricos aún.")
             print("  Los datos se guardan cuando envías predicciones al dashboard.")
@@ -1057,9 +1052,9 @@ class PredictionMenu:
                       f"{acc_under:.0%}")
         
         # Mejor modelo
-        best_model = self.predictor.get_best_model()
-        best_metrics = performance[best_model]
-        
+        best_model = report['best_model']
+        best_metrics = report['best_metrics']
+
         print(f"\n Mejor modelo (test): {best_model}")
         print(f"   Accuracy prueba: {best_metrics['test_accuracy']:.3f}")
         print(f"   Validación cruzada: {best_metrics['cv_mean']:.3f} ± {best_metrics['cv_std']:.3f}")
@@ -1223,19 +1218,12 @@ class PredictionMenu:
             
             print(f"{home:<25} {away:<25} {result:<12} {ou_05:<14} {ou_15:<14} {ou_25:<14} {ou_35:<14} {score:<7} {res_str:<4} {mark_ou}")
         
-        # Guardar partidos terminados en historial
-        saved_count = 0
-        for pred in predictions:
-            if 'error' in pred:
-                continue
-            if pred.get('actual_result') and pred.get('total_goals') is not None:
-                over_under = self._get_over_under_prediction(pred)
-                self._save_prediction_to_history(pred, over_under)
-                saved_count += 1
-        
-        if saved_count > 0:
-            print(f"\n  {saved_count} partidos guardados en historial")
-    
+        # Nota: acá antes se guardaban al historial los partidos ya jugados de la
+        # jornada ("backfill" retroactivo) -- se sacó porque contaminaba
+        # data/prediction_history.json con "predicciones" hechas después de conocer
+        # el resultado real (ver _save_prediction_to_history). El historial ahora
+        # solo se llena de forma prospectiva, vía send_to_dashboard().
+
     def _get_over_under_prediction(self, winner_prediction: Dict) -> Dict:
         """Obtiene predicción Over/Under para un partido (con caché de 6 horas)"""
         try:
@@ -1340,10 +1328,21 @@ class PredictionMenu:
             return []
     
     def _save_prediction_to_history(self, prediction: Dict, over_under: Dict):
-        """Guardar predicción al historial"""
+        """Guardar predicción al historial -- SOLO si es prospectiva.
+
+        Si `prediction` ya trae el resultado real (`actual_result`), el partido ya
+        se jugó: guardarlo acá sería un backfill retroactivo, no una predicción de
+        verdad. Se encontró que el 100% de las 416 entradas históricas eran así
+        (guardadas en promedio 119 días después del partido, hasta 333 días) --
+        inflaban el accuracy "real" de gradient_boosting_v2 y compañía porque el
+        modelo bien pudo haber entrenado con esos mismos partidos antes de que se
+        le pidiera "predecirlos". Ver CLAUDE.md y docs/plan_5_ligas_ligamx.md.
+        """
+        if prediction.get('actual_result'):
+            return
         try:
             import json
-            
+
             self.history_file.parent.mkdir(parents=True, exist_ok=True)
             
             history = self._load_history()
@@ -1370,6 +1369,7 @@ class PredictionMenu:
             
             entry = {
                 'timestamp': datetime.now().isoformat(),
+                'league': 'premier_league',
                 'home_team': prediction['home_team'],
                 'away_team': prediction['away_team'],
                 'match_date': match_date,
@@ -1392,6 +1392,43 @@ class PredictionMenu:
         except Exception as e:
             print(f"Warning: No se pudo guardar historial: {e}")
     
+    def _select_default_model(self) -> str:
+        """Elige el modelo por defecto al arrancar.
+
+        Prioriza el track record real de producción (data/prediction_history.json)
+        sobre el test_accuracy offline de model_performance.pkl cuando hay muestra
+        suficiente -- pero solo cuenta entradas genuinamente prospectivas (guardadas
+        antes o el mismo día del partido; ver el filtro en _get_historical_accuracy()).
+
+        Antes esto asumía que "predecir una jornada que todavía no se jugó" bastaba
+        para estar libre de leakage. Resultó falso: las 416 entradas históricas se
+        guardaban en promedio 119-333 días DESPUÉS del partido (backfill retroactivo
+        vía display_jornada_detailed / send_to_dashboard sobre jornadas ya jugadas),
+        así que el modelo bien pudo haber entrenado con esos mismos partidos antes de
+        "predecirlos". Verificado: la misma arquitectura de gradient_boosting_v2,
+        reentrenada con split cronológico honesto, da ~42% en vez del 61-66% que
+        mostraba ese historial contaminado. Ver CLAUDE.md.
+
+        Con el filtro de prospectividad, es esperable que ningún modelo tenga
+        todavía muestra real suficiente (min_sample) hasta que se acumulen jornadas
+        genuinamente predichas de antemano -- en ese caso cae al `fallback` honesto
+        (CV/test offline).
+        """
+        fallback = self.predictor.get_best_model()
+        historical = self._get_historical_accuracy()
+        min_sample = 30
+
+        best_model, best_acc = None, -1.0
+        for model_name, stats in historical.items():
+            total = stats['1x2']['total']
+            if model_name not in self.predictor.models or total < min_sample:
+                continue
+            acc = stats['1x2']['correct'] / total
+            if acc > best_acc:
+                best_model, best_acc = model_name, acc
+
+        return best_model or fallback
+
     def _get_historical_accuracy(self) -> Dict:
         """Calcular accuracy histórico por modelo"""
         history = self._load_history()
@@ -1400,8 +1437,23 @@ class PredictionMenu:
             return {}
         
         results = {}
-        
+
         for entry in history:
+            # Descartar backfill retroactivo: entradas guardadas después de jugado
+            # el partido no son predicciones reales (el modelo pudo haber entrenado
+            # con ese resultado). Protege contra las 416 entradas viejas que ya
+            # estaban contaminadas así, además de cualquier entrada nueva que por
+            # error vuelva a guardarse fuera de tiempo. Ver
+            # _save_prediction_to_history() y CLAUDE.md.
+            match_date_str = entry.get('match_date')
+            timestamp_str = entry.get('timestamp')
+            if match_date_str and timestamp_str:
+                try:
+                    if datetime.fromisoformat(timestamp_str).date() > datetime.fromisoformat(match_date_str).date():
+                        continue
+                except ValueError:
+                    pass
+
             model = entry.get('model', 'unknown')
             if model not in results:
                 results[model] = {

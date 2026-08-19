@@ -128,7 +128,14 @@ class FeatureEngineer:
                 if first_year is not None:
                     _ZERO_HISTORY_TEAMS[t] = first_year - 1
 
-            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
+            teams_csv = f"{self.data_dir}/teams_cleaned.csv"
+            if os.path.exists(teams_csv):
+                self.teams_df = pd.read_csv(teams_csv)
+            else:
+                # Liga sin teams_cleaned.csv propio (ej. Liga MX): derivar la lista
+                # de equipos directamente de los partidos ya cargados.
+                fallback_teams = sorted(all_teams)
+                self.teams_df = pd.DataFrame({'name': fallback_teams, 'name_clean': fallback_teams})
 
             print(f"Datos cargados: temporadas {sorted(self.matches_by_season)} | "
                   f"actual: {self.current_season}")

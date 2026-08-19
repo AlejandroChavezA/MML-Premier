@@ -79,7 +79,17 @@ class FeatureEngineer:
                     if finished_standings:
                         self._standings_ref_season = max(finished_standings)
 
-            self.teams = self._load_csv("teams_cleaned.csv")
+            teams_path = self.data_dir / "teams_cleaned.csv"
+            if teams_path.exists():
+                self.teams = self._load_csv("teams_cleaned.csv")
+            else:
+                # Liga sin teams_cleaned.csv propio (ej. Liga MX): derivar la lista
+                # de equipos directamente de los partidos ya cargados.
+                all_teams = set()
+                for df in self.matches_by_season.values():
+                    all_teams |= set(df['home_team']) | set(df['away_team'])
+                fallback_teams = sorted(all_teams)
+                self.teams = pd.DataFrame({'name': fallback_teams, 'name_clean': fallback_teams})
 
             print(f"✅ Datos cargados: temporadas {sorted(self.matches_by_season)} | "
                   f"actual: {self.current_season}")
@@ -264,28 +274,78 @@ class FeatureEngineer:
         
         return {'matches': len(h2h), 'home_wins': home_wins, 'away_wins': away_wins, 'draws': draws}
     
-    def get_standings(self, team: str) -> Dict:
-        """Posición en la tabla (usa _standings_ref_season, que apunta a la ultima
-        temporada con datos reales, no a la proxima vacia)."""
-        ref_season = getattr(self, '_standings_ref_season', self.current_season)
-        if ref_season not in self.standings_by_season or self.standings_by_season[ref_season] is None:
+    def _standings_table(self, finished: pd.DataFrame) -> pd.DataFrame:
+        """Tabla de posiciones calculada al vuelo desde un set de partidos FINISHED
+        (misma logica que _build_standings en los scripts de build de Liga MX)."""
+        cols = ['team', 'position', 'played', 'points', 'gd', 'win_rate', 'points_pg', 'gf_pg', 'ga_pg']
+        if finished.empty:
+            return pd.DataFrame(columns=cols)
+
+        teams = sorted(set(finished['home_team']) | set(finished['away_team']))
+        rows = []
+        for team in teams:
+            home = finished[finished['home_team'] == team]
+            away = finished[finished['away_team'] == team]
+            played = len(home) + len(away)
+            wins = int((home['home_score'] > home['away_score']).sum() + (away['away_score'] > away['home_score']).sum())
+            draws = int((home['home_score'] == home['away_score']).sum() + (away['away_score'] == away['home_score']).sum())
+            gf = int(home['home_score'].sum() + away['away_score'].sum())
+            ga = int(home['away_score'].sum() + away['home_score'].sum())
+            points = wins * 3 + draws
+            rows.append({
+                'team': team, 'played': played, 'points': points, 'gd': gf - ga,
+                'win_rate': wins / played if played else 0.0,
+                'points_pg': points / played if played else 0.0,
+                'gf_pg': gf / played if played else 0.0,
+                'ga_pg': ga / played if played else 0.0,
+            })
+
+        table = pd.DataFrame(rows)
+        table.sort_values(['points', 'gd', 'gf_pg', 'team'], ascending=[False, False, False, True], inplace=True)
+        table.reset_index(drop=True, inplace=True)
+        table.insert(1, 'position', range(1, len(table) + 1))
+        return table
+
+    def get_standings(self, team: str, date: datetime = None, season_year: int = None, phase: str = None) -> Dict:
+        """Posicion en la tabla, point-in-time.
+
+        Con `date` + `season_year`: calcula la tabla acumulada SOLO con partidos
+        FINISHED de esa temporada (y esa fase, si la liga tiene Apertura/Clausura)
+        anteriores a `date` -- asi un partido de 2015 usa la tabla de 2015, no la
+        tabla de la temporada actual. Sin esos argumentos (prediccion en vivo de
+        un partido futuro, donde no hay "fuga" posible porque de verdad queremos
+        el estado mas reciente conocido) usa la temporada de referencia completa,
+        igual que antes.
+        """
+        if date is None or season_year is None:
+            ref_season = getattr(self, '_standings_ref_season', self.current_season)
+            if ref_season not in self.matches_by_season:
+                return self._default_standings()
+            season_df = self.matches_by_season[ref_season]
+            finished = season_df[season_df['status'] == 'FINISHED']
+        else:
+            if season_year not in self.matches_by_season:
+                return self._default_standings()
+            season_df = self.matches_by_season[season_year]
+            finished = season_df[(season_df['status'] == 'FINISHED') & (season_df['date'] < date)]
+            if phase is not None and 'phase' in season_df.columns:
+                finished = finished[finished['phase'] == phase]
+
+        table = self._standings_table(finished)
+        row = table[table['team'] == team]
+        if row.empty:
             return self._default_standings()
 
-        row = self.standings_by_season[ref_season][self.standings_by_season[ref_season]['team'] == team]
-
-        if len(row) == 0:
-            return self._default_standings()
-
-        s = row.iloc[0]
+        r = row.iloc[0]
         return {
-            'position': s['position'],
-            'points': s['points'],
-            'played': s['played_games'],
-            'win_rate': float(s['win_rate']) if pd.notna(s['win_rate']) else 0.0,
-            'goals_for_pg': float(s['goals_for_per_game']) if pd.notna(s['goals_for_per_game']) else 0.0,
-            'goals_against_pg': float(s['goals_against_per_game']) if pd.notna(s['goals_against_per_game']) else 0.0,
-            'gd': s['goal_difference'],
-            'points_pg': float(s['points_per_game']) if pd.notna(s['points_per_game']) else 0.0,
+            'position': int(r['position']),
+            'points': int(r['points']),
+            'played': int(r['played']),
+            'win_rate': float(r['win_rate']),
+            'goals_for_pg': float(r['gf_pg']),
+            'goals_against_pg': float(r['ga_pg']),
+            'gd': int(r['gd']),
+            'points_pg': float(r['points_pg']),
         }
     
     def get_rest_days(self, team: str, match_date: datetime) -> Dict:
@@ -320,17 +380,25 @@ class FeatureEngineer:
             'fatigue': min(len(recent) / 2.0, 3.0),
         }
     
-    def create_match_features(self, home: str, away: str, date: datetime) -> Dict:
-        """Crear todas las features para un partido"""
+    def create_match_features(self, home: str, away: str, date: datetime,
+                               season_year: int = None, phase: str = None) -> Dict:
+        """Crear todas las features para un partido.
+
+        `season_year`/`phase` son opcionales: al entrenar (build_training_dataset)
+        se pasan para que `get_standings` calcule la tabla point-in-time de la
+        temporada/fase real del partido. En serving en vivo (prediccion de un
+        partido futuro) se dejan en None a proposito -- ver docstring de
+        get_standings.
+        """
         # Get individual stats
         home_form = self.get_team_form_detailed(home, date)
         away_form = self.get_team_form_detailed(away, date)
-        
+
         home_venue = self.get_venue_performance(home, 'home', date)
         away_venue = self.get_venue_performance(away, 'away', date)
-        
-        home_stand = self.get_standings(home)
-        away_stand = self.get_standings(away)
+
+        home_stand = self.get_standings(home, date=date, season_year=season_year, phase=phase)
+        away_stand = self.get_standings(away, date=date, season_year=season_year, phase=phase)
         
         home_rest = self.get_rest_days(home, date)
         away_rest = self.get_rest_days(away, date)
@@ -338,7 +406,7 @@ class FeatureEngineer:
         h2h = self.get_head_to_head(home, away, date)
         
         # Build feature dict
-        return {
+        features = {
             'home_team': home,
             'away_team': away,
             'date': date,
@@ -389,24 +457,29 @@ class FeatureEngineer:
             # Placeholder for home advantage (always 1 since we always predict home team)
             'is_home': 1,
         }
-        # Defensa: rellenar cualquier NaN restante con 0
-        for k, v in list(features.items()):
+        # Defensa: rellenar cualquier NaN restante con 0 (antes esto estaba
+        # despues de un return y nunca se ejecutaba -- ver docs de la sesion).
+        for k, v in features.items():
             if isinstance(v, float) and pd.isna(v):
                 features[k] = 0.0
-    
+        return features
+
     def create_training_dataset(self) -> Tuple[pd.DataFrame, pd.Series]:
         """Crear dataset para entrenamiento"""
         all_matches = pd.concat([
-            df[df['status'] == 'FINISHED'] for df in self.matches_by_season.values()
+            df[df['status'] == 'FINISHED'].assign(_season_year=year)
+            for year, df in self.matches_by_season.items()
         ])
-        
+
         features_list = []
         targets = []
-        
+
         for _, m in all_matches.iterrows():
             try:
-                feats = self.create_match_features(m['home_team'], m['away_team'], m['date'])
-                
+                phase = m['phase'] if 'phase' in m.index and pd.notna(m['phase']) else None
+                feats = self.create_match_features(m['home_team'], m['away_team'], m['date'],
+                                                    season_year=int(m['_season_year']), phase=phase)
+
                 # Target: 0=away, 1=draw, 2=home
                 if m['home_score'] > m['away_score']:
                     target = 2

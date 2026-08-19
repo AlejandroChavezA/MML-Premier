@@ -136,13 +136,18 @@ Agregar Liga MX al mismo framework, pero solo regular season.
 6. Paso 5
 
 ## Pendientes / cosas por ver despues
-1. **Huecos reales en Transfermarkt (2025/2026)**: `data/ligamx/cleaned/matches_2025_cleaned.csv`
-   le faltan 4 partidos (jornadas 4, 6, 9 y 12 del Apertura, 8 partidos en vez
-   de 9 cada una) y `matches_2026_cleaned.csv` le faltan 3 (jornada 4: -2,
-   jornada 8: -1). No es un bug del pipeline de limpieza -- el scraper de
-   Transfermarkt (`tm_matches_2025.csv` / `tm_matches_apertura_2026.csv`)
-   nunca capturo esos partidos. Falta identificar cuales equipos faltan por
-   jornada y decidir si se re-scrapea o se completa a mano.
+1. **Huecos reales en Transfermarkt (2025/2026) -- RESUELTO**: `matches_2025_cleaned.csv`
+   le faltaban 4 partidos (jornadas 4, 6, 9 y 12 del Apertura, 8 partidos en vez
+   de 9 cada una) y `matches_2026_cleaned.csv` le faltaban 3 (jornada 4: -2,
+   jornada 8: -1). Causa real: `PAGES` en `src/build_ligamx_transfermarkt_dataset.py`
+   nunca tuvo una entrada para Apertura 2025 (solo Clausura 2025 y Apertura 2026);
+   el hueco de 2026 ya se habia corregido en una sesion anterior re-scrapeando esa
+   pagina. Se agrego la pagina de Apertura 2025 (`saison_id/2025`, mismo patron que
+   Apertura 2026), se corrigio un bug de parseo de asistencia (`_club_rows_from_page`
+   asumia que "Attendance" siempre era numerico; Transfermarkt a veces pone "x") y
+   se re-corrio el scraper + `build_ligamx_cleaned_dataset.py`. `matches_2025_cleaned.csv`
+   ahora tiene 306/306 partidos (9 por jornada, ambas fases) y `matches_2026_cleaned.csv`
+   sigue completo.
 2. **Liga de Expansion MX / Ascenso MX (openfootball) -- RESUELTO**: se
    escribio el parser del formato de texto (`src/build_ligamx_openfootball_dataset.py`)
    y se resolvio la duda de integracion con una division en dos:

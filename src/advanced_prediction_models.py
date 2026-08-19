@@ -10,6 +10,10 @@ import os
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 
+# NOTA metodología: mismo problema que src/prediction_models.py -- train_test_split
+# aleatorio sobre features de standings sin filtrar por match_date (leakage de futuro).
+# No se está invirtiendo en corregirlo acá: docs/plan_5_ligas_ligamx.md consolida el
+# pipeline sobre core/, que ya usa holdout cronológico (core/evaluate_ensemble.py).
 class AdvancedMatchPredictor:
     def __init__(self, models_dir: str = "models"):
         self.models_dir = models_dir

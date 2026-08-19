@@ -60,7 +60,7 @@ def main():
     # 4. Train winner model
     print("\n[3/4] Entrenando WinnerPredictor...")
     winner = get_winner_predictor("models")
-    winner.train(features_df, targets_df, use_time_series=False)
+    winner.train(features_df, targets_df)
     
     perf = winner.get_performance()
     print(f"\n  Results:")

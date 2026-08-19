@@ -43,7 +43,15 @@ class AdvancedFeatureEngineer:
                 raise FileNotFoundError("No se encontraron archivos matches_*_cleaned.csv")
 
             self.current_season = max(self.matches_by_season.keys())
-            self.teams_df = pd.read_csv(f"{self.data_dir}/teams_cleaned.csv")
+            teams_csv = f"{self.data_dir}/teams_cleaned.csv"
+            if os.path.exists(teams_csv):
+                self.teams_df = pd.read_csv(teams_csv)
+            else:
+                all_teams = set()
+                for df in self.matches_by_season.values():
+                    all_teams |= set(df['home_team']) | set(df['away_team'])
+                fallback_teams = sorted(all_teams)
+                self.teams_df = pd.DataFrame({'name': fallback_teams, 'name_clean': fallback_teams})
 
             print(f"Datos cargados: temporadas {sorted(self.matches_by_season)} | "
                   f"actual: {self.current_season}")

@@ -32,6 +32,13 @@ else:
     _use_v2 = False
 
 
+# NOTA metodología: la evaluación de estos modelos usa train_test_split aleatorio
+# (no cronológico) sobre features que incluyen standings sin filtrar por match_date
+# (ver src/feature_engineering.py), lo que filtra información futura hacia el pasado.
+# Los test_accuracy guardados en models/performance.pkl están inflados por ese leakage
+# y no son comparables 1:1 con evaluaciones cronológicas correctas (ver
+# core/evaluate_ensemble.py, que sí usa holdout por fecha). No se está invirtiendo en
+# corregir esto acá: docs/plan_5_ligas_ligamx.md consolida el pipeline sobre core/.
 class MatchPredictor:
     def __init__(self, models_dir: str = "models", data_dir: str = "data/cleaned"):
         self.models_dir = models_dir
@@ -206,14 +213,14 @@ class MatchPredictor:
                 with open(performance_path, 'rb') as f:
                     self.model_performance = pickle.load(f)
             
-            # Agregar rendimiento del modelo v2
-            self.model_performance['gradient_boosting_v2'] = {
-                'train_accuracy': 0.69,
-                'test_accuracy': 0.70,
-                'cv_mean': 0.54,
-                'cv_std': 0.02
-            }
-            
+            # gradient_boosting_v2 (winner_predictor.pkl) queda deliberadamente fuera de
+            # self.model_performance: no hay script de entrenamiento en este repo que
+            # calcule su accuracy, así que antes tenía valores hardcodeados que lo hacían
+            # ganar siempre en get_best_model() sin haber sido validado. Sigue disponible
+            # para selección manual; para competir por "mejor modelo" necesita una métrica
+            # real medida con split cronológico (ver docs/plan_5_ligas_ligamx.md y
+            # core/evaluate_ensemble.py).
+
             print(f" Modelos cargados: {list(self.models.keys())}")
             return True
             

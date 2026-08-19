@@ -1,0 +1,25 @@
+league_id: "262"  # API-Football league id
+name: "Liga MX"
+slug: "liga_mx"
+country: "Mexico"
+data_dir: "data/ligamx/cleaned"
+models_dir: "models/liga_mx"
+teams_expected: 18
+jornadas: 17  # por media temporada (Apertura o Clausura)
+season_type: "split"
+apertura_clausura:
+  cutover_month: 6  # mismo corte que build_ligamx_cleaned_dataset.py
+winter_break:
+  active: false
+lower_league:
+  # Los archivos de segunda division (segunda_matches_{year}_cleaned.csv) viven
+  # en el mismo directorio que Liga MX, con prefijo propio -- no hay carpeta aparte.
+  enabled: true
+  data_dir: "data/ligamx/cleaned"
+has_legacy_baseline: false  # no hay modelo sklearn legacy entrenado para Liga MX
+promoted_team_fallback:
+  strategy: "lower_league_stats"
+elo:
+  k_factor: 20
+  home_advantage: 60
+extra_features: []
