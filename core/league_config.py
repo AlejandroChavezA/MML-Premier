@@ -40,6 +40,10 @@ class LeagueConfig(BaseModel):
     league_id: str
     name: str
     slug: str
+    # Slug que espera safesports-panel en el campo soccerLeague (distinto del
+    # `slug` interno -- el panel usa "premier"/"ligamx", no "premier_league"/"liga_mx").
+    # Ver safesports-panel/components/admin/PredictionForm.tsx:SOCCER_LEAGUE_SLUG.
+    panel_slug: str
     country: str
     data_dir: str
     models_dir: str

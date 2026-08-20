@@ -253,27 +253,31 @@ class PredictionMenu:
             else:
                 game_date = str(match_date)
             
+            arguments = menu_actions.build_match_arguments(
+                pred['predicted_result'], confidence_pct, pred.get('raw_features', {}))
+
             panel_pred = {
                 'sport': 'soccer',
                 'homeTeam': home_code,
-                'homeTeamFullName': self.get_team_full_name(home_code),
+                'homeTeamFullName': self.get_team_full_name(home_team_full),
                 'homeTeamLogo': TEAM_LOGOS.get(home_code, ''),
                 'awayTeam': away_code,
-                'awayTeamFullName': self.get_team_full_name(away_code),
+                'awayTeamFullName': self.get_team_full_name(away_team_full),
                 'awayTeamLogo': TEAM_LOGOS.get(away_code, ''),
                 'predictedWinner': predicted_winner,
                 'confidence': confidence_pct,
                 'riskLevel': risk_level,
                 'gameDate': game_date,
                 'status': 'active',
+                'soccerLeague': 'premier',
                 'notes': f"Premier League - Jornada {self.current_matchday}\n"
                          f"Modelo: {pred['model_used']}\n"
                          f"Probabilidades: Local {pred['probabilities'].get('LOCAL', 0):.1%}, "
                          f"Empate {pred['probabilities'].get('EMPATE', 0):.1%}, "
                          f"Away {pred['probabilities'].get('VISITANTE', 0):.1%}",
                 'arguments': {
-                    'forWinner': [f"Confianza del modelo: {confidence_pct}%"],
-                    'forLoser': [f"Factor de riesgo: {(100-confidence_pct)}%"],
+                    'forWinner': arguments['forWinner'],
+                    'forLoser': arguments['forLoser'],
                     'summary': {
                         'winnerFactors': int(confidence * 10),
                         'loserFactors': int((1 - confidence) * 10),
@@ -334,13 +338,16 @@ class PredictionMenu:
                     actual_winner = 'DRAW'
                 is_correct = entry.get('1x2_correct', False)
             
+            arguments = menu_actions.build_match_arguments(
+                entry.get('predicted_1x2', ''), confidence_pct, entry.get('argument_signals') or {})
+
             panel_pred = {
                 'sport': 'soccer',
                 'homeTeam': home_code,
-                'homeTeamFullName': self.get_team_full_name(home_code),
+                'homeTeamFullName': self.get_team_full_name(home_team_full),
                 'homeTeamLogo': TEAM_LOGOS.get(home_code, ''),
                 'awayTeam': away_code,
-                'awayTeamFullName': self.get_team_full_name(away_code),
+                'awayTeamFullName': self.get_team_full_name(away_team_full),
                 'awayTeamLogo': TEAM_LOGOS.get(away_code, ''),
                 'predictedWinner': predicted_winner,
                 'actualWinner': actual_winner,
@@ -349,10 +356,11 @@ class PredictionMenu:
                 'riskLevel': risk_level,
                 'gameDate': game_date,
                 'status': status,
+                'soccerLeague': 'premier',
                 'notes': f"Premier League Prediction\nModelo: {entry.get('model', 'random_forest')}",
                 'arguments': {
-                    'forWinner': [f"Confianza del modelo: {confidence_pct}%"],
-                    'forLoser': [f"Factor de riesgo: {(100-confidence_pct)}%"],
+                    'forWinner': arguments['forWinner'],
+                    'forLoser': arguments['forLoser'],
                     'summary': {
                         'winnerFactors': int(confidence * 10),
                         'loserFactors': int((1 - confidence) * 10),
@@ -1378,6 +1386,23 @@ class PredictionMenu:
                 'predicted_1x2': prediction.get('predicted_result'),
                 '1x2_correct': prediction.get('correct'),
                 'confidence': prediction.get('confidence', 0.5),
+                # Subset compacto y JSON-serializable de raw_features (predict_match),
+                # solo lo que build_match_arguments necesita -- no el dict completo,
+                # que trae objetos datetime. Permite armar razones reales al exportar
+                # el historial mucho después, sin recalcular features contra datos que
+                # para entonces ya cambiaron.
+                'argument_signals': {
+                    # float(...) normaliza numpy.int64/float64 (vienen de operaciones
+                    # de pandas en feature_engineering.py) a tipos nativos -- json.dump
+                    # no serializa numpy scalars.
+                    k: (float(v) if v is not None else None)
+                    for k, v in (
+                        (k, prediction['raw_features'].get(k))
+                        for k in ('points_diff', 'position_diff', 'form_diff_last5_points',
+                                  'home_advantage_points', 'rest_diff', 'h2h_home_win_rate',
+                                  'h2h_matches_played')
+                    )
+                } if prediction.get('raw_features') else None,
                 'over_under': over_under.get('markets', {}),
                 'predicted_ou_25': over_under.get('prediction'),
                 'actual_goals': prediction.get('total_goals'),

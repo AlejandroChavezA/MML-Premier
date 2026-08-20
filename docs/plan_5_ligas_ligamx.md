@@ -173,3 +173,19 @@ Agregar Liga MX al mismo framework, pero solo regular season.
      movio a junio (Clausura de Liga MX nunca pasa de mayo, ni en fase liga
      ni en liguilla, asi que no hay riesgo de solapamiento). Esto ya afectaba
      a `matches_2022_cleaned.csv` con fbref antes de tocar openfootball.
+3. **`core/panel_export.py` manda argumentos genericos (Liga MX y cualquier liga
+   del ensamble nuevo)**: se arreglo el bug de `homeTeamFullName`/`awayTeamFullName`
+   (mandaba el codigo de 3 letras en vez del nombre completo -- mismo bug que tenia
+   `PredictionMenu.get_team_full_name` en `src/menu_interface.py`, ya corregido ahi
+   tambien) y se conectaron argumentos reales (`forWinner`/`forLoser` armados con
+   `points_diff`/`form_diff`/`h2h`/etc. via `menu_actions.build_match_arguments`,
+   nuevo en `src/menu_actions.py`) para el pipeline legacy de Premier
+   (`transform_to_panel_format` y `export_history_to_panel_format`). Pero
+   `ensemble_predictions_to_panel_format` (el que usa Liga MX vía `run.py`) sigue
+   mandando solo `"Confianza del ensamble: X%"` -- las features crudas que
+   `OutcomeXGB.predict_proba` calcula (via `feature_engineer.create_match_features`)
+   no salen de ahi, se pierden en `core/ensemble.py::reconcile()` antes de llegar a
+   `core/predict_week.py`. Falta: pasar `raw_features` a traves de esas 3 capas
+   (outcome_xgb -> reconcile -> predict_week -> panel_export) igual que ya se hizo
+   en el lado legacy, y reusar `build_match_arguments` (ya tolera las claves de
+   ambos feature engineers, legacy y src_v2).

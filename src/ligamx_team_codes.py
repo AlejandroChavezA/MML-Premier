@@ -37,13 +37,22 @@ LIGAMX_TEAM_CODES = {
     "Veracruz": "VER",
 }
 
-# code -> logo URL (media.api-sports.io, league_id=262). Atlante y los
-# históricos no aparecieron en las temporadas 2024/2025 de API-Football
-# (Atlante estaba en Liga de Expansión hasta el Apertura 2025) -- quedan sin
-# logo por ahora; TEAM_LOGOS.get(code, '') en menu_interface.py ya maneja
-# el caso de logo faltante igual que hace con Premier.
+# code -> logo URL (media.api-sports.io, league_id=262). Atlante no aparece en
+# las temporadas 2024/2025 de API-Football (estaba en Liga de Expansión hasta
+# el Apertura 2025) -- ese logo viene de Transfermarkt en vez de API-Football
+# (visto en data/ligamx/raw/matches/transfermarkt/html/, perfil del equipo
+# https://www.transfermarkt.com/cf-atlante/startseite/verein/6709).
+#
+# OJO: `TEAM_LOGOS.get(code, '')` (menu_interface.py) sí tolera un logo
+# faltante para Premier -- pero safesports-panel *rechaza* el partido entero
+# si homeTeamLogo/awayTeamLogo llegan vacíos (zod: `.min(1)` en
+# safesports-panel/lib/validations.ts, error "Away team logo is required").
+# Un código sin logo acá == esos partidos nunca llegan al dashboard, sin
+# aviso más que el conteo de "Errores" al enviar. Verificar que todo código
+# de LIGAMX_TEAM_CODES tenga entrada acá al agregar equipos nuevos.
 LIGAMX_TEAM_LOGOS = {
     "AME": "https://media.api-sports.io/football/teams/2287.png",
+    "ATE": "https://tmssl.akamaized.net/images/wappen/profil/6709.png?lm=1418834720",
     "ATS": "https://media.api-sports.io/football/teams/2283.png",
     "ASL": "https://media.api-sports.io/football/teams/2314.png",
     "CHI": "https://media.api-sports.io/football/teams/2278.png",

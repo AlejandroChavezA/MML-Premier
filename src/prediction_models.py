@@ -306,6 +306,7 @@ class MatchPredictor:
                     'EMPATE': probabilities[1],
                     'LOCAL': probabilities[2]
                 },
+                'raw_features': features,
                 'model_used': model_name,
                 'feature_importance': feature_importance,
                 'competitiveness': self.competitiveness.get_competitiveness(),

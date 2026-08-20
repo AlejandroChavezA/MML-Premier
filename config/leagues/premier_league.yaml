@@ -1,6 +1,7 @@
 league_id: "PL"  # football-data.org competition code
 name: "Premier League"
 slug: "premier_league"
+panel_slug: "premier"
 country: "England"
 data_dir: "data/cleaned"
 models_dir: "models/premier_league"

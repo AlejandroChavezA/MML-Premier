@@ -1,6 +1,7 @@
 league_id: "262"  # API-Football league id
 name: "Liga MX"
 slug: "liga_mx"
+panel_slug: "ligamx"
 country: "Mexico"
 data_dir: "data/ligamx/cleaned"
 models_dir: "models/liga_mx"

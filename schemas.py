@@ -39,6 +39,7 @@ class MatchPrediction(BaseModel):
     status: str
     notes: str
     arguments: PredictionArguments
+    soccerLeague: Optional[str] = None  # slug del panel (ej. "premier", "ligamx") -- ver safesports-panel/types/prediction.ts
 
     # Solo presentes al exportar historial ya jugado (export_history_to_panel_format).
     actualWinner: Optional[str] = None

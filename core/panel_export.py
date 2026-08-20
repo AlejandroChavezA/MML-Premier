@@ -34,13 +34,6 @@ def _team_code(team_name: str, team_codes: Dict[str, str]) -> str:
     return team_name[:3].upper() if len(team_name) >= 3 else team_name.upper()
 
 
-def _team_full_name(code: str, team_codes: Dict[str, str]) -> str:
-    # Mismo comportamiento que PredictionMenu.get_team_full_name en
-    # menu_interface.py: el dashboard recibe el código corto (no el nombre
-    # completo) en este campo -- es intencional, no un bug.
-    return code
-
-
 def ensemble_predictions_to_panel_format(predictions: List[Dict], cfg: LeagueConfig,
                                           team_codes: Dict[str, str],
                                           team_logos: Dict[str, str]) -> List[Dict]:
@@ -64,16 +57,17 @@ def ensemble_predictions_to_panel_format(predictions: List[Dict], cfg: LeagueCon
         panel_pred = {
             'sport': 'soccer',
             'homeTeam': home_code,
-            'homeTeamFullName': _team_full_name(home_code, team_codes),
+            'homeTeamFullName': pred['home_team'],
             'homeTeamLogo': team_logos.get(home_code, ''),
             'awayTeam': away_code,
-            'awayTeamFullName': _team_full_name(away_code, team_codes),
+            'awayTeamFullName': pred['away_team'],
             'awayTeamLogo': team_logos.get(away_code, ''),
             'predictedWinner': predicted_winner,
             'confidence': confidence_pct,
             'riskLevel': _risk_level(confidence_pct),
             'gameDate': game_date,
             'status': 'active',
+            'soccerLeague': cfg.panel_slug,
             'notes': f"{cfg.name}\n"
                      f"Marcador probable: {pred.get('most_likely_scoreline', 'N/A')}\n"
                      f"Probabilidades: Local {probs.get('LOCAL', 0):.1%}, "
