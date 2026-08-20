@@ -1,6 +1,6 @@
 REPORTE DE LIMPIEZA DE DATOS - PREMIER LEAGUE
 ==================================================
-Fecha: 2026-08-17 09:21:10
+Fecha: 2026-08-20 12:05:41
 
 TEMPORADA 2023:
   Partidos: 380 → 380
@@ -18,4 +18,4 @@ TEMPORADA 2026:
   Partidos: 380 → 380
   Tabla posiciones: 20 → 20
   Partidos finalizados: 0
-  Partidos programados: 50
+  Partidos programados: 380
