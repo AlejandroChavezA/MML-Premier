@@ -367,7 +367,14 @@ class FeatureEngineer:
         
         last_match = last_match.iloc[0]
         rest_days = (match_date - last_match['date']).days
-        
+        # Equipo recien ascendido: su ultimo FINISHED en el dataset puede ser de
+        # antes de que lo descendieran (300-450+ dias) -- no descanso real, un
+        # hueco de datos. Sin tope, StandardScaler/el modelo lo trata como outlier
+        # extremo (ver src/feature_engineering.py::calculate_rest_days, mismo bug,
+        # encontrado con IPS @ SUN dando 99.998% de confianza).
+        if rest_days > 30:
+            rest_days = 7
+
         two_weeks_ago = match_date - timedelta(days=14)
         recent = team_matches[
             (team_matches['date'] >= two_weeks_ago) & 

@@ -51,6 +51,9 @@ TEAM_CODES = {
     'West Ham United FC': 'WHU',
     'Burnley FC': 'BUR',
     'Wolverhampton Wanderers FC': 'WOL',
+    'Ipswich Town FC': 'IPS',
+    'Hull City AFC': 'HUL',
+    'Coventry City FC': 'COV',
 }
 
 # Logos de equipos Premier League
@@ -75,6 +78,16 @@ TEAM_LOGOS = {
     'WHU': 'https://resources.premierleague.com/premierleague/badges/50/t21.png',
     'BUR': 'https://resources.premierleague.com/premierleague/badges/50/t90.png',
     'WOL': 'https://resources.premierleague.com/premierleague/badges/50/t39.png',
+    # Recien ascendidos temporada 2026-27 (nuevos en matches_2026_cleaned.csv vs
+    # matches_2025_cleaned.csv) -- sin esto, safesports-panel rechaza el partido
+    # completo con "Away/Home team logo is required" y se pierde silenciosamente
+    # del envio (mismo problema que Atlante en Liga MX, ver src/ligamx_team_codes.py).
+    'IPS': 'https://resources.premierleague.com/premierleague/badges/50/t40.png',
+    'HUL': 'https://resources.premierleague.com/premierleague/badges/50/t88.png',
+    # Coventry no tiene id "t" clasico en este formato (nunca tuvo badge en el
+    # esquema resources.premierleague.com/premierleague/badges/) -- usa el formato
+    # nuevo de premierleague.com (SVG, club id 9), verificado que resuelve.
+    'COV': 'https://resources.premierleague.com/premierleague25/badges-alt/9.svg',
 }
 
 
