@@ -59,6 +59,15 @@ class FeatureEngineer:
             if not self.matches_by_season:
                 raise FileNotFoundError("No se encontraron archivos matches_*_cleaned.csv")
 
+            # Cacheado una sola vez acá: _all_matches() se llamaba (sin cachear) hasta 9 veces
+            # por cada create_match_features() -- 2x en get_team_form_detailed, 2x en
+            # get_venue_performance, 2x en get_rest_days, 1x en get_head_to_head, más las
+            # respectivas de get_team_form llamado desde get_team_form_detailed -- cada una
+            # re-concatenando las ~17 temporadas cargadas desde cero. matches_by_season no se
+            # muta después de load_data(), así que este cache es válido por el ciclo de vida
+            # completo de la instancia.
+            self._all_matches_df = pd.concat(list(self.matches_by_season.values())).sort_values('date').reset_index(drop=True)
+
             # current_season = ultima temporada CON partidos FINISHED (no la maxima cargada,
             # que podria ser la proxima temporada vacia, ej. 2026 con played_games=0)
             finished_by_season = {
@@ -104,7 +113,7 @@ class FeatureEngineer:
         ]) if len(self.matches_by_season) > 1 else pd.DataFrame()
 
     def _all_matches(self):
-        return pd.concat(list(self.matches_by_season.values()))
+        return self._all_matches_df
 
     def _load_csv(self, filename: str) -> pd.DataFrame:
         """Cargar CSV con validación"""
@@ -306,32 +315,34 @@ class FeatureEngineer:
         table.insert(1, 'position', range(1, len(table) + 1))
         return table
 
-    def get_standings(self, team: str, date: datetime = None, season_year: int = None, phase: str = None) -> Dict:
-        """Posicion en la tabla, point-in-time.
+    def _get_standings_table(self, date: datetime = None, season_year: int = None, phase: str = None) -> pd.DataFrame:
+        """Arma la tabla de posiciones point-in-time completa (todas las filas).
 
-        Con `date` + `season_year`: calcula la tabla acumulada SOLO con partidos
-        FINISHED de esa temporada (y esa fase, si la liga tiene Apertura/Clausura)
-        anteriores a `date` -- asi un partido de 2015 usa la tabla de 2015, no la
-        tabla de la temporada actual. Sin esos argumentos (prediccion en vivo de
-        un partido futuro, donde no hay "fuga" posible porque de verdad queremos
-        el estado mas reciente conocido) usa la temporada de referencia completa,
-        igual que antes.
+        Separado de get_standings() para que create_match_features() pueda pedirla
+        UNA vez por partido y sacar la fila de local y visitante de la misma tabla,
+        en vez de que get_standings() la reconstruya dos veces (una por equipo) --
+        _standings_table() es ~69% del tiempo total de create_match_features()
+        (ver profiling de la sesión), y para un mismo partido la tabla de local y
+        visitante es exactamente la misma tabla.
         """
         if date is None or season_year is None:
             ref_season = getattr(self, '_standings_ref_season', self.current_season)
             if ref_season not in self.matches_by_season:
-                return self._default_standings()
+                return self._standings_table(pd.DataFrame())
             season_df = self.matches_by_season[ref_season]
             finished = season_df[season_df['status'] == 'FINISHED']
         else:
             if season_year not in self.matches_by_season:
-                return self._default_standings()
+                return self._standings_table(pd.DataFrame())
             season_df = self.matches_by_season[season_year]
             finished = season_df[(season_df['status'] == 'FINISHED') & (season_df['date'] < date)]
             if phase is not None and 'phase' in season_df.columns:
                 finished = finished[finished['phase'] == phase]
 
-        table = self._standings_table(finished)
+        return self._standings_table(finished)
+
+    def _extract_team_standings(self, table: pd.DataFrame, team: str) -> Dict:
+        """Fila de un equipo dentro de una tabla ya armada por _get_standings_table()."""
         row = table[table['team'] == team]
         if row.empty:
             return self._default_standings()
@@ -347,6 +358,25 @@ class FeatureEngineer:
             'gd': int(r['gd']),
             'points_pg': float(r['points_pg']),
         }
+
+    def get_standings(self, team: str, date: datetime = None, season_year: int = None, phase: str = None) -> Dict:
+        """Posicion en la tabla, point-in-time.
+
+        Con `date` + `season_year`: calcula la tabla acumulada SOLO con partidos
+        FINISHED de esa temporada (y esa fase, si la liga tiene Apertura/Clausura)
+        anteriores a `date` -- asi un partido de 2015 usa la tabla de 2015, no la
+        tabla de la temporada actual. Sin esos argumentos (prediccion en vivo de
+        un partido futuro, donde no hay "fuga" posible porque de verdad queremos
+        el estado mas reciente conocido) usa la temporada de referencia completa,
+        igual que antes.
+
+        Sigue aceptando un solo `team` (contrato sin cambios, es la única forma
+        pública) -- el ahorro de "una tabla por partido" vive en create_match_features(),
+        que llama _get_standings_table()/_extract_team_standings() directamente en vez
+        de pasar por acá dos veces.
+        """
+        table = self._get_standings_table(date=date, season_year=season_year, phase=phase)
+        return self._extract_team_standings(table, team)
     
     def get_rest_days(self, team: str, match_date: datetime) -> Dict:
         """Días de descanso"""
@@ -367,7 +397,14 @@ class FeatureEngineer:
         
         last_match = last_match.iloc[0]
         rest_days = (match_date - last_match['date']).days
-        
+        # Equipo recien ascendido: su ultimo FINISHED en el dataset puede ser de
+        # antes de que lo descendieran (300-450+ dias) -- no descanso real, un
+        # hueco de datos. Sin tope, StandardScaler/el modelo lo trata como outlier
+        # extremo (ver src/feature_engineering.py::calculate_rest_days, mismo bug,
+        # encontrado con IPS @ SUN dando 99.998% de confianza).
+        if rest_days > 30:
+            rest_days = 7
+
         two_weeks_ago = match_date - timedelta(days=14)
         recent = team_matches[
             (team_matches['date'] >= two_weeks_ago) & 
@@ -397,8 +434,9 @@ class FeatureEngineer:
         home_venue = self.get_venue_performance(home, 'home', date)
         away_venue = self.get_venue_performance(away, 'away', date)
 
-        home_stand = self.get_standings(home, date=date, season_year=season_year, phase=phase)
-        away_stand = self.get_standings(away, date=date, season_year=season_year, phase=phase)
+        standings_table = self._get_standings_table(date=date, season_year=season_year, phase=phase)
+        home_stand = self._extract_team_standings(standings_table, home)
+        away_stand = self._extract_team_standings(standings_table, away)
         
         home_rest = self.get_rest_days(home, date)
         away_rest = self.get_rest_days(away, date)

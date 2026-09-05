@@ -24,3 +24,19 @@ elo:
   k_factor: 20
   home_advantage: 60
 extra_features: []
+# El default de OutcomeXGBConfig (heavy reg, tuneado para Premier con ~1-2k
+# partidos) colapsaba acá a predecir "LOCAL" en 97% de los partidos del
+# holdout (train_acc == test_acc == ~45%, ver core/league_config.py). Liga MX
+# tiene ~5k partidos de entrenamiento (2010-2026) y soporta un modelo con más
+# capacidad sin sobreajustar: 48.7% de accuracy en el holdout cronológico vs
+# 46.8% del baseline naive ("siempre gana el local"), y con distribución de
+# clases realista (ya no es un clasificador de una sola clase).
+outcome_xgb:
+  n_estimators: 150
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+  min_child_weight: 5
+  reg_alpha: 0.5
+  reg_lambda: 1.0

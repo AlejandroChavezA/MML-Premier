@@ -33,6 +33,31 @@ class AperturaClausura(BaseModel):
     cutover_month: int = 6
 
 
+class OutcomeXGBConfig(BaseModel):
+    """Hiperparámetros de core.models.outcome_xgb.OutcomeXGB para esta liga.
+
+    Los defaults son los valores históricos, tuneados para Premier (~1-2k
+    partidos) para evitar el overfitting documentado en core/train_ensemble.py
+    (train~86%/test~47% con menos regularización). Liga MX tiene ~5x más
+    partidos de entrenamiento (incluye 2010-2026) y con esta misma
+    regularización el modelo colapsaba a predecir "LOCAL" en 97% de los casos
+    (train_acc == test_acc == ~45%, señal de que las 60 rondas a
+    learning_rate=0.02 con min_child_weight=20 apenas alcanzan a moverse del
+    sesgo de clase base) -- ver diagnóstico en la sesión que agregó este
+    override. `liga_mx.yaml` sobreescribe estos valores con una config menos
+    conservadora que sí gana señal real (48.7% vs 46.8% del baseline naive) sin
+    reproducir el overfitting de Premier.
+    """
+    n_estimators: int = 60
+    max_depth: int = 3
+    learning_rate: float = 0.02
+    subsample: float = 0.6
+    colsample_bytree: float = 0.6
+    min_child_weight: int = 20
+    reg_alpha: float = 2.0
+    reg_lambda: float = 4.0
+
+
 class LeagueConfig(BaseModel):
     # str, no int: cada liga puede venir de un proveedor distinto con su propio
     # esquema de IDs (football-data.org usa códigos alfa como "PL"; API-Football
@@ -62,6 +87,7 @@ class LeagueConfig(BaseModel):
     promoted_team_fallback: PromotedTeamFallback = Field(default_factory=PromotedTeamFallback)
     elo: EloConfig = Field(default_factory=EloConfig)
     extra_features: List[str] = Field(default_factory=list)
+    outcome_xgb: OutcomeXGBConfig = Field(default_factory=OutcomeXGBConfig)
 
     @property
     def data_dir_path(self) -> Path:

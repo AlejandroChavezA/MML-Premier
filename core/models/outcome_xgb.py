@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import pandas as pd
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_score, train_test_split
 from xgboost import XGBClassifier
@@ -28,7 +29,8 @@ class OutcomeXGB:
         self.feature_cols: List[str] = []
         self.performance: Dict = {}
 
-    def train(self, features_df: pd.DataFrame, targets: pd.Series, dates: Optional[pd.Series] = None) -> bool:
+    def train(self, features_df: pd.DataFrame, targets: pd.Series, dates: Optional[pd.Series] = None,
+              xgb_params: Optional[Dict] = None) -> bool:
         self.feature_cols = features_df.columns.tolist()
 
         if dates is not None:
@@ -40,11 +42,16 @@ class OutcomeXGB:
                 features_df, targets, test_size=0.2, random_state=42, stratify=targets
             )
 
-        # Regularización fuerte: con ~1-2k partidos y 30+ features, configuraciones
-        # menos conservadoras (n_estimators>=100, max_depth>=4) sobreajustan mucho
-        # (train~86% / test~47% en el backtest de Premier) -- ver
-        # docs/plan_5_ligas_ligamx.md Paso 3 / core/evaluate_ensemble.py.
-        self.model = XGBClassifier(
+        # Regularización fuerte por default: con ~1-2k partidos y 30+ features
+        # (Premier), configuraciones menos conservadoras (n_estimators>=100,
+        # max_depth>=4) sobreajustan mucho (train~86% / test~47% en el backtest
+        # de Premier) -- ver docs/plan_5_ligas_ligamx.md Paso 3 /
+        # core/evaluate_ensemble.py. Ligas con más historia (ej. Liga MX,
+        # ~5k partidos) necesitan menos regularización -- con esta misma config
+        # colapsaban a predecir "LOCAL" siempre (ver core/league_config.py
+        # OutcomeXGBConfig). Por eso xgb_params viene de LeagueConfig, no
+        # hardcodeado acá.
+        default_params = dict(
             n_estimators=60,
             max_depth=3,
             learning_rate=0.02,
@@ -53,16 +60,24 @@ class OutcomeXGB:
             min_child_weight=20,
             reg_alpha=2.0,
             reg_lambda=4.0,
-            objective='multi:softprob',
-            num_class=3,
-            eval_metric='mlogloss',
-            random_state=42,
         )
-        self.model.fit(X_train, y_train)
+        params = {**default_params, **(xgb_params or {})}
 
-        train_acc = accuracy_score(y_train, self.model.predict(X_train))
-        test_acc = accuracy_score(y_test, self.model.predict(X_test))
-        cv = cross_val_score(self.model, X_train, y_train, cv=5)
+        def _make_xgb():
+            return XGBClassifier(
+                **params,
+                objective='multi:softprob',
+                num_class=3,
+                eval_metric='mlogloss',
+                random_state=42,
+            )
+
+        diagnostic_model = _make_xgb()
+        diagnostic_model.fit(X_train, y_train)
+
+        train_acc = accuracy_score(y_train, diagnostic_model.predict(X_train))
+        test_acc = accuracy_score(y_test, diagnostic_model.predict(X_test))
+        cv = cross_val_score(diagnostic_model, X_train, y_train, cv=5)
 
         self.performance = {
             'train': float(train_acc),
@@ -71,14 +86,21 @@ class OutcomeXGB:
             'cv_std': float(cv.std()),
         }
 
-        # El split de arriba es solo para medir performance honesta -- el modelo
-        # que se guarda y se usa en producción se reentrena con TODO el dataset
-        # disponible (incluida la parte más reciente que quedó afuera del split),
-        # para no predecir la temporada actual con un modelo que nunca vio nada
-        # de los últimos años. self.performance queda igual (medido antes de este
-        # refit) porque es lo único que se puede evaluar honestamente.
-        if dates is not None:
-            self.model.fit(features_df, targets)
+        # Calibración post-hoc (isotónica, 5-fold): sin esto, las probabilidades
+        # de XGBoost quedaban peor calibradas que un prior constante (log-loss
+        # 1.20 vs 1.14 en el holdout de Liga MX -- ver evaluate_ensemble.py). La
+        # regularización fuerte que evita el overfitting de accuracy no evita que
+        # el modelo esté sobre/sub-confiado en cada clase; CalibratedClassifierCV
+        # reajusta la forma de las probabilidades sin tocar accuracy en seco.
+        # El split de arriba (diagnostic_model) es solo para medir performance
+        # honesta -- el modelo final se entrena con TODO el dataset disponible
+        # (incluida la parte más reciente que quedó afuera del split), para no
+        # predecir la temporada actual con un modelo que nunca vio nada de los
+        # últimos años. self.performance queda igual (medido antes de esto)
+        # porque es lo único que se puede evaluar honestamente.
+        fit_features, fit_targets = (features_df, targets) if dates is not None else (X_train, y_train)
+        self.model = CalibratedClassifierCV(_make_xgb(), method='isotonic', cv=5)
+        self.model.fit(fit_features, fit_targets)
 
         self._save()
         return True

@@ -34,6 +34,7 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from sklearn.metrics import log_loss
 
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -42,8 +43,28 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 from src_v2.features.feature_engineer import FeatureEngineer  # noqa: E402
 
 from core.eval_utils import chronological_cutoff  # noqa: E402
-from core.models.outcome_xgb import OutcomeXGB  # noqa: E402
+from core.models.outcome_xgb import RESULT_MAP, OutcomeXGB  # noqa: E402
 from core.train_ensemble import build_training_dataset  # noqa: E402
+
+_CLASSES = [RESULT_MAP[i] for i in range(3)]  # ['VISITANTE', 'EMPATE', 'LOCAL']
+
+
+def _naive_prior_log_loss(train_targets: pd.Series, actual_labels: list) -> float:
+    """Log-loss de predecir, para todo el holdout, la distribución de clases
+    observada en train -- piso de referencia probabilístico (nunca "ve" el
+    holdout, a diferencia de usar las frecuencias del propio holdout).
+
+    Es el análogo en log-loss del baseline naive "siempre gana el local" que
+    ya se usa para accuracy: ese baseline nunca predice EMPATE, así que
+    superarlo en accuracy no exige que el modelo aprenda a distinguir
+    empates. Log-loss con este prior sí lo exige, porque penaliza fuerte
+    (log(p) -> -inf si p->0) cualquier resultado al que el modelo/baseline le
+    asigne probabilidad cercana a cero.
+    """
+    counts = train_targets.value_counts(normalize=True)
+    prior = [counts.get(i, 1e-6) for i in range(3)]
+    y_proba = [prior] * len(actual_labels)
+    return log_loss(actual_labels, y_proba, labels=_CLASSES)
 
 
 def _naive_home_baseline(holdout_matches: pd.DataFrame) -> float:
@@ -55,7 +76,8 @@ def _naive_home_baseline(holdout_matches: pd.DataFrame) -> float:
     return float(home_wins) / len(holdout_matches)
 
 
-def evaluate(data_dir: str, holdout_frac: float = 0.15, run_legacy: bool = True) -> dict:
+def evaluate(data_dir: str, holdout_frac: float = 0.15, run_legacy: bool = True,
+             outcome_xgb_params: dict = None) -> dict:
     fe = FeatureEngineer(data_dir)
     if not fe.load_data():
         raise RuntimeError(f"No se pudo cargar data_dir={data_dir}")
@@ -71,27 +93,36 @@ def evaluate(data_dir: str, holdout_frac: float = 0.15, run_legacy: bool = True)
 
     outcome_model = OutcomeXGB(models_dir="/tmp/ensemble_eval_tmp")
     outcome_model.train(
-        features_df[train_mask], outcome_targets[train_mask], dates=dates[train_mask]
+        features_df[train_mask], outcome_targets[train_mask], dates=dates[train_mask],
+        xgb_params=outcome_xgb_params,
     )
 
     ensemble_correct = 0
     ensemble_total = 0
+    actual_labels = []
+    predicted_probas = []
     for _, m in holdout_matches.iterrows():
-        result = outcome_model.predict_proba(m['home_team'], m['away_team'], m['date'], fe)
-        if result.get('error'):
+        pred = outcome_model.predict_proba(m['home_team'], m['away_team'], m['date'], fe)
+        if pred.get('error'):
             continue
         actual = 'LOCAL' if m['home_score'] > m['away_score'] else (
             'VISITANTE' if m['home_score'] < m['away_score'] else 'EMPATE')
         ensemble_total += 1
-        if result['predicted_result'] == actual:
+        if pred['predicted_result'] == actual:
             ensemble_correct += 1
+        actual_labels.append(actual)
+        predicted_probas.append([pred['probabilities'][c] for c in _CLASSES])
 
     ensemble_acc = ensemble_correct / ensemble_total if ensemble_total else 0.0
+    ensemble_log_loss = log_loss(actual_labels, predicted_probas, labels=_CLASSES) if ensemble_total else None
+    naive_log_loss = _naive_prior_log_loss(outcome_targets[train_mask], actual_labels) if ensemble_total else None
 
     result = {
         'holdout_matches': len(holdout_matches),
         'ensemble_accuracy': ensemble_acc,
         'ensemble_n': ensemble_total,
+        'ensemble_log_loss': ensemble_log_loss,
+        'naive_log_loss': naive_log_loss,
     }
 
     if not run_legacy:
@@ -151,6 +182,7 @@ def main():
 
     data_dir = args.data_dir
     run_legacy = not args.skip_legacy
+    outcome_xgb_params = None
 
     if args.league:
         from core.league_config import load_league_config
@@ -159,12 +191,17 @@ def main():
             data_dir = str(cfg.data_dir_path)
         if not args.skip_legacy:
             run_legacy = cfg.has_legacy_baseline
+        outcome_xgb_params = cfg.outcome_xgb.model_dump()
 
     if data_dir is None:
         data_dir = "data/cleaned"
 
-    result = evaluate(data_dir, args.holdout_frac, run_legacy=run_legacy)
+    result = evaluate(data_dir, args.holdout_frac, run_legacy=run_legacy, outcome_xgb_params=outcome_xgb_params)
     print(f"\nEnsamble (OutcomeXGB):  {result['ensemble_accuracy']:.1%} ({result['ensemble_n']} partidos)")
+    print(f"Log-loss ensamble: {result['ensemble_log_loss']:.4f}  |  "
+          f"log-loss prior naive (frecuencias de train, sin ver empates como imposibles): "
+          f"{result['naive_log_loss']:.4f}  "
+          f"({'mejor' if result['ensemble_log_loss'] < result['naive_log_loss'] else 'NO mejor'} que el prior)")
 
     if result.get('legacy_model'):
         print(f"Legacy ({result['legacy_model']}): {result['legacy_accuracy']:.1%} ({result['legacy_n']} partidos)")

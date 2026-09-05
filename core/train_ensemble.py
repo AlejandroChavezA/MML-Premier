@@ -64,7 +64,7 @@ def build_training_dataset(fe: FeatureEngineer):
             pd.Series(dates, name='date'), all_matches)
 
 
-def train_ensemble(data_dir: str, models_dir: str) -> dict:
+def train_ensemble(data_dir: str, models_dir: str, outcome_xgb_params: dict = None) -> dict:
     fe = FeatureEngineer(data_dir)
     if not fe.load_data():
         raise RuntimeError(f"No se pudo cargar data_dir={data_dir}")
@@ -74,7 +74,7 @@ def train_ensemble(data_dir: str, models_dir: str) -> dict:
         raise RuntimeError("Dataset de entrenamiento vacío")
 
     outcome_model = OutcomeXGB(models_dir=models_dir)
-    outcome_model.train(features_df, outcome_targets, dates=dates)
+    outcome_model.train(features_df, outcome_targets, dates=dates, xgb_params=outcome_xgb_params)
 
     goals_model = GoalsGLM(models_dir=models_dir)
     goals_model.train(features_df, goals_targets, dates=dates)
@@ -98,11 +98,25 @@ def train_ensemble(data_dir: str, models_dir: str) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Entrena el ensamble de 3 modelos para una liga")
-    parser.add_argument("--data-dir", default="data/cleaned")
-    parser.add_argument("--models-dir", default="models")
+    parser.add_argument("--data-dir", default=None)
+    parser.add_argument("--models-dir", default=None)
+    parser.add_argument("--league", default=None,
+                        help="Slug de config/leagues/{league}.yaml -- define data-dir/models-dir "
+                             "por default y los hiperparámetros de OutcomeXGB (outcome_xgb.*)")
     args = parser.parse_args()
 
-    result = train_ensemble(args.data_dir, args.models_dir)
+    data_dir, models_dir, outcome_xgb_params = args.data_dir, args.models_dir, None
+    if args.league:
+        from core.league_config import load_league_config
+        cfg = load_league_config(args.league)
+        data_dir = data_dir or cfg.data_dir
+        models_dir = models_dir or cfg.models_dir
+        outcome_xgb_params = cfg.outcome_xgb.model_dump()
+
+    data_dir = data_dir or "data/cleaned"
+    models_dir = models_dir or "models"
+
+    result = train_ensemble(data_dir, models_dir, outcome_xgb_params=outcome_xgb_params)
     print(f"Samples: {result['n_samples']}")
     print(f"Outcome (XGBoost): {result['outcome_performance']}")
     print(f"Goals (GLM Poisson): {result['goals_performance']}")

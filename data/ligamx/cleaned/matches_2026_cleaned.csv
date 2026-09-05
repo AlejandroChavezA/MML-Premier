@@ -33,51 +33,53 @@ id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,t
 4953,2026-08-17,2026,apertura,4,América,Atlético San Luis,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,,,,,,,,4,True,1
 4954,2026-08-17,2026,apertura,4,Club Tijuana,Cruz Azul,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,4,True,1
 4955,2026-08-17,2026,apertura,4,Santos Laguna,Chivas,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,4,True,1
-4956,2026-08-18,2026,apertura,4,Necaxa,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,4,True,1
-4957,2026-08-18,2026,apertura,4,Pachuca,Puebla FC,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,4,True,1
-4958,2026-08-22,2026,apertura,5,FC Juárez,América,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4959,2026-08-22,2026,apertura,5,León,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4960,2026-08-22,2026,apertura,5,Tigres UANL,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4961,2026-08-23,2026,apertura,5,Chivas,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4962,2026-08-23,2026,apertura,5,Cruz Azul,Atlas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4963,2026-08-23,2026,apertura,5,León,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4964,2026-08-23,2026,apertura,5,Puebla FC,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4965,2026-08-23,2026,apertura,5,Querétaro,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4966,2026-08-24,2026,apertura,5,Atlético San Luis,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4967,2026-08-24,2026,apertura,5,UNAM Pumas,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
-4968,2026-08-29,2026,apertura,6,Atlante,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4969,2026-08-29,2026,apertura,6,Club Tijuana,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4970,2026-08-29,2026,apertura,6,Necaxa,Cruz Azul,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4971,2026-08-30,2026,apertura,6,América,Puebla FC,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4972,2026-08-30,2026,apertura,6,Atlas,Querétaro,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4973,2026-08-30,2026,apertura,6,Pachuca,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4974,2026-08-30,2026,apertura,6,Santos Laguna,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4975,2026-08-31,2026,apertura,6,Monterrey,Atlético San Luis,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4976,2026-08-31,2026,apertura,6,Toluca,FC Juárez,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,6,True,1
-4977,2026-09-05,2026,apertura,7,FC Juárez,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4978,2026-09-05,2026,apertura,7,Puebla FC,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4979,2026-09-06,2026,apertura,7,América,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4980,2026-09-06,2026,apertura,7,Atlas,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4981,2026-09-06,2026,apertura,7,Atlético San Luis,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4982,2026-09-06,2026,apertura,7,Querétaro,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4983,2026-09-06,2026,apertura,7,Tigres UANL,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4984,2026-09-06,2026,apertura,7,UNAM Pumas,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4985,2026-09-07,2026,apertura,7,Cruz Azul,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4986,2026-09-12,2026,apertura,8,Atlante,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4987,2026-09-12,2026,apertura,8,Club Tijuana,Querétaro,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4988,2026-09-12,2026,apertura,8,Necaxa,Puebla FC,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4989,2026-09-13,2026,apertura,8,Cruz Azul,América,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4990,2026-09-13,2026,apertura,8,León,Atlético San Luis,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4991,2026-09-13,2026,apertura,8,Toluca,Atlas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4992,2026-09-14,2026,apertura,8,Chivas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4993,2026-09-14,2026,apertura,8,Monterrey,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4994,2026-09-14,2026,apertura,8,Santos Laguna,FC Juárez,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4995,2026-09-19,2026,apertura,9,FC Juárez,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4996,2026-09-19,2026,apertura,9,Puebla FC,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4997,2026-09-20,2026,apertura,9,América,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4998,2026-09-20,2026,apertura,9,Atlas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4999,2026-09-20,2026,apertura,9,Atlético San Luis,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5000,2026-09-20,2026,apertura,9,Monterrey,Cruz Azul,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5001,2026-09-21,2026,apertura,9,Pachuca,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5002,2026-09-21,2026,apertura,9,Querétaro,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5003,2026-09-21,2026,apertura,9,Toluca,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+4956,2026-08-18,2026,apertura,4,Necaxa,León,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,4,True,1
+4957,2026-08-18,2026,apertura,4,Pachuca,Puebla FC,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,4,True,1
+4958,2026-08-22,2026,apertura,5,FC Juárez,América,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,5,True,1
+4959,2026-08-22,2026,apertura,5,León,Monterrey,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
+4960,2026-08-22,2026,apertura,5,Querétaro,Toluca,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,5,True,1
+4961,2026-08-22,2026,apertura,5,Tigres UANL,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
+4962,2026-08-23,2026,apertura,5,Chivas,Club Tijuana,5.0,2.0,FINISHED,7.0,3.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
+4963,2026-08-23,2026,apertura,5,Cruz Azul,Atlas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,5,True,1
+4964,2026-08-23,2026,apertura,5,León,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
+4965,2026-08-23,2026,apertura,5,Puebla FC,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
+4966,2026-08-23,2026,apertura,5,Querétaro,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
+4967,2026-08-24,2026,apertura,5,Atlético San Luis,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,5,True,1
+4968,2026-08-24,2026,apertura,5,UNAM Pumas,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,5,True,1
+4969,2026-08-29,2026,apertura,6,Atlante,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,6,True,1
+4970,2026-08-29,2026,apertura,6,Club Tijuana,UNAM Pumas,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,6,True,1
+4971,2026-08-29,2026,apertura,6,Necaxa,Cruz Azul,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,6,True,1
+4972,2026-08-30,2026,apertura,6,América,Puebla FC,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,6,True,1
+4973,2026-08-30,2026,apertura,6,Atlas,Querétaro,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,6,True,1
+4974,2026-08-30,2026,apertura,6,Pachuca,Chivas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,6,True,1
+4975,2026-08-30,2026,apertura,6,Santos Laguna,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,6,True,1
+4976,2026-08-31,2026,apertura,6,Monterrey,Atlético San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,6,True,1
+4977,2026-08-31,2026,apertura,6,Toluca,FC Juárez,4.0,0.0,FINISHED,4.0,4.0,LOCAL,transfermarkt,,,,,,,,,,,6,True,1
+4978,2026-09-05,2026,apertura,7,FC Juárez,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4979,2026-09-05,2026,apertura,7,Puebla FC,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4980,2026-09-06,2026,apertura,7,América,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4981,2026-09-06,2026,apertura,7,Atlas,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4982,2026-09-06,2026,apertura,7,Atlético San Luis,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4983,2026-09-06,2026,apertura,7,Querétaro,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4984,2026-09-06,2026,apertura,7,Tigres UANL,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4985,2026-09-06,2026,apertura,7,UNAM Pumas,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4986,2026-09-07,2026,apertura,7,Cruz Azul,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
+4987,2026-09-12,2026,apertura,8,Atlante,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4988,2026-09-12,2026,apertura,8,Club Tijuana,Querétaro,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4989,2026-09-12,2026,apertura,8,Necaxa,Puebla FC,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4990,2026-09-13,2026,apertura,8,Cruz Azul,América,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4991,2026-09-13,2026,apertura,8,León,Atlético San Luis,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4992,2026-09-13,2026,apertura,8,Monterrey,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4993,2026-09-13,2026,apertura,8,Toluca,Atlas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4994,2026-09-14,2026,apertura,8,Chivas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4995,2026-09-14,2026,apertura,8,Monterrey,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4996,2026-09-14,2026,apertura,8,Santos Laguna,FC Juárez,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
+4997,2026-09-19,2026,apertura,9,FC Juárez,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+4998,2026-09-19,2026,apertura,9,Puebla FC,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+4999,2026-09-20,2026,apertura,9,América,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5000,2026-09-20,2026,apertura,9,Atlas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5001,2026-09-20,2026,apertura,9,Atlético San Luis,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5002,2026-09-20,2026,apertura,9,Monterrey,Cruz Azul,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5003,2026-09-21,2026,apertura,9,Pachuca,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5004,2026-09-21,2026,apertura,9,Querétaro,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+5005,2026-09-21,2026,apertura,9,Toluca,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1

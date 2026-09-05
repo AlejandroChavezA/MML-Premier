@@ -338,7 +338,17 @@ class FeatureEngineer:
 
         last_match = prior_matches.iloc[0]
         days_since_last = (match_date - last_match['date']).days
-        
+        # Equipo recién ascendido: su último partido FINISHED en este dataset
+        # (solo Premier League) puede ser de la temporada anterior a que lo
+        # descendieran -- 300-450+ dias, no un descanso real. Sin este tope,
+        # ese valor se va tan lejos de la distribucion de entrenamiento (~3-14
+        # dias) que StandardScaler lo trata como outlier extremo y logistic_regression
+        # termina en ~100%/0% de confianza sobre una sola feature rota (visto en
+        # IPS @ SUN: home_rest_days=447 -> 99.998% para el visitante). Tope a un
+        # valor neutral, igual de "sin señal" que el default de 7 dias de arriba.
+        if days_since_last > 30:
+            days_since_last = 7
+
         # Partidos en últimas 2 semanas
         two_weeks_ago = match_date - timedelta(days=14)
         recent_matches = team_matches[

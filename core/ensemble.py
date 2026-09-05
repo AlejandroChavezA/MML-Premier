@@ -17,7 +17,6 @@ from typing import Dict, Optional
 
 logger = logging.getLogger(__name__)
 
-_TIE_EPSILON = 0.03  # 3pp
 _OU_DISAGREEMENT_THRESHOLD = 1.0  # goles
 
 
@@ -27,22 +26,6 @@ def _implied_outcome(home_goals: int, away_goals: int) -> str:
     if home_goals < away_goals:
         return 'VISITANTE'
     return 'EMPATE'
-
-
-def _break_outcome_tie(probabilities: Dict[str, float]) -> str:
-    """Si los dos resultados con mayor probabilidad están a <3pp, preferir el no-empate.
-
-    Los clasificadores tienden a subestimar la confianza en empates -- ver
-    docs/plan_5_ligas_ligamx.md Paso 3.
-    """
-    ranked = sorted(probabilities.items(), key=lambda kv: kv[1], reverse=True)
-    top, second = ranked[0], ranked[1]
-    if (top[1] - second[1]) >= _TIE_EPSILON:
-        return top[0]
-    non_draw_candidates = [kv for kv in (top, second) if kv[0] != 'EMPATE']
-    if non_draw_candidates:
-        return max(non_draw_candidates, key=lambda kv: kv[1])[0]
-    return top[0]
 
 
 def _select_scoreline(outcome: str, dc_result: Dict) -> Optional[Dict]:
@@ -60,7 +43,7 @@ def reconcile(outcome_result: Dict, dc_result: Dict, glm_result: Dict) -> Dict:
             return {'error': f"{name}: {result['error']}"}
 
     probabilities = outcome_result['probabilities']
-    predicted_result = _break_outcome_tie(probabilities)
+    predicted_result = outcome_result['predicted_result']
     confidence = probabilities[predicted_result]
 
     scoreline = _select_scoreline(predicted_result, dc_result)

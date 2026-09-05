@@ -26,7 +26,11 @@ def get_jornada_status(project_root: Path, season: int, data_dir: Optional[Path]
     matches = pd.read_csv(matches_path)
     if phase is not None:
         matches = matches[matches['phase'].astype(str).str.lower().str.startswith(phase.lower())]
-    available = sorted(matches['matchday'].unique())
+    # int(...) nativo, no numpy.int64: json.dump no sabe serializar numpy.int64 y
+    # rompe a mitad de escritura (deja el archivo de historial con JSON inválido) --
+    # ver _save_prediction_to_history en menu_interface.py / core/history.py, que
+    # heredan este valor de acá vía resolve_next_matchday/resolve_last_finished_matchday.
+    available = sorted(int(m) for m in matches['matchday'].unique())
 
     finished = []
     upcoming = []
