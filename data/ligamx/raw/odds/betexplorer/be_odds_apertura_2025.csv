@@ -1,0 +1,154 @@
+date,season,phase,home_team_raw,away_team_raw,home_team,away_team,home_score,away_score,odd_home,odd_draw,odd_away,source
+2025-11-10,2025,apertura,Santos Laguna,Pachuca,Santos Laguna,Pachuca,1,0,4.34,4.27,1.63,betexplorer
+2025-11-09,2025,apertura,Club Leon,Puebla,León,Puebla FC,1,2,1.8,3.88,3.9,betexplorer
+2025-11-09,2025,apertura,Cruz Azul,UNAM Pumas,Cruz Azul,UNAM Pumas,2,3,1.78,3.77,4.1,betexplorer
+2025-11-09,2025,apertura,Guadalajara Chivas,Monterrey,Chivas,Monterrey,4,2,1.9,3.67,3.68,betexplorer
+2025-11-09,2025,apertura,Tigres UANL,Atl. San Luis,Tigres UANL,Atlético San Luis,3,1,1.3,5.38,8.42,betexplorer
+2025-11-09,2025,apertura,Toluca,Club America,Toluca,América,2,0,2.41,3.53,2.65,betexplorer
+2025-11-08,2025,apertura,Club Tijuana,Atlas,Club Tijuana,Atlas,2,0,1.68,4.0,4.42,betexplorer
+2025-11-08,2025,apertura,Juarez,Queretaro,FC Juárez,Querétaro,1,2,1.51,4.0,6.23,betexplorer
+2025-11-08,2025,apertura,Mazatlan FC,Necaxa,Mazatlán FC,Necaxa,1,1,3.55,3.75,1.92,betexplorer
+2025-11-03,2025,apertura,Pachuca,Guadalajara Chivas,Pachuca,Chivas,0,1,2.88,3.3,2.38,betexplorer
+2025-11-03,2025,apertura,Queretaro,Mazatlan FC,Querétaro,Mazatlán FC,1,0,2.19,3.33,3.1,betexplorer
+2025-11-02,2025,apertura,Atlas,Toluca,Atlas,Toluca,0,0,4.68,4.32,1.59,betexplorer
+2025-11-02,2025,apertura,Club America,Club Leon,América,León,2,0,1.32,5.08,8.1,betexplorer
+2025-11-02,2025,apertura,Monterrey,Tigres UANL,Monterrey,Tigres UANL,1,1,2.6,3.32,2.58,betexplorer
+2025-11-02,2025,apertura,UNAM Pumas,Club Tijuana,UNAM Pumas,Club Tijuana,4,1,1.55,4.2,5.32,betexplorer
+2025-11-01,2025,apertura,Atl. San Luis,Juarez,Atlético San Luis,FC Juárez,1,2,2.24,3.32,3.08,betexplorer
+2025-11-01,2025,apertura,Necaxa,Santos Laguna,Necaxa,Santos Laguna,4,1,1.44,4.85,5.72,betexplorer
+2025-11-01,2025,apertura,Puebla,Cruz Azul,Puebla FC,Cruz Azul,0,3,4.78,3.93,1.63,betexplorer
+2025-10-27,2025,apertura,Atl. San Luis,Necaxa,Atlético San Luis,Necaxa,3,4,2.17,3.53,3.03,betexplorer
+2025-10-27,2025,apertura,Santos Laguna,Queretaro,Santos Laguna,Querétaro,3,1,2.15,3.48,3.12,betexplorer
+2025-10-27,2025,apertura,Toluca,Pachuca,Toluca,Pachuca,2,2,1.51,4.55,5.23,betexplorer
+2025-10-26,2025,apertura,Club Leon,UNAM Pumas,León,UNAM Pumas,1,1,3.3,3.45,2.08,betexplorer
+2025-10-26,2025,apertura,Cruz Azul,Monterrey,Cruz Azul,Monterrey,2,0,1.84,3.85,3.72,betexplorer
+2025-10-26,2025,apertura,Guadalajara Chivas,Atlas,Chivas,Atlas,4,1,1.48,4.33,6.0,betexplorer
+2025-10-26,2025,apertura,Tigres UANL,Club Tijuana,Tigres UANL,Club Tijuana,2,0,1.51,4.38,5.55,betexplorer
+2025-10-25,2025,apertura,Juarez,Puebla,FC Juárez,Puebla FC,4,4,1.52,4.1,5.78,betexplorer
+2025-10-25,2025,apertura,Mazatlan FC,Club America,Mazatlán FC,América,2,2,4.65,3.98,1.66,betexplorer
+2025-10-23,2025,apertura,Atlas,Club Leon,Atlas,León,2,0,2.52,3.52,2.53,betexplorer
+2025-10-23,2025,apertura,Club Tijuana,Toluca,Club Tijuana,Toluca,0,0,3.05,3.72,2.11,betexplorer
+2025-10-23,2025,apertura,Pachuca,Tigres UANL,Pachuca,Tigres UANL,1,2,2.7,3.47,2.4,betexplorer
+2025-10-23,2025,apertura,Queretaro,Guadalajara Chivas,Querétaro,Chivas,1,0,4.95,3.7,1.67,betexplorer
+2025-10-23,2025,apertura,UNAM Pumas,Atl. San Luis,UNAM Pumas,Atlético San Luis,0,1,1.88,3.58,3.78,betexplorer
+2025-10-22,2025,apertura,Club America,Puebla,América,Puebla FC,2,1,1.22,6.1,10.67,betexplorer
+2025-10-22,2025,apertura,Mazatlan FC,Santos Laguna,Mazatlán FC,Santos Laguna,2,2,2.09,3.57,3.13,betexplorer
+2025-10-22,2025,apertura,Monterrey,Juarez,Monterrey,FC Juárez,4,2,1.53,4.33,5.38,betexplorer
+2025-10-22,2025,apertura,Necaxa,Cruz Azul,Necaxa,Cruz Azul,1,1,3.15,3.68,2.07,betexplorer
+2025-10-19,2025,apertura,Cruz Azul,Club America,Cruz Azul,América,2,1,2.87,3.43,2.3,betexplorer
+2025-10-19,2025,apertura,Guadalajara Chivas,Mazatlan FC,Chivas,Mazatlán FC,2,0,1.33,5.05,7.72,betexplorer
+2025-10-19,2025,apertura,Juarez,Pachuca,FC Juárez,Pachuca,2,2,2.53,3.27,2.67,betexplorer
+2025-10-19,2025,apertura,Monterrey,UNAM Pumas,Monterrey,UNAM Pumas,1,1,1.64,3.85,5.02,betexplorer
+2025-10-19,2025,apertura,Santos Laguna,Club Leon,Santos Laguna,León,2,0,2.57,3.62,2.43,betexplorer
+2025-10-19,2025,apertura,Toluca,Queretaro,Toluca,Querétaro,4,0,1.2,6.7,10.83,betexplorer
+2025-10-18,2025,apertura,Atl. San Luis,Atlas,Atlético San Luis,Atlas,2,0,1.8,3.82,3.97,betexplorer
+2025-10-18,2025,apertura,Puebla,Club Tijuana,Puebla FC,Club Tijuana,4,3,2.52,3.33,2.67,betexplorer
+2025-10-18,2025,apertura,Tigres UANL,Necaxa,Tigres UANL,Necaxa,5,3,1.5,4.4,5.65,betexplorer
+2025-10-06,2025,apertura,Club Tijuana,Monterrey,Club Tijuana,Monterrey,2,2,2.67,3.53,2.29,betexplorer
+2025-10-06,2025,apertura,UNAM Pumas,Guadalajara Chivas,UNAM Pumas,Chivas,1,2,2.45,3.22,2.81,betexplorer
+2025-10-05,2025,apertura,Club America,Santos Laguna,América,Santos Laguna,3,0,1.17,7.25,12.83,betexplorer
+2025-10-05,2025,apertura,Club Leon,Toluca,León,Toluca,2,4,4.73,4.63,1.55,betexplorer
+2025-10-05,2025,apertura,Queretaro,Puebla,Querétaro,Puebla FC,3,1,2.84,3.13,2.45,betexplorer
+2025-10-05,2025,apertura,Tigres UANL,Cruz Azul,Tigres UANL,Cruz Azul,1,1,2.05,3.5,3.3,betexplorer
+2025-10-04,2025,apertura,Atlas,Juarez,Atlas,FC Juárez,3,1,2.83,3.48,2.29,betexplorer
+2025-10-04,2025,apertura,Mazatlan FC,Atl. San Luis,Mazatlán FC,Atlético San Luis,2,1,2.45,3.48,2.62,betexplorer
+2025-10-04,2025,apertura,Necaxa,Pachuca,Necaxa,Pachuca,0,1,2.42,3.62,2.58,betexplorer
+2025-09-29,2025,apertura,Club Tijuana,Cruz Azul,Club Tijuana,Cruz Azul,2,0,3.0,3.85,2.05,betexplorer
+2025-09-29,2025,apertura,Queretaro,Tigres UANL,Querétaro,Tigres UANL,0,2,5.08,3.82,1.62,betexplorer
+2025-09-28,2025,apertura,Atlas,Necaxa,Atlas,Necaxa,3,2,3.72,3.65,1.89,betexplorer
+2025-09-28,2025,apertura,Club America,UNAM Pumas,América,UNAM Pumas,4,1,1.7,3.75,4.57,betexplorer
+2025-09-28,2025,apertura,Monterrey,Santos Laguna,Monterrey,Santos Laguna,1,0,1.26,6.02,8.52,betexplorer
+2025-09-28,2025,apertura,Pachuca,Atl. San Luis,Pachuca,Atlético San Luis,2,1,1.67,4.07,4.28,betexplorer
+2025-09-28,2025,apertura,Puebla,Guadalajara Chivas,Puebla FC,Chivas,0,2,3.32,3.45,2.08,betexplorer
+2025-09-28,2025,apertura,Toluca,Mazatlan FC,Toluca,Mazatlán FC,3,1,1.23,6.63,9.63,betexplorer
+2025-09-27,2025,apertura,Juarez,Club Leon,FC Juárez,León,2,0,2.11,3.37,3.3,betexplorer
+2025-09-25,2025,apertura,Atl. San Luis,Club America,Atlético San Luis,América,0,1,4.58,4.0,1.65,betexplorer
+2025-09-25,2025,apertura,Cruz Azul,Queretaro,Cruz Azul,Querétaro,2,2,1.3,5.4,8.3,betexplorer
+2025-09-25,2025,apertura,Santos Laguna,Club Tijuana,Santos Laguna,Club Tijuana,1,0,3.12,3.75,2.02,betexplorer
+2025-09-25,2025,apertura,Tigres UANL,Atlas,Tigres UANL,Atlas,2,0,1.33,5.15,7.55,betexplorer
+2025-09-25,2025,apertura,Toluca,Monterrey,Toluca,Monterrey,6,2,1.52,4.43,5.23,betexplorer
+2025-09-24,2025,apertura,Club Leon,Mazatlan FC,León,Mazatlán FC,2,2,1.66,3.98,4.57,betexplorer
+2025-09-24,2025,apertura,Guadalajara Chivas,Necaxa,Chivas,Necaxa,3,1,1.99,3.6,3.47,betexplorer
+2025-09-24,2025,apertura,Juarez,UNAM Pumas,FC Juárez,UNAM Pumas,3,1,2.91,3.1,2.42,betexplorer
+2025-09-24,2025,apertura,Puebla,Pachuca,Puebla FC,Pachuca,2,2,3.8,3.68,1.87,betexplorer
+2025-09-22,2025,apertura,Santos Laguna,Atl. San Luis,Santos Laguna,Atlético San Luis,1,4,2.45,3.55,2.58,betexplorer
+2025-09-21,2025,apertura,Guadalajara Chivas,Toluca,Chivas,Toluca,0,3,2.92,3.47,2.28,betexplorer
+2025-09-21,2025,apertura,Monterrey,Club America,Monterrey,América,2,2,2.06,3.48,3.32,betexplorer
+2025-09-21,2025,apertura,Pachuca,Queretaro,Pachuca,Querétaro,0,2,1.33,5.25,7.92,betexplorer
+2025-09-21,2025,apertura,UNAM Pumas,Tigres UANL,UNAM Pumas,Tigres UANL,1,1,2.03,3.38,3.55,betexplorer
+2025-09-20,2025,apertura,Club Tijuana,Club Leon,Club Tijuana,León,5,0,1.86,3.83,3.67,betexplorer
+2025-09-20,2025,apertura,Cruz Azul,Juarez,Cruz Azul,FC Juárez,3,2,1.46,4.38,6.25,betexplorer
+2025-09-20,2025,apertura,Mazatlan FC,Atlas,Mazatlán FC,Atlas,1,1,2.23,3.47,2.98,betexplorer
+2025-09-20,2025,apertura,Necaxa,Puebla,Necaxa,Puebla FC,1,0,1.72,3.7,4.53,betexplorer
+2025-09-18,2025,apertura,Guadalajara Chivas,Tigres UANL,Chivas,Tigres UANL,0,0,2.36,3.28,2.9,betexplorer
+2025-09-15,2025,apertura,Atl. San Luis,Club Tijuana,Atlético San Luis,Club Tijuana,1,1,2.1,3.65,3.18,betexplorer
+2025-09-15,2025,apertura,Queretaro,Monterrey,Querétaro,Monterrey,0,1,4.73,4.0,1.64,betexplorer
+2025-09-14,2025,apertura,Atlas,Santos Laguna,Atlas,Santos Laguna,2,2,1.85,3.7,3.83,betexplorer
+2025-09-14,2025,apertura,Club America,Guadalajara Chivas,América,Chivas,1,2,1.68,3.98,4.5,betexplorer
+2025-09-14,2025,apertura,Pachuca,Cruz Azul,Pachuca,Cruz Azul,0,1,2.7,3.38,2.45,betexplorer
+2025-09-14,2025,apertura,Tigres UANL,Club Leon,Tigres UANL,León,0,0,1.46,4.5,5.78,betexplorer
+2025-09-14,2025,apertura,Toluca,Puebla,Toluca,Puebla FC,3,1,1.33,5.23,7.8,betexplorer
+2025-09-13,2025,apertura,Mazatlan FC,UNAM Pumas,Mazatlán FC,UNAM Pumas,1,4,3.28,3.33,2.16,betexplorer
+2025-09-13,2025,apertura,Necaxa,Juarez,Necaxa,FC Juárez,1,1,2.12,3.43,3.28,betexplorer
+2025-09-01,2025,apertura,Club Tijuana,Necaxa,Club Tijuana,Necaxa,3,0,2.25,3.7,2.8,betexplorer
+2025-08-31,2025,apertura,Club America,Pachuca,América,Pachuca,2,0,1.94,3.53,3.55,betexplorer
+2025-08-31,2025,apertura,Club Leon,Queretaro,León,Querétaro,3,0,1.59,3.98,5.38,betexplorer
+2025-08-31,2025,apertura,Guadalajara Chivas,Cruz Azul,Chivas,Cruz Azul,1,2,2.97,3.3,2.34,betexplorer
+2025-08-31,2025,apertura,Santos Laguna,Tigres UANL,Santos Laguna,Tigres UANL,0,1,6.23,4.7,1.44,betexplorer
+2025-08-31,2025,apertura,UNAM Pumas,Atlas,UNAM Pumas,Atlas,1,0,1.61,3.8,5.15,betexplorer
+2025-08-30,2025,apertura,Atl. San Luis,Toluca,Atlético San Luis,Toluca,1,3,5.0,4.52,1.55,betexplorer
+2025-08-30,2025,apertura,Juarez,Mazatlan FC,FC Juárez,Mazatlán FC,1,0,1.63,3.77,5.32,betexplorer
+2025-08-30,2025,apertura,Puebla,Monterrey,Puebla FC,Monterrey,2,4,3.78,3.63,1.9,betexplorer
+2025-08-25,2025,apertura,Atlas,Club America,Atlas,América,2,4,4.93,3.93,1.63,betexplorer
+2025-08-25,2025,apertura,UNAM Pumas,Puebla,UNAM Pumas,Puebla FC,0,0,1.64,3.95,5.1,betexplorer
+2025-08-24,2025,apertura,Club Leon,Pachuca,León,Pachuca,1,1,3.25,3.47,2.11,betexplorer
+2025-08-24,2025,apertura,Cruz Azul,Toluca,Cruz Azul,Toluca,1,0,2.12,3.67,3.05,betexplorer
+2025-08-24,2025,apertura,Mazatlan FC,Tigres UANL,Mazatlán FC,Tigres UANL,2,2,3.9,3.57,1.88,betexplorer
+2025-08-24,2025,apertura,Monterrey,Necaxa,Monterrey,Necaxa,3,0,1.49,4.55,5.78,betexplorer
+2025-08-23,2025,apertura,Club Tijuana,Guadalajara Chivas,Club Tijuana,Chivas,3,3,3.13,3.53,2.14,betexplorer
+2025-08-23,2025,apertura,Juarez,Santos Laguna,FC Juárez,Santos Laguna,2,1,1.64,4.0,4.97,betexplorer
+2025-08-23,2025,apertura,Queretaro,Atl. San Luis,Querétaro,Atlético San Luis,3,2,3.22,3.35,2.18,betexplorer
+2025-08-18,2025,apertura,Monterrey,Mazatlan FC,Monterrey,Mazatlán FC,3,2,1.34,4.88,8.43,betexplorer
+2025-08-17,2025,apertura,Cruz Azul,Santos Laguna,Cruz Azul,Santos Laguna,3,2,1.21,6.7,12.0,betexplorer
+2025-08-17,2025,apertura,Guadalajara Chivas,Juarez,Chivas,FC Juárez,1,2,1.7,3.77,4.72,betexplorer
+2025-08-17,2025,apertura,Pachuca,Club Tijuana,Pachuca,Club Tijuana,0,2,1.38,4.92,7.08,betexplorer
+2025-08-17,2025,apertura,Queretaro,Atlas,Querétaro,Atlas,3,3,3.02,3.23,2.33,betexplorer
+2025-08-17,2025,apertura,Tigres UANL,Club America,Tigres UANL,América,1,3,2.12,3.28,3.47,betexplorer
+2025-08-17,2025,apertura,Toluca,UNAM Pumas,Toluca,UNAM Pumas,1,1,1.72,3.68,4.67,betexplorer
+2025-08-16,2025,apertura,Necaxa,Club Leon,Necaxa,León,0,1,1.86,3.78,3.67,betexplorer
+2025-08-16,2025,apertura,Puebla,Atl. San Luis,Puebla FC,Atlético San Luis,0,2,2.37,3.43,2.8,betexplorer
+2025-08-12,2025,apertura,Atl. San Luis,Cruz Azul,Atlético San Luis,Cruz Azul,1,2,4.27,3.9,1.74,betexplorer
+2025-08-12,2025,apertura,Club Leon,Monterrey,León,Monterrey,1,3,3.15,3.55,2.15,betexplorer
+2025-08-12,2025,apertura,Juarez,Toluca,FC Juárez,Toluca,0,2,3.4,3.65,2.02,betexplorer
+2025-08-11,2025,apertura,Santos Laguna,Guadalajara Chivas,Santos Laguna,Chivas,1,0,4.63,3.95,1.68,betexplorer
+2025-08-11,2025,apertura,UNAM Pumas,Necaxa,UNAM Pumas,Necaxa,1,1,1.94,3.5,3.8,betexplorer
+2025-08-10,2025,apertura,Atlas,Pachuca,Atlas,Pachuca,0,3,3.45,3.55,2.03,betexplorer
+2025-08-10,2025,apertura,Club America,Queretaro,América,Querétaro,1,0,1.21,6.5,13.75,betexplorer
+2025-08-10,2025,apertura,Mazatlan FC,Club Tijuana,Mazatlán FC,Club Tijuana,2,2,2.98,3.35,2.28,betexplorer
+2025-08-09,2025,apertura,Tigres UANL,Puebla,Tigres UANL,Puebla FC,7,0,1.45,4.55,6.63,betexplorer
+2025-07-27,2025,apertura,Cruz Azul,Club Leon,Cruz Azul,León,4,1,1.47,4.5,6.38,betexplorer
+2025-07-27,2025,apertura,Guadalajara Chivas,Atl. San Luis,Chivas,Atlético San Luis,4,3,1.49,4.27,6.5,betexplorer
+2025-07-27,2025,apertura,Monterrey,Atlas,Monterrey,Atlas,3,1,1.44,4.63,6.63,betexplorer
+2025-07-27,2025,apertura,Necaxa,Club America,Necaxa,América,1,1,2.88,3.55,2.3,betexplorer
+2025-07-27,2025,apertura,Pachuca,Mazatlan FC,Pachuca,Mazatlán FC,1,0,1.37,4.78,8.38,betexplorer
+2025-07-27,2025,apertura,Toluca,Tigres UANL,Toluca,Tigres UANL,3,4,1.84,3.5,4.25,betexplorer
+2025-07-26,2025,apertura,Club Tijuana,Juarez,Club Tijuana,FC Juárez,1,1,2.05,3.45,3.45,betexplorer
+2025-07-26,2025,apertura,Puebla,Santos Laguna,Puebla FC,Santos Laguna,1,0,1.93,3.55,3.7,betexplorer
+2025-07-26,2025,apertura,Queretaro,UNAM Pumas,Querétaro,UNAM Pumas,0,2,4.17,3.28,1.92,betexplorer
+2025-07-20,2025,apertura,Atlas,Cruz Azul,Atlas,Cruz Azul,3,3,4.28,3.78,1.71,betexplorer
+2025-07-20,2025,apertura,Club Leon,Guadalajara Chivas,León,Chivas,1,0,3.02,3.27,2.23,betexplorer
+2025-07-20,2025,apertura,Tigres UANL,Juarez,Tigres UANL,FC Juárez,1,0,1.38,4.27,8.08,betexplorer
+2025-07-20,2025,apertura,UNAM Pumas,Pachuca,UNAM Pumas,Pachuca,2,3,2.98,3.28,2.32,betexplorer
+2025-07-19,2025,apertura,Atl. San Luis,Monterrey,Atlético San Luis,Monterrey,0,1,3.0,3.48,2.15,betexplorer
+2025-07-19,2025,apertura,Mazatlan FC,Puebla,Mazatlán FC,Puebla FC,2,1,2.25,3.05,3.25,betexplorer
+2025-07-19,2025,apertura,Necaxa,Queretaro,Necaxa,Querétaro,3,1,1.76,3.63,4.23,betexplorer
+2025-07-17,2025,apertura,Club America,Club Tijuana,América,Club Tijuana,3,1,1.34,5.17,7.8,betexplorer
+2025-07-17,2025,apertura,Santos Laguna,Toluca,Santos Laguna,Toluca,2,4,3.33,3.6,2.04,betexplorer
+2025-07-14,2025,apertura,Club Leon,Atl. San Luis,León,Atlético San Luis,0,1,1.78,3.63,4.37,betexplorer
+2025-07-14,2025,apertura,Pachuca,Monterrey,Pachuca,Monterrey,3,0,2.03,3.43,3.52,betexplorer
+2025-07-13,2025,apertura,Cruz Azul,Mazatlan FC,Cruz Azul,Mazatlán FC,0,0,1.21,6.08,13.67,betexplorer
+2025-07-13,2025,apertura,Santos Laguna,UNAM Pumas,Santos Laguna,UNAM Pumas,3,0,2.78,3.18,2.53,betexplorer
+2025-07-13,2025,apertura,Toluca,Necaxa,Toluca,Necaxa,3,1,1.53,4.24,5.63,betexplorer
+2025-07-12,2025,apertura,Club Tijuana,Queretaro,Club Tijuana,Querétaro,1,0,1.53,4.3,5.47,betexplorer
+2025-07-12,2025,apertura,Juarez,Club America,FC Juárez,América,1,1,4.47,3.33,1.82,betexplorer
+2025-07-12,2025,apertura,Puebla,Atlas,Puebla FC,Atlas,2,3,2.46,3.1,2.96,betexplorer

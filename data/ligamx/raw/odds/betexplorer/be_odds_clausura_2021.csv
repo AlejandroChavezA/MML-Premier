@@ -1,0 +1,152 @@
+date,season,phase,home_team_raw,away_team_raw,home_team,away_team,home_score,away_score,odd_home,odd_draw,odd_away,source
+2022-05-02,2021,clausura,Club Leon,Toluca,León,Toluca,4,4,1.44,4.75,7.0,betexplorer
+2022-05-01,2021,clausura,Atlas,Tigres UANL,Atlas,Tigres UANL,1,1,2.25,3.2,3.4,betexplorer
+2022-05-01,2021,clausura,Atl. San Luis,Santos Laguna,Atlético San Luis,Santos Laguna,1,3,2.37,3.3,3.0,betexplorer
+2022-05-01,2021,clausura,Club America,Cruz Azul,América,Cruz Azul,0,0,1.75,3.6,4.75,betexplorer
+2022-05-01,2021,clausura,Monterrey,Club Tijuana,Monterrey,Club Tijuana,2,0,1.5,4.2,6.5,betexplorer
+2022-05-01,2021,clausura,UNAM Pumas,Pachuca,UNAM Pumas,Pachuca,2,0,3.5,3.4,2.15,betexplorer
+2022-04-30,2021,clausura,Mazatlan FC,Puebla,Mazatlán FC,Puebla FC,2,1,2.2,3.2,3.5,betexplorer
+2022-04-30,2021,clausura,Necaxa,Guadalajara Chivas,Necaxa,Chivas,0,1,2.5,2.87,3.3,betexplorer
+2022-04-30,2021,clausura,Queretaro,Juarez,Querétaro,FC Juárez,4,0,1.85,3.4,4.5,betexplorer
+2022-04-25,2021,clausura,Club Tijuana,Queretaro,Club Tijuana,Querétaro,2,2,2.2,3.25,3.5,betexplorer
+2022-04-25,2021,clausura,Santos Laguna,Club Leon,Santos Laguna,León,1,1,2.1,3.4,3.5,betexplorer
+2022-04-24,2021,clausura,Cruz Azul,Atl. San Luis,Cruz Azul,Atlético San Luis,0,1,2.2,3.1,3.6,betexplorer
+2022-04-24,2021,clausura,Guadalajara Chivas,UNAM Pumas,Chivas,UNAM Pumas,3,1,2.2,3.3,3.4,betexplorer
+2022-04-24,2021,clausura,Tigres UANL,Club America,Tigres UANL,América,0,2,2.37,3.3,3.1,betexplorer
+2022-04-24,2021,clausura,Toluca,Atlas,Toluca,Atlas,2,4,3.8,3.25,2.1,betexplorer
+2022-04-23,2021,clausura,Juarez,Mazatlan FC,FC Juárez,Mazatlán FC,0,2,3.0,3.0,2.6,betexplorer
+2022-04-23,2021,clausura,Pachuca,Monterrey,Pachuca,Monterrey,3,0,2.0,3.3,4.0,betexplorer
+2022-04-23,2021,clausura,Puebla,Necaxa,Puebla FC,Necaxa,0,1,2.55,3.25,2.9,betexplorer
+2022-04-22,2021,clausura,Queretaro,Cruz Azul,Querétaro,Cruz Azul,0,1,2.62,3.1,2.87,betexplorer
+2022-04-21,2021,clausura,Atl. San Luis,UNAM Pumas,Atlético San Luis,UNAM Pumas,2,0,1.9,3.5,4.2,betexplorer
+2022-04-21,2021,clausura,Club America,Club Leon,América,León,2,0,1.72,3.6,5.0,betexplorer
+2022-04-21,2021,clausura,Monterrey,Atlas,Monterrey,Atlas,0,0,1.95,3.3,4.2,betexplorer
+2022-04-20,2021,clausura,Guadalajara Chivas,Club Tijuana,Chivas,Club Tijuana,2,1,1.9,3.6,4.0,betexplorer
+2022-04-20,2021,clausura,Mazatlan FC,Santos Laguna,Mazatlán FC,Santos Laguna,1,0,2.8,3.3,2.55,betexplorer
+2022-04-20,2021,clausura,Necaxa,Tigres UANL,Necaxa,Tigres UANL,2,0,2.7,3.25,2.6,betexplorer
+2022-04-20,2021,clausura,Pachuca,Puebla,Pachuca,Puebla FC,1,0,1.65,3.8,5.5,betexplorer
+2022-04-20,2021,clausura,Toluca,Juarez,Toluca,FC Juárez,0,1,1.9,3.3,4.5,betexplorer
+2022-04-17,2021,clausura,Cruz Azul,Guadalajara Chivas,Cruz Azul,Chivas,0,1,2.3,3.2,3.3,betexplorer
+2022-04-17,2021,clausura,Santos Laguna,Queretaro,Santos Laguna,Querétaro,1,1,1.85,3.5,4.5,betexplorer
+2022-04-17,2021,clausura,Tigres UANL,Toluca,Tigres UANL,Toluca,3,0,1.25,5.75,13.0,betexplorer
+2022-04-17,2021,clausura,UNAM Pumas,Monterrey,UNAM Pumas,Monterrey,2,0,2.6,3.3,2.8,betexplorer
+2022-04-16,2021,clausura,Club Leon,Puebla,León,Puebla FC,0,1,2.1,3.3,3.6,betexplorer
+2022-04-16,2021,clausura,Club Tijuana,Club America,Club Tijuana,América,1,3,3.25,3.25,2.25,betexplorer
+2022-04-16,2021,clausura,Juarez,Pachuca,FC Juárez,Pachuca,1,2,4.0,3.25,2.0,betexplorer
+2022-04-16,2021,clausura,Necaxa,Atl. San Luis,Necaxa,Atlético San Luis,4,2,2.37,3.0,3.4,betexplorer
+2022-04-15,2021,clausura,Atlas,Mazatlan FC,Atlas,Mazatlán FC,1,2,1.6,3.6,7.0,betexplorer
+2022-04-14,2021,clausura,Guadalajara Chivas,Monterrey,Chivas,Monterrey,1,3,2.37,3.1,3.25,betexplorer
+2022-04-12,2021,clausura,Pachuca,Club Tijuana,Pachuca,Club Tijuana,0,0,1.4,4.5,8.0,betexplorer
+2022-04-11,2021,clausura,Queretaro,Tigres UANL,Querétaro,Tigres UANL,0,1,4.0,3.1,2.05,betexplorer
+2022-04-10,2021,clausura,Club America,Juarez,América,FC Juárez,3,0,1.28,5.0,13.0,betexplorer
+2022-04-10,2021,clausura,Monterrey,Santos Laguna,Monterrey,Santos Laguna,1,0,1.75,3.6,5.0,betexplorer
+2022-04-10,2021,clausura,Toluca,Guadalajara Chivas,Toluca,Chivas,1,1,3.5,3.2,2.2,betexplorer
+2022-04-09,2021,clausura,Atl. San Luis,Club Leon,Atlético San Luis,León,2,0,3.1,3.1,2.45,betexplorer
+2022-04-09,2021,clausura,Mazatlan FC,Cruz Azul,Mazatlán FC,Cruz Azul,1,1,2.4,3.0,3.25,betexplorer
+2022-04-09,2021,clausura,Puebla,UNAM Pumas,Puebla FC,UNAM Pumas,2,2,1.8,3.75,4.5,betexplorer
+2022-04-08,2021,clausura,Atlas,Necaxa,Atlas,Necaxa,2,1,1.95,3.0,4.75,betexplorer
+2022-04-08,2021,clausura,Pachuca,Tigres UANL,Pachuca,Tigres UANL,2,1,1.9,3.6,3.8,betexplorer
+2022-04-07,2021,clausura,Club Tijuana,Atl. San Luis,Club Tijuana,Atlético San Luis,1,1,1.9,3.4,4.2,betexplorer
+2022-04-07,2021,clausura,Toluca,Monterrey,Toluca,Monterrey,2,2,3.8,3.5,2.0,betexplorer
+2022-04-04,2021,clausura,Santos Laguna,Pachuca,Santos Laguna,Pachuca,3,1,2.62,3.4,2.62,betexplorer
+2022-04-04,2021,clausura,Tigres UANL,Club Tijuana,Tigres UANL,Club Tijuana,2,0,1.55,4.0,6.0,betexplorer
+2022-04-03,2021,clausura,Club Leon,Queretaro,León,Querétaro,1,1,1.95,3.2,4.5,betexplorer
+2022-04-03,2021,clausura,Cruz Azul,Atlas,Cruz Azul,Atlas,1,0,2.3,2.9,3.6,betexplorer
+2022-04-03,2021,clausura,Juarez,UNAM Pumas,FC Juárez,UNAM Pumas,0,1,2.9,3.2,2.5,betexplorer
+2022-04-03,2021,clausura,Necaxa,Club America,Necaxa,América,0,1,3.1,3.1,2.45,betexplorer
+2022-04-03,2021,clausura,Toluca,Puebla,Toluca,Puebla FC,2,1,3.3,3.4,2.15,betexplorer
+2022-04-02,2021,clausura,Atl. San Luis,Mazatlan FC,Atlético San Luis,Mazatlán FC,1,0,1.8,3.5,4.5,betexplorer
+2022-03-27,2021,clausura,UNAM Pumas,Mazatlan FC,UNAM Pumas,Mazatlán FC,1,1,1.5,4.2,7.0,betexplorer
+2022-03-21,2021,clausura,Atlas,Guadalajara Chivas,Atlas,Chivas,1,1,2.3,2.75,4.0,betexplorer
+2022-03-21,2021,clausura,Club America,Toluca,América,Toluca,3,0,1.55,4.2,6.0,betexplorer
+2022-03-21,2021,clausura,Club Tijuana,Juarez,Club Tijuana,FC Juárez,1,0,1.6,3.6,6.5,betexplorer
+2022-03-21,2021,clausura,Mazatlan FC,Club Leon,Mazatlán FC,León,1,2,3.3,3.25,2.25,betexplorer
+2022-03-20,2021,clausura,Pachuca,Cruz Azul,Pachuca,Cruz Azul,1,0,1.95,3.2,4.5,betexplorer
+2022-03-20,2021,clausura,Tigres UANL,Monterrey,Tigres UANL,Monterrey,2,0,2.2,3.2,3.4,betexplorer
+2022-03-20,2021,clausura,UNAM Pumas,Necaxa,UNAM Pumas,Necaxa,1,3,2.1,3.25,3.6,betexplorer
+2022-03-19,2021,clausura,Puebla,Santos Laguna,Puebla FC,Santos Laguna,2,2,2.2,3.2,3.4,betexplorer
+2022-03-18,2021,clausura,Queretaro,Atl. San Luis,Querétaro,Atlético San Luis,2,1,3.0,2.9,2.7,betexplorer
+2022-03-16,2021,clausura,Monterrey,Juarez,Monterrey,FC Juárez,3,0,1.45,4.2,8.0,betexplorer
+2022-03-14,2021,clausura,Atl. San Luis,Puebla,Atlético San Luis,Puebla FC,2,1,2.75,3.0,2.8,betexplorer
+2022-03-14,2021,clausura,Santos Laguna,Club Tijuana,Santos Laguna,Club Tijuana,4,0,2.1,3.2,3.75,betexplorer
+2022-03-13,2021,clausura,Club Leon,Tigres UANL,León,Tigres UANL,0,3,2.7,3.2,2.75,betexplorer
+2022-03-13,2021,clausura,Cruz Azul,UNAM Pumas,Cruz Azul,UNAM Pumas,2,1,2.15,3.4,3.3,betexplorer
+2022-03-13,2021,clausura,Guadalajara Chivas,Club America,Chivas,América,0,0,2.6,3.0,3.0,betexplorer
+2022-03-13,2021,clausura,Toluca,Pachuca,Toluca,Pachuca,0,3,4.2,3.5,1.9,betexplorer
+2022-03-12,2021,clausura,Juarez,Atlas,FC Juárez,Atlas,1,2,3.8,2.87,2.25,betexplorer
+2022-03-12,2021,clausura,Monterrey,Mazatlan FC,Monterrey,Mazatlán FC,2,1,1.5,4.0,7.5,betexplorer
+2022-03-12,2021,clausura,Necaxa,Queretaro,Necaxa,Querétaro,1,0,2.3,3.0,3.5,betexplorer
+2022-03-06,2021,clausura,Cruz Azul,Puebla,Cruz Azul,Puebla FC,1,3,2.2,3.0,3.6,betexplorer
+2022-03-06,2021,clausura,Guadalajara Chivas,Santos Laguna,Chivas,Santos Laguna,1,0,2.4,3.1,3.2,betexplorer
+2022-03-06,2021,clausura,Monterrey,Club America,Monterrey,América,2,1,1.83,3.5,4.5,betexplorer
+2022-03-05,2021,clausura,Necaxa,Toluca,Necaxa,Toluca,0,1,1.9,3.3,4.2,betexplorer
+2022-03-03,2021,clausura,Atlas,Pachuca,Atlas,Pachuca,0,1,2.9,3.0,2.7,betexplorer
+2022-03-03,2021,clausura,Atl. San Luis,Guadalajara Chivas,Atlético San Luis,Chivas,2,2,2.7,2.9,2.9,betexplorer
+2022-03-03,2021,clausura,Santos Laguna,UNAM Pumas,Santos Laguna,UNAM Pumas,3,2,2.0,3.5,3.8,betexplorer
+2022-03-03,2021,clausura,Tigres UANL,Cruz Azul,Tigres UANL,Cruz Azul,2,2,1.66,3.8,5.5,betexplorer
+2022-03-02,2021,clausura,Club America,Queretaro,América,Querétaro,1,1,1.66,3.6,5.5,betexplorer
+2022-03-02,2021,clausura,Club Leon,Monterrey,León,Monterrey,0,0,3.0,3.1,2.55,betexplorer
+2022-03-02,2021,clausura,Mazatlan FC,Necaxa,Mazatlán FC,Necaxa,0,0,2.8,2.9,2.8,betexplorer
+2022-03-02,2021,clausura,Puebla,Juarez,Puebla FC,FC Juárez,1,1,1.75,3.4,5.25,betexplorer
+2022-03-02,2021,clausura,Toluca,Club Tijuana,Toluca,Club Tijuana,1,2,2.25,3.3,3.3,betexplorer
+2022-02-28,2021,clausura,Cruz Azul,Santos Laguna,Cruz Azul,Santos Laguna,1,2,1.95,3.2,4.5,betexplorer
+2022-02-27,2021,clausura,Guadalajara Chivas,Puebla,Chivas,Puebla FC,2,3,2.25,3.1,3.5,betexplorer
+2022-02-27,2021,clausura,Monterrey,Atl. San Luis,Monterrey,Atlético San Luis,0,2,1.5,4.0,7.5,betexplorer
+2022-02-27,2021,clausura,UNAM Pumas,Club America,UNAM Pumas,América,0,0,2.9,3.2,2.5,betexplorer
+2022-02-26,2021,clausura,Club Tijuana,Atlas,Club Tijuana,Atlas,2,0,2.5,3.0,3.1,betexplorer
+2022-02-26,2021,clausura,Juarez,Tigres UANL,FC Juárez,Tigres UANL,2,3,5.0,3.4,1.83,betexplorer
+2022-02-26,2021,clausura,Necaxa,Club Leon,Necaxa,León,0,1,2.8,3.2,2.62,betexplorer
+2022-02-25,2021,clausura,Pachuca,Mazatlan FC,Pachuca,Mazatlán FC,3,1,1.44,4.33,8.0,betexplorer
+2022-02-25,2021,clausura,Queretaro,Toluca,Querétaro,Toluca,1,1,2.25,3.1,3.5,betexplorer
+2022-02-21,2021,clausura,Atlas,UNAM Pumas,Atlas,UNAM Pumas,0,0,1.95,3.2,4.33,betexplorer
+2022-02-21,2021,clausura,Toluca,Cruz Azul,Toluca,Cruz Azul,1,4,3.1,3.3,2.37,betexplorer
+2022-02-20,2021,clausura,Club America,Pachuca,América,Pachuca,1,3,2.5,3.25,3.0,betexplorer
+2022-02-20,2021,clausura,Club Leon,Guadalajara Chivas,León,Chivas,2,1,2.25,3.4,3.2,betexplorer
+2022-02-20,2021,clausura,Queretaro,Mazatlan FC,Querétaro,Mazatlán FC,2,0,2.0,3.3,4.0,betexplorer
+2022-02-20,2021,clausura,Tigres UANL,Atl. San Luis,Tigres UANL,Atlético San Luis,2,1,1.5,4.2,7.5,betexplorer
+2022-02-19,2021,clausura,Club Tijuana,Necaxa,Club Tijuana,Necaxa,1,1,1.75,3.5,5.25,betexplorer
+2022-02-19,2021,clausura,Juarez,Santos Laguna,FC Juárez,Santos Laguna,0,0,3.25,3.0,2.45,betexplorer
+2022-02-19,2021,clausura,Puebla,Monterrey,Puebla FC,Monterrey,1,0,3.1,3.3,2.3,betexplorer
+2022-02-17,2021,clausura,Mazatlan FC,Club America,Mazatlán FC,América,2,1,3.3,3.1,2.3,betexplorer
+2022-02-15,2021,clausura,Pachuca,Queretaro,Pachuca,Querétaro,2,2,1.57,3.8,6.5,betexplorer
+2022-02-13,2021,clausura,Atl. San Luis,Toluca,Atlético San Luis,Toluca,0,1,1.95,3.6,3.8,betexplorer
+2022-02-13,2021,clausura,Cruz Azul,Necaxa,Cruz Azul,Necaxa,1,2,1.85,3.2,5.0,betexplorer
+2022-02-13,2021,clausura,Guadalajara Chivas,Tigres UANL,Chivas,Tigres UANL,1,3,2.55,3.1,3.0,betexplorer
+2022-02-13,2021,clausura,Santos Laguna,Club America,Santos Laguna,América,2,3,2.37,3.1,3.25,betexplorer
+2022-02-13,2021,clausura,UNAM Pumas,Club Leon,UNAM Pumas,León,2,1,2.37,3.4,3.0,betexplorer
+2022-02-12,2021,clausura,Mazatlan FC,Club Tijuana,Mazatlán FC,Club Tijuana,2,0,3.0,3.3,2.4,betexplorer
+2022-02-12,2021,clausura,Puebla,Atlas,Puebla FC,Atlas,1,1,3.1,2.87,2.7,betexplorer
+2022-02-10,2021,clausura,Juarez,Guadalajara Chivas,FC Juárez,Chivas,1,3,3.0,2.8,2.75,betexplorer
+2022-02-08,2021,clausura,Club Leon,Cruz Azul,León,Cruz Azul,0,1,2.62,3.1,2.9,betexplorer
+2022-02-07,2021,clausura,Atlas,Santos Laguna,Atlas,Santos Laguna,2,1,2.1,3.0,4.0,betexplorer
+2022-02-07,2021,clausura,Tigres UANL,Mazatlan FC,Tigres UANL,Mazatlán FC,4,3,1.45,4.0,9.0,betexplorer
+2022-02-06,2021,clausura,Club America,Atl. San Luis,América,Atlético San Luis,2,3,1.66,3.8,5.25,betexplorer
+2022-02-06,2021,clausura,Club Tijuana,UNAM Pumas,Club Tijuana,UNAM Pumas,1,0,2.2,3.5,3.2,betexplorer
+2022-02-06,2021,clausura,Necaxa,Pachuca,Necaxa,Pachuca,1,3,2.9,3.2,2.5,betexplorer
+2022-02-06,2021,clausura,Queretaro,Puebla,Querétaro,Puebla FC,0,2,2.75,3.0,2.8,betexplorer
+2022-01-29,2021,clausura,Puebla,Club Tijuana,Puebla FC,Club Tijuana,3,1,2.3,3.0,3.5,betexplorer
+2022-01-24,2021,clausura,Santos Laguna,Necaxa,Santos Laguna,Necaxa,1,4,1.66,3.8,5.0,betexplorer
+2022-01-23,2021,clausura,Club America,Atlas,América,Atlas,0,2,2.3,3.0,3.5,betexplorer
+2022-01-23,2021,clausura,Club Leon,Pachuca,León,Pachuca,2,1,2.37,3.4,3.0,betexplorer
+2022-01-23,2021,clausura,Guadalajara Chivas,Queretaro,Chivas,Querétaro,1,1,1.9,3.4,4.33,betexplorer
+2022-01-23,2021,clausura,Monterrey,Cruz Azul,Monterrey,Cruz Azul,2,2,1.85,3.3,4.5,betexplorer
+2022-01-23,2021,clausura,UNAM Pumas,Tigres UANL,UNAM Pumas,Tigres UANL,1,2,2.7,3.3,2.6,betexplorer
+2022-01-22,2021,clausura,Mazatlan FC,Toluca,Mazatlán FC,Toluca,1,2,2.3,3.2,3.3,betexplorer
+2022-01-21,2021,clausura,Atl. San Luis,Juarez,Atlético San Luis,FC Juárez,0,1,2.37,2.9,3.5,betexplorer
+2022-01-20,2021,clausura,Club Leon,Atlas,León,Atlas,1,1,2.4,2.9,3.5,betexplorer
+2022-01-17,2021,clausura,Pachuca,Guadalajara Chivas,Pachuca,Chivas,2,1,2.2,3.25,3.5,betexplorer
+2022-01-16,2021,clausura,Atlas,Atl. San Luis,Atlas,Atlético San Luis,1,0,1.8,3.4,5.25,betexplorer
+2022-01-16,2021,clausura,Club Tijuana,Club Leon,Club Tijuana,León,1,1,2.4,3.5,2.9,betexplorer
+2022-01-16,2021,clausura,Cruz Azul,Juarez,Cruz Azul,FC Juárez,1,0,1.7,3.5,5.75,betexplorer
+2022-01-16,2021,clausura,Tigres UANL,Puebla,Tigres UANL,Puebla FC,0,2,1.53,4.0,6.5,betexplorer
+2022-01-16,2021,clausura,Toluca,Santos Laguna,Toluca,Santos Laguna,3,1,3.0,3.3,2.37,betexplorer
+2022-01-15,2021,clausura,Necaxa,Monterrey,Necaxa,Monterrey,0,4,3.6,3.2,2.15,betexplorer
+2022-01-15,2021,clausura,Queretaro,UNAM Pumas,Querétaro,UNAM Pumas,1,3,2.9,3.1,2.55,betexplorer
+2022-01-13,2021,clausura,Santos Laguna,Tigres UANL,Santos Laguna,Tigres UANL,1,1,2.4,3.2,3.0,betexplorer
+2022-01-11,2021,clausura,UNAM Pumas,Toluca,UNAM Pumas,Toluca,5,0,2.3,3.2,3.3,betexplorer
+2022-01-10,2021,clausura,Guadalajara Chivas,Mazatlan FC,Chivas,Mazatlán FC,3,0,1.61,3.4,7.0,betexplorer
+2022-01-09,2021,clausura,Cruz Azul,Club Tijuana,Cruz Azul,Club Tijuana,2,0,1.72,3.3,6.0,betexplorer
+2022-01-09,2021,clausura,Monterrey,Queretaro,Monterrey,Querétaro,0,0,1.5,4.0,7.5,betexplorer
+2022-01-08,2021,clausura,Juarez,Necaxa,FC Juárez,Necaxa,2,1,2.9,2.87,2.7,betexplorer
+2022-01-08,2021,clausura,Puebla,Club America,Puebla FC,América,1,1,2.8,2.9,2.75,betexplorer
+2022-01-07,2021,clausura,Atl. San Luis,Pachuca,Atlético San Luis,Pachuca,0,2,2.75,3.25,2.62,betexplorer

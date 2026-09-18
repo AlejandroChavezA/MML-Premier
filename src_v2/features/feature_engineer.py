@@ -11,6 +11,7 @@ Salida:
 - DataFrame con features numéricas para modelos
 """
 
+import bisect
 import pandas as pd
 import numpy as np
 import re
@@ -18,9 +19,13 @@ import glob
 import os
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 from season_utils import get_current_season
+
+ELO_K_FACTOR = 20.0
+ELO_HOME_ADVANTAGE = 60.0
+ELO_INITIAL_RATING = 1500.0
 
 
 class FeatureEngineer:
@@ -100,12 +105,52 @@ class FeatureEngineer:
                 fallback_teams = sorted(all_teams)
                 self.teams = pd.DataFrame({'name': fallback_teams, 'name_clean': fallback_teams})
 
+            self._load_odds()
+
             print(f"✅ Datos cargados: temporadas {sorted(self.matches_by_season)} | "
                   f"actual: {self.current_season}")
             return True
         except Exception as e:
             print(f"❌ Error cargando datos: {e}")
             return False
+
+    def _load_odds(self) -> None:
+        """Cuotas 1X2 (mercado) indexadas por (home_team, away_team, fecha).
+
+        Opcional: solo existe hoy para Liga MX (data/ligamx/cleaned/odds_*.csv,
+        ver src/build_ligamx_betexplorer_odds_dataset.py). Cobertura real
+        incompleta en temporadas viejas (2020-2024 ronda el 15%, huecos del
+        scraper de origen) pero casi completa en 2025-2026 -- por eso
+        get_odds_features() devuelve un flag `has_odds` en vez de inventar un
+        33/33/33 indistinguible de un partido parejo de verdad.
+        """
+        self._odds_index: Dict[tuple, Tuple[float, float, float]] = {}
+        for f in glob.glob(str(self.data_dir / "odds_*.csv")):
+            df = pd.read_csv(f)
+            required = {'home_team', 'away_team', 'date', 'odd_home', 'odd_draw', 'odd_away'}
+            if not required.issubset(df.columns):
+                continue
+            df['date'] = pd.to_datetime(df['date'])
+            for _, r in df.iterrows():
+                key = (r['home_team'], r['away_team'], r['date'].date())
+                self._odds_index[key] = (float(r['odd_home']), float(r['odd_draw']), float(r['odd_away']))
+
+    def get_odds_features(self, home: str, away: str, date: datetime) -> Dict:
+        """Probabilidad implícita del mercado (de-vig) para un partido, si hay cuota."""
+        key = (home, away, pd.Timestamp(date).date())
+        odds = self._odds_index.get(key) if hasattr(self, '_odds_index') else None
+        if odds is None:
+            return {'odds_home_prob': 0.0, 'odds_draw_prob': 0.0, 'odds_away_prob': 0.0, 'has_odds': 0}
+
+        odd_home, odd_draw, odd_away = odds
+        inv = [1.0 / odd_home, 1.0 / odd_draw, 1.0 / odd_away]
+        overround = sum(inv)
+        return {
+            'odds_home_prob': inv[0] / overround,
+            'odds_draw_prob': inv[1] / overround,
+            'odds_away_prob': inv[2] / overround,
+            'has_odds': 1,
+        }
 
     def _historical_matches(self):
         return pd.concat([
@@ -417,6 +462,98 @@ class FeatureEngineer:
             'fatigue': min(len(recent) / 2.0, 3.0),
         }
     
+    def _build_elo_history(self) -> None:
+        """Elo incremental, aislado a esta liga (mismo dataset que _all_matches()).
+
+        A diferencia de core.elo.EloTracker (que solo guarda el rating final y
+        alimenta el prior de Dixon-Coles), acá se guarda el historial completo
+        por equipo -- (fecha, rating_despues_del_partido) -- porque
+        create_training_dataset() necesita el Elo de cada equipo en la fecha de
+        CADA partido histórico, no solo el rating actual. Duplicado intencional
+        de la matemática de EloTracker en vez de importarla: core/ depende de
+        src_v2, no al revés, así que src_v2 no puede importar de core/ sin
+        invertir esa capa.
+        """
+        ratings: Dict[str, float] = {}
+        dates_by_team: Dict[str, List] = {}
+        ratings_by_team: Dict[str, List[float]] = {}
+
+        finished = self._all_matches()
+        finished = finished[finished['status'] == 'FINISHED'].sort_values('date')
+
+        for _, m in finished.iterrows():
+            home, away = m['home_team'], m['away_team']
+            home_r = ratings.get(home, ELO_INITIAL_RATING)
+            away_r = ratings.get(away, ELO_INITIAL_RATING)
+
+            expected_home = 1.0 / (1.0 + 10 ** (-((home_r + ELO_HOME_ADVANTAGE) - away_r) / 400.0))
+            if m['home_score'] > m['away_score']:
+                actual_home = 1.0
+            elif m['home_score'] < m['away_score']:
+                actual_home = 0.0
+            else:
+                actual_home = 0.5
+
+            new_home_r = home_r + ELO_K_FACTOR * (actual_home - expected_home)
+            new_away_r = away_r + ELO_K_FACTOR * ((1.0 - actual_home) - (1.0 - expected_home))
+            ratings[home] = new_home_r
+            ratings[away] = new_away_r
+
+            dates_by_team.setdefault(home, []).append(m['date'])
+            ratings_by_team.setdefault(home, []).append(new_home_r)
+            dates_by_team.setdefault(away, []).append(m['date'])
+            ratings_by_team.setdefault(away, []).append(new_away_r)
+
+        self._elo_dates_by_team = dates_by_team
+        self._elo_ratings_by_team = ratings_by_team
+
+    def get_elo(self, team: str, date: datetime) -> float:
+        """Elo del equipo estrictamente antes de `date` (point-in-time, sin fuga)."""
+        if not hasattr(self, '_elo_dates_by_team'):
+            self._build_elo_history()
+
+        team_dates = self._elo_dates_by_team.get(team)
+        if not team_dates:
+            return ELO_INITIAL_RATING
+
+        idx = bisect.bisect_left(team_dates, date)
+        if idx == 0:
+            return ELO_INITIAL_RATING
+        return self._elo_ratings_by_team[team][idx - 1]
+
+    def get_team_form_weighted(self, team: str, date: datetime, n_games: int = 5) -> float:
+        """Puntos por partido de los últimos `n_games`, ponderados por el Elo del
+        rival en el momento de cada partido -- "paridad": ganarle a un equipo
+        fuerte pesa más que ganarle a uno débil, en vez de tratar todo W/D/L
+        igual (que es lo único que hacía get_team_form hasta ahora)."""
+        historical = self._all_matches()
+
+        team_matches = historical[
+            ((historical['home_team'] == team) | (historical['away_team'] == team)) &
+            (historical['date'] < date) &
+            (historical['status'] == 'FINISHED')
+        ].sort_values('date', ascending=False).head(n_games)
+
+        if team_matches.empty:
+            return 0.0
+
+        weighted_pts = 0.0
+        total_weight = 0.0
+        for _, m in team_matches.iterrows():
+            is_home = m['home_team'] == team
+            opponent = m['away_team'] if is_home else m['home_team']
+            opp_elo = self.get_elo(opponent, m['date'])
+            weight = opp_elo / ELO_INITIAL_RATING
+
+            team_goals = m['home_score'] if is_home else m['away_score']
+            opp_goals = m['away_score'] if is_home else m['home_score']
+            pts = 3.0 if team_goals > opp_goals else (1.0 if team_goals == opp_goals else 0.0)
+
+            weighted_pts += pts * weight
+            total_weight += weight
+
+        return weighted_pts / total_weight if total_weight else 0.0
+
     def create_match_features(self, home: str, away: str, date: datetime,
                                season_year: int = None, phase: str = None) -> Dict:
         """Crear todas las features para un partido.
@@ -442,7 +579,10 @@ class FeatureEngineer:
         away_rest = self.get_rest_days(away, date)
         
         h2h = self.get_head_to_head(home, away, date)
-        
+
+        home_elo = self.get_elo(home, date)
+        away_elo = self.get_elo(away, date)
+
         # Build feature dict
         features = {
             'home_team': home,
@@ -491,7 +631,12 @@ class FeatureEngineer:
             'away_unbeaten': away_form['unbeaten_streak'],
             'home_clean_sheets': home_form['clean_sheets'],
             'away_clean_sheets': away_form['clean_sheets'],
-            
+
+            # Elo (propio, incremental, point-in-time)
+            'home_elo': home_elo,
+            'away_elo': away_elo,
+            'elo_diff': home_elo - away_elo,
+
             # Placeholder for home advantage (always 1 since we always predict home team)
             'is_home': 1,
         }

@@ -6721,19 +6721,6 @@
     "predicted_scoreline": "1-0"
   },
   {
-    "timestamp": "2026-08-20T11:24:42.229669",
-    "league": "liga_mx",
-    "home_team": "Le\u00f3n",
-    "away_team": "Monterrey",
-    "match_date": "2026-08-23",
-    "matchday": 5,
-    "season": 2026,
-    "model": "ensemble",
-    "predicted_1x2": "LOCAL",
-    "confidence": 0.4112084209918976,
-    "predicted_scoreline": "2-1"
-  },
-  {
     "timestamp": "2026-08-20T11:24:42.229724",
     "league": "liga_mx",
     "home_team": "Puebla FC",
@@ -6744,19 +6731,6 @@
     "model": "ensemble",
     "predicted_1x2": "LOCAL",
     "confidence": 0.4737486243247986,
-    "predicted_scoreline": "1-0"
-  },
-  {
-    "timestamp": "2026-08-20T11:24:42.229778",
-    "league": "liga_mx",
-    "home_team": "Quer\u00e9taro",
-    "away_team": "Toluca",
-    "match_date": "2026-08-23",
-    "matchday": 5,
-    "season": 2026,
-    "model": "ensemble",
-    "predicted_1x2": "LOCAL",
-    "confidence": 0.4019341766834259,
     "predicted_scoreline": "1-0"
   },
   {
@@ -6916,7 +6890,33 @@
     "predicted_scoreline": "0-1"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653096",
+    "timestamp": "2026-09-11T15:23:25.548157",
+    "league": "liga_mx",
+    "home_team": "Le\u00f3n",
+    "away_team": "Monterrey",
+    "match_date": "2026-08-23",
+    "matchday": 5,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.37441313372894314,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-11T15:23:25.548220",
+    "league": "liga_mx",
+    "home_team": "Quer\u00e9taro",
+    "away_team": "Toluca",
+    "match_date": "2026-08-23",
+    "matchday": 5,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.34652254783153225,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:06:52.607403",
     "league": "liga_mx",
     "home_team": "FC Ju\u00e1rez",
     "away_team": "Pachuca",
@@ -6929,7 +6929,7 @@
     "predicted_scoreline": "1-2"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653167",
+    "timestamp": "2026-09-11T16:06:52.607477",
     "league": "liga_mx",
     "home_team": "Puebla FC",
     "away_team": "Toluca",
@@ -6942,7 +6942,7 @@
     "predicted_scoreline": "0-1"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653228",
+    "timestamp": "2026-09-11T16:06:52.607544",
     "league": "liga_mx",
     "home_team": "Am\u00e9rica",
     "away_team": "Club Tijuana",
@@ -6955,7 +6955,7 @@
     "predicted_scoreline": "1-0"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653287",
+    "timestamp": "2026-09-11T16:06:52.607608",
     "league": "liga_mx",
     "home_team": "Atlas",
     "away_team": "Atlante",
@@ -6968,7 +6968,7 @@
     "predicted_scoreline": "1-0"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653347",
+    "timestamp": "2026-09-11T16:06:52.607671",
     "league": "liga_mx",
     "home_team": "Atl\u00e9tico San Luis",
     "away_team": "Chivas",
@@ -6981,7 +6981,7 @@
     "predicted_scoreline": "0-1"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653405",
+    "timestamp": "2026-09-11T16:06:52.607745",
     "league": "liga_mx",
     "home_team": "Quer\u00e9taro",
     "away_team": "Monterrey",
@@ -6994,7 +6994,7 @@
     "predicted_scoreline": "2-1"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653464",
+    "timestamp": "2026-09-11T16:06:52.607833",
     "league": "liga_mx",
     "home_team": "Tigres UANL",
     "away_team": "Necaxa",
@@ -7007,7 +7007,7 @@
     "predicted_scoreline": "2-0"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653521",
+    "timestamp": "2026-09-11T16:06:52.607962",
     "league": "liga_mx",
     "home_team": "UNAM Pumas",
     "away_team": "Le\u00f3n",
@@ -7020,7 +7020,7 @@
     "predicted_scoreline": "1-0"
   },
   {
-    "timestamp": "2026-09-01T22:52:12.653578",
+    "timestamp": "2026-09-11T16:06:52.608031",
     "league": "liga_mx",
     "home_team": "Cruz Azul",
     "away_team": "Santos Laguna",
@@ -7030,6 +7030,253 @@
     "model": "ensemble",
     "predicted_1x2": "LOCAL",
     "confidence": 0.6078805749414287,
+    "predicted_scoreline": "2-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355036",
+    "league": "liga_mx",
+    "home_team": "Atlante",
+    "away_team": "Pachuca",
+    "match_date": "2026-09-12",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "VISITANTE",
+    "confidence": 0.43827710970524303,
+    "predicted_scoreline": "0-1"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355106",
+    "league": "liga_mx",
+    "home_team": "Club Tijuana",
+    "away_team": "Quer\u00e9taro",
+    "match_date": "2026-09-12",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.456950293107648,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355172",
+    "league": "liga_mx",
+    "home_team": "Necaxa",
+    "away_team": "Puebla FC",
+    "match_date": "2026-09-12",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.44592666159383765,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355258",
+    "league": "liga_mx",
+    "home_team": "Cruz Azul",
+    "away_team": "Am\u00e9rica",
+    "match_date": "2026-09-13",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.3878036473411518,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355347",
+    "league": "liga_mx",
+    "home_team": "Le\u00f3n",
+    "away_team": "Atl\u00e9tico San Luis",
+    "match_date": "2026-09-13",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.48814810600953307,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355408",
+    "league": "liga_mx",
+    "home_team": "Monterrey",
+    "away_team": "Tigres UANL",
+    "match_date": "2026-09-13",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.46465004291000184,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355468",
+    "league": "liga_mx",
+    "home_team": "Toluca",
+    "away_team": "Atlas",
+    "match_date": "2026-09-13",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.5023749272147778,
+    "predicted_scoreline": "2-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355527",
+    "league": "liga_mx",
+    "home_team": "Chivas",
+    "away_team": "UNAM Pumas",
+    "match_date": "2026-09-14",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.4602171770554417,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355585",
+    "league": "liga_mx",
+    "home_team": "Monterrey",
+    "away_team": "Tigres UANL",
+    "match_date": "2026-09-14",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.46465004291000184,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-11T16:13:13.355643",
+    "league": "liga_mx",
+    "home_team": "Santos Laguna",
+    "away_team": "FC Ju\u00e1rez",
+    "match_date": "2026-09-14",
+    "matchday": 8,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.4930801025309973,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458600",
+    "league": "liga_mx",
+    "home_team": "FC Ju\u00e1rez",
+    "away_team": "Tigres UANL",
+    "match_date": "2026-09-19",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "VISITANTE",
+    "confidence": 0.3769705994865856,
+    "predicted_scoreline": "1-2"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458668",
+    "league": "liga_mx",
+    "home_team": "Puebla FC",
+    "away_team": "Atlante",
+    "match_date": "2026-09-19",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.38091935637263796,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458731",
+    "league": "liga_mx",
+    "home_team": "Am\u00e9rica",
+    "away_team": "Chivas",
+    "match_date": "2026-09-20",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.491469827276587,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458791",
+    "league": "liga_mx",
+    "home_team": "Atlas",
+    "away_team": "UNAM Pumas",
+    "match_date": "2026-09-20",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "VISITANTE",
+    "confidence": 0.41961046874502045,
+    "predicted_scoreline": "0-1"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458851",
+    "league": "liga_mx",
+    "home_team": "Atl\u00e9tico San Luis",
+    "away_team": "Necaxa",
+    "match_date": "2026-09-20",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.4305748102603431,
+    "predicted_scoreline": "2-1"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458911",
+    "league": "liga_mx",
+    "home_team": "Monterrey",
+    "away_team": "Cruz Azul",
+    "match_date": "2026-09-20",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "VISITANTE",
+    "confidence": 0.43215246357277765,
+    "predicted_scoreline": "1-2"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.458972",
+    "league": "liga_mx",
+    "home_team": "Pachuca",
+    "away_team": "Club Tijuana",
+    "match_date": "2026-09-21",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.4151742781877634,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.459031",
+    "league": "liga_mx",
+    "home_team": "Quer\u00e9taro",
+    "away_team": "Le\u00f3n",
+    "match_date": "2026-09-21",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.40038764314765773,
+    "predicted_scoreline": "1-0"
+  },
+  {
+    "timestamp": "2026-09-17T21:56:13.459090",
+    "league": "liga_mx",
+    "home_team": "Toluca",
+    "away_team": "Santos Laguna",
+    "match_date": "2026-09-21",
+    "matchday": 9,
+    "season": 2026,
+    "model": "ensemble",
+    "predicted_1x2": "LOCAL",
+    "confidence": 0.7642144616769388,
     "predicted_scoreline": "2-0"
   }
 ]

@@ -76,6 +76,7 @@ TEAM_ALIASES: dict[str, str] = {
     "San Luis": "Atlético San Luis",
     "Atletico": "Atlético San Luis",
     "Atlético": "Atlético San Luis",
+    "Atl. San Luis": "Atlético San Luis",  # BetExplorer
     # --- Chivas / Guadalajara ---
     "Chivas": "Chivas",
     "Guadalajara": "Chivas",
@@ -91,15 +92,18 @@ TEAM_ALIASES: dict[str, str] = {
     # --- FC Juárez ---
     "FC Juárez": "FC Juárez",
     "FC Juarez": "FC Juárez",
+    "Juarez": "FC Juárez",  # BetExplorer
     # --- León ---
     "León": "León",
     "Leon": "León",
     "Club León FC": "León",
     "Club León": "León",
+    "Club Leon": "León",  # BetExplorer
     # --- Mazatlán FC ---
     "Mazatlán FC": "Mazatlán FC",
     "Mazatlán": "Mazatlán FC",
     "Mazatlan": "Mazatlán FC",
+    "Mazatlan FC": "Mazatlán FC",  # BetExplorer
     # --- Monterrey ---
     "Monterrey": "Monterrey",
     "CF Monterrey": "Monterrey",
@@ -142,8 +146,10 @@ TEAM_ALIASES: dict[str, str] = {
     "Lobos Buap": "Lobos BUAP",
     "Monarcas Morelia": "Monarcas Morelia",
     "Monarcas": "Monarcas Morelia",
+    "Atl. Morelia": "Monarcas Morelia",  # BetExplorer
     "Veracruz": "Veracruz",
     "CD Veracruz": "Veracruz",
+    "Tiburones Rojos de Veracruz": "Veracruz",  # Transfermarkt (pagina de valores de mercado)
     "Club San Luis": "Club San Luis",  # club distinto de Atlético San Luis (desaparecio ~2013)
     "Estudiantes Tecos": "Estudiantes Tecos",
 }
