@@ -9,7 +9,7 @@ id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,t
 4929,2026-07-19,2026,apertura,1,Querétaro,América,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,Luis Santander Aguirre,Estadio La Corregidora,,30229.0,,,Esteban González,Guillermo Almada,4-4-2,4-4-2 double 6,1,True,1
 4930,2026-07-19,2026,apertura,1,UNAM Pumas,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,Vicente Reynoso,Estadio Olímpico Universitario,,15021.0,,,Esteban Solari,Benjamín Mora,4-2-3-1,4-2-3-1,1,True,1
 4931,2026-07-22,2026,apertura,2,Cruz Azul,Puebla FC,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,Karen Hernández Andrade,Estadio Olímpico Universitario,,33185.0,,,Joel Huiqui,Rafael Fernández,4-4-2 double 6,4-3-3 Attacking,2,True,1
-4932,2026-07-22,2026,apertura,2,Toluca,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Emerson Panigutti,4-2-3-1,4-1-4-1,2,True,1
+4932,2026-07-22,2026,apertura,2,Toluca,UNAM Pumas,1.0,2.0,FINISHED,3.0,-1.0,VISITANTE,transfermarkt,Víctor Cáceres Hernández,Estadio Nemesio Díez Riega,,27273.0,,,Antonio Mohamed,Esteban Solari,4-2-3-1,4-1-4-1,2,True,1
 4933,2026-07-25,2026,apertura,2,Atlante,América,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,Katia Itzel García,Estadio Azteca,,58576.0,,,Miguel Herrera,Guillermo Almada,,4-2-3-1,2,True,1
 4934,2026-07-25,2026,apertura,2,Club Tijuana,León,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,Joaquín Vizcarra,Estadio Caliente,,25233.0,,,Sebastián Abreu,Javier Gandolfi,4-1-4-1,4-2-3-1,2,True,1
 4935,2026-07-26,2026,apertura,2,Chivas,FC Juárez,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,2,True,1
@@ -41,9 +41,7 @@ id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,t
 4961,2026-08-22,2026,apertura,5,Tigres UANL,Atlante,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
 4962,2026-08-23,2026,apertura,5,Chivas,Club Tijuana,5.0,2.0,FINISHED,7.0,3.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
 4963,2026-08-23,2026,apertura,5,Cruz Azul,Atlas,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,5,True,1
-4964,2026-08-23,2026,apertura,5,León,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
 4965,2026-08-23,2026,apertura,5,Puebla FC,Santos Laguna,3.0,2.0,FINISHED,5.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,5,True,1
-4966,2026-08-23,2026,apertura,5,Querétaro,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,5,True,1
 4967,2026-08-24,2026,apertura,5,Atlético San Luis,Pachuca,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,5,True,1
 4968,2026-08-24,2026,apertura,5,UNAM Pumas,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,5,True,1
 4969,2026-08-29,2026,apertura,6,Atlante,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,6,True,1
@@ -55,31 +53,102 @@ id,date,season,phase,matchday,home_team,away_team,home_score,away_score,status,t
 4975,2026-08-30,2026,apertura,6,Santos Laguna,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,6,True,1
 4976,2026-08-31,2026,apertura,6,Monterrey,Atlético San Luis,1.0,3.0,FINISHED,4.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,6,True,1
 4977,2026-08-31,2026,apertura,6,Toluca,FC Juárez,4.0,0.0,FINISHED,4.0,4.0,LOCAL,transfermarkt,,,,,,,,,,,6,True,1
-4978,2026-09-05,2026,apertura,7,FC Juárez,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4979,2026-09-05,2026,apertura,7,Puebla FC,Toluca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4980,2026-09-06,2026,apertura,7,América,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4981,2026-09-06,2026,apertura,7,Atlas,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4982,2026-09-06,2026,apertura,7,Atlético San Luis,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4983,2026-09-06,2026,apertura,7,Querétaro,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4984,2026-09-06,2026,apertura,7,Tigres UANL,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4985,2026-09-06,2026,apertura,7,UNAM Pumas,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4986,2026-09-07,2026,apertura,7,Cruz Azul,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,7,True,1
-4987,2026-09-12,2026,apertura,8,Atlante,Pachuca,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4988,2026-09-12,2026,apertura,8,Club Tijuana,Querétaro,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4989,2026-09-12,2026,apertura,8,Necaxa,Puebla FC,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4990,2026-09-13,2026,apertura,8,Cruz Azul,América,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4991,2026-09-13,2026,apertura,8,León,Atlético San Luis,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4992,2026-09-13,2026,apertura,8,Monterrey,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4993,2026-09-13,2026,apertura,8,Toluca,Atlas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4994,2026-09-14,2026,apertura,8,Chivas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4995,2026-09-14,2026,apertura,8,Monterrey,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4996,2026-09-14,2026,apertura,8,Santos Laguna,FC Juárez,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,8,True,1
-4997,2026-09-19,2026,apertura,9,FC Juárez,Tigres UANL,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4998,2026-09-19,2026,apertura,9,Puebla FC,Atlante,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-4999,2026-09-20,2026,apertura,9,América,Chivas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5000,2026-09-20,2026,apertura,9,Atlas,UNAM Pumas,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5001,2026-09-20,2026,apertura,9,Atlético San Luis,Necaxa,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5002,2026-09-20,2026,apertura,9,Monterrey,Cruz Azul,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5003,2026-09-21,2026,apertura,9,Pachuca,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5004,2026-09-21,2026,apertura,9,Querétaro,León,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
-5005,2026-09-21,2026,apertura,9,Toluca,Santos Laguna,,,SCHEDULED,0.0,0.0,SIN JUGAR,transfermarkt,,,,,,,,,,,9,True,1
+4978,2026-09-05,2026,apertura,7,FC Juárez,Pachuca,0.0,2.0,FINISHED,2.0,-2.0,VISITANTE,transfermarkt,,,,,,,,,,,7,True,1
+4981,2026-09-06,2026,apertura,7,Atlas,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,7,True,1
+4982,2026-09-06,2026,apertura,7,Atlético San Luis,Chivas,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,,,,,,,,,,,7,True,1
+4985,2026-09-06,2026,apertura,7,Tigres UANL,Necaxa,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,7,True,1
+4987,2026-09-07,2026,apertura,7,Cruz Azul,Santos Laguna,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,7,True,1
+4988,2026-09-11,2026,apertura,7,UNAM Pumas,León,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,7,True,1
+4989,2026-09-12,2026,apertura,8,Atlante,Pachuca,0.0,3.0,FINISHED,3.0,-3.0,VISITANTE,transfermarkt,,,,,,,,,,,8,True,1
+4990,2026-09-12,2026,apertura,8,Club Tijuana,Querétaro,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,8,True,1
+4991,2026-09-12,2026,apertura,8,Necaxa,Puebla FC,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,8,True,1
+4992,2026-09-13,2026,apertura,8,Cruz Azul,América,4.0,3.0,FINISHED,7.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,8,True,1
+4994,2026-09-13,2026,apertura,8,Monterrey,Tigres UANL,0.0,0.0,FINISHED,0.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,8,True,1
+4995,2026-09-13,2026,apertura,8,Toluca,Atlas,5.0,2.0,FINISHED,7.0,3.0,LOCAL,transfermarkt,,,,,,,,,,,8,True,1
+4996,2026-09-14,2026,apertura,8,Chivas,UNAM Pumas,3.0,0.0,FINISHED,3.0,3.0,LOCAL,transfermarkt,,,,,,,,,,,8,True,1
+4998,2026-09-14,2026,apertura,8,Santos Laguna,FC Juárez,2.0,1.0,FINISHED,3.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,8,True,1
+4999,2026-09-15,2026,apertura,8,León,Atlético San Luis,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,8,True,1
+5000,2026-09-16,2026,apertura,7,Puebla FC,Toluca,0.0,1.0,FINISHED,1.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,7,True,1
+5001,2026-09-19,2026,apertura,9,FC Juárez,Tigres UANL,2.0,0.0,FINISHED,2.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,9,True,1
+5002,2026-09-19,2026,apertura,9,Puebla FC,Atlante,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,9,True,1
+5003,2026-09-20,2026,apertura,9,América,Chivas,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,9,True,1
+5004,2026-09-20,2026,apertura,9,Atlas,UNAM Pumas,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,9,True,1
+5005,2026-09-20,2026,apertura,9,Atlético San Luis,Necaxa,3.0,1.0,FINISHED,4.0,2.0,LOCAL,transfermarkt,,,,,,,,,,,9,True,1
+5006,2026-09-20,2026,apertura,9,Monterrey,Cruz Azul,1.0,0.0,FINISHED,1.0,1.0,LOCAL,transfermarkt,,,,,,,,,,,9,True,1
+5007,2026-09-21,2026,apertura,9,Pachuca,Club Tijuana,2.0,2.0,FINISHED,4.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,9,True,1
+5008,2026-09-21,2026,apertura,9,Querétaro,León,1.0,1.0,FINISHED,2.0,0.0,EMPATE,transfermarkt,,,,,,,,,,,9,True,1
+5009,2026-09-21,2026,apertura,9,Toluca,Santos Laguna,2.0,3.0,FINISHED,5.0,-1.0,VISITANTE,transfermarkt,,,,,,,,,,,9,True,1
+5010,2026-10-28,2026,apertura,7,América,Club Tijuana,,,SCHEDULED,0.0,0.0,SIN JUGAR,espn,,,,,,,,,,,7,True,1
+5011,2026-11-14,2026,apertura,7,Querétaro,Monterrey,,,SCHEDULED,0.0,0.0,SIN JUGAR,espn,,,,,,,,,,,7,True,1
+5012,2026-09-25,2026,apertura,10,Atlante,Monterrey,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,10,True,1
+5013,2026-09-25,2026,apertura,10,Club Tijuana,Atlas,,,SCHEDULED,,,,espn,,"Estadio Caliente, Tijuana, Mexico",,,,,,,,,10,True,1
+5014,2026-09-26,2026,apertura,10,Cruz Azul,Toluca,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,10,True,1
+5015,2026-09-26,2026,apertura,10,Chivas,Querétaro,,,SCHEDULED,,,,espn,,"Estadio Akron, Guadalajara, Mexico",,,,,,,,,10,True,1
+5016,2026-09-26,2026,apertura,10,Santos Laguna,Pachuca,,,SCHEDULED,,,,espn,,"Estadio Corona, Torreón, Mexico",,,,,,,,,10,True,1
+5017,2026-09-26,2026,apertura,10,Tigres UANL,Puebla FC,,,SCHEDULED,,,,espn,,"Estadio Universitario, San Nicolás de los Garza, Mexico",,,,,,,,,10,True,1
+5018,2026-09-27,2026,apertura,10,UNAM Pumas,Atlético San Luis,,,SCHEDULED,,,,espn,,"Estadio Olímpico Universitario, Mexico City, Mexico",,,,,,,,,10,True,1
+5019,2026-09-27,2026,apertura,10,León,FC Juárez,,,SCHEDULED,,,,espn,,"Estadio León, León de los Aldamas, Mexico",,,,,,,,,10,True,1
+5020,2026-09-27,2026,apertura,10,Necaxa,América,,,SCHEDULED,,,,espn,,"Estadio Victoria, Aguascalientes, Mexico",,,,,,,,,10,True,1
+5021,2026-10-09,2026,apertura,11,Puebla FC,León,,,SCHEDULED,,,,espn,,"Estadio Cuauhtémoc, Puebla, Mexico",,,,,,,,,11,True,1
+5022,2026-10-09,2026,apertura,11,Tigres UANL,Toluca,,,SCHEDULED,,,,espn,,"Estadio Universitario, San Nicolás de los Garza, Mexico",,,,,,,,,11,True,1
+5023,2026-10-10,2026,apertura,11,FC Juárez,Club Tijuana,,,SCHEDULED,,,,espn,,"Estadio Olímpico Benito Juárez, Ciudad Juárez, Mexico",,,,,,,,,11,True,1
+5024,2026-10-10,2026,apertura,11,Querétaro,Atlante,,,SCHEDULED,,,,espn,,"Estadio Corregidora, Santiago de Querétaro, Mexico",,,,,,,,,11,True,1
+5025,2026-10-10,2026,apertura,11,Atlas,Chivas,,,SCHEDULED,,,,espn,,"Estadio Jalisco, Guadalajara, Mexico",,,,,,,,,11,True,1
+5026,2026-10-10,2026,apertura,11,América,Monterrey,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,11,True,1
+5027,2026-10-11,2026,apertura,11,Atlético San Luis,Santos Laguna,,,SCHEDULED,,,,espn,,"Estadio Libertad Financiera, San Luis Potosi, Mexico",,,,,,,,,11,True,1
+5028,2026-10-11,2026,apertura,11,Pachuca,Necaxa,,,SCHEDULED,,,,espn,,"Estadio Hidalgo, Pachuca, Mexico",,,,,,,,,11,True,1
+5029,2026-10-11,2026,apertura,11,UNAM Pumas,Cruz Azul,,,SCHEDULED,,,,espn,,"Estadio Olímpico Universitario, Mexico City, Mexico",,,,,,,,,11,True,1
+5030,2026-10-16,2026,apertura,12,Atlante,UNAM Pumas,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,12,True,1
+5031,2026-10-16,2026,apertura,12,Club Tijuana,Puebla FC,,,SCHEDULED,,,,espn,,"Estadio Caliente, Tijuana, Mexico",,,,,,,,,12,True,1
+5032,2026-10-16,2026,apertura,12,Necaxa,Atlas,,,SCHEDULED,,,,espn,,"Estadio Victoria, Aguascalientes, Mexico",,,,,,,,,12,True,1
+5033,2026-10-17,2026,apertura,12,Cruz Azul,FC Juárez,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,12,True,1
+5034,2026-10-17,2026,apertura,12,Santos Laguna,Querétaro,,,SCHEDULED,,,,espn,,"Estadio Corona, Torreón, Mexico",,,,,,,,,12,True,1
+5035,2026-10-17,2026,apertura,12,Chivas,Tigres UANL,,,SCHEDULED,,,,espn,,"Estadio Akron, Guadalajara, Mexico",,,,,,,,,12,True,1
+5036,2026-10-17,2026,apertura,12,León,América,,,SCHEDULED,,,,espn,,"Estadio León, León de los Aldamas, Mexico",,,,,,,,,12,True,1
+5037,2026-10-17,2026,apertura,12,Toluca,Atlético San Luis,,,SCHEDULED,,,,espn,,"Estadio Nemesio Díez Riega, Toluca, Mexico",,,,,,,,,12,True,1
+5038,2026-10-18,2026,apertura,12,Monterrey,Pachuca,,,SCHEDULED,,,,espn,,"Estadio BBVA, Guadalupe, Mexico",,,,,,,,,12,True,1
+5039,2026-10-20,2026,apertura,13,Tigres UANL,León,,,SCHEDULED,,,,espn,,"Estadio Universitario, San Nicolás de los Garza, Mexico",,,,,,,,,13,True,1
+5040,2026-10-20,2026,apertura,13,Chivas,Necaxa,,,SCHEDULED,,,,espn,,"Estadio Akron, Guadalajara, Mexico",,,,,,,,,13,True,1
+5041,2026-10-20,2026,apertura,13,Atlético San Luis,Querétaro,,,SCHEDULED,,,,espn,,"Estadio Libertad Financiera, San Luis Potosi, Mexico",,,,,,,,,13,True,1
+5042,2026-10-20,2026,apertura,13,FC Juárez,Atlante,,,SCHEDULED,,,,espn,,"Estadio Olímpico Benito Juárez, Ciudad Juárez, Mexico",,,,,,,,,13,True,1
+5043,2026-10-21,2026,apertura,13,Pachuca,Cruz Azul,,,SCHEDULED,,,,espn,,"Estadio Hidalgo, Pachuca, Mexico",,,,,,,,,13,True,1
+5044,2026-10-21,2026,apertura,13,Santos Laguna,UNAM Pumas,,,SCHEDULED,,,,espn,,"Estadio Corona, Torreón, Mexico",,,,,,,,,13,True,1
+5045,2026-10-21,2026,apertura,13,Atlas,América,,,SCHEDULED,,,,espn,,"Estadio Jalisco, Guadalajara, Mexico",,,,,,,,,13,True,1
+5046,2026-10-21,2026,apertura,13,Puebla FC,Monterrey,,,SCHEDULED,,,,espn,,"Estadio Cuauhtémoc, Puebla, Mexico",,,,,,,,,13,True,1
+5047,2026-10-21,2026,apertura,13,Toluca,Club Tijuana,,,SCHEDULED,,,,espn,,"Estadio Nemesio Díez Riega, Toluca, Mexico",,,,,,,,,13,True,1
+5048,2026-10-23,2026,apertura,14,Atlante,Atlético San Luis,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,14,True,1
+5049,2026-10-23,2026,apertura,14,Necaxa,FC Juárez,,,SCHEDULED,,,,espn,,"Estadio Victoria, Aguascalientes, Mexico",,,,,,,,,14,True,1
+5050,2026-10-24,2026,apertura,14,UNAM Pumas,Tigres UANL,,,SCHEDULED,,,,espn,,"Estadio Olímpico Universitario, Mexico City, Mexico",,,,,,,,,14,True,1
+5051,2026-10-24,2026,apertura,14,León,Toluca,,,SCHEDULED,,,,espn,,"Estadio León, León de los Aldamas, Mexico",,,,,,,,,14,True,1
+5052,2026-10-24,2026,apertura,14,Monterrey,Chivas,,,SCHEDULED,,,,espn,,"Estadio BBVA, Guadalupe, Mexico",,,,,,,,,14,True,1
+5053,2026-10-25,2026,apertura,14,Club Tijuana,Santos Laguna,,,SCHEDULED,,,,espn,,"Estadio Caliente, Tijuana, Mexico",,,,,,,,,14,True,1
+5054,2026-10-25,2026,apertura,14,América,Pachuca,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,14,True,1
+5055,2026-10-25,2026,apertura,14,Atlas,Puebla FC,,,SCHEDULED,,,,espn,,"Estadio Jalisco, Guadalajara, Mexico",,,,,,,,,14,True,1
+5056,2026-10-25,2026,apertura,14,Querétaro,Cruz Azul,,,SCHEDULED,,,,espn,,"Estadio Corregidora, Santiago de Querétaro, Mexico",,,,,,,,,14,True,1
+5057,2026-10-30,2026,apertura,15,Puebla FC,UNAM Pumas,,,SCHEDULED,,,,espn,,"Estadio Cuauhtémoc, Puebla, Mexico",,,,,,,,,15,True,1
+5058,2026-10-30,2026,apertura,15,Atlético San Luis,Atlas,,,SCHEDULED,,,,espn,,"Estadio Libertad Financiera, San Luis Potosi, Mexico",,,,,,,,,15,True,1
+5059,2026-10-30,2026,apertura,15,FC Juárez,Querétaro,,,SCHEDULED,,,,espn,,"Estadio Olímpico Benito Juárez, Ciudad Juárez, Mexico",,,,,,,,,15,True,1
+5060,2026-10-31,2026,apertura,15,América,Toluca,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,15,True,1
+5061,2026-10-31,2026,apertura,15,Pachuca,Tigres UANL,,,SCHEDULED,,,,espn,,"Estadio Hidalgo, Pachuca, Mexico",,,,,,,,,15,True,1
+5062,2026-10-31,2026,apertura,15,Monterrey,Club Tijuana,,,SCHEDULED,,,,espn,,"Estadio BBVA, Guadalupe, Mexico",,,,,,,,,15,True,1
+5063,2026-10-31,2026,apertura,15,Chivas,Atlante,,,SCHEDULED,,,,espn,,"Estadio Akron, Guadalajara, Mexico",,,,,,,,,15,True,1
+5064,2026-11-01,2026,apertura,15,Santos Laguna,Necaxa,,,SCHEDULED,,,,espn,,"Estadio Corona, Torreón, Mexico",,,,,,,,,15,True,1
+5065,2026-11-01,2026,apertura,15,Cruz Azul,León,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,15,True,1
+5066,2026-11-06,2026,apertura,16,Atlante,Santos Laguna,,,SCHEDULED,,,,espn,,"Estadio Banorte, Mexico City, Mexico",,,,,,,,,16,True,1
+5067,2026-11-06,2026,apertura,16,Atlético San Luis,FC Juárez,,,SCHEDULED,,,,espn,,"Estadio Libertad Financiera, San Luis Potosi, Mexico",,,,,,,,,16,True,1
+5068,2026-11-06,2026,apertura,16,Necaxa,Club Tijuana,,,SCHEDULED,,,,espn,,"Estadio Victoria, Aguascalientes, Mexico",,,,,,,,,16,True,1
+5069,2026-11-07,2026,apertura,16,UNAM Pumas,América,,,SCHEDULED,,,,espn,,"Estadio Olímpico Universitario, Mexico City, Mexico",,,,,,,,,16,True,1
+5070,2026-11-07,2026,apertura,16,Atlas,Pachuca,,,SCHEDULED,,,,espn,,"Estadio Jalisco, Guadalajara, Mexico",,,,,,,,,16,True,1
+5071,2026-11-07,2026,apertura,16,Tigres UANL,Cruz Azul,,,SCHEDULED,,,,espn,,"Estadio Universitario, San Nicolás de los Garza, Mexico",,,,,,,,,16,True,1
+5072,2026-11-07,2026,apertura,16,Toluca,Monterrey,,,SCHEDULED,,,,espn,,"Estadio Nemesio Díez Riega, Toluca, Mexico",,,,,,,,,16,True,1
+5073,2026-11-08,2026,apertura,16,Querétaro,Puebla FC,,,SCHEDULED,,,,espn,,"Estadio Corregidora, Santiago de Querétaro, Mexico",,,,,,,,,16,True,1
+5074,2026-11-08,2026,apertura,16,León,Chivas,,,SCHEDULED,,,,espn,,"Estadio León, León de los Aldamas, Mexico",,,,,,,,,16,True,1
+5075,2026-11-20,2026,apertura,17,FC Juárez,Atlas,,,SCHEDULED,,,,espn,,"Estadio Olímpico Benito Juárez, Ciudad Juárez, Mexico",,,,,,,,,17,True,1
+5076,2026-11-20,2026,apertura,17,Club Tijuana,Atlante,,,SCHEDULED,,,,espn,,"Estadio Caliente, Tijuana, Mexico",,,,,,,,,17,True,1
+5077,2026-11-20,2026,apertura,17,Puebla FC,Atlético San Luis,,,SCHEDULED,,,,espn,,"Estadio Cuauhtémoc, Puebla, Mexico",,,,,,,,,17,True,1
+5078,2026-11-21,2026,apertura,17,Tigres UANL,América,,,SCHEDULED,,,,espn,,"Estadio Universitario, San Nicolás de los Garza, Mexico",,,,,,,,,17,True,1
+5079,2026-11-21,2026,apertura,17,Pachuca,Toluca,,,SCHEDULED,,,,espn,,"Estadio Hidalgo, Pachuca, Mexico",,,,,,,,,17,True,1
+5080,2026-11-21,2026,apertura,17,Santos Laguna,León,,,SCHEDULED,,,,espn,,"Estadio Corona, Torreón, Mexico",,,,,,,,,17,True,1
+5081,2026-11-21,2026,apertura,17,UNAM Pumas,Monterrey,,,SCHEDULED,,,,espn,,"Estadio Olímpico Universitario, Mexico City, Mexico",,,,,,,,,17,True,1
+5082,2026-11-22,2026,apertura,17,Chivas,Cruz Azul,,,SCHEDULED,,,,espn,,"Estadio Akron, Guadalajara, Mexico",,,,,,,,,17,True,1
+5083,2026-11-22,2026,apertura,17,Querétaro,Necaxa,,,SCHEDULED,,,,espn,,"Estadio Corregidora, Santiago de Querétaro, Mexico",,,,,,,,,17,True,1

@@ -218,5 +218,25 @@
     "teams_count": 20,
     "success": true,
     "last_updated": "2026-09-11T16:03:34.544360"
+  },
+  {
+    "timestamp": "2026-09-17T22:42:27.710594",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 40,
+    "scheduled_matches": 340,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-09-17T22:42:27.711815"
+  },
+  {
+    "timestamp": "2026-09-22T12:01:50.290234",
+    "season": 2026,
+    "matches_count": 380,
+    "finished_matches": 50,
+    "scheduled_matches": 330,
+    "teams_count": 20,
+    "success": true,
+    "last_updated": "2026-09-22T12:01:50.291100"
   }
 ]

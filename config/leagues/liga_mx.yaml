@@ -23,7 +23,7 @@ promoted_team_fallback:
 elo:
   k_factor: 20
   home_advantage: 60
-extra_features: []
+extra_features: ["elo"]  # validado: 48.2% -> 51.4% en holdout cronologico (ver core/evaluate_ensemble.py)
 # El default de OutcomeXGBConfig (heavy reg, tuneado para Premier con ~1-2k
 # partidos) colapsaba acá a predecir "LOCAL" en 97% de los partidos del
 # holdout (train_acc == test_acc == ~45%, ver core/league_config.py). Liga MX

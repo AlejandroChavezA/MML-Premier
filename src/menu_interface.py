@@ -13,7 +13,7 @@ from ligamx_team_codes import LIGAMX_TEAM_CODES, LIGAMX_TEAM_LOGOS
 _project_root = Path(__file__).parent.parent
 if str(_project_root) not in sys.path:
     sys.path.insert(0, str(_project_root))
-from schemas import MatchPrediction
+from schemas import MatchPrediction, soccer_predicted_score
 
 # Cargar variables de entorno desde .env y .env.local
 def load_env_files():
@@ -193,47 +193,83 @@ class PredictionMenu:
             print("  3. IMPORT_API_SECRET")
             return False
         
-        # Transformar predicciones al formato del panel
         panel_predictions = self.transform_to_panel_format(predictions)
-
-        # Segunda validación (belt-and-suspenders) justo antes de postear
         for panel_pred in panel_predictions:
             MatchPrediction(**panel_pred)
 
         try:
             print(f"\nEnviando {len(panel_predictions)} predicciones al dashboard...")
-            
-            response = requests.post(
-                f"{self.panel_url}/api/predictions/import",
-                json={"predictions": panel_predictions},
-                headers={"Authorization": f"Bearer {api_key}"},
-                timeout=30
-            )
-            
-            if response.status_code == 201:
-                data = response.json()
-                print(f"OK! {data.get('imported', 0)} predicciones importadas")
-                
-                # Guardar en historial local
-                for pred in predictions:
-                    over_under = self._get_over_under_prediction(pred)
-                    self._save_prediction_to_history(pred, over_under)
-                print("  Historial guardado localmente")
-                
-                return True
-            elif response.status_code == 401:
-                print("ERROR: API key inválida o expirada")
+            ok, _data = self._post_predictions_to_import(panel_predictions, api_key)
+            if not ok:
                 return False
-            else:
-                print(f"ERROR: {response.status_code} - {response.text}")
-                return False
-                
+            for pred in predictions:
+                over_under = self._get_over_under_prediction(pred)
+                self._save_prediction_to_history(pred, over_under)
+            print("  Historial guardado localmente")
+            return True
         except requests.exceptions.ConnectionError:
             print(f"ERROR: No se pudo conectar a {self.panel_url}")
             return False
         except Exception as e:
             print(f"ERROR: {e}")
             return False
+
+    def _fetch_import_contract(self) -> Optional[Dict]:
+        """GET /api/predictions/import — contrato soccer-v1 (sin API key)."""
+        url = f"{self.panel_url.rstrip('/')}/api/predictions/import"
+        try:
+            response = requests.get(url, headers={"Accept": "application/json"}, timeout=15)
+            if response.status_code != 200:
+                print(f"GET contrato soccer: {response.status_code} (se usa el payload local soccer-v1)")
+                return None
+            data = response.json()
+            contract = data.get("contract") or data
+            version = contract.get("version") if isinstance(contract, dict) else None
+            print(f"Contrato import: {version or 'ok'}")
+            return data
+        except Exception as e:
+            print(f"GET contrato soccer falló: {e}")
+            return None
+
+    def _post_predictions_to_import(self, panel_predictions: List[Dict], api_key: str):
+        """POST al mismo path. OK si success y imported/skipped sin errors."""
+        self._fetch_import_contract()
+        url = f"{self.panel_url.rstrip('/')}/api/predictions/import"
+        response = requests.post(
+            url,
+            json={"predictions": panel_predictions},
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            timeout=180,
+        )
+        try:
+            data = response.json()
+        except ValueError:
+            data = {}
+
+        if response.status_code == 401:
+            print("ERROR: 401 — key incorrecta")
+            return False, {"status": 401, **data}
+
+        errors = data.get("errors") or []
+        imported = data.get("imported", 0)
+        skipped = data.get("skipped", 0)
+        success = data.get("success", response.status_code in (200, 201) and not errors)
+
+        if success and not errors:
+            print(f"OK success={data.get('success', True)} imported={imported} skipped={skipped}")
+            return True, data
+
+        print(f"ERROR: {response.status_code}")
+        if errors:
+            for err in errors:
+                print(f"  index={err.get('index')}: {err.get('error')}")
+        elif data.get("message"):
+            print(f"  {data.get('message')}")
+        else:
+            print(response.text[:800])
+        if data.get("contract") or data.get("hint"):
+            print("El panel reenvió hint/contract — revisar arguments.forWinner/forLoser y soccerData.predictedScore")
+        return False, data
     
     def transform_to_panel_format(self, predictions: List[Dict]) -> List[Dict]:
         """Transforma predicciones al formato del dashboard"""
@@ -297,7 +333,11 @@ class PredictionMenu:
                         'matchupType': 'premier_league',
                         'betRecommendation': f"{predicted_winner} with {confidence_pct}% confidence"
                     }
-                }
+                },
+                'soccerData': {
+                    'predictedScore': soccer_predicted_score(
+                        pred.get('most_likely_scoreline'), pred.get('predicted_result', 'EMPATE')),
+                },
             }
             MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato
             panel_predictions.append(panel_pred)
@@ -380,7 +420,11 @@ class PredictionMenu:
                         'matchupType': 'premier_league',
                         'betRecommendation': f"{predicted_winner} with {confidence_pct}% confidence"
                     }
-                }
+                },
+                'soccerData': {
+                    'predictedScore': soccer_predicted_score(
+                        None, entry.get('predicted_1x2', '')),
+                },
             }
             MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato
             panel_predictions.append(panel_pred)
@@ -1599,33 +1643,14 @@ class PredictionMenu:
             print("No hay predicciones para enviar")
             return
         
-        panel_url = os.getenv("SAFESPORTS_PANEL_URL", "https://safesports-panel.vercel.app")
-        import_secret = os.getenv("IMPORT_API_SECRET", "")
-        
-        if not import_secret:
-            print("ERROR: No está configurado IMPORT_API_SECRET en .env")
+        api_key = self.get_api_key()
+        if not api_key:
+            print("ERROR: No hay API key configurada (SAFESPORTS_USER_API_KEY o IMPORT_API_SECRET)")
             return
-        
-        url = f"{panel_url}/api/predictions/import"
-        headers = {
-            "Authorization": f"Bearer {import_secret}",
-            "Content-Type": "application/json"
-        }
-        
+
         print(f"\nEnviando {len(predictions)} predicciones al panel...")
-        
         try:
-            response = requests.post(url, json={"predictions": predictions}, headers=headers, timeout=180)
-            
-            if response.status_code in [200, 201]:
-                result = response.json()
-                print(f"✓ Importado: {result.get('imported', 0)} predicciones")
-                print(f"  Skipped (ya existían): {result.get('skipped', 0)}")
-                if result.get('errors'):
-                    print(f"  Errores: {len(result['errors'])}")
-            else:
-                print(f"ERROR: {response.status_code}")
-                print(response.text[:500])
+            self._post_predictions_to_import(predictions, api_key)
         except Exception as e:
             print(f"ERROR: {e}")
 

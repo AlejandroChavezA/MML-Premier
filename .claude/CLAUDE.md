@@ -79,10 +79,13 @@ python main.py
 
 ### Endpoints del Panel
 
+Antes de mandar predicciones, haz GET `/api/predictions/import` y cúmplelo. Las razones van en `arguments.forWinner` y `arguments.forLoser`. El marcador va en `soccerData.predictedScore` `{ home, away }` enteros. Si el POST falla, la respuesta trae otra vez hint + contract.
+
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
+| GET | `/api/predictions/import` | Contrato soccer-v1 (sin API key): campos, razones, marcador y example |
 | POST | `/api/auth/api-key/generate` | Genera API key con email/password |
-| POST | `/api/predictions/import` | Importa predicciones |
+| POST | `/api/predictions/import` | Importa predicciones (`Authorization: Bearer <key>`) |
 
 ### Formato de Predicciones
 
@@ -101,6 +104,9 @@ python main.py
   "gameDate": "2025-03-30T15:00:00Z",
   "status": "active",
   "notes": "Premier League...",
+  "soccerData": {
+    "predictedScore": { "home": 2, "away": 1 }
+  },
   "arguments": {
     "forWinner": ["Confianza del modelo: 75%"],
     "forLoser": ["Factor de riesgo: 25%"],

@@ -15,7 +15,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from schemas import MatchPrediction  # noqa: E402
+from schemas import MatchPrediction, soccer_predicted_score  # noqa: E402
 
 from core.league_config import LeagueConfig  # noqa: E402
 
@@ -82,6 +82,10 @@ def ensemble_predictions_to_panel_format(predictions: List[Dict], cfg: LeagueCon
                     'matchupType': cfg.slug,
                     'betRecommendation': f"{predicted_winner} with {confidence_pct}% confidence",
                 },
+            },
+            'soccerData': {
+                'predictedScore': soccer_predicted_score(
+                    pred.get('most_likely_scoreline'), pred.get('predicted_result', 'EMPATE')),
             },
         }
         MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato

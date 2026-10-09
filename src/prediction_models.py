@@ -377,11 +377,29 @@ class MatchPredictor:
         return self.model_performance
     
     def get_best_model(self) -> str:
-        """Obtener el mejor modelo basado en accuracy de prueba"""
+        """Obtener el mejor modelo cuando no hay historial real prospectivo
+        (ver menu_interface.py::_select_default_model, que prueba eso primero).
+
+        gradient_boosting_v2 queda fuera de self.model_performance a propósito
+        (ver comentario en initialize()/load de arriba) porque no hay accuracy
+        honesta calculada para él en este repo -- pero eso lo hacía perder por
+        default contra random_forest/gradient_boosting/logistic_regression,
+        cuyos test_accuracy SÍ están en self.model_performance pero vienen del
+        mismo feature engineer legacy con fuga de standings (ver CLAUDE.md) --
+        no son más confiables, solo tienen un número. Encontrado en vivo:
+        logistic_regression con ese número más alto (0.531) predecía empate en
+        4 de 5 partidos de una jornada real sin importar los equipos, mientras
+        que gradient_boosting_v2 (el único que corre sobre src_v2, el feature
+        engineer sin la fuga) daba predicciones sensatas para los mismos
+        partidos. Por eso se prioriza acá aunque no tenga número que mostrar.
+        """
+        if 'gradient_boosting_v2' in self.models:
+            return 'gradient_boosting_v2'
+
         if not self.model_performance:
             return 'random_forest'  # Default
-        
-        best_model = max(self.model_performance.items(), 
+
+        best_model = max(self.model_performance.items(),
                         key=lambda x: x[1]['test_accuracy'])
         return best_model[0]
     

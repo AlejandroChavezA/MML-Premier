@@ -31,8 +31,18 @@ ELO_INITIAL_RATING = 1500.0
 class FeatureEngineer:
     """Ingeniero de features para predicción de partidos"""
     
-    def __init__(self, data_dir: str = "data/cleaned"):
+    def __init__(self, data_dir: str = "data/cleaned", extra_features: Optional[List[str]] = None):
+        """`extra_features`: features opcionales, no todas las ligas las quieren
+        (ver core/league_config.py::LeagueConfig.extra_features, config/leagues/*.yaml).
+        Hoy el único toggle es 'elo' -- valida en el holdout de Liga MX (48.2% ->
+        51.4%) pero no en el de Premier (dentro del margen de ruido, muy poca
+        historia cargada para que el Elo diferencie equipos todavía). Sin esto,
+        `elo_diff` se calculaba para cualquier liga y solo "no aplicaba" porque
+        el modelo guardado no lo tenia en su `feature_cols` -- correcto por
+        accidente, no por diseño.
+        """
         self.data_dir = Path(data_dir)
+        self.extra_features = set(extra_features or [])
         self.matches_by_season: Dict[int, pd.DataFrame] = {}
         self.standings_by_season: Dict[int, pd.DataFrame] = {}
         self.current_season = None
@@ -382,7 +392,14 @@ class FeatureEngineer:
             season_df = self.matches_by_season[season_year]
             finished = season_df[(season_df['status'] == 'FINISHED') & (season_df['date'] < date)]
             if phase is not None and 'phase' in season_df.columns:
-                finished = finished[finished['phase'] == phase]
+                # startswith tolerante, no ==: el dato guarda 'apertura'/'clausura'
+                # completo, pero llamadores como get_current_phase() (season_utils.py)
+                # y el --phase de run.py mandan 'AP'/'CL' -- mismo criterio que ya usa
+                # predict_week.py::_filter_matchday y get_jornada_status() (menu_actions.py)
+                # para esto mismo, así los tres no quedan inconsistentes entre sí.
+                finished = finished[
+                    finished['phase'].astype(str).str.lower().str.startswith(phase.lower())
+                ]
 
         return self._standings_table(finished)
 
@@ -422,7 +439,14 @@ class FeatureEngineer:
         """
         table = self._get_standings_table(date=date, season_year=season_year, phase=phase)
         return self._extract_team_standings(table, team)
-    
+
+    def get_standings_table(self, date: datetime = None, season_year: int = None, phase: str = None) -> pd.DataFrame:
+        """Tabla de posiciones completa (todos los equipos), point-in-time -- misma
+        semántica que get_standings() pero sin reducir a un solo equipo. Pública
+        para consumidores externos (ej. menú de Liga MX) que necesitan la tabla
+        entera para mostrarla, no solo la fila de un equipo."""
+        return self._get_standings_table(date=date, season_year=season_year, phase=phase)
+
     def get_rest_days(self, team: str, match_date: datetime) -> Dict:
         """Días de descanso"""
         all_matches = self._all_matches()
@@ -580,9 +604,6 @@ class FeatureEngineer:
         
         h2h = self.get_head_to_head(home, away, date)
 
-        home_elo = self.get_elo(home, date)
-        away_elo = self.get_elo(away, date)
-
         # Build feature dict
         features = {
             'home_team': home,
@@ -632,14 +653,17 @@ class FeatureEngineer:
             'home_clean_sheets': home_form['clean_sheets'],
             'away_clean_sheets': away_form['clean_sheets'],
 
-            # Elo (propio, incremental, point-in-time)
-            'home_elo': home_elo,
-            'away_elo': away_elo,
-            'elo_diff': home_elo - away_elo,
-
             # Placeholder for home advantage (always 1 since we always predict home team)
             'is_home': 1,
         }
+
+        # Extras opt-in por liga (ver __init__) -- hoy solo 'elo'.
+        if 'elo' in self.extra_features:
+            home_elo = self.get_elo(home, date)
+            away_elo = self.get_elo(away, date)
+            features['home_elo'] = home_elo
+            features['away_elo'] = away_elo
+            features['elo_diff'] = home_elo - away_elo
         # Defensa: rellenar cualquier NaN restante con 0 (antes esto estaba
         # despues de un return y nunca se ejecutaba -- ver docs de la sesion).
         for k, v in features.items():

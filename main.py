@@ -385,22 +385,49 @@ def train_models():
         traceback.print_exc()
         return False
 
-def start_interactive_menu():
-    """Iniciar menú interactivo"""
+def select_league() -> str:
+    """Pre-menú: elegir con qué liga trabajar. Devuelve el slug de la liga."""
+    print("\n¿Con qué liga quieres trabajar?")
+    print("1. Premier League")
+    print("2. Liga MX")
+    while True:
+        choice = input("Selecciona (1-2): ").strip()
+        if choice == '1':
+            return 'premier_league'
+        if choice == '2':
+            return 'liga_mx'
+        print("ERROR Opción no válida")
+
+
+def start_interactive_menu(league: str = 'premier_league'):
+    """Iniciar menú interactivo de la liga elegida.
+
+    Devuelve 'change_league' (Liga MX -> "volver a elegir liga"), 'exit', o
+    False si algo falló al inicializar.
+    """
     try:
+        if league == 'liga_mx':
+            from ligamx_menu_interface import LigaMXMenu
+
+            menu = LigaMXMenu()
+            if not menu.initialize():
+                print(" No se pudo inicializar el sistema de Liga MX")
+                return False
+            return menu.display_main_menu()
+
         from menu_interface import PredictionMenu
-        
+
         menu = PredictionMenu()
-        
+
         if not menu.initialize():
             print(" No se pudo inicializar el sistema")
             print("\nIntenta entrenar los modelos primero:")
             print("   python main.py --train")
             return False
-        
+
         menu.display_main_menu()
-        return True
-        
+        return 'exit'
+
     except Exception as e:
         print(f" Error iniciando menú: {e}")
         import traceback
@@ -432,30 +459,42 @@ def main():
     
     # Ejecución normal
 # display_welcome()  # Omitido para limpiar salida
-    
-    # Actualizar datos automáticamente
-    update_data_if_needed(force=True)
-    
-    # Verificar entorno
-    if not check_environment():
-        print("\n El entorno no está configurado correctamente")
-        print("Por favor, ejecuta los scripts de preparación de datos primero")
-        return
-    
-    # Verificar si existen modelos entrenados
-    models_dir = project_root / "models"
-    has_models = any(models_dir.glob("*.pkl"))
-    
-    if not has_models:
-        print(" No se encontraron modelos entrenados")
-        print("Iniciando entrenamiento automático...")
-        
-        if not train_models():
-            print(" No se pudo completar el entrenamiento")
+
+    league = select_league()
+
+    while True:
+        if league == 'liga_mx':
+            # Liga MX no usa update_data_if_needed/check_environment -- esos son
+            # 100% específicos del auto-refresh de football-data.org (Premier).
+            # Los datos de Liga MX se refrescan con los scripts de
+            # src/build_ligamx_*.py, corridos aparte (ver CLAUDE.md).
+            result = start_interactive_menu(league='liga_mx')
+            if result == 'change_league':
+                league = select_league()
+                continue
             return
-    
-    # Iniciar menú interactivo
-    start_interactive_menu()
+
+        # Premier: comportamiento idéntico al de siempre.
+        update_data_if_needed(force=True)
+
+        if not check_environment():
+            print("\n El entorno no está configurado correctamente")
+            print("Por favor, ejecuta los scripts de preparación de datos primero")
+            return
+
+        models_dir = project_root / "models"
+        has_models = any(models_dir.glob("*.pkl"))
+
+        if not has_models:
+            print(" No se encontraron modelos entrenados")
+            print("Iniciando entrenamiento automático...")
+
+            if not train_models():
+                print(" No se pudo completar el entrenamiento")
+                return
+
+        start_interactive_menu(league='premier_league')
+        return
 
 if __name__ == "__main__":
     try:

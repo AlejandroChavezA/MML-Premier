@@ -77,8 +77,8 @@ def _naive_home_baseline(holdout_matches: pd.DataFrame) -> float:
 
 
 def evaluate(data_dir: str, holdout_frac: float = 0.15, run_legacy: bool = True,
-             outcome_xgb_params: dict = None) -> dict:
-    fe = FeatureEngineer(data_dir)
+             outcome_xgb_params: dict = None, extra_features: list = None) -> dict:
+    fe = FeatureEngineer(data_dir, extra_features=extra_features)
     if not fe.load_data():
         raise RuntimeError(f"No se pudo cargar data_dir={data_dir}")
 
@@ -183,6 +183,7 @@ def main():
     data_dir = args.data_dir
     run_legacy = not args.skip_legacy
     outcome_xgb_params = None
+    extra_features = None
 
     if args.league:
         from core.league_config import load_league_config
@@ -192,11 +193,13 @@ def main():
         if not args.skip_legacy:
             run_legacy = cfg.has_legacy_baseline
         outcome_xgb_params = cfg.outcome_xgb.model_dump()
+        extra_features = cfg.extra_features
 
     if data_dir is None:
         data_dir = "data/cleaned"
 
-    result = evaluate(data_dir, args.holdout_frac, run_legacy=run_legacy, outcome_xgb_params=outcome_xgb_params)
+    result = evaluate(data_dir, args.holdout_frac, run_legacy=run_legacy, outcome_xgb_params=outcome_xgb_params,
+                       extra_features=extra_features)
     print(f"\nEnsamble (OutcomeXGB):  {result['ensemble_accuracy']:.1%} ({result['ensemble_n']} partidos)")
     print(f"Log-loss ensamble: {result['ensemble_log_loss']:.4f}  |  "
           f"log-loss prior naive (frecuencias de train, sin ver empates como imposibles): "

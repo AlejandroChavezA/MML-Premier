@@ -103,6 +103,23 @@ def get_team_statistics(feature_engineer, team: str, as_of=None) -> Dict:
     }
 
 
+def get_team_statistics_v2(feature_engineer, team: str, as_of=None,
+                            season_year: Optional[int] = None, phase: Optional[str] = None) -> Dict:
+    """Equivalente a get_team_statistics() pero para el FeatureEngineer de src_v2
+    (el que usa el ensamble de core/, ej. Liga MX) -- métodos y forma de dict
+    distintos al feature engineer legacy (get_team_form_detailed/get_venue_performance/
+    get_standings en vez de calculate_team_form/get_home_away_performance/
+    get_current_standings_position)."""
+    as_of = as_of if as_of is not None else pd.Timestamp.now()
+    return {
+        'team': team,
+        'form': feature_engineer.get_team_form_detailed(team, as_of),
+        'home_performance': feature_engineer.get_venue_performance(team, 'home', as_of),
+        'away_performance': feature_engineer.get_venue_performance(team, 'away', as_of),
+        'standings': feature_engineer.get_standings(team, date=as_of, season_year=season_year, phase=phase),
+    }
+
+
 def load_standings(project_root: Path, season: int) -> pd.DataFrame:
     standings_path = Path(project_root) / "data" / "cleaned" / f"standings_{season}_cleaned.csv"
     return pd.read_csv(standings_path)
