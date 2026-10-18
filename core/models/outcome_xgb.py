@@ -150,6 +150,7 @@ class OutcomeXGB:
                 'predicted_result': RESULT_MAP[best_code],
                 'confidence': float(probs[best_code]),
                 'probabilities': proba_by_result,
+                'raw_features': features,
             }
         except Exception as e:
             return {'error': str(e)}

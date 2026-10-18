@@ -14,6 +14,7 @@ _project_root = Path(__file__).parent.parent
 if str(_project_root) not in sys.path:
     sys.path.insert(0, str(_project_root))
 from schemas import MatchPrediction, soccer_predicted_score
+from core.panel_export import soccer_data_from_pred
 
 # Cargar variables de entorno desde .env y .env.local
 def load_env_files():
@@ -304,6 +305,16 @@ class PredictionMenu:
             
             arguments = menu_actions.build_match_arguments(
                 pred['predicted_result'], confidence_pct, pred.get('raw_features', {}))
+            ou = self._get_over_under_prediction(pred)
+            soccer_src = dict(pred)
+            soccer_src['over_under'] = ou.get('markets') or {}
+            soccer_src['expected_goals'] = ou.get('expected_goals')
+            soccer_data = soccer_data_from_pred(soccer_src, predicted_winner, confidence_pct)
+            bet_rec = (
+                f"{soccer_data['betSide']} {soccer_data['betLine']}"
+                if soccer_data.get('betSide') else
+                f"{predicted_winner} {confidence_pct}%"
+            )
 
             panel_pred = {
                 'sport': 'soccer',
@@ -328,16 +339,13 @@ class PredictionMenu:
                     'forWinner': arguments['forWinner'],
                     'forLoser': arguments['forLoser'],
                     'summary': {
-                        'winnerFactors': int(confidence * 10),
-                        'loserFactors': int((1 - confidence) * 10),
+                        'winnerFactors': len(arguments['forWinner']),
+                        'loserFactors': len(arguments['forLoser']),
                         'matchupType': 'premier_league',
-                        'betRecommendation': f"{predicted_winner} with {confidence_pct}% confidence"
+                        'betRecommendation': bet_rec,
                     }
                 },
-                'soccerData': {
-                    'predictedScore': soccer_predicted_score(
-                        pred.get('most_likely_scoreline'), pred.get('predicted_result', 'EMPATE')),
-                },
+                'soccerData': soccer_data,
             }
             MatchPrediction(**panel_pred)  # falla ruidosa si el payload no cumple el contrato
             panel_predictions.append(panel_pred)
@@ -1345,7 +1353,8 @@ class PredictionMenu:
             }
             
             return final_result
-        except Exception:
+        except Exception as e:
+            print(f"Over/Under no disponible para {winner_prediction.get('home_team')} vs {winner_prediction.get('away_team')}: {e}")
             return {'prediction': 'N/A', 'confidence': 0, 'markets': {}}
     
     def _display_match_prediction(self, prediction: Dict):

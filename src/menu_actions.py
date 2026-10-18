@@ -138,14 +138,11 @@ def list_models_with_accuracy(predictor, current_model: str) -> List[Dict]:
 
 
 def build_match_arguments(predicted_result: str, confidence_pct: int, features: Dict) -> Dict[str, List[str]]:
-    """Arma forWinner/forLoser reales a partir de las mismas features que ya calcula
-    el feature engineer para la predicción (create_match_features), en vez del texto
-    genérico de solo-confianza que se mandaba antes al panel.
+    """Razones en lenguaje natural para arguments.forWinner / forLoser (soccer-v1).
 
-    `features` puede venir del feature engineer legacy (src/feature_engineering.py) o
-    del de src_v2 -- las claves difieren levemente entre los dos (ej.
-    'form_diff_last5_points' vs 'form_points_diff'), así que se prueban ambas.
-    Convención en los dos: los *_diff son siempre home - away.
+    Features de src/ o src_v2 (claves distintas; *_diff siempre home - away).
+    Siempre llena ambos lados: el umbral alto anterior dejaba forLoser vacío
+    salvo un H2H, y Liga MX mandaba solo 'Confianza del ensamble'.
     """
     points_diff = features.get('points_diff', 0) or 0
     position_diff = features.get('position_diff', 0) or 0
@@ -158,43 +155,61 @@ def build_match_arguments(predicted_result: str, confidence_pct: int, features: 
     home_signals: List[str] = []
     away_signals: List[str] = []
 
-    if abs(points_diff) >= 5:
-        (home_signals if points_diff > 0 else away_signals).append(
-            f"Ventaja en la tabla de posiciones: {abs(points_diff):.0f} puntos")
-    if abs(position_diff) >= 3:
-        (home_signals if position_diff > 0 else away_signals).append(
-            f"Mejor posición en la tabla ({abs(position_diff):.0f} lugares)")
-    if abs(form_diff) >= 3:
-        (home_signals if form_diff > 0 else away_signals).append(
-            f"Mejor forma en los últimos 5 partidos ({abs(form_diff):.0f} pts de diferencia)")
-    if abs(home_advantage_diff) >= 0.25:
-        (home_signals if home_advantage_diff > 0 else away_signals).append(
-            "Mejor rendimiento como local" if home_advantage_diff > 0 else "Mejor rendimiento como visitante")
-    if abs(rest_diff) >= 2:
-        (home_signals if rest_diff > 0 else away_signals).append(
-            f"Más días de descanso ({abs(rest_diff):.0f} días de diferencia)")
-    if h2h_matches >= 2 and h2h_home_win_rate is not None:
-        if h2h_home_win_rate >= 0.6:
-            home_signals.append(
-                f"Domina el historial directo ({h2h_home_win_rate:.0%} de victorias en los últimos {h2h_matches:.0f})")
-        elif h2h_home_win_rate <= 0.4:
-            away_signals.append(
-                f"Domina el historial directo ({1 - h2h_home_win_rate:.0%} de victorias en los últimos {h2h_matches:.0f})")
+    if points_diff >= 2:
+        home_signals.append(f"Va {points_diff:.0f} puntos arriba en la tabla.")
+    elif points_diff <= -2:
+        away_signals.append(f"Va {abs(points_diff):.0f} puntos arriba en la tabla.")
 
-    for_winner = [f"Confianza del modelo: {confidence_pct}%"]
-    for_loser = [f"Factor de riesgo: {100 - confidence_pct}%"]
+    if position_diff >= 2:
+        home_signals.append(f"Está {position_diff:.0f} lugares más arriba en la clasificación.")
+    elif position_diff <= -2:
+        away_signals.append(f"Está {abs(position_diff):.0f} lugares más arriba en la clasificación.")
+
+    if form_diff >= 2:
+        home_signals.append(f"Mejor racha: {form_diff:.0f} pts más en los últimos 5.")
+    elif form_diff <= -2:
+        away_signals.append(f"Mejor racha: {abs(form_diff):.0f} pts más en los últimos 5.")
+
+    if home_advantage_diff >= 0.1:
+        home_signals.append("Rinde claramente mejor como local que el rival de visita.")
+    elif home_advantage_diff <= -0.1:
+        away_signals.append("El visitante rinde mejor fuera que el local en casa.")
+
+    if rest_diff >= 1:
+        home_signals.append(f"Llega con {rest_diff:.0f} día(s) más de descanso.")
+    elif rest_diff <= -1:
+        away_signals.append(f"Llega con {abs(rest_diff):.0f} día(s) más de descanso.")
+
+    if h2h_matches >= 2 and h2h_home_win_rate is not None:
+        if h2h_home_win_rate >= 0.55:
+            home_signals.append(
+                f"Domina el historial directo ({h2h_home_win_rate:.0%} en los últimos {h2h_matches:.0f}).")
+        elif h2h_home_win_rate <= 0.45:
+            away_signals.append(
+                f"Domina el historial directo ({1 - h2h_home_win_rate:.0%} en los últimos {h2h_matches:.0f}).")
+        else:
+            home_signals.append("El historial directo está equilibrado.")
+            away_signals.append("El historial directo no marca un favorito claro.")
+
+    if not home_signals:
+        home_signals.append("Como local no tiene un hueco grande, pero el contexto de casa sigue pesando.")
+    if not away_signals:
+        away_signals.append("Como visitante puede pelearlo: no hay un desnivel grande en forma o tabla.")
 
     if predicted_result == 'LOCAL':
-        for_winner += home_signals
-        for_loser += away_signals
+        for_winner, for_loser = list(home_signals), list(away_signals)
     elif predicted_result == 'VISITANTE':
-        for_winner += away_signals
-        for_loser += home_signals
-    else:  # EMPATE -- no hay "lado ganador", se listan las señales más fuertes de cada uno
-        if not home_signals and not away_signals:
-            for_winner.append("Partido parejo entre ambos equipos")
-        else:
-            for_winner += (home_signals[:1] + away_signals[:1])
+        for_winner, for_loser = list(away_signals), list(home_signals)
+    else:
+        for_winner = home_signals[:2] + away_signals[:2]
+        for_loser = (away_signals[2:] or away_signals[-1:]) + (home_signals[2:] or home_signals[-1:])
+        if not for_loser:
+            for_loser = ["Partido parejo: cualquiera de los dos puede llevarse el empate o el 1X2."]
+
+    if len(for_winner) < 2:
+        for_winner.append("El modelo lo ve un poco más sólido en este cruce.")
+    if len(for_loser) < 2:
+        for_loser.append("Aun así puede marcar si el partido se abre o se pone trabado.")
 
     return {'forWinner': for_winner, 'forLoser': for_loser}
 

@@ -64,13 +64,27 @@ def reconcile(outcome_result: Dict, dc_result: Dict, glm_result: Dict) -> Dict:
         )
 
     glm_total = glm_result['expected_goals']
-    dc_total = dc_result['expectedGoals']['total']
+    dc_xg = dc_result['expectedGoals']
+    dc_total = dc_xg['total']
     if abs(glm_total - dc_total) > _OU_DISAGREEMENT_THRESHOLD:
         logger.warning(
             "GLM y Dixon-Coles difieren en goles esperados por >%.1f (%.2f vs %.2f) en %s vs %s",
             _OU_DISAGREEMENT_THRESHOLD, glm_total, dc_total,
             outcome_result['home_team'], outcome_result['away_team'],
         )
+
+    # O/U y xG salen de Dixon-Coles (ataque/defensa por equipo). El GLM Poisson
+    # de totales se colapsa a la media de la liga (std=0 en Liga MX J11: 2.66
+    # en los 9 partidos → todo OVER 2.5), así que no se usa para el mercado.
+    over_under = {}
+    for key, val in (dc_result.get('overUnder') or {}).items():
+        over_p = float(val.get('prob', 0.5))
+        over_under[key] = {
+            'over_prob': over_p,
+            'under_prob': 1.0 - over_p,
+            'prediction': val.get('prediction') or ('OVER' if over_p >= 0.5 else 'UNDER'),
+            'confidence': abs(over_p - 0.5) * 2,
+        }
 
     return {
         'home_team': outcome_result['home_team'],
@@ -80,6 +94,9 @@ def reconcile(outcome_result: Dict, dc_result: Dict, glm_result: Dict) -> Dict:
         'probabilities': probabilities,
         'most_likely_scoreline': scoreline['score'],
         'top_scorelines': dc_result.get('topScorelines', []),
-        'expected_goals': glm_result['expected_goals'],
-        'over_under': glm_result['markets'],
+        'expected_goals': dc_total,
+        'expected_goals_home': dc_xg.get('home'),
+        'expected_goals_away': dc_xg.get('away'),
+        'over_under': over_under,
+        'raw_features': outcome_result.get('raw_features') or {},
     }

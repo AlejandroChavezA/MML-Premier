@@ -31,6 +31,15 @@ class PredictedScore(BaseModel):
 
 class SoccerData(BaseModel):
     predictedScore: PredictedScore
+    awayWinPct: Optional[int] = Field(default=None, ge=0, le=100)
+    homeWinPct: Optional[int] = Field(default=None, ge=0, le=100)
+    drawPct: Optional[int] = Field(default=None, ge=0, le=100)
+    awayScore: Optional[float] = None  # xG visitante
+    homeScore: Optional[float] = None  # xG local
+    totalScore: Optional[float] = None
+    betLine: Optional[float] = None
+    betSide: Optional[Literal["OVER", "UNDER"]] = None
+    ouProb: Optional[int] = Field(default=None, ge=0, le=100)
 
 
 class MatchPrediction(BaseModel):

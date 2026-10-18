@@ -1,21 +1,21 @@
 position,team,played_games,won,draw,lost,points,goals_for,goals_against,goal_difference,form,win_rate,points_per_game,goals_for_per_game,goals_against_per_game
-1,Manchester City FC,5,5,0,0,15,13,5,8,"W,W,W,W,W",1.0,3.0,2.6,1.0
-2,Arsenal FC,5,4,0,1,12,8,4,4,"L,W,W,W,W",0.8,2.4,1.6,0.8
-3,Brighton & Hove Albion FC,5,3,1,1,10,16,5,11,"W,W,D,L,W",0.6,2.0,3.2,1.0
-4,Brentford FC,5,2,3,0,9,10,4,6,"W,D,D,D,W",0.4,1.8,2.0,0.8
-5,Leeds United FC,5,2,3,0,9,7,3,4,"D,W,D,D,W",0.4,1.8,1.4,0.6
-6,Liverpool FC,5,2,3,0,9,7,4,3,"W,D,W,D,D",0.4,1.8,1.4,0.8
-7,Everton FC,5,2,3,0,9,6,3,3,"W,D,D,D,W",0.4,1.8,1.2,0.6
-8,Hull City AFC,5,2,2,1,8,6,4,2,"L,D,D,W,W",0.4,1.6,1.2,0.8
-9,Newcastle United FC,5,2,2,1,8,9,9,0,"W,L,D,W,D",0.4,1.6,1.8,1.8
-10,Chelsea FC,5,2,1,2,7,10,12,-2,"L,D,L,W,W",0.4,1.4,2.0,2.4
-11,Ipswich Town FC,5,2,0,3,6,7,11,-4,"L,W,L,L,W",0.4,1.2,1.4,2.2
-12,Manchester United FC,5,1,2,2,5,8,8,0,"D,L,D,W,L",0.2,1.0,1.6,1.6
-13,Nottingham Forest FC,5,1,2,2,5,4,5,-1,"L,W,D,D,L",0.2,1.0,0.8,1.0
-14,Sunderland AFC,5,1,1,3,4,6,10,-4,"L,L,D,W,L",0.2,0.8,1.2,2.0
-15,Crystal Palace FC,5,1,1,3,4,6,11,-5,"D,L,W,L,L",0.2,0.8,1.2,2.2
-16,Aston Villa FC,5,1,1,3,4,4,9,-5,"W,L,D,L,L",0.2,0.8,0.8,1.8
-17,AFC Bournemouth,5,0,3,2,3,6,8,-2,"L,D,D,D,L",0.0,0.6,1.2,1.6
-18,Coventry City FC,5,1,0,4,3,1,10,-9,"W,L,L,L,L",0.2,0.6,0.2,2.0
-19,Fulham FC,5,0,2,3,2,5,8,-3,"D,D,L,L,L",0.0,0.4,1.0,1.6
-20,Tottenham Hotspur FC,5,0,2,3,2,2,8,-6,"L,D,D,L,L",0.0,0.4,0.4,1.6
+1,Manchester City FC,7,7,0,0,21,19,7,12,"W,W,W,W,W",1.0,3.0,2.71,1.0
+2,Arsenal FC,7,6,0,1,18,11,5,6,"W,W,L,W,W",0.857,2.57,1.57,0.71
+3,Brighton & Hove Albion FC,7,5,1,1,16,23,5,18,"W,W,W,W,D",0.714,2.29,3.29,0.71
+4,Chelsea FC,7,4,1,2,13,17,13,4,"W,W,L,D,L",0.571,1.86,2.43,1.86
+5,Liverpool FC,7,3,3,1,12,9,8,1,"W,L,W,D,W",0.429,1.71,1.29,1.14
+6,Brentford FC,7,2,4,1,10,13,8,5,"L,D,W,D,D",0.286,1.43,1.86,1.14
+7,Leeds United FC,7,2,4,1,10,9,6,3,"D,L,D,W,D",0.286,1.43,1.29,0.86
+8,Everton FC,7,2,4,1,10,8,7,1,"L,D,W,D,D",0.286,1.43,1.14,1.0
+9,Hull City AFC,7,2,3,2,9,8,7,1,"L,D,L,D,D",0.286,1.29,1.14,1.0
+10,Ipswich Town FC,7,3,0,4,9,11,15,-4,"L,W,L,W,L",0.429,1.29,1.57,2.14
+11,Newcastle United FC,7,2,2,3,8,10,14,-4,"L,L,W,L,D",0.286,1.14,1.43,2.0
+12,Aston Villa FC,7,2,2,3,8,7,11,-4,"W,D,W,L,D",0.286,1.14,1.0,1.57
+13,Manchester United FC,7,1,4,2,7,10,10,0,"D,D,D,L,D",0.143,1.0,1.43,1.43
+14,Crystal Palace FC,7,2,1,4,7,9,17,-8,"L,W,D,L,W",0.286,1.0,1.29,2.43
+15,AFC Bournemouth,7,1,3,3,6,9,13,-4,"W,L,L,D,D",0.143,0.86,1.29,1.86
+16,Coventry City FC,6,2,0,4,6,5,11,-6,"W,W,L,L,L",0.333,1.0,0.83,1.83
+17,Fulham FC,7,1,2,4,5,7,10,-3,"W,L,D,D,L",0.143,0.71,1.0,1.43
+18,Nottingham Forest FC,7,1,2,4,5,5,9,-4,"L,L,L,W,D",0.143,0.71,0.71,1.29
+19,Sunderland AFC,7,1,1,5,4,6,14,-8,"L,L,L,L,D",0.143,0.57,0.86,2.0
+20,Tottenham Hotspur FC,6,0,3,3,3,3,9,-6,"D,L,D,D,L",0.0,0.5,0.5,1.5
