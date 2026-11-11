@@ -21,6 +21,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
+from sklearn.calibration import CalibratedClassifierCV
 import pickle
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -47,13 +48,21 @@ class WinnerPredictor:
         self.performance: Dict = {}
 
     def train(self, features_df: pd.DataFrame, targets: pd.Series,
-              dates: Optional[pd.Series] = None) -> bool:
+              dates: Optional[pd.Series] = None, sample_weight: Optional[pd.Series] = None,
+              calibrate: bool = False) -> bool:
         """Entrenar ensamble GB+RF con regularización para evitar overfitting.
 
         Si se pasa `dates`, usa split cronológico (core.eval_utils.chronological_split)
         para medir performance honesta, y después reentrena sobre el 100% de los datos
         antes de guardar -- el modelo desplegado no debe descartar para siempre el tramo
         más reciente (mismo fix que core/models/outcome_xgb.py y goals_glm.py).
+
+        `sample_weight` (opcional, requiere `dates`): peso por partido -- p.ej. decay por
+        recencia -- alineado por posición con `features_df`/`targets`. `calibrate` (opcional,
+        default False para no cambiar el entrenamiento de producción vía src_v2/train.py):
+        envuelve GB y RF finales en `CalibratedClassifierCV` (isotonic, cv=5), mismo patrón que
+        ya usa `core/models/outcome_xgb.py`. Ambos existen para experiments/premier_outcome.py,
+        no para el entrenamiento en vivo.
         """
         print("\n🏋️ ENTRENANDO WINNER PREDICTOR (GB+RF)")
         print("=" * 50)
@@ -61,11 +70,18 @@ class WinnerPredictor:
         self.feature_cols = features_df.columns.tolist()
 
         if dates is not None:
-            X_train, X_test, y_train, y_test, _ = chronological_split(features_df, targets, dates)
+            X_train, X_test, y_train, y_test, cutoff_date = chronological_split(features_df, targets, dates)
+            if sample_weight is not None:
+                dates_r = pd.Series(dates).reset_index(drop=True)
+                sw_all = pd.Series(sample_weight).reset_index(drop=True)
+                sw_train = sw_all[(dates_r < cutoff_date).values].reset_index(drop=True)
+            else:
+                sw_train = None
         else:
             X_train, X_test, y_train, y_test = train_test_split(
                 features_df, targets, test_size=0.2, random_state=42
             )
+            sw_train = None  # recencia requiere split cronológico (`dates`)
 
         print(f"  Train: {len(X_train)}, Test: {len(X_test)}")
 
@@ -84,19 +100,25 @@ class WinnerPredictor:
         }
         print(f"  Class weights: {class_weight_dict}")
 
-        gb = GradientBoostingClassifier(
-            n_estimators=80, max_depth=4, learning_rate=0.05,
-            min_samples_split=20, min_samples_leaf=10,
-            subsample=0.7, random_state=42, max_features='sqrt',
-        )
-        gb.fit(X_train, y_train)
+        def _make_gb():
+            return GradientBoostingClassifier(
+                n_estimators=80, max_depth=4, learning_rate=0.05,
+                min_samples_split=20, min_samples_leaf=10,
+                subsample=0.7, random_state=42, max_features='sqrt',
+            )
 
-        rf = RandomForestClassifier(
-            n_estimators=100, max_depth=6, min_samples_split=10,
-            min_samples_leaf=5, random_state=42, n_jobs=-1,
-            class_weight='balanced',
-        )
-        rf.fit(X_train_scaled, y_train)
+        def _make_rf():
+            return RandomForestClassifier(
+                n_estimators=100, max_depth=6, min_samples_split=10,
+                min_samples_leaf=5, random_state=42, n_jobs=-1,
+                class_weight='balanced',
+            )
+
+        gb = _make_gb()
+        gb.fit(X_train, y_train, sample_weight=sw_train)
+
+        rf = _make_rf()
+        rf.fit(X_train_scaled, y_train, sample_weight=sw_train)
 
         self.models['gb'] = gb
         self.models['rf'] = rf
@@ -124,8 +146,22 @@ class WinnerPredictor:
         # guarda se reentrena con todo el dataset disponible (ver docstring).
         if dates is not None:
             features_scaled_full = self.scaler.fit_transform(features_df)
-            gb.fit(features_df, targets)
-            rf.fit(features_scaled_full, targets)
+            if calibrate:
+                # CalibratedClassifierCV sigue exponiendo predict/predict_proba, así que
+                # src/prediction_models.py (que carga winner_predictor.pkl como estimador
+                # plano, ver _save() abajo) sigue funcionando sin cambios si algún día esto
+                # se guarda ahí -- hoy solo lo usa experiments/premier_outcome.py.
+                gb_final = CalibratedClassifierCV(_make_gb(), method='isotonic', cv=5)
+                gb_final.fit(features_df, targets, sample_weight=sample_weight)
+                rf_final = CalibratedClassifierCV(_make_rf(), method='isotonic', cv=5)
+                rf_final.fit(features_scaled_full, targets, sample_weight=sample_weight)
+            else:
+                gb_final = _make_gb()
+                gb_final.fit(features_df, targets, sample_weight=sample_weight)
+                rf_final = _make_rf()
+                rf_final.fit(features_scaled_full, targets, sample_weight=sample_weight)
+            self.models['gb'] = gb_final
+            self.models['rf'] = rf_final
 
         self._save()
         return True

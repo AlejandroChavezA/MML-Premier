@@ -30,13 +30,23 @@ class OutcomeXGB:
         self.performance: Dict = {}
 
     def train(self, features_df: pd.DataFrame, targets: pd.Series, dates: Optional[pd.Series] = None,
-              xgb_params: Optional[Dict] = None) -> bool:
+              xgb_params: Optional[Dict] = None, sample_weight: Optional[pd.Series] = None) -> bool:
+        """`sample_weight` (opcional, requiere `dates`): peso por partido -- p.ej. decay por
+        recencia -- alineado por posición con `features_df`/`targets`. Usado por
+        experiments/premier_outcome.py; el entrenamiento en vivo (core/train_ensemble.py) no
+        lo pasa, así que el comportamiento de producción no cambia.
+        """
         self.feature_cols = features_df.columns.tolist()
 
+        sw_train = None
         if dates is not None:
             # Split cronológico: nunca deja un partido futuro en train con uno
             # pasado en test (ver core/eval_utils.py).
-            X_train, X_test, y_train, y_test, _ = chronological_split(features_df, targets, dates)
+            X_train, X_test, y_train, y_test, cutoff_date = chronological_split(features_df, targets, dates)
+            if sample_weight is not None:
+                dates_r = pd.Series(dates).reset_index(drop=True)
+                sw_all = pd.Series(sample_weight).reset_index(drop=True)
+                sw_train = sw_all[(dates_r < cutoff_date).values].reset_index(drop=True)
         else:
             X_train, X_test, y_train, y_test = train_test_split(
                 features_df, targets, test_size=0.2, random_state=42, stratify=targets
@@ -73,7 +83,7 @@ class OutcomeXGB:
             )
 
         diagnostic_model = _make_xgb()
-        diagnostic_model.fit(X_train, y_train)
+        diagnostic_model.fit(X_train, y_train, sample_weight=sw_train)
 
         train_acc = accuracy_score(y_train, diagnostic_model.predict(X_train))
         test_acc = accuracy_score(y_test, diagnostic_model.predict(X_test))
@@ -99,8 +109,9 @@ class OutcomeXGB:
         # últimos años. self.performance queda igual (medido antes de esto)
         # porque es lo único que se puede evaluar honestamente.
         fit_features, fit_targets = (features_df, targets) if dates is not None else (X_train, y_train)
+        fit_sample_weight = sample_weight if dates is not None else sw_train
         self.model = CalibratedClassifierCV(_make_xgb(), method='isotonic', cv=5)
-        self.model.fit(fit_features, fit_targets)
+        self.model.fit(fit_features, fit_targets, sample_weight=fit_sample_weight)
 
         self._save()
         return True
